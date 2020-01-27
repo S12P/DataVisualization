@@ -1,0 +1,1625 @@
+pays,sexe,date,population
+Burundi,femme,1990,169843
+Burundi,femme,1995,130688
+Burundi,femme,2000,64534
+Burundi,femme,2005,88069
+Burundi,femme,2010,119436
+Burundi,femme,2015,147020
+Burundi,femme,2019,162855
+Comoros,femme,1990,7362
+Comoros,femme,1995,7325
+Comoros,femme,2000,7288
+Comoros,femme,2005,6923
+Comoros,femme,2010,6558
+Comoros,femme,2015,6484
+Comoros,femme,2019,6457
+Djibouti,femme,1990,57979
+Djibouti,femme,1995,47298
+Djibouti,femme,2000,47587
+Djibouti,femme,2005,40776
+Djibouti,femme,2010,48280
+Djibouti,femme,2015,53270
+Djibouti,femme,2019,54687
+Eritrea,femme,1990,5620
+Eritrea,femme,1995,5858
+Eritrea,femme,2000,6096
+Eritrea,femme,2005,6585
+Eritrea,femme,2010,7073
+Eritrea,femme,2015,7108
+Eritrea,femme,2019,7179
+Ethiopia,femme,1990,548106
+Ethiopia,femme,1995,382787
+Ethiopia,femme,2000,289165
+Ethiopia,femme,2005,244517
+Ethiopia,femme,2010,270679
+Ethiopia,femme,2015,570233
+Ethiopia,femme,2019,615120
+Kenya,femme,1990,136830
+Kenya,femme,1995,296556
+Kenya,femme,2000,354919
+Kenya,femme,2005,372990
+Kenya,femme,2010,481832
+Kenya,femme,2015,563977
+Kenya,femme,2019,522533
+Madagascar,femme,1990,10569
+Madagascar,femme,1995,9276
+Madagascar,femme,2000,10265
+Madagascar,femme,2005,11314
+Madagascar,femme,2010,12495
+Madagascar,femme,2015,13805
+Madagascar,femme,2019,15037
+Malawi,femme,1990,581204
+Malawi,femme,1995,125426
+Malawi,femme,2000,121090
+Malawi,femme,2005,115730
+Malawi,femme,2010,113853
+Malawi,femme,2015,121910
+Malawi,femme,2019,129720
+Mauritius,femme,1990,1850
+Mauritius,femme,1995,4265
+Mauritius,femme,2000,9838
+Mauritius,femme,2005,10704
+Mauritius,femme,2010,11648
+Mauritius,femme,2015,12753
+Mauritius,femme,2019,12870
+Mayotte,femme,1990,6449
+Mayotte,femme,1995,11637
+Mayotte,femme,2000,21928
+Mayotte,femme,2005,31812
+Mayotte,femme,2010,38257
+Mayotte,femme,2015,39757
+Mayotte,femme,2019,40106
+Mozambique,femme,1990,56272
+Mozambique,femme,1995,77046
+Mozambique,femme,2000,92527
+Mozambique,femme,2005,136771
+Mozambique,femme,2010,158366
+Mozambique,femme,2015,166284
+Mozambique,femme,2019,172934
+Réunion,femme,1990,26486
+Réunion,femme,1995,36449
+Réunion,femme,2000,48414
+Réunion,femme,2005,55880
+Réunion,femme,2010,60322
+Réunion,femme,2015,62672
+Réunion,femme,2019,63629
+Rwanda,femme,1990,79261
+Rwanda,femme,1995,105952
+Rwanda,femme,2000,171335
+Rwanda,femme,2005,209908
+Rwanda,femme,2010,212853
+Rwanda,femme,2015,258320
+Rwanda,femme,2019,270015
+Seychelles,femme,1990,1517
+Seychelles,femme,1995,2127
+Seychelles,femme,2000,2737
+Seychelles,femme,2005,3177
+Seychelles,femme,2010,3616
+Seychelles,femme,2015,3837
+Seychelles,femme,2019,3877
+Somalia,femme,1990,234093
+Somalia,femme,1995,9245
+Somalia,femme,2000,9469
+Somalia,femme,2005,9623
+Somalia,femme,2010,22893
+Somalia,femme,2015,19406
+Somalia,femme,2019,24947
+South Sudan,femme,1990,..
+South Sudan,femme,1995,..
+South Sudan,femme,2000,..
+South Sudan,femme,2005,..
+South Sudan,femme,2010,125212
+South Sudan,femme,2015,413173
+South Sudan,femme,2019,423875
+Uganda,femme,1990,260936
+Uganda,femme,1995,298706
+Uganda,femme,2000,293421
+Uganda,femme,2005,301178
+Uganda,femme,2010,251027
+Uganda,femme,2015,435330
+Uganda,femme,2019,897546
+United Republic of Tanzania,femme,1990,290635
+United Republic of Tanzania,femme,1995,558954
+United Republic of Tanzania,femme,2000,467784
+United Republic of Tanzania,femme,2005,284170
+United Republic of Tanzania,femme,2010,155256
+United Republic of Tanzania,femme,2015,193950
+United Republic of Tanzania,femme,2019,257742
+Zambia,femme,1990,136434
+Zambia,femme,1995,119009
+Zambia,femme,2000,168589
+Zambia,femme,2005,124267
+Zambia,femme,2010,74021
+Zambia,femme,2015,65456
+Zambia,femme,2019,84151
+Zimbabwe,femme,1990,278381
+Zimbabwe,femme,1995,185213
+Zimbabwe,femme,2000,176228
+Zimbabwe,femme,2005,172972
+Zimbabwe,femme,2010,171106
+Zimbabwe,femme,2015,174829
+Zimbabwe,femme,2019,177605
+Angola,femme,1990,15375
+Angola,femme,1995,19058
+Angola,femme,2000,22741
+Angola,femme,2005,31089
+Angola,femme,2010,171851
+Angola,femme,2015,327543
+Angola,femme,2019,327760
+Cameroon,femme,1990,120098
+Cameroon,femme,1995,110846
+Cameroon,femme,2000,103234
+Cameroon,femme,2005,119374
+Cameroon,femme,2010,129989
+Cameroon,femme,2015,257035
+Cameroon,femme,2019,255515
+Central African Republic,femme,1990,31548
+Central African Republic,femme,1995,46737
+Central African Republic,femme,2000,57893
+Central African Republic,femme,2005,44213
+Central African Republic,femme,2010,43723
+Central African Republic,femme,2015,38435
+Central African Republic,femme,2019,42645
+Chad,femme,1990,34209
+Chad,femme,1995,41286
+Chad,femme,2000,48362
+Chad,femme,2005,192347
+Chad,femme,2010,230151
+Chad,femme,2015,251328
+Chad,femme,2019,275896
+Congo,femme,1990,65075
+Congo,femme,1995,95813
+Congo,femme,2000,152773
+Congo,femme,2005,145495
+Congo,femme,2010,194068
+Congo,femme,2015,176378
+Congo,femme,2019,181904
+Democratic Republic of the Congo,femme,1990,391077
+Democratic Republic of the Congo,femme,1995,915584
+Democratic Republic of the Congo,femme,2000,379295
+Democratic Republic of the Congo,femme,2005,320579
+Democratic Republic of the Congo,femme,2010,304706
+Democratic Republic of the Congo,femme,2015,423434
+Democratic Republic of the Congo,femme,2019,499879
+Equatorial Guinea,femme,1990,1275
+Equatorial Guinea,femme,1995,1699
+Equatorial Guinea,femme,2000,2123
+Equatorial Guinea,femme,2005,3024
+Equatorial Guinea,femme,2010,3924
+Equatorial Guinea,femme,2015,48084
+Equatorial Guinea,femme,2019,52214
+Gabon,femme,1990,55016
+Gabon,femme,1995,73627
+Gabon,femme,2000,91445
+Gabon,femme,2005,98717
+Gabon,femme,2010,112149
+Gabon,femme,2015,134904
+Gabon,femme,2019,146705
+Sao Tome and Principe,femme,1990,2629
+Sao Tome and Principe,femme,1995,2388
+Sao Tome and Principe,femme,2000,2153
+Sao Tome and Principe,femme,2005,1706
+Sao Tome and Principe,femme,2010,1348
+Sao Tome and Principe,femme,2015,1197
+Sao Tome and Principe,femme,2019,1089
+Botswana,femme,1990,10896
+Botswana,femme,1995,16651
+Botswana,femme,2000,31094
+Botswana,femme,2005,35482
+Botswana,femme,2010,40733
+Botswana,femme,2015,44499
+Botswana,femme,2019,47653
+Eswatini,femme,1990,35086
+Eswatini,femme,1995,16456
+Eswatini,femme,2000,16163
+Eswatini,femme,2005,16023
+Eswatini,femme,2010,15847
+Eswatini,femme,2015,15725
+Eswatini,femme,2019,15728
+Lesotho,femme,1990,3922
+Lesotho,femme,1995,3377
+Lesotho,femme,2000,2832
+Lesotho,femme,2005,2888
+Lesotho,femme,2010,2945
+Lesotho,femme,2015,3014
+Lesotho,femme,2019,3177
+Namibia,femme,1990,56893
+Namibia,femme,1995,54062
+Namibia,femme,2000,62393
+Namibia,femme,2005,49722
+Namibia,femme,2010,48023
+Namibia,femme,2015,46879
+Namibia,femme,2019,49623
+South Africa,femme,1990,446656
+South Africa,femme,1995,392724
+South Africa,femme,2000,409361
+South Africa,femme,2005,568759
+South Africa,femme,2010,893062
+South Africa,femme,2015,1694595
+South Africa,femme,2019,1873894
+Benin,femme,1990,36333
+Benin,femme,1995,49399
+Benin,femme,2000,62465
+Benin,femme,2005,114007
+Benin,femme,2010,165549
+Benin,femme,2015,194228
+Benin,femme,2019,206519
+Burkina Faso,femme,1990,181818
+Burkina Faso,femme,1995,240948
+Burkina Faso,femme,2000,269808
+Burkina Faso,femme,2005,311787
+Burkina Faso,femme,2010,353499
+Burkina Faso,femme,2015,369348
+Burkina Faso,femme,2019,376508
+Cabo Verde,femme,1990,4502
+Cabo Verde,femme,1995,4888
+Cabo Verde,femme,2000,5274
+Cabo Verde,femme,2005,6177
+Cabo Verde,femme,2010,7080
+Cabo Verde,femme,2015,7377
+Cabo Verde,femme,2019,7742
+Côte d'Ivoire,femme,1990,804677
+Côte d'Ivoire,femme,1995,925684
+Côte d'Ivoire,femme,2000,965148
+Côte d'Ivoire,femme,2005,1010400
+Côte d'Ivoire,femme,2010,1056078
+Côte d'Ivoire,femme,2015,1101350
+Côte d'Ivoire,femme,2019,1137566
+Gambia,femme,1990,51817
+Gambia,femme,1995,68842
+Gambia,femme,2000,85376
+Gambia,femme,2005,85675
+Gambia,femme,2010,87677
+Gambia,femme,2015,91039
+Gambia,femme,2019,101854
+Ghana,femme,1990,81821
+Ghana,femme,1995,125456
+Ghana,femme,2000,94322
+Ghana,femme,2005,147658
+Ghana,femme,2010,157370
+Ghana,femme,2015,193718
+Ghana,femme,2019,217556
+Guinea,femme,1990,202361
+Guinea,femme,1995,387968
+Guinea,femme,2000,280967
+Guinea,femme,2005,117873
+Guinea,femme,2010,85099
+Guinea,femme,2015,52326
+Guinea,femme,2019,49947
+Guinea-Bissau,femme,1990,7679
+Guinea-Bissau,femme,1995,14128
+Guinea-Bissau,femme,2000,10295
+Guinea-Bissau,femme,2005,10438
+Guinea-Bissau,femme,2010,10754
+Guinea-Bissau,femme,2015,11507
+Guinea-Bissau,femme,2019,13926
+Liberia,femme,1990,41040
+Liberia,femme,1995,96916
+Liberia,femme,2000,69739
+Liberia,femme,2005,36005
+Liberia,femme,2010,42244
+Liberia,femme,2015,48900
+Liberia,femme,2019,40591
+Mali,femme,1990,78687
+Mali,femme,1995,85316
+Mali,femme,2000,91723
+Mali,femme,2005,124553
+Mali,femme,2010,167309
+Mali,femme,2015,207286
+Mali,femme,2019,230802
+Mauritania,femme,1990,54081
+Mauritania,femme,1995,42547
+Mauritania,femme,2000,26203
+Mauritania,femme,2005,25531
+Mauritania,femme,2010,36074
+Mauritania,femme,2015,72482
+Mauritania,femme,2019,75221
+Niger,femme,1990,60242
+Niger,femme,1995,76248
+Niger,femme,2000,64068
+Niger,femme,2005,65291
+Niger,femme,2010,66431
+Niger,femme,2015,133083
+Niger,femme,2019,154735
+Nigeria,femme,1990,200455
+Nigeria,femme,1995,204908
+Nigeria,femme,2000,217671
+Nigeria,femme,2005,404910
+Nigeria,femme,2010,413008
+Nigeria,femme,2015,541228
+Nigeria,femme,2019,567087
+Saint Helena,femme,1990,68
+Saint Helena,femme,1995,47
+Saint Helena,femme,2000,47
+Saint Helena,femme,2005,78
+Saint Helena,femme,2010,112
+Saint Helena,femme,2015,126
+Saint Helena,femme,2019,131
+Senegal,femme,1990,131570
+Senegal,femme,1995,140489
+Senegal,femme,2000,110409
+Senegal,femme,2005,113444
+Senegal,femme,2010,120213
+Senegal,femme,2015,125094
+Senegal,femme,2019,129243
+Sierra Leone,femme,1990,99250
+Sierra Leone,femme,1995,42579
+Sierra Leone,femme,2000,43790
+Sierra Leone,femme,2005,69429
+Sierra Leone,femme,2010,35540
+Sierra Leone,femme,2015,25745
+Sierra Leone,femme,2019,23608
+Togo,femme,1990,41941
+Togo,femme,1995,50856
+Togo,femme,2000,68856
+Togo,femme,2005,100744
+Togo,femme,2010,126061
+Togo,femme,2015,137844
+Togo,femme,2019,137856
+Algeria,femme,1990,123720
+Algeria,femme,1995,118336
+Algeria,femme,2000,112952
+Algeria,femme,2005,89156
+Algeria,femme,2010,102237
+Algeria,femme,2015,112951
+Algeria,femme,2019,117479
+Egypt,femme,1990,81838
+Egypt,femme,1995,78410
+Egypt,femme,2000,86550
+Egypt,femme,2005,119795
+Egypt,femme,2010,135913
+Egypt,femme,2015,146208
+Egypt,femme,2019,233005
+Libya,femme,1990,214368
+Libya,femme,1995,207135
+Libya,femme,2000,198486
+Libya,femme,2005,179615
+Libya,femme,2010,194261
+Libya,femme,2015,221993
+Libya,femme,2019,235543
+Morocco,femme,1990,25871
+Morocco,femme,1995,24096
+Morocco,femme,2000,25801
+Morocco,femme,2005,26836
+Morocco,femme,2010,35171
+Morocco,femme,2015,46037
+Morocco,femme,2019,49095
+Sudan,femme,1990,706511
+Sudan,femme,1995,527695
+Sudan,femme,2000,400468
+Sudan,femme,2005,268335
+Sudan,femme,2010,304157
+Sudan,femme,2015,308638
+Sudan,femme,2019,615941
+Tunisia,femme,1990,19084
+Tunisia,femme,1995,18822
+Tunisia,femme,2000,18040
+Tunisia,femme,2005,17040
+Tunisia,femme,2010,20936
+Tunisia,femme,2015,27279
+Tunisia,femme,2019,27711
+Western Sahara,femme,1990,1223
+Western Sahara,femme,1995,1338
+Western Sahara,femme,2000,1452
+Western Sahara,femme,2005,1667
+Western Sahara,femme,2010,1881
+Western Sahara,femme,2015,2120
+Western Sahara,femme,2019,2203
+Armenia,femme,1990,388254
+Armenia,femme,1995,409004
+Armenia,femme,2000,387730
+Armenia,femme,2005,277718
+Armenia,femme,2010,125478
+Armenia,femme,2015,113763
+Armenia,femme,2019,112158
+Azerbaijan,femme,1990,202744
+Azerbaijan,femme,1995,194561
+Azerbaijan,femme,2000,186379
+Azerbaijan,femme,2005,166884
+Azerbaijan,femme,2010,147389
+Azerbaijan,femme,2015,137641
+Azerbaijan,femme,2019,132247
+Bahrain,femme,1990,50482
+Bahrain,femme,1995,61752
+Bahrain,femme,2000,74017
+Bahrain,femme,2005,115404
+Bahrain,femme,2010,181951
+Bahrain,femme,2015,195171
+Bahrain,femme,2019,205433
+Cyprus,femme,1990,23342
+Cyprus,femme,1995,34337
+Cyprus,femme,2000,45331
+Cyprus,femme,2005,66744
+Cyprus,femme,2010,107935
+Cyprus,femme,2015,107867
+Cyprus,femme,2019,106714
+Georgia,femme,1990,171185
+Georgia,femme,1995,85592
+Georgia,femme,2000,42796
+Georgia,femme,2005,40656
+Georgia,femme,2010,41062
+Georgia,femme,2015,43115
+Georgia,femme,2019,44452
+Iraq,femme,1990,27887
+Iraq,femme,1995,84639
+Iraq,femme,2000,90061
+Iraq,femme,2005,52032
+Iraq,femme,2010,44424
+Iraq,femme,2015,150148
+Iraq,femme,2019,153774
+Israel,femme,1990,861927
+Israel,femme,1995,961855
+Israel,femme,2000,997597
+Israel,femme,2005,1021698
+Israel,femme,2010,1060263
+Israel,femme,2015,1098828
+Israel,femme,2019,1068578
+Jordan,femme,1990,559876
+Jordan,femme,1995,752372
+Jordan,femme,2000,944868
+Jordan,femme,2005,1141769
+Jordan,femme,2010,1338670
+Jordan,femme,2015,1544849
+Jordan,femme,2019,1661345
+Kuwait,femme,1990,419513
+Kuwait,femme,1995,330502
+Kuwait,femme,2000,366128
+Kuwait,femme,2005,414747
+Kuwait,femme,2010,561723
+Kuwait,femme,2015,964281
+Kuwait,femme,2019,1021042
+Lebanon,femme,1990,255771
+Lebanon,femme,1995,297690
+Lebanon,femme,2000,339608
+Lebanon,femme,2005,366453
+Lebanon,femme,2010,393297
+Lebanon,femme,2015,1024779
+Lebanon,femme,2019,967998
+Oman,femme,1990,61523
+Oman,femme,1995,122199
+Oman,femme,2000,135219
+Oman,femme,2005,138318
+Oman,femme,2010,157475
+Oman,femme,2015,304226
+Oman,femme,2019,374700
+Qatar,femme,1990,83821
+Qatar,femme,1995,91701
+Qatar,femme,2000,85455
+Qatar,femme,2005,147598
+Qatar,femme,2010,249842
+Qatar,femme,2015,271279
+Qatar,femme,2019,384010
+Saudi Arabia,femme,1990,1673572
+Saudi Arabia,femme,1995,1706217
+Saudi Arabia,femme,2000,1745619
+Saudi Arabia,femme,2005,2032014
+Saudi Arabia,femme,2010,2496675
+Saudi Arabia,femme,2015,3309864
+Saudi Arabia,femme,2019,4121156
+State of Palestine,femme,1990,156231
+State of Palestine,femme,1995,153439
+State of Palestine,femme,2000,150647
+State of Palestine,femme,2005,146996
+State of Palestine,femme,2010,143344
+State of Palestine,femme,2015,142270
+State of Palestine,femme,2019,141283
+Syrian Arab Republic,femme,1990,350063
+Syrian Arab Republic,femme,1995,407495
+Syrian Arab Republic,femme,2000,406935
+Syrian Arab Republic,femme,2005,427870
+Syrian Arab Republic,femme,2010,874557
+Syrian Arab Republic,femme,2015,426124
+Syrian Arab Republic,femme,2019,423138
+Turkey,femme,1990,586357
+Turkey,femme,1995,622235
+Turkey,femme,2000,664956
+Turkey,femme,2005,700298
+Turkey,femme,2010,741074
+Turkey,femme,2015,1956031
+Turkey,femme,2019,2618617
+United Arab Emirates,femme,1990,374615
+United Arab Emirates,femme,1995,514250
+United Arab Emirates,femme,2000,689810
+United Arab Emirates,femme,2005,892816
+United Arab Emirates,femme,2010,1853251
+United Arab Emirates,femme,2015,2104956
+United Arab Emirates,femme,2019,2261236
+Yemen,femme,1990,51853
+Yemen,femme,1995,58683
+Yemen,femme,2000,64426
+Yemen,femme,2005,72992
+Yemen,femme,2010,132271
+Yemen,femme,2015,180492
+Yemen,femme,2019,183214
+Kazakhstan,femme,1990,1953036
+Kazakhstan,femme,1995,1754513
+Kazakhstan,femme,2000,1550614
+Kazakhstan,femme,2005,1630207
+Kazakhstan,femme,2010,1709782
+Kazakhstan,femme,2015,1788232
+Kazakhstan,femme,2019,1868663
+Kyrgyzstan,femme,1990,362667
+Kyrgyzstan,femme,1995,301700
+Kyrgyzstan,femme,2000,226897
+Kyrgyzstan,femme,2005,181335
+Kyrgyzstan,femme,2010,137469
+Kyrgyzstan,femme,2015,121766
+Kyrgyzstan,femme,2019,119315
+Tajikistan,femme,1990,240928
+Tajikistan,femme,1995,196453
+Tajikistan,femme,2000,167846
+Tajikistan,femme,2005,159063
+Tajikistan,femme,2010,158028
+Tajikistan,femme,2015,156462
+Tajikistan,femme,2019,155864
+Turkmenistan,femme,1990,172326
+Turkmenistan,femme,1995,141443
+Turkmenistan,femme,2000,116257
+Turkmenistan,femme,2005,111839
+Turkmenistan,femme,2010,107345
+Turkmenistan,femme,2015,104845
+Turkmenistan,femme,2019,102887
+Uzbekistan,femme,1990,929382
+Uzbekistan,femme,1995,855087
+Uzbekistan,femme,2000,800335
+Uzbekistan,femme,2005,740242
+Uzbekistan,femme,2010,661770
+Uzbekistan,femme,2015,625152
+Uzbekistan,femme,2019,623336
+Afghanistan,femme,1990,25128
+Afghanistan,femme,1995,32417
+Afghanistan,femme,2000,33069
+Afghanistan,femme,2005,38026
+Afghanistan,femme,2010,44537
+Afghanistan,femme,2015,241537
+Afghanistan,femme,2019,74788
+Bangladesh,femme,1990,405520
+Bangladesh,femme,1995,430746
+Bangladesh,femme,2000,455946
+Bangladesh,femme,2005,545472
+Bangladesh,femme,2010,634998
+Bangladesh,femme,2015,670770
+Bangladesh,femme,2019,1061320
+Bhutan,femme,1990,4398
+Bhutan,femme,1995,5168
+Bhutan,femme,2000,5937
+Bhutan,femme,2005,7537
+Bhutan,femme,2010,9137
+Bhutan,femme,2015,7710
+Bhutan,femme,2019,8034
+India,femme,1990,3627331
+India,femme,1995,3343260
+India,femme,2000,3107740
+India,femme,2005,2878096
+India,femme,2010,2650010
+India,femme,2015,2556280
+India,femme,2019,2514224
+Iran (Islamic Republic of),femme,1990,1834901
+Iran (Islamic Republic of),femme,1995,1231696
+Iran (Islamic Republic of),femme,2000,1141541
+Iran (Islamic Republic of),femme,2005,1158611
+Iran (Islamic Republic of),femme,2010,1189838
+Iran (Islamic Republic of),femme,2015,1281184
+Iran (Islamic Republic of),femme,2019,1260410
+Maldives,femme,1990,3912
+Maldives,femme,1995,9267
+Maldives,femme,2000,12185
+Maldives,femme,2005,17966
+Maldives,femme,2010,12947
+Maldives,femme,2015,7928
+Maldives,femme,2019,8540
+Nepal,femme,1990,304008
+Nepal,femme,1995,473137
+Nepal,femme,2000,475941
+Nepal,femme,2005,444254
+Nepal,femme,2010,389139
+Nepal,femme,2015,353110
+Nepal,femme,2019,342315
+Pakistan,femme,1990,2943824
+Pakistan,femme,1995,1718085
+Pakistan,femme,2000,1931952
+Pakistan,femme,2005,1462618
+Pakistan,femme,2010,1867143
+Pakistan,femme,2015,1661050
+Pakistan,femme,2019,1543315
+Sri Lanka,femme,1990,18138
+Sri Lanka,femme,1995,18152
+Sri Lanka,femme,2000,18161
+Sri Lanka,femme,2005,18208
+Sri Lanka,femme,2010,18265
+Sri Lanka,femme,2015,18961
+Sri Lanka,femme,2019,19109
+China,femme,1990,184407
+China,femme,1995,219180
+China,femme,2000,253952
+China,femme,2005,299027
+China,femme,2010,344103
+China,femme,2015,377910
+China,femme,2019,398321
+China, Hong Kong SAR,femme,1990,1093929
+China, Hong Kong SAR,femme,1995,1268711
+China, Hong Kong SAR,femme,2000,1443493
+China, Hong Kong SAR,femme,2005,1536114
+China, Hong Kong SAR,femme,2010,1632411
+China, Hong Kong SAR,femme,2015,1718708
+China, Hong Kong SAR,femme,2019,1798925
+China, Macao SAR,femme,1990,108668
+China, Macao SAR,femme,1995,121269
+China, Macao SAR,femme,2000,131400
+China, Macao SAR,femme,2005,148921
+China, Macao SAR,femme,2010,172099
+China, Macao SAR,femme,2015,201477
+China, Macao SAR,femme,2019,214070
+Dem. People's Republic of Korea,femme,1990,16710
+Dem. People's Republic of Korea,femme,1995,17581
+Dem. People's Republic of Korea,femme,2000,18452
+Dem. People's Republic of Korea,femme,2005,20348
+Dem. People's Republic of Korea,femme,2010,22244
+Dem. People's Republic of Korea,femme,2015,24348
+Dem. People's Republic of Korea,femme,2019,24817
+Japan,femme,1990,536552
+Japan,femme,1995,682159
+Japan,femme,2000,889516
+Japan,femme,2005,1080357
+Japan,femme,2010,1161670
+Japan,femme,2015,1182119
+Japan,femme,2019,1290723
+Mongolia,femme,1990,3299
+Mongolia,femme,1995,3465
+Mongolia,femme,2000,3642
+Mongolia,femme,2005,3900
+Mongolia,femme,2010,4182
+Mongolia,femme,2015,6602
+Mongolia,femme,2019,7014
+Republic of Korea,femme,1990,18898
+Republic of Korea,femme,1995,53128
+Republic of Korea,femme,2000,101012
+Republic of Korea,femme,2005,201760
+Republic of Korea,femme,2010,394592
+Republic of Korea,femme,2015,501687
+Republic of Korea,femme,2019,510909
+Brunei Darussalam,femme,1990,31344
+Brunei Darussalam,femme,1995,36916
+Brunei Darussalam,femme,2000,42489
+Brunei Darussalam,femme,2005,43176
+Brunei Darussalam,femme,2010,43864
+Brunei Darussalam,femme,2015,44552
+Brunei Darussalam,femme,2019,47981
+Cambodia,femme,1990,19291
+Cambodia,femme,1995,46869
+Cambodia,femme,2000,74447
+Cambodia,femme,2005,56520
+Cambodia,femme,2010,38592
+Cambodia,femme,2015,34109
+Cambodia,femme,2019,36270
+Indonesia,femme,1990,235727
+Indonesia,femme,1995,187360
+Indonesia,femme,2000,138992
+Indonesia,femme,2005,124075
+Indonesia,femme,2010,130552
+Indonesia,femme,2015,141407
+Indonesia,femme,2019,147684
+Lao People's Democratic Republic,femme,1990,11060
+Lao People's Democratic Republic,femme,1995,11327
+Lao People's Democratic Republic,femme,2000,10384
+Lao People's Democratic Republic,femme,2005,9441
+Lao People's Democratic Republic,femme,2010,12822
+Lao People's Democratic Republic,femme,2015,16203
+Lao People's Democratic Republic,femme,2019,17176
+Malaysia,femme,1990,290112
+Malaysia,femme,1995,402404
+Malaysia,femme,2000,640919
+Malaysia,femme,2005,784963
+Malaysia,femme,2010,947418
+Malaysia,femme,2015,1284461
+Malaysia,femme,2019,1333221
+Myanmar,femme,1990,61235
+Myanmar,femme,1995,52174
+Myanmar,femme,2000,45861
+Myanmar,femme,2005,38519
+Myanmar,femme,2010,34840
+Myanmar,femme,2015,33131
+Myanmar,femme,2019,34346
+Philippines,femme,1990,72724
+Philippines,femme,1995,99821
+Philippines,femme,2000,156191
+Philippines,femme,2005,124445
+Philippines,femme,2010,100666
+Philippines,femme,2015,102079
+Philippines,femme,2019,105291
+Singapore,femme,1990,381420
+Singapore,femme,1995,535081
+Singapore,femme,2000,750020
+Singapore,femme,2005,951832
+Singapore,femme,2010,1207938
+Singapore,femme,2015,1420652
+Singapore,femme,2019,1205461
+Thailand,femme,1990,245207
+Thailand,femme,1995,383430
+Thailand,femme,2000,610093
+Thailand,femme,2005,1077281
+Thailand,femme,2010,1599376
+Thailand,femme,2015,1735339
+Thailand,femme,2019,1809580
+Timor-Leste,femme,1990,4504
+Timor-Leste,femme,1995,4980
+Timor-Leste,femme,2000,5507
+Timor-Leste,femme,2005,5708
+Timor-Leste,femme,2010,5703
+Timor-Leste,femme,2015,3372
+Timor-Leste,femme,2019,3331
+Viet Nam,femme,1990,12888
+Viet Nam,femme,1995,23075
+Viet Nam,femme,2000,23929
+Viet Nam,femme,2005,20662
+Viet Nam,femme,2010,25785
+Viet Nam,femme,2015,30625
+Viet Nam,femme,2019,32017
+Anguilla,femme,1990,1312
+Anguilla,femme,1995,1733
+Anguilla,femme,2000,2153
+Anguilla,femme,2005,2474
+Anguilla,femme,2010,2688
+Anguilla,femme,2015,2877
+Anguilla,femme,2019,2985
+Antigua and Barbuda,femme,1990,6254
+Antigua and Barbuda,femme,1995,9504
+Antigua and Barbuda,femme,2000,12755
+Antigua and Barbuda,femme,2005,13689
+Antigua and Barbuda,femme,2010,14624
+Antigua and Barbuda,femme,2015,15559
+Antigua and Barbuda,femme,2019,16181
+Aruba,femme,1990,8015
+Aruba,femme,1995,12300
+Aruba,femme,2000,16585
+Aruba,femme,2005,17981
+Aruba,femme,2010,19016
+Aruba,femme,2015,20006
+Aruba,femme,2019,20237
+Bahamas,femme,1990,13028
+Bahamas,femme,1995,15034
+Bahamas,femme,2000,17040
+Bahamas,femme,2005,21949
+Bahamas,femme,2010,26858
+Bahamas,femme,2015,29312
+Bahamas,femme,2019,31118
+Barbados,femme,1990,13959
+Barbados,femme,1995,14989
+Barbados,femme,2000,16019
+Barbados,femme,2005,17049
+Barbados,femme,2010,18079
+Barbados,femme,2015,18987
+Barbados,femme,2019,19169
+British Virgin Islands,femme,1990,3909
+British Virgin Islands,femme,1995,5012
+British Virgin Islands,femme,2000,6572
+British Virgin Islands,femme,2005,7615
+British Virgin Islands,femme,2010,8659
+British Virgin Islands,femme,2015,9702
+British Virgin Islands,femme,2019,10536
+Bonaire, Sint Eustatius and Saba,femme,1990,21153
+Bonaire, Sint Eustatius and Saba,femme,1995,23428
+Bonaire, Sint Eustatius and Saba,femme,2000,25703
+Bonaire, Sint Eustatius and Saba,femme,2005,34190
+Bonaire, Sint Eustatius and Saba,femme,2010,5915
+Bonaire, Sint Eustatius and Saba,femme,2015,6710
+Bonaire, Sint Eustatius and Saba,femme,2019,7990
+Cayman Islands,femme,1990,4728
+Cayman Islands,femme,1995,6327
+Cayman Islands,femme,2000,9505
+Cayman Islands,femme,2005,10164
+Cayman Islands,femme,2010,11747
+Cayman Islands,femme,2015,12779
+Cayman Islands,femme,2019,14147
+Cuba,femme,1990,17277
+Cuba,femme,1995,13628
+Cuba,femme,2000,9978
+Cuba,femme,2005,6683
+Cuba,femme,2010,3736
+Cuba,femme,2015,3018
+Cuba,femme,2019,2789
+Curaçao,femme,1990,..
+Curaçao,femme,1995,..
+Curaçao,femme,2000,..
+Curaçao,femme,2005,..
+Curaçao,femme,2010,20432
+Curaçao,femme,2015,22144
+Curaçao,femme,2019,24070
+Dominica,femme,1990,1210
+Dominica,femme,1995,1498
+Dominica,femme,2000,1768
+Dominica,femme,2005,2253
+Dominica,femme,2010,3910
+Dominica,femme,2015,3878
+Dominica,femme,2019,3961
+Dominican Republic,femme,1990,109474
+Dominican Republic,femme,1995,124539
+Dominican Republic,femme,2000,139603
+Dominican Republic,femme,2005,147821
+Dominican Republic,femme,2010,154978
+Dominican Republic,femme,2015,195841
+Dominican Republic,femme,2019,202387
+Grenada,femme,1990,2157
+Grenada,femme,1995,2798
+Grenada,femme,2000,3439
+Grenada,femme,2005,3478
+Grenada,femme,2010,3517
+Grenada,femme,2015,3555
+Grenada,femme,2019,3588
+Guadeloupe,femme,1990,33226
+Guadeloupe,femme,1995,38318
+Guadeloupe,femme,2000,43410
+Guadeloupe,femme,2005,47792
+Guadeloupe,femme,2010,52174
+Guadeloupe,femme,2015,54649
+Guadeloupe,femme,2019,55493
+Haiti,femme,1990,8478
+Haiti,femme,1995,8053
+Haiti,femme,2000,7650
+Haiti,femme,2005,7267
+Haiti,femme,2010,7630
+Haiti,femme,2015,8011
+Haiti,femme,2019,8330
+Jamaica,femme,1990,10494
+Jamaica,femme,1995,11471
+Jamaica,femme,2000,12449
+Jamaica,femme,2005,12051
+Jamaica,femme,2010,11653
+Jamaica,femme,2015,11401
+Jamaica,femme,2019,11548
+Martinique,femme,1990,19614
+Martinique,femme,1995,24328
+Martinique,femme,2000,29041
+Martinique,femme,2005,31143
+Martinique,femme,2010,33245
+Martinique,femme,2015,34742
+Martinique,femme,2019,34694
+Montserrat,femme,1990,984
+Montserrat,femme,1995,787
+Montserrat,femme,2000,589
+Montserrat,femme,2005,605
+Montserrat,femme,2010,627
+Montserrat,femme,2015,655
+Montserrat,femme,2019,666
+Puerto Rico,femme,1990,168555
+Puerto Rico,femme,1995,177328
+Puerto Rico,femme,2000,186558
+Puerto Rico,femme,2005,185364
+Puerto Rico,femme,2010,162030
+Puerto Rico,femme,2015,149578
+Puerto Rico,femme,2019,142848
+Saint Kitts and Nevis,femme,1990,1568
+Saint Kitts and Nevis,femme,1995,2052
+Saint Kitts and Nevis,femme,2000,2803
+Saint Kitts and Nevis,femme,2005,3181
+Saint Kitts and Nevis,femme,2010,3439
+Saint Kitts and Nevis,femme,2015,3527
+Saint Kitts and Nevis,femme,2019,3595
+Saint Lucia,femme,1990,2687
+Saint Lucia,femme,1995,3592
+Saint Lucia,femme,2000,4911
+Saint Lucia,femme,2005,4999
+Saint Lucia,femme,2010,4674
+Saint Lucia,femme,2015,4494
+Saint Lucia,femme,2019,4357
+Saint Vincent and the Grenadines,femme,1990,2042
+Saint Vincent and the Grenadines,femme,1995,2124
+Saint Vincent and the Grenadines,femme,2000,2208
+Saint Vincent and the Grenadines,femme,2005,2238
+Saint Vincent and the Grenadines,femme,2010,2267
+Saint Vincent and the Grenadines,femme,2015,2282
+Saint Vincent and the Grenadines,femme,2019,2294
+Sint Maarten (Dutch part),femme,1990,..
+Sint Maarten (Dutch part),femme,1995,..
+Sint Maarten (Dutch part),femme,2000,..
+Sint Maarten (Dutch part),femme,2005,..
+Sint Maarten (Dutch part),femme,2010,13630
+Sint Maarten (Dutch part),femme,2015,14218
+Sint Maarten (Dutch part),femme,2019,14720
+Trinidad and Tobago,femme,1990,27138
+Trinidad and Tobago,femme,1995,24691
+Trinidad and Tobago,femme,2000,22465
+Trinidad and Tobago,femme,2005,24165
+Trinidad and Tobago,femme,2010,25074
+Trinidad and Tobago,femme,2015,25557
+Trinidad and Tobago,femme,2019,30135
+Turks and Caicos Islands,femme,1990,2442
+Turks and Caicos Islands,femme,1995,3396
+Turks and Caicos Islands,femme,2000,4350
+Turks and Caicos Islands,femme,2005,6328
+Turks and Caicos Islands,femme,2010,8309
+Turks and Caicos Islands,femme,2015,10964
+Turks and Caicos Islands,femme,2019,11839
+United States Virgin Islands,femme,1990,27146
+United States Virgin Islands,femme,1995,28481
+United States Virgin Islands,femme,2000,29881
+United States Virgin Islands,femme,2005,29921
+United States Virgin Islands,femme,2010,29962
+United States Virgin Islands,femme,2015,29993
+United States Virgin Islands,femme,2019,30005
+Belize,femme,1990,14011
+Belize,femme,1995,15934
+Belize,femme,2000,17857
+Belize,femme,2005,20379
+Belize,femme,2010,22901
+Belize,femme,2015,27172
+Belize,femme,2019,29818
+Costa Rica,femme,1990,205455
+Costa Rica,femme,1995,179802
+Costa Rica,femme,2000,154148
+Costa Rica,femme,2005,181840
+Costa Rica,femme,2010,209531
+Costa Rica,femme,2015,214084
+Costa Rica,femme,2019,215834
+El Salvador,femme,1990,25142
+El Salvador,femme,1995,20973
+El Salvador,femme,2000,16804
+El Salvador,femme,2005,18990
+El Salvador,femme,2010,21176
+El Salvador,femme,2015,22049
+El Salvador,femme,2019,22348
+Guatemala,femme,1990,151642
+Guatemala,femme,1995,89275
+Guatemala,femme,2000,26908
+Guatemala,femme,2005,31188
+Guatemala,femme,2010,35467
+Guatemala,femme,2015,41216
+Guatemala,femme,2019,42304
+Honduras,femme,1990,132850
+Honduras,femme,1995,73365
+Honduras,femme,2000,13880
+Honduras,femme,2005,13431
+Honduras,femme,2010,12982
+Honduras,femme,2015,18201
+Honduras,femme,2019,18493
+Mexico,femme,1990,347321
+Mexico,femme,1995,228960
+Mexico,femme,2000,267155
+Mexico,femme,2005,352845
+Mexico,femme,2010,478847
+Mexico,femme,2015,512886
+Mexico,femme,2019,528795
+Nicaragua,femme,1990,20561
+Nicaragua,femme,1995,13255
+Nicaragua,femme,2000,14966
+Nicaragua,femme,2005,17145
+Nicaragua,femme,2010,18205
+Nicaragua,femme,2015,19539
+Nicaragua,femme,2019,20468
+Panama,femme,1990,29596
+Panama,femme,1995,34108
+Panama,femme,2000,40973
+Panama,femme,2005,57751
+Panama,femme,2010,76378
+Panama,femme,2015,89869
+Panama,femme,2019,90676
+Argentina,femme,1990,861789
+Argentina,femme,1995,842042
+Argentina,femme,2000,822295
+Argentina,femme,2005,898278
+Argentina,femme,2010,974261
+Argentina,femme,2015,1125992
+Argentina,femme,2019,1194306
+Bolivia (Plurinational State of),femme,1990,36209
+Bolivia (Plurinational State of),femme,1995,40792
+Bolivia (Plurinational State of),femme,2000,44993
+Bolivia (Plurinational State of),femme,2005,51726
+Bolivia (Plurinational State of),femme,2010,58466
+Bolivia (Plurinational State of),femme,2015,68050
+Bolivia (Plurinational State of),femme,2019,74296
+Brazil,femme,1990,372370
+Brazil,femme,1995,345405
+Brazil,femme,2000,318440
+Brazil,femme,2005,295563
+Brazil,femme,2010,272686
+Brazil,femme,2015,329730
+Brazil,femme,2019,371345
+Chile,femme,1990,52954
+Chile,femme,1995,72785
+Chile,femme,2000,92615
+Chile,femme,2005,144946
+Chile,femme,2010,197277
+Chile,femme,2015,338283
+Chile,femme,2019,497063
+Colombia,femme,1990,51168
+Colombia,femme,1995,52277
+Colombia,femme,2000,53386
+Colombia,femme,2005,51906
+Colombia,femme,2010,58649
+Colombia,femme,2015,65026
+Colombia,femme,2019,566514
+Ecuador,femme,1990,40132
+Ecuador,femme,1995,57214
+Ecuador,femme,2000,74296
+Ecuador,femme,2005,91216
+Ecuador,femme,2010,157593
+Ecuador,femme,2015,187161
+Ecuador,femme,2019,184345
+Falkland Islands (Malvinas),femme,1990,367
+Falkland Islands (Malvinas),femme,1995,358
+Falkland Islands (Malvinas),femme,2000,431
+Falkland Islands (Malvinas),femme,2005,491
+Falkland Islands (Malvinas),femme,2010,629
+Falkland Islands (Malvinas),femme,2015,698
+Falkland Islands (Malvinas),femme,2019,845
+French Guiana,femme,1990,28769
+French Guiana,femme,1995,33262
+French Guiana,femme,2000,37754
+French Guiana,femme,2005,43739
+French Guiana,femme,2010,49724
+French Guiana,femme,2015,55709
+French Guiana,femme,2019,61621
+Guyana,femme,1990,1895
+Guyana,femme,1995,2947
+Guyana,femme,2000,3999
+Guyana,femme,2005,5051
+Guyana,femme,2010,6103
+Guyana,femme,2015,7155
+Guyana,femme,2019,7301
+Paraguay,femme,1990,93068
+Paraguay,femme,1995,88701
+Paraguay,femme,2000,84556
+Paraguay,femme,2005,80545
+Paraguay,femme,2010,76905
+Paraguay,femme,2015,75159
+Paraguay,femme,2019,77107
+Peru,femme,1990,28312
+Peru,femme,1995,28670
+Peru,femme,2000,33461
+Peru,femme,2005,38918
+Peru,femme,2010,48609
+Peru,femme,2015,63684
+Peru,femme,2019,357852
+Suriname,femme,1990,8316
+Suriname,femme,1995,10229
+Suriname,femme,2000,12568
+Suriname,femme,2005,15324
+Suriname,femme,2010,18055
+Suriname,femme,2015,19583
+Suriname,femme,2019,20930
+Uruguay,femme,1990,52286
+Uruguay,femme,1995,50001
+Uruguay,femme,2000,47779
+Uruguay,femme,2005,44659
+Uruguay,femme,2010,41768
+Uruguay,femme,2015,43157
+Uruguay,femme,2019,44494
+Venezuela (Bolivarian Republic of),femme,1990,507430
+Venezuela (Bolivarian Republic of),femme,1995,506523
+Venezuela (Bolivarian Republic of),femme,2000,505056
+Venezuela (Bolivarian Republic of),femme,2005,538277
+Venezuela (Bolivarian Republic of),femme,2010,671086
+Venezuela (Bolivarian Republic of),femme,2015,700990
+Venezuela (Bolivarian Republic of),femme,2019,689715
+Australia,femme,1990,1942017
+Australia,femme,1995,2060050
+Australia,femme,2000,2196350
+Australia,femme,2005,2458840
+Australia,femme,2010,2960950
+Australia,femme,2015,3386400
+Australia,femme,2019,3804832
+New Zealand,femme,1990,259824
+New Zealand,femme,1995,299387
+New Zealand,femme,2000,348886
+New Zealand,femme,2005,432262
+New Zealand,femme,2010,488396
+New Zealand,femme,2015,536949
+New Zealand,femme,2019,551925
+Fiji,femme,1990,6436
+Fiji,femme,1995,6275
+Fiji,femme,2000,6118
+Fiji,femme,2005,5871
+Fiji,femme,2010,6214
+Fiji,femme,2015,6330
+Fiji,femme,2019,6462
+New Caledonia,femme,1990,16788
+New Caledonia,femme,1995,19754
+New Caledonia,femme,2000,22719
+New Caledonia,femme,2005,25496
+New Caledonia,femme,2010,28272
+New Caledonia,femme,2015,32700
+New Caledonia,femme,2019,34553
+Papua New Guinea,femme,1990,14348
+Papua New Guinea,femme,1995,13694
+Papua New Guinea,femme,2000,10430
+Papua New Guinea,femme,2005,12186
+Papua New Guinea,femme,2010,11959
+Papua New Guinea,femme,2015,12206
+Papua New Guinea,femme,2019,12268
+Solomon Islands,femme,1990,1877
+Solomon Islands,femme,1995,1850
+Solomon Islands,femme,2000,1757
+Solomon Islands,femme,2005,1441
+Solomon Islands,femme,2010,1214
+Solomon Islands,femme,2015,1135
+Solomon Islands,femme,2019,1111
+Vanuatu,femme,1990,1039
+Vanuatu,femme,1995,1166
+Vanuatu,femme,2000,1306
+Vanuatu,femme,2005,1402
+Vanuatu,femme,2010,1504
+Vanuatu,femme,2015,1604
+Vanuatu,femme,2019,1633
+Guam,femme,1990,30391
+Guam,femme,1995,33090
+Guam,femme,2000,35790
+Guam,femme,2005,36141
+Guam,femme,2010,36492
+Guam,femme,2015,36843
+Guam,femme,2019,38661
+Kiribati,femme,1990,1055
+Kiribati,femme,1995,1084
+Kiribati,femme,2000,1095
+Kiribati,femme,2005,1175
+Kiribati,femme,2010,1356
+Kiribati,femme,2015,1380
+Kiribati,femme,2019,1428
+Marshall Islands,femme,1990,437
+Marshall Islands,femme,1995,564
+Marshall Islands,femme,2000,727
+Marshall Islands,femme,2005,932
+Marshall Islands,femme,2010,1194
+Marshall Islands,femme,2015,1273
+Marshall Islands,femme,2019,1277
+Micronesia (Fed. States of),femme,1990,1586
+Micronesia (Fed. States of),femme,1995,1223
+Micronesia (Fed. States of),femme,2000,1395
+Micronesia (Fed. States of),femme,2005,1340
+Micronesia (Fed. States of),femme,2010,1303
+Micronesia (Fed. States of),femme,2015,1283
+Micronesia (Fed. States of),femme,2019,1311
+Nauru,femme,1990,1309
+Nauru,femme,1995,1210
+Nauru,femme,2000,1111
+Nauru,femme,2005,1045
+Nauru,femme,2010,530
+Nauru,femme,2015,819
+Nauru,femme,2019,908
+Northern Mariana Islands,femme,1990,12332
+Northern Mariana Islands,femme,1995,16529
+Northern Mariana Islands,femme,2000,22735
+Northern Mariana Islands,femme,2005,21565
+Northern Mariana Islands,femme,2010,13945
+Northern Mariana Islands,femme,2015,12548
+Northern Mariana Islands,femme,2019,12644
+Palau,femme,1990,1001
+Palau,femme,1995,1941
+Palau,femme,2000,2405
+Palau,femme,2005,2423
+Palau,femme,2010,2279
+Palau,femme,2015,1941
+Palau,femme,2019,2191
+American Samoa,femme,1990,10108
+American Samoa,femme,1995,11061
+American Samoa,femme,2000,12014
+American Samoa,femme,2005,11735
+American Samoa,femme,2010,11457
+American Samoa,femme,2015,11515
+American Samoa,femme,2019,11527
+Cook Islands,femme,1990,1144
+Cook Islands,femme,1995,1189
+Cook Islands,femme,2000,1233
+Cook Islands,femme,2005,1553
+Cook Islands,femme,2010,1874
+Cook Islands,femme,2015,1736
+Cook Islands,femme,2019,1743
+French Polynesia,femme,1990,10386
+French Polynesia,femme,1995,11671
+French Polynesia,femme,2000,12725
+French Polynesia,femme,2005,13881
+French Polynesia,femme,2010,13603
+French Polynesia,femme,2015,12922
+French Polynesia,femme,2019,13414
+Niue,femme,1990,216
+Niue,femme,1995,223
+Niue,femme,2000,230
+Niue,femme,2005,240
+Niue,femme,2010,270
+Niue,femme,2015,269
+Niue,femme,2019,269
+Samoa,femme,1990,1586
+Samoa,femme,1995,2243
+Samoa,femme,2000,2897
+Samoa,femme,2005,2806
+Samoa,femme,2010,2528
+Samoa,femme,2015,2104
+Samoa,femme,2019,1997
+Tokelau,femme,1990,120
+Tokelau,femme,1995,119
+Tokelau,femme,2000,118
+Tokelau,femme,2005,125
+Tokelau,femme,2010,223
+Tokelau,femme,2015,254
+Tokelau,femme,2019,262
+Tonga,femme,1990,1423
+Tonga,femme,1995,1556
+Tonga,femme,2000,1703
+Tonga,femme,2005,1977
+Tonga,femme,2010,2104
+Tonga,femme,2015,1796
+Tonga,femme,2019,1704
+Tuvalu,femme,1990,138
+Tuvalu,femme,1995,115
+Tuvalu,femme,2000,97
+Tuvalu,femme,2005,94
+Tuvalu,femme,2010,99
+Tuvalu,femme,2015,104
+Tuvalu,femme,2019,107
+Wallis and Futuna Islands,femme,1990,676
+Wallis and Futuna Islands,femme,1995,832
+Wallis and Futuna Islands,femme,2000,997
+Wallis and Futuna Islands,femme,2005,1084
+Wallis and Futuna Islands,femme,2010,804
+Wallis and Futuna Islands,femme,2015,521
+Wallis and Futuna Islands,femme,2019,506
+Belarus,femme,1990,676956
+Belarus,femme,1995,642975
+Belarus,femme,2000,608993
+Belarus,femme,2005,599994
+Belarus,femme,2010,590994
+Belarus,femme,2015,586944
+Belarus,femme,2019,579625
+Bulgaria,femme,1990,12463
+Bulgaria,femme,1995,18793
+Bulgaria,femme,2000,25122
+Bulgaria,femme,2005,34480
+Bulgaria,femme,2010,42446
+Bulgaria,femme,2015,63745
+Bulgaria,femme,2019,85798
+Czechia,femme,1990,52989
+Czechia,femme,1995,77276
+Czechia,femme,2000,101562
+Czechia,femme,2005,140821
+Czechia,femme,2010,162333
+Czechia,femme,2015,177226
+Czechia,femme,2019,219460
+Hungary,femme,1990,191325
+Hungary,femme,1995,175032
+Hungary,femme,2000,158738
+Hungary,femme,2005,192571
+Hungary,femme,2010,226404
+Hungary,femme,2015,239789
+Hungary,femme,2019,258159
+Poland,femme,1990,645595
+Poland,femme,1995,560676
+Poland,femme,2000,486928
+Poland,femme,2005,425470
+Poland,femme,2010,380154
+Poland,femme,2015,359614
+Poland,femme,2019,366231
+Republic of Moldova,femme,1990,306109
+Republic of Moldova,femme,1995,211934
+Republic of Moldova,femme,2000,146731
+Republic of Moldova,femme,2005,103198
+Republic of Moldova,femme,2010,77290
+Republic of Moldova,femme,2015,62907
+Republic of Moldova,femme,2019,61874
+Romania,femme,1990,78224
+Romania,femme,1995,74594
+Romania,femme,2000,71133
+Romania,femme,2005,75009
+Romania,femme,2010,89544
+Romania,femme,2015,134290
+Romania,femme,2019,213701
+Russian Federation,femme,1990,5869526
+Russian Federation,femme,1995,6003475
+Russian Federation,femme,2000,5917446
+Russian Federation,femme,2005,5860991
+Russian Federation,femme,2010,5680309
+Russian Federation,femme,2015,5928065
+Russian Federation,femme,2019,5926680
+Slovakia,femme,1990,23108
+Slovakia,femme,1995,38792
+Slovakia,femme,2000,65123
+Slovakia,femme,2005,71775
+Slovakia,femme,2010,79381
+Slovakia,femme,2015,88613
+Slovakia,femme,2019,91974
+Ukraine,femme,1990,3939317
+Ukraine,femme,1995,3527493
+Ukraine,femme,2000,3158723
+Ukraine,femme,2005,2882242
+Ukraine,femme,2010,2746293
+Ukraine,femme,2015,2801218
+Ukraine,femme,2019,2829229
+Channel Islands,femme,1990,32655
+Channel Islands,femme,1995,32051
+Channel Islands,femme,2000,34067
+Channel Islands,femme,2005,37330
+Channel Islands,femme,2010,40599
+Channel Islands,femme,2015,42969
+Channel Islands,femme,2019,43765
+Denmark,femme,1990,120778
+Denmark,femme,1995,155914
+Denmark,femme,2000,191049
+Denmark,femme,2005,227286
+Denmark,femme,2010,258743
+Denmark,femme,2015,304445
+Denmark,femme,2019,365512
+Estonia,femme,1990,210306
+Estonia,femme,1995,179487
+Estonia,femme,2000,148668
+Estonia,femme,2005,139457
+Estonia,femme,2010,130246
+Estonia,femme,2015,114640
+Estonia,femme,2019,109626
+Faroe Islands,femme,1990,1845
+Faroe Islands,femme,1995,1325
+Faroe Islands,femme,2000,1672
+Faroe Islands,femme,2005,2133
+Faroe Islands,femme,2010,2396
+Faroe Islands,femme,2015,2702
+Faroe Islands,femme,2019,3167
+Finland,femme,1990,31573
+Finland,femme,1995,50154
+Finland,femme,2000,68734
+Finland,femme,2005,95740
+Finland,femme,2010,113376
+Finland,femme,2015,155541
+Finland,femme,2019,186928
+Iceland,femme,1990,5336
+Iceland,femme,1995,7011
+Iceland,femme,2000,8685
+Iceland,femme,2005,13079
+Iceland,femme,2010,17472
+Iceland,femme,2015,20002
+Iceland,femme,2019,24850
+Ireland,femme,1990,115868
+Ireland,femme,1995,118808
+Ireland,femme,2000,177593
+Ireland,femme,2005,279136
+Ireland,femme,2010,370102
+Ireland,femme,2015,382918
+Ireland,femme,2019,419112
+Isle of Man,femme,1990,18398
+Isle of Man,femme,1995,19338
+Isle of Man,femme,2000,20277
+Isle of Man,femme,2005,21261
+Isle of Man,femme,2010,22086
+Isle of Man,femme,2015,21642
+Isle of Man,femme,2019,21963
+Latvia,femme,1990,355207
+Latvia,femme,1995,303877
+Latvia,femme,2000,252546
+Latvia,femme,2005,221980
+Latvia,femme,2010,189111
+Latvia,femme,2015,161407
+Latvia,femme,2019,143870
+Lithuania,femme,1990,184673
+Lithuania,femme,1995,144946
+Lithuania,femme,2000,113765
+Lithuania,femme,2005,107020
+Lithuania,femme,2010,91166
+Lithuania,femme,2015,78513
+Lithuania,femme,2019,67925
+Norway,femme,1990,93025
+Norway,femme,1995,116080
+Norway,femme,2000,147614
+Norway,femme,2005,184700
+Norway,femme,2010,258294
+Norway,femme,2015,357005
+Norway,femme,2019,416166
+Sweden,femme,1990,405682
+Sweden,femme,1995,485077
+Sweden,femme,2000,523587
+Sweden,femme,2005,587300
+Sweden,femme,2010,711846
+Sweden,femme,2015,848237
+Sweden,femme,2019,996674
+United Kingdom,femme,1990,1893838
+United Kingdom,femme,1995,2176582
+United Kingdom,femme,2000,2501537
+United Kingdom,femme,2005,3107979
+United Kingdom,femme,2010,3665208
+United Kingdom,femme,2015,4387798
+United Kingdom,femme,2019,4970114
+Albania,femme,1990,35434
+Albania,femme,1995,38070
+Albania,femme,2000,40705
+Albania,femme,2005,31746
+Albania,femme,2010,25883
+Albania,femme,2015,25514
+Albania,femme,2019,24106
+Andorra,femme,1990,17901
+Andorra,femme,1995,20618
+Andorra,femme,2000,20054
+Andorra,femme,2005,23832
+Andorra,femme,2010,24766
+Andorra,femme,2015,20779
+Andorra,femme,2019,22011
+Bosnia and Herzegovina,femme,1990,29462
+Bosnia and Herzegovina,femme,1995,36361
+Bosnia and Herzegovina,femme,2000,43261
+Bosnia and Herzegovina,femme,2005,24799
+Bosnia and Herzegovina,femme,2010,20288
+Bosnia and Herzegovina,femme,2015,20174
+Bosnia and Herzegovina,femme,2019,18718
+Croatia,femme,1990,252907
+Croatia,femme,1995,358352
+Croatia,femme,2000,310475
+Croatia,femme,2005,307628
+Croatia,femme,2010,304782
+Croatia,femme,2015,300620
+Croatia,femme,2019,278402
+Gibraltar,femme,1990,4181
+Gibraltar,femme,1995,4185
+Gibraltar,femme,2000,4189
+Gibraltar,femme,2005,4693
+Gibraltar,femme,2010,5198
+Gibraltar,femme,2015,5474
+Gibraltar,femme,2019,5526
+Greece,femme,1990,288101
+Greece,femme,1995,412846
+Greece,femme,2000,551871
+Greece,femme,2005,603030
+Greece,femme,2010,680418
+Greece,femme,2015,672396
+Greece,femme,2019,651174
+Holy See,femme,1990,392
+Holy See,femme,1995,401
+Holy See,femme,2000,406
+Holy See,femme,2005,417
+Holy See,femme,2010,419
+Holy See,femme,2015,427
+Holy See,femme,2019,426
+Italy,femme,1990,785805
+Italy,femme,1995,965401
+Italy,femme,2000,1144997
+Italy,femme,2005,2134500
+Italy,femme,2010,3124004
+Italy,femme,2015,3167530
+Italy,femme,2019,3365603
+Malta,femme,1990,8065
+Malta,femme,1995,9374
+Malta,femme,2000,11232
+Malta,femme,2005,12661
+Malta,femme,2010,15890
+Malta,femme,2015,24310
+Malta,femme,2019,38963
+Montenegro,femme,1990,..
+Montenegro,femme,1995,..
+Montenegro,femme,2000,..
+Montenegro,femme,2005,..
+Montenegro,femme,2010,46873
+Montenegro,femme,2015,43541
+Montenegro,femme,2019,42985
+North Macedonia,femme,1990,55481
+North Macedonia,femme,1995,63762
+North Macedonia,femme,2000,73280
+North Macedonia,femme,2005,74447
+North Macedonia,femme,2010,75634
+North Macedonia,femme,2015,76234
+North Macedonia,femme,2019,76493
+Portugal,femme,1990,225860
+Portugal,femme,1995,273485
+Portugal,femme,2000,331153
+Portugal,femme,2005,394410
+Portugal,femme,2010,391289
+Portugal,femme,2015,466424
+Portugal,femme,2019,476412
+San Marino,femme,1990,1582
+San Marino,femme,1995,1719
+San Marino,femme,2000,1870
+San Marino,femme,2005,1916
+San Marino,femme,2010,2119
+San Marino,femme,2015,2328
+San Marino,femme,2019,2571
+Serbia,femme,1990,52557
+Serbia,femme,1995,480846
+Serbia,femme,2000,540271
+Serbia,femme,2005,471760
+Serbia,femme,2010,461518
+Serbia,femme,2015,452261
+Serbia,femme,2019,459096
+Slovenia,femme,1990,88563
+Slovenia,femme,1995,84164
+Slovenia,femme,2000,99736
+Slovenia,femme,2005,100477
+Slovenia,femme,2010,112501
+Slovenia,femme,2015,103156
+Slovenia,femme,2019,110496
+Spain,femme,1990,431157
+Spain,femme,1995,520953
+Spain,femme,2000,819227
+Spain,femme,2005,1966546
+Spain,femme,2010,3041827
+Spain,femme,2015,3007208
+Spain,femme,2019,3190456
+Austria,femme,1990,424952
+Austria,femme,1995,471591
+Austria,femme,2000,518229
+Austria,femme,2005,592652
+Austria,femme,2010,667074
+Austria,femme,2015,775904
+Austria,femme,2019,906321
+Belgium,femme,1990,626040
+Belgium,femme,1995,636215
+Belgium,femme,2000,632093
+Belgium,femme,2005,627809
+Belgium,femme,2010,776925
+Belgium,femme,2015,913499
+Belgium,femme,2019,1002728
+France,femme,1990,2897891
+France,femme,1995,3041910
+France,femme,2000,3185929
+France,femme,2005,3436741
+France,femme,2010,3755459
+France,femme,2015,4067759
+France,femme,2019,4315585
+Germany,femme,1990,2643053
+Germany,femme,1995,3566009
+Germany,femme,2000,4488965
+Germany,femme,2005,4726269
+Germany,femme,2010,4963574
+Germany,femme,2015,5182457
+Germany,femme,2019,6250156
+Liechtenstein,femme,1990,4950
+Liechtenstein,femme,1995,6243
+Liechtenstein,femme,2000,7503
+Liechtenstein,femme,2005,9464
+Liechtenstein,femme,2010,11475
+Liechtenstein,femme,2015,12194
+Liechtenstein,femme,2019,13061
+Luxembourg,femme,1990,57733
+Luxembourg,femme,1995,63814
+Luxembourg,femme,2000,70464
+Luxembourg,femme,2005,75667
+Luxembourg,femme,2010,81722
+Luxembourg,femme,2015,122759
+Luxembourg,femme,2019,143053
+Monaco,femme,1990,10888
+Monaco,femme,1995,11105
+Monaco,femme,2000,11329
+Monaco,femme,2005,10990
+Monaco,femme,2010,10807
+Monaco,femme,2015,13384
+Monaco,femme,2019,13660
+Netherlands,femme,1990,589920
+Netherlands,femme,1995,677928
+Netherlands,femme,2000,791035
+Netherlands,femme,2005,892683
+Netherlands,femme,2010,951246
+Netherlands,femme,2015,1044005
+Netherlands,femme,2019,1179787
+Switzerland,femme,1990,691172
+Switzerland,femme,1995,709786
+Switzerland,femme,2000,728901
+Switzerland,femme,2005,883050
+Switzerland,femme,2010,1069801
+Switzerland,femme,2015,1233151
+Switzerland,femme,2019,1306686
+Bermuda,femme,1990,8126
+Bermuda,femme,1995,8632
+Bermuda,femme,2000,9137
+Bermuda,femme,2005,9410
+Bermuda,femme,2010,9682
+Bermuda,femme,2015,9790
+Bermuda,femme,2019,9897
+Canada,femme,1990,2223666
+Canada,femme,1995,2508673
+Canada,femme,2000,2852779
+Canada,femme,2005,3163147
+Canada,femme,2010,3524687
+Canada,femme,2015,3895493
+Canada,femme,2019,4174467
+Greenland,femme,1990,2810
+Greenland,femme,1995,2246
+Greenland,femme,2000,1985
+Greenland,femme,2005,2095
+Greenland,femme,2010,1972
+Greenland,femme,2015,1985
+Greenland,femme,2019,1948
+Saint Pierre and Miquelon,femme,1990,539
+Saint Pierre and Miquelon,femme,1995,638
+Saint Pierre and Miquelon,femme,2000,702
+Saint Pierre and Miquelon,femme,2005,550
+Saint Pierre and Miquelon,femme,2010,486
+Saint Pierre and Miquelon,femme,2015,470
+Saint Pierre and Miquelon,femme,2019,471
+United States of America,femme,1990,11878041
+United States of America,femme,1995,14418894
+United States of America,femme,2000,17503268
+United States of America,femme,2005,19643415
+United States of America,femme,2010,22489474
+United States of America,femme,2015,24732004
+United States of America,femme,2019,26172767
