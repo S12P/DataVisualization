@@ -8,205 +8,158 @@
 
 <body>
 
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
 
-    <script>
-        var margin = {
-                top: 30,
-                right: 20,
-                bottom: 50,
-                left: 70
-            },
-            width = 900 - margin.left - margin.right,
-            height = 500 - margin.top - margin.bottom;
+	<script>
 
-        var parseDate = d3.timeParse("%Y");
+		var margin = {top: 30, right: 20, bottom: 50, left: 70},
+    		width = 900 - margin.left - margin.right,
+    		height = 500 - margin.top - margin.bottom;
 
-        var svg = d3.select("#my_dataviz")
-            .append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
-            .append("g")
-            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+		var parseDate = d3.timeParse("%Y");
+
+		var svg = d3.select("#my_dataviz")
+    						.append("svg")
+    						.attr("width", width + margin.left + margin.right)
+    						.attr("height", height + margin.top + margin.bottom)
+    						.append("g")
+    						.attr("transform", "translate(" + margin.left + "," + margin.top + 		 ")");
 
 
 
-        d3.csv("data/data3.csv").then(function (data) {
+		d3.csv("data/data3.csv").then(function(data) {
 
 
-            data.forEach(function (d) {
-                d.pays = d.pays;
-                d.population = +d.population;
-                d.date = parseDate(d.date);
-                d.sexe = d.sexe;
+  		data.forEach(function(d) {
+        d.pays = d.pays;
+        d.population = +d.population;
+        d.date = parseDate(d.date);
+        d.sexe = d.sexe;
 
-            });
+    	});
 
-            var allGroup = d3.map(data, function (d) {
-                return (d.pays)
-            }).keys()
+      var GroupPays = d3.map(data, function(d){return(d.pays)}).keys()
 
-            var allGroup2 = d3.map(data, function (d) {
-                return (d.sexe)
-            }).keys()
+      var GroupSexe = d3.map(data, function(d){return(d.sexe)}).keys()
 
-            var myColor = d3.scaleOrdinal()
-                .domain(allGroup)
-                .range(d3.schemeSet2);
+      var myColor = d3.scaleOrdinal()
+      								.domain(GroupPays)
+      								.range(d3.schemeSet2);
 
-            d3.select("#selectButton")
-                .selectAll('myOptions')
-                .data(allGroup)
-                .enter()
-                .append('option')
-                .text(function (d) {
-                    return d;
-                })
-                .attr("value", function (d) {
-                    return d;
-                })
+      d3.select("#selectButton")
+      	.selectAll('myOptions')
+     		.data(GroupPays)
+      	.enter()
+    		.append('option')
+      	.text(function (d) { return d; })
+      	.attr("value", function (d) { return d; })
 
-            d3.select("#selectButton2")
-                .selectAll('myOptions')
-                .data(allGroup2)
-                .enter()
-                .append('option')
-                .text(function (d) {
-                    return d;
-                })
-                .attr("value", function (d) {
-                    return d;
-                })
+      d3.select("#selectButton2")
+      	.selectAll('myOptions')
+     		.data(GroupSexe)
+      	.enter()
+    		.append('option')
+      	.text(function (d) { return d; })
+      	.attr("value", function (d) { return d; })
 
 
-            var x = d3.scaleTime()
-                .range([0, width]);
-            var y = d3.scaleLinear()
-                .range([height, 0]);
-            var yAxis = d3.axisLeft().scale(y);
-            var xAxis = d3.axisBottom().scale(x);
-            var color = d3.scaleOrdinal(d3.schemeCategory10);
-            var fonction = d3.line()
-                .x(function (d) {
-                    return x(d.date);
-                })
-                .y(function (d) {
-                    return y(d.population);
-                });
+			var x = d3.scaleTime()
+								.range([0, width]);
+			var y = d3.scaleLinear()
+								.range([height, 0]);
+      var yAxis = d3.axisLeft().scale(y);
+      var xAxis = d3.axisBottom().scale(x);
+			var color = d3.scaleOrdinal(d3.schemeCategory10);
+			var fonction = d3.line()
+    								 	 .x(function(d) { return x(d.date); })
+    								 	 .y(function(d) { return y(d.population); });
 
 
 
 
-            var line = svg.append('g')
-                .append("path")
-                .datum(data.filter(function (d) {
-                    return d.pays == allGroup[0]
-                }))
-                .attr("d", d3.line()
-                    .x(function (d) {
-                        return x(d.date)
-                    })
-                    .y(function (d) {
-                        return y(d.population)
-                    })
-                )
-                .attr("stroke", function (d) {
-                    return myColor("valueA")
-                })
-                .style("stroke-width", 4)
-                .style("fill", "none")
+      var line =  svg.append('g')
+      							 .append("path")
+        						 .datum(data.filter(function(d){return d.pays==GroupPays[0]}))
+        						 .attr("d", d3.line()
+          					 							.x(function(d) { return x(d.date) })
+          					 							.y(function(d) { return y(d.population) })
+        							)
+        							.attr("stroke", function(d){ return myColor("valueA") })
+        							.style("stroke-width", 4)
+        							.style("fill", "none")
 
-            var line2 = svg.append('g')
-                .append("path")
-                .datum(data.filter(function (d) {
-                    return d.sexe == allGroup2[0]
-                }))
-                .attr("d", d3.line()
-                    .x(function (d) {
-                        return x(d.date)
-                    })
-                    .y(function (d) {
-                        return y(d.population)
-                    })
-                )
-                .attr("stroke", function (d) {
-                    return myColor("valueA")
-                })
-                .style("stroke-width", 4)
-                .style("fill", "none")
+      var line2 =  svg.append('g')
+      							 .append("path")
+        						 .datum(data.filter(function(d){return d.sexe==GroupSexe[0]}))
+        						 .attr("d", d3.line()
+          					 							.x(function(d) { return x(d.date) })
+          					 							.y(function(d) { return y(d.population) })
+        							)
+        							.attr("stroke", function(d){ return myColor("valueA") })
+        							.style("stroke-width", 4)
+        							.style("fill", "none")
 
-            svg.append("g")
-                .attr("class", "myYaxis")
-            svg.append("g")
-                .attr("transform", "translate(0," + height + ")")
-                .attr("class", "myXaxis")
+      svg.append("g")
+  			.attr("class","myYaxis")
+			svg.append("g")
+      	.attr("transform", "translate(0," + height + ")")
+  			.attr("class","myXaxis")
+    	function update(selectedGroupPays, selectedGroupSexe) {
+				var dataFilter2 = data.filter(function(d){return d.sexe==selectedGroupSexe})
+        //console.log(dataFilter2)
+      	var dataFilter = dataFilter2.filter(function(d){return d.pays==selectedGroupPays})
 
-            function update(selectedGroupPays, selectedGroupSexe) {
-                var dataFilter2 = data.filter(function (d) {
-                    return d.sexe == selectedGroupSexe
-                })
-                var dataFilter = dataFilter2.filter(function (d) {
-                    return d.pays == selectedGroupPays
-                })
+        //console.log(dataFilter)
 
+    		y.domain([0, d3.max(dataFilter, function(d) { return d.population; })]);
+        x.domain(d3.extent(dataFilter, function(d) { return d.date; }));
 
+				svg.selectAll(".myYaxis")
+    			 .transition()
+    			 .duration(1000)
+    			 .call(yAxis);
 
+        svg.selectAll(".myXaxis").transition()
+        	 .transition()
+    			 .duration(1000)
+    			 .call(xAxis);
 
+      	line
+          .datum(dataFilter)
+          .transition()
+          .duration(1000)
+          .attr("d", d3.line()
+            .x(function(d) { return x(d.date) })
+            .y(function(d) { return y(d.population) })
+          )
+          .attr("stroke", function(d){ return myColor(selectedGroupPays) })
 
+    	}
+			var pays = GroupPays[0];
+      var sexe = GroupSexe[0];
 
-                y.domain([0, d3.max(dataFilter, function (d) {
-                    return d.population;
-                })]);
-                x.domain(d3.extent(dataFilter, function (d) {
-                    return d.date;
-                }));
+      console.log(pays, sexe)
+    	d3.select("#selectButton").on("change", function(d) {
+        var selectedOptionPays = d3.select(this).property("value")
+        console.log(selectedOptionPays)
+        pays = selectedOptionPays
+        update(pays, sexe)
+    	})
 
-                svg.selectAll(".myYaxis")
-                    .transition()
-                    .duration(1000)
-                    .call(yAxis);
-
-                svg.selectAll(".myXaxis").transition()
-                    .transition()
-                    .duration(1000)
-                    .call(xAxis);
-
-                line
-                    .datum(dataFilter)
-                    .transition()
-                    .duration(1000)
-                    .attr("d", d3.line()
-                        .x(function (d) {
-                            return x(d.date)
-                        })
-                        .y(function (d) {
-                            return y(d.population)
-                        })
-                    )
-                    .attr("stroke", function (d) {
-                        return myColor(selectedGroup)
-                    })
-
-            }
-            var w = allGroup[0];
-            var e = allGroup2[0];
-            d3.select("#selectButton").on("change", function (d) {
-                var selectedOptionPays = d3.select(this).property("value")
-                w = selectedOptionPays
-                update(w, e)
-            })
-
-            d3.select("#selectButton2").on("change", function (d) {
-                var selectedOptionSexe = d3.select(this).property("value")
-                e = selectedOptionSexe
-                update(w, e)
-            })
+      d3.select("#selectButton2").on("change", function(d) {
+        var selectedOptionSexe = d3.select(this).property("value")
+        console.log(selectedOptionSexe)
+        sexe = selectedOptionSexe
+        update(pays, sexe)
+    	})
 
 
-            update(w, e)
+      update(pays, sexe)
 
 
 
-        });
-    </script>
+		});
+
+
+	</script>
 </body>
