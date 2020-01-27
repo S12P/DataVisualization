@@ -1,4 +1,18 @@
 pays,sexe,date,population
+Burundi,tous,1990,333110
+Burundi,tous,1995,254853
+Burundi,tous,2000,125628
+Burundi,tous,2005,172874
+Burundi,tous,2010,235259
+Burundi,tous,2015,289810
+Burundi,tous,2019,321018
+Burundi,homme,1990,163267
+Burundi,homme,1995,124165
+Burundi,homme,2000,61094
+Burundi,homme,2005,84805
+Burundi,homme,2010,115823
+Burundi,homme,2015,142790
+Burundi,homme,2019,158163
 Burundi,femme,1990,169843
 Burundi,femme,1995,130688
 Burundi,femme,2000,64534
@@ -6,6 +20,20 @@ Burundi,femme,2005,88069
 Burundi,femme,2010,119436
 Burundi,femme,2015,147020
 Burundi,femme,2019,162855
+Comoros,tous,1990,14079
+Comoros,tous,1995,13939
+Comoros,tous,2000,13799
+Comoros,tous,2005,13209
+Comoros,tous,2010,12618
+Comoros,tous,2015,12555
+Comoros,tous,2019,12504
+Comoros,homme,1990,6717
+Comoros,homme,1995,6614
+Comoros,homme,2000,6511
+Comoros,homme,2005,6286
+Comoros,homme,2010,6060
+Comoros,homme,2015,6071
+Comoros,homme,2019,6047
 Comoros,femme,1990,7362
 Comoros,femme,1995,7325
 Comoros,femme,2000,7288
@@ -13,6 +41,20 @@ Comoros,femme,2005,6923
 Comoros,femme,2010,6558
 Comoros,femme,2015,6484
 Comoros,femme,2019,6457
+Djibouti,tous,1990,122221
+Djibouti,tous,1995,99774
+Djibouti,tous,2000,100507
+Djibouti,tous,2005,92091
+Djibouti,tous,2010,101575
+Djibouti,tous,2015,112351
+Djibouti,tous,2019,115341
+Djibouti,homme,1990,64242
+Djibouti,homme,1995,52476
+Djibouti,homme,2000,52920
+Djibouti,homme,2005,51315
+Djibouti,homme,2010,53295
+Djibouti,homme,2015,59081
+Djibouti,homme,2019,60654
 Djibouti,femme,1990,57979
 Djibouti,femme,1995,47298
 Djibouti,femme,2000,47587
@@ -20,6 +62,20 @@ Djibouti,femme,2005,40776
 Djibouti,femme,2010,48280
 Djibouti,femme,2015,53270
 Djibouti,femme,2019,54687
+Eritrea,tous,1990,11848
+Eritrea,tous,1995,12400
+Eritrea,tous,2000,12952
+Eritrea,tous,2005,14314
+Eritrea,tous,2010,15676
+Eritrea,tous,2015,15941
+Eritrea,tous,2019,16101
+Eritrea,homme,1990,6228
+Eritrea,homme,1995,6542
+Eritrea,homme,2000,6856
+Eritrea,homme,2005,7729
+Eritrea,homme,2010,8603
+Eritrea,homme,2015,8833
+Eritrea,homme,2019,8922
 Eritrea,femme,1990,5620
 Eritrea,femme,1995,5858
 Eritrea,femme,2000,6096
@@ -27,6 +83,20 @@ Eritrea,femme,2005,6585
 Eritrea,femme,2010,7073
 Eritrea,femme,2015,7108
 Eritrea,femme,2019,7179
+Ethiopia,tous,1990,1155390
+Ethiopia,tous,1995,806904
+Ethiopia,tous,2000,611384
+Ethiopia,tous,2005,514242
+Ethiopia,tous,2010,568748
+Ethiopia,tous,2015,1161642
+Ethiopia,tous,2019,1253083
+Ethiopia,homme,1990,607284
+Ethiopia,homme,1995,424117
+Ethiopia,homme,2000,322219
+Ethiopia,homme,2005,269725
+Ethiopia,homme,2010,298069
+Ethiopia,homme,2015,591409
+Ethiopia,homme,2019,637963
 Ethiopia,femme,1990,548106
 Ethiopia,femme,1995,382787
 Ethiopia,femme,2000,289165
@@ -34,6 +104,20 @@ Ethiopia,femme,2005,244517
 Ethiopia,femme,2010,270679
 Ethiopia,femme,2015,570233
 Ethiopia,femme,2019,615120
+Kenya,tous,1990,298089
+Kenya,tous,1995,618745
+Kenya,tous,2000,707852
+Kenya,tous,2005,773354
+Kenya,tous,2010,954925
+Kenya,tous,2015,1126886
+Kenya,tous,2019,1044854
+Kenya,homme,1990,161259
+Kenya,homme,1995,322189
+Kenya,homme,2000,352933
+Kenya,homme,2005,400364
+Kenya,homme,2010,473093
+Kenya,homme,2015,562909
+Kenya,homme,2019,522321
 Kenya,femme,1990,136830
 Kenya,femme,1995,296556
 Kenya,femme,2000,354919
@@ -41,6 +125,20 @@ Kenya,femme,2005,372990
 Kenya,femme,2010,481832
 Kenya,femme,2015,563977
 Kenya,femme,2019,522533
+Madagascar,tous,1990,23917
+Madagascar,tous,1995,21177
+Madagascar,tous,2000,23541
+Madagascar,tous,2005,26058
+Madagascar,tous,2010,28905
+Madagascar,tous,2015,32075
+Madagascar,tous,2019,34934
+Madagascar,homme,1990,13348
+Madagascar,homme,1995,11901
+Madagascar,homme,2000,13276
+Madagascar,homme,2005,14744
+Madagascar,homme,2010,16410
+Madagascar,homme,2015,18270
+Madagascar,homme,2019,19897
 Madagascar,femme,1990,10569
 Madagascar,femme,1995,9276
 Madagascar,femme,2000,10265
@@ -48,6 +146,20 @@ Madagascar,femme,2005,11314
 Madagascar,femme,2010,12495
 Madagascar,femme,2015,13805
 Madagascar,femme,2019,15037
+Malawi,tous,1990,1127724
+Malawi,tous,1995,241624
+Malawi,tous,2000,232620
+Malawi,tous,2005,221661
+Malawi,tous,2010,217722
+Malawi,tous,2015,232803
+Malawi,tous,2019,247652
+Malawi,homme,1990,546520
+Malawi,homme,1995,116198
+Malawi,homme,2000,111530
+Malawi,homme,2005,105931
+Malawi,homme,2010,103869
+Malawi,homme,2015,110893
+Malawi,homme,2019,117932
 Malawi,femme,1990,581204
 Malawi,femme,1995,125426
 Malawi,femme,2000,121090
@@ -55,6 +167,20 @@ Malawi,femme,2005,115730
 Malawi,femme,2010,113853
 Malawi,femme,2015,121910
 Malawi,femme,2019,129720
+Mauritius,tous,1990,3613
+Mauritius,tous,1995,7493
+Mauritius,tous,2000,15543
+Mauritius,tous,2005,19647
+Mauritius,tous,2010,24836
+Mauritius,tous,2015,28585
+Mauritius,tous,2019,28849
+Mauritius,homme,1990,1763
+Mauritius,homme,1995,3228
+Mauritius,homme,2000,5705
+Mauritius,homme,2005,8943
+Mauritius,homme,2010,13188
+Mauritius,homme,2015,15832
+Mauritius,homme,2019,15979
 Mauritius,femme,1990,1850
 Mauritius,femme,1995,4265
 Mauritius,femme,2000,9838
@@ -62,6 +188,20 @@ Mauritius,femme,2005,10704
 Mauritius,femme,2010,11648
 Mauritius,femme,2015,12753
 Mauritius,femme,2019,12870
+Mayotte,tous,1990,15229
+Mayotte,tous,1995,26316
+Mayotte,tous,2000,45474
+Mayotte,tous,2005,63176
+Mayotte,tous,2010,72757
+Mayotte,tous,2015,73992
+Mayotte,tous,2019,74643
+Mayotte,homme,1990,8780
+Mayotte,homme,1995,14679
+Mayotte,homme,2000,23546
+Mayotte,homme,2005,31364
+Mayotte,homme,2010,34500
+Mayotte,homme,2015,34235
+Mayotte,homme,2019,34537
 Mayotte,femme,1990,6449
 Mayotte,femme,1995,11637
 Mayotte,femme,2000,21928
@@ -69,6 +209,20 @@ Mayotte,femme,2005,31812
 Mayotte,femme,2010,38257
 Mayotte,femme,2015,39757
 Mayotte,femme,2019,40106
+Mozambique,tous,1990,122332
+Mozambique,tous,1995,168256
+Mozambique,tous,2000,195702
+Mozambique,tous,2005,264679
+Mozambique,tous,2010,306471
+Mozambique,tous,2015,321794
+Mozambique,tous,2019,334665
+Mozambique,homme,1990,66060
+Mozambique,homme,1995,91210
+Mozambique,homme,2000,103175
+Mozambique,homme,2005,127908
+Mozambique,homme,2010,148105
+Mozambique,homme,2015,155510
+Mozambique,homme,2019,161731
 Mozambique,femme,1990,56272
 Mozambique,femme,1995,77046
 Mozambique,femme,2000,92527
@@ -76,6 +230,20 @@ Mozambique,femme,2005,136771
 Mozambique,femme,2010,158366
 Mozambique,femme,2015,166284
 Mozambique,femme,2019,172934
+Réunion,tous,1990,57210
+Réunion,tous,1995,77159
+Réunion,tous,2000,100678
+Réunion,tous,2005,115076
+Réunion,tous,2010,123029
+Réunion,tous,2015,127209
+Réunion,tous,2019,129153
+Réunion,homme,1990,30724
+Réunion,homme,1995,40710
+Réunion,homme,2000,52264
+Réunion,homme,2005,59196
+Réunion,homme,2010,62707
+Réunion,homme,2015,64537
+Réunion,homme,2019,65524
 Réunion,femme,1990,26486
 Réunion,femme,1995,36449
 Réunion,femme,2000,48414
@@ -83,6 +251,20 @@ Réunion,femme,2005,55880
 Réunion,femme,2010,60322
 Réunion,femme,2015,62672
 Réunion,femme,2019,63629
+Rwanda,tous,1990,160024
+Rwanda,tous,1995,215735
+Rwanda,tous,2000,347076
+Rwanda,tous,2005,423187
+Rwanda,tous,2010,426901
+Rwanda,tous,2015,514647
+Rwanda,tous,2019,539932
+Rwanda,homme,1990,80763
+Rwanda,homme,1995,109783
+Rwanda,homme,2000,175741
+Rwanda,homme,2005,213279
+Rwanda,homme,2010,214048
+Rwanda,homme,2015,256327
+Rwanda,homme,2019,269917
 Rwanda,femme,1990,79261
 Rwanda,femme,1995,105952
 Rwanda,femme,2000,171335
@@ -90,6 +272,20 @@ Rwanda,femme,2005,209908
 Rwanda,femme,2010,212853
 Rwanda,femme,2015,258320
 Rwanda,femme,2019,270015
+Seychelles,tous,1990,3721
+Seychelles,tous,1995,5148
+Seychelles,tous,2000,6574
+Seychelles,tous,2005,8997
+Seychelles,tous,2010,11420
+Seychelles,tous,2015,12791
+Seychelles,tous,2019,12926
+Seychelles,homme,1990,2204
+Seychelles,homme,1995,3021
+Seychelles,homme,2000,3837
+Seychelles,homme,2005,5820
+Seychelles,homme,2010,7804
+Seychelles,homme,2015,8954
+Seychelles,homme,2019,9049
 Seychelles,femme,1990,1517
 Seychelles,femme,1995,2127
 Seychelles,femme,2000,2737
@@ -97,6 +293,20 @@ Seychelles,femme,2005,3177
 Seychelles,femme,2010,3616
 Seychelles,femme,2015,3837
 Seychelles,femme,2019,3877
+Somalia,tous,1990,478294
+Somalia,tous,1995,19527
+Somalia,tous,2000,20097
+Somalia,tous,2005,20670
+Somalia,tous,2010,48106
+Somalia,tous,2015,40990
+Somalia,tous,2019,52131
+Somalia,homme,1990,244201
+Somalia,homme,1995,10282
+Somalia,homme,2000,10628
+Somalia,homme,2005,11047
+Somalia,homme,2010,25213
+Somalia,homme,2015,21584
+Somalia,homme,2019,27184
 Somalia,femme,1990,234093
 Somalia,femme,1995,9245
 Somalia,femme,2000,9469
@@ -104,13 +314,29 @@ Somalia,femme,2005,9623
 Somalia,femme,2010,22893
 Somalia,femme,2015,19406
 Somalia,femme,2019,24947
-South Sudan,femme,1990,..
-South Sudan,femme,1995,..
-South Sudan,femme,2000,..
-South Sudan,femme,2005,..
+South Sudan,tous,2010,257905
+South Sudan,tous,2015,844122
+South Sudan,tous,2019,865552
+South Sudan,homme,2010,132693
+South Sudan,homme,2015,430949
+South Sudan,homme,2019,441677
 South Sudan,femme,2010,125212
 South Sudan,femme,2015,413173
 South Sudan,femme,2019,423875
+Uganda,tous,1990,544273
+Uganda,tous,1995,606987
+Uganda,tous,2000,584280
+Uganda,tous,2005,593308
+Uganda,tous,2010,492930
+Uganda,tous,2015,851175
+Uganda,tous,2019,1734166
+Uganda,homme,1990,283337
+Uganda,homme,1995,308281
+Uganda,homme,2000,290859
+Uganda,homme,2005,292130
+Uganda,homme,2010,241903
+Uganda,homme,2015,415845
+Uganda,homme,2019,836620
 Uganda,femme,1990,260936
 Uganda,femme,1995,298706
 Uganda,femme,2000,293421
@@ -118,6 +344,20 @@ Uganda,femme,2005,301178
 Uganda,femme,2010,251027
 Uganda,femme,2015,435330
 Uganda,femme,2019,897546
+United Republic of Tanzania,tous,1990,574025
+United Republic of Tanzania,tous,1995,1106043
+United Republic of Tanzania,tous,2000,949600
+United Republic of Tanzania,tous,2005,771153
+United Republic of Tanzania,tous,2010,309847
+United Republic of Tanzania,tous,2015,384567
+United Republic of Tanzania,tous,2019,509166
+United Republic of Tanzania,homme,1990,283390
+United Republic of Tanzania,homme,1995,547089
+United Republic of Tanzania,homme,2000,481816
+United Republic of Tanzania,homme,2005,486983
+United Republic of Tanzania,homme,2010,154591
+United Republic of Tanzania,homme,2015,190617
+United Republic of Tanzania,homme,2019,251424
 United Republic of Tanzania,femme,1990,290635
 United Republic of Tanzania,femme,1995,558954
 United Republic of Tanzania,femme,2000,467784
@@ -125,6 +365,20 @@ United Republic of Tanzania,femme,2005,284170
 United Republic of Tanzania,femme,2010,155256
 United Republic of Tanzania,femme,2015,193950
 United Republic of Tanzania,femme,2019,257742
+Zambia,tous,1990,279463
+Zambia,tous,1995,244338
+Zambia,tous,2000,343703
+Zambia,tous,2005,252895
+Zambia,tous,2010,149962
+Zambia,tous,2015,132107
+Zambia,tous,2019,170249
+Zambia,homme,1990,143029
+Zambia,homme,1995,125329
+Zambia,homme,2000,175114
+Zambia,homme,2005,128628
+Zambia,homme,2010,75941
+Zambia,homme,2015,66651
+Zambia,homme,2019,86098
 Zambia,femme,1990,136434
 Zambia,femme,1995,119009
 Zambia,femme,2000,168589
@@ -132,6 +386,20 @@ Zambia,femme,2005,124267
 Zambia,femme,2010,74021
 Zambia,femme,2015,65456
 Zambia,femme,2019,84151
+Zimbabwe,tous,1990,634621
+Zimbabwe,tous,1995,431226
+Zimbabwe,tous,2000,410109
+Zimbabwe,tous,2005,402226
+Zimbabwe,tous,2010,398307
+Zimbabwe,tous,2015,400482
+Zimbabwe,tous,2019,411257
+Zimbabwe,homme,1990,356240
+Zimbabwe,homme,1995,246013
+Zimbabwe,homme,2000,233881
+Zimbabwe,homme,2005,229254
+Zimbabwe,homme,2010,227201
+Zimbabwe,homme,2015,225653
+Zimbabwe,homme,2019,233652
 Zimbabwe,femme,1990,278381
 Zimbabwe,femme,1995,185213
 Zimbabwe,femme,2000,176228
@@ -139,6 +407,20 @@ Zimbabwe,femme,2005,172972
 Zimbabwe,femme,2010,171106
 Zimbabwe,femme,2015,174829
 Zimbabwe,femme,2019,177605
+Angola,tous,1990,33517
+Angola,tous,1995,39813
+Angola,tous,2000,46108
+Angola,tous,2005,61329
+Angola,tous,2010,332126
+Angola,tous,2015,632178
+Angola,tous,2019,669479
+Angola,homme,1990,18142
+Angola,homme,1995,20755
+Angola,homme,2000,23367
+Angola,homme,2005,30240
+Angola,homme,2010,160275
+Angola,homme,2015,304635
+Angola,homme,2019,341719
 Angola,femme,1990,15375
 Angola,femme,1995,19058
 Angola,femme,2000,22741
@@ -146,6 +428,20 @@ Angola,femme,2005,31089
 Angola,femme,2010,171851
 Angola,femme,2015,327543
 Angola,femme,2019,327760
+Cameroon,tous,1990,265967
+Cameroon,tous,1995,244791
+Cameroon,tous,2000,227242
+Cameroon,tous,2005,265503
+Cameroon,tous,2010,291474
+Cameroon,tous,2015,508346
+Cameroon,tous,2019,505692
+Cameroon,homme,1990,145869
+Cameroon,homme,1995,133945
+Cameroon,homme,2000,124008
+Cameroon,homme,2005,146129
+Cameroon,homme,2010,161485
+Cameroon,homme,2015,251311
+Cameroon,homme,2019,250177
 Cameroon,femme,1990,120098
 Cameroon,femme,1995,110846
 Cameroon,femme,2000,103234
@@ -153,6 +449,20 @@ Cameroon,femme,2005,119374
 Cameroon,femme,2010,129989
 Cameroon,femme,2015,257035
 Cameroon,femme,2019,255515
+Central African Republic,tous,1990,67234
+Central African Republic,tous,1995,99712
+Central African Republic,tous,2000,123529
+Central African Republic,tous,2005,94449
+Central African Republic,tous,2010,93466
+Central African Republic,tous,2015,81598
+Central African Republic,tous,2019,90649
+Central African Republic,homme,1990,35686
+Central African Republic,homme,1995,52975
+Central African Republic,homme,2000,65636
+Central African Republic,homme,2005,50236
+Central African Republic,homme,2010,49743
+Central African Republic,homme,2015,43163
+Central African Republic,homme,2019,48004
 Central African Republic,femme,1990,31548
 Central African Republic,femme,1995,46737
 Central African Republic,femme,2000,57893
@@ -160,6 +470,20 @@ Central African Republic,femme,2005,44213
 Central African Republic,femme,2010,43723
 Central African Republic,femme,2015,38435
 Central African Republic,femme,2019,42645
+Chad,tous,1990,74342
+Chad,tous,1995,89584
+Chad,tous,2000,104825
+Chad,tous,2005,352062
+Chad,tous,2010,416924
+Chad,tous,2015,466968
+Chad,tous,2019,512230
+Chad,homme,1990,40133
+Chad,homme,1995,48298
+Chad,homme,2000,56463
+Chad,homme,2005,159715
+Chad,homme,2010,186773
+Chad,homme,2015,215640
+Chad,homme,2019,236334
 Chad,femme,1990,34209
 Chad,femme,1995,41286
 Chad,femme,2000,48362
@@ -167,6 +491,20 @@ Chad,femme,2005,192347
 Chad,femme,2010,230151
 Chad,femme,2015,251328
 Chad,femme,2019,275896
+Congo,tous,1990,129391
+Congo,tous,1995,191635
+Congo,tous,2000,305880
+Congo,tous,2005,318724
+Congo,tous,2010,425173
+Congo,tous,2015,390142
+Congo,tous,2019,402142
+Congo,homme,1990,64316
+Congo,homme,1995,95822
+Congo,homme,2000,153107
+Congo,homme,2005,173229
+Congo,homme,2010,231105
+Congo,homme,2015,213764
+Congo,homme,2019,220238
 Congo,femme,1990,65075
 Congo,femme,1995,95813
 Congo,femme,2000,152773
@@ -174,6 +512,20 @@ Congo,femme,2005,145495
 Congo,femme,2010,194068
 Congo,femme,2015,176378
 Congo,femme,2019,181904
+Democratic Republic of the Congo,tous,1990,754194
+Democratic Republic of the Congo,tous,1995,1816963
+Democratic Republic of the Congo,tous,2000,744387
+Democratic Republic of the Congo,tous,2005,622869
+Democratic Republic of the Congo,tous,2010,588950
+Democratic Republic of the Congo,tous,2015,824492
+Democratic Republic of the Congo,tous,2019,963833
+Democratic Republic of the Congo,homme,1990,363117
+Democratic Republic of the Congo,homme,1995,901379
+Democratic Republic of the Congo,homme,2000,365092
+Democratic Republic of the Congo,homme,2005,302290
+Democratic Republic of the Congo,homme,2010,284244
+Democratic Republic of the Congo,homme,2015,401058
+Democratic Republic of the Congo,homme,2019,463954
 Democratic Republic of the Congo,femme,1990,391077
 Democratic Republic of the Congo,femme,1995,915584
 Democratic Republic of the Congo,femme,2000,379295
@@ -181,6 +533,20 @@ Democratic Republic of the Congo,femme,2005,320579
 Democratic Republic of the Congo,femme,2010,304706
 Democratic Republic of the Congo,femme,2015,423434
 Democratic Republic of the Congo,femme,2019,499879
+Equatorial Guinea,tous,1990,2740
+Equatorial Guinea,tous,1995,3629
+Equatorial Guinea,tous,2000,4517
+Equatorial Guinea,tous,2005,6588
+Equatorial Guinea,tous,2010,8658
+Equatorial Guinea,tous,2015,209611
+Equatorial Guinea,tous,2019,227617
+Equatorial Guinea,homme,1990,1465
+Equatorial Guinea,homme,1995,1930
+Equatorial Guinea,homme,2000,2394
+Equatorial Guinea,homme,2005,3564
+Equatorial Guinea,homme,2010,4734
+Equatorial Guinea,homme,2015,161527
+Equatorial Guinea,homme,2019,175403
 Equatorial Guinea,femme,1990,1275
 Equatorial Guinea,femme,1995,1699
 Equatorial Guinea,femme,2000,2123
@@ -188,6 +554,20 @@ Equatorial Guinea,femme,2005,3024
 Equatorial Guinea,femme,2010,3924
 Equatorial Guinea,femme,2015,48084
 Equatorial Guinea,femme,2019,52214
+Gabon,tous,1990,128188
+Gabon,tous,1995,171427
+Gabon,tous,2000,214431
+Gabon,tous,2005,233824
+Gabon,tous,2010,270829
+Gabon,tous,2015,378686
+Gabon,tous,2019,411463
+Gabon,homme,1990,73172
+Gabon,homme,1995,97800
+Gabon,homme,2000,122986
+Gabon,homme,2005,135107
+Gabon,homme,2010,158680
+Gabon,homme,2015,243782
+Gabon,homme,2019,264758
 Gabon,femme,1990,55016
 Gabon,femme,1995,73627
 Gabon,femme,2000,91445
@@ -195,6 +575,20 @@ Gabon,femme,2005,98717
 Gabon,femme,2010,112149
 Gabon,femme,2015,134904
 Gabon,femme,2019,146705
+Sao Tome and Principe,tous,1990,5582
+Sao Tome and Principe,tous,1995,4936
+Sao Tome and Principe,tous,2000,4365
+Sao Tome and Principe,tous,2005,3433
+Sao Tome and Principe,tous,2010,2700
+Sao Tome and Principe,tous,2015,2394
+Sao Tome and Principe,tous,2019,2174
+Sao Tome and Principe,homme,1990,2953
+Sao Tome and Principe,homme,1995,2548
+Sao Tome and Principe,homme,2000,2212
+Sao Tome and Principe,homme,2005,1727
+Sao Tome and Principe,homme,2010,1352
+Sao Tome and Principe,homme,2015,1197
+Sao Tome and Principe,homme,2019,1085
 Sao Tome and Principe,femme,1990,2629
 Sao Tome and Principe,femme,1995,2388
 Sao Tome and Principe,femme,2000,2153
@@ -202,6 +596,20 @@ Sao Tome and Principe,femme,2005,1706
 Sao Tome and Principe,femme,2010,1348
 Sao Tome and Principe,femme,2015,1197
 Sao Tome and Principe,femme,2019,1089
+Botswana,tous,1990,27510
+Botswana,tous,1995,40168
+Botswana,tous,2000,74934
+Botswana,tous,2005,84614
+Botswana,tous,2010,94614
+Botswana,tous,2015,103268
+Botswana,tous,2019,110596
+Botswana,homme,1990,16614
+Botswana,homme,1995,23517
+Botswana,homme,2000,43840
+Botswana,homme,2005,49132
+Botswana,homme,2010,53881
+Botswana,homme,2015,58769
+Botswana,homme,2019,62943
 Botswana,femme,1990,10896
 Botswana,femme,1995,16651
 Botswana,femme,2000,31094
@@ -209,6 +617,20 @@ Botswana,femme,2005,35482
 Botswana,femme,2010,40733
 Botswana,femme,2015,44499
 Botswana,femme,2019,47653
+Eswatini,tous,1990,74991
+Eswatini,tous,1995,35157
+Eswatini,tous,2000,34084
+Eswatini,tous,2005,33392
+Eswatini,tous,2010,32637
+Eswatini,tous,2015,32352
+Eswatini,tous,2019,32310
+Eswatini,homme,1990,39905
+Eswatini,homme,1995,18701
+Eswatini,homme,2000,17921
+Eswatini,homme,2005,17369
+Eswatini,homme,2010,16790
+Eswatini,homme,2015,16627
+Eswatini,homme,2019,16582
 Eswatini,femme,1990,35086
 Eswatini,femme,1995,16456
 Eswatini,femme,2000,16163
@@ -216,6 +638,20 @@ Eswatini,femme,2005,16023
 Eswatini,femme,2010,15847
 Eswatini,femme,2015,15725
 Eswatini,femme,2019,15728
+Lesotho,tous,1990,8240
+Lesotho,tous,1995,7204
+Lesotho,tous,2000,6167
+Lesotho,tous,2005,6290
+Lesotho,tous,2010,6414
+Lesotho,tous,2015,6572
+Lesotho,tous,2019,6928
+Lesotho,homme,1990,4318
+Lesotho,homme,1995,3827
+Lesotho,homme,2000,3335
+Lesotho,homme,2005,3402
+Lesotho,homme,2010,3469
+Lesotho,homme,2015,3558
+Lesotho,homme,2019,3751
 Lesotho,femme,1990,3922
 Lesotho,femme,1995,3377
 Lesotho,femme,2000,2832
@@ -223,6 +659,20 @@ Lesotho,femme,2005,2888
 Lesotho,femme,2010,2945
 Lesotho,femme,2015,3014
 Lesotho,femme,2019,3177
+Namibia,tous,1990,120641
+Namibia,tous,1995,115372
+Namibia,tous,2000,135547
+Namibia,tous,2005,107347
+Namibia,tous,2010,103826
+Namibia,tous,2015,101618
+Namibia,tous,2019,107561
+Namibia,homme,1990,63748
+Namibia,homme,1995,61310
+Namibia,homme,2000,73154
+Namibia,homme,2005,57625
+Namibia,homme,2010,55803
+Namibia,homme,2015,54739
+Namibia,homme,2019,57938
 Namibia,femme,1990,56893
 Namibia,femme,1995,54062
 Namibia,femme,2000,62393
@@ -230,6 +680,20 @@ Namibia,femme,2005,49722
 Namibia,femme,2010,48023
 Namibia,femme,2015,46879
 Namibia,femme,2019,49623
+South Africa,tous,1990,1163883
+South Africa,tous,1995,1003807
+South Africa,tous,2000,1016963
+South Africa,tous,2005,1351031
+South Africa,tous,2010,2114801
+South Africa,tous,2015,3816695
+South Africa,tous,2019,4224256
+South Africa,homme,1990,717227
+South Africa,homme,1995,611083
+South Africa,homme,2000,607602
+South Africa,homme,2005,782272
+South Africa,homme,2010,1221739
+South Africa,homme,2015,2122100
+South Africa,homme,2019,2350362
 South Africa,femme,1990,446656
 South Africa,femme,1995,392724
 South Africa,femme,2000,409361
@@ -237,6 +701,20 @@ South Africa,femme,2005,568759
 South Africa,femme,2010,893062
 South Africa,femme,2015,1694595
 South Africa,femme,2019,1873894
+Benin,tous,1990,76751
+Benin,tous,1995,105703
+Benin,tous,2000,134655
+Benin,tous,2005,221889
+Benin,tous,2010,309124
+Benin,tous,2015,366284
+Benin,tous,2019,390112
+Benin,homme,1990,40418
+Benin,homme,1995,56304
+Benin,homme,2000,72190
+Benin,homme,2005,107882
+Benin,homme,2010,143575
+Benin,homme,2015,172056
+Benin,homme,2019,183593
 Benin,femme,1990,36333
 Benin,femme,1995,49399
 Benin,femme,2000,62465
@@ -244,6 +722,20 @@ Benin,femme,2005,114007
 Benin,femme,2010,165549
 Benin,femme,2015,194228
 Benin,femme,2019,206519
+Burkina Faso,tous,1990,349652
+Burkina Faso,tous,1995,464104
+Burkina Faso,tous,2000,520363
+Burkina Faso,tous,2005,597658
+Burkina Faso,tous,2010,674438
+Burkina Faso,tous,2015,704676
+Burkina Faso,tous,2019,718338
+Burkina Faso,homme,1990,167834
+Burkina Faso,homme,1995,223156
+Burkina Faso,homme,2000,250555
+Burkina Faso,homme,2005,285871
+Burkina Faso,homme,2010,320939
+Burkina Faso,homme,2015,335328
+Burkina Faso,homme,2019,341830
 Burkina Faso,femme,1990,181818
 Burkina Faso,femme,1995,240948
 Burkina Faso,femme,2000,269808
@@ -251,6 +743,20 @@ Burkina Faso,femme,2005,311787
 Burkina Faso,femme,2010,353499
 Burkina Faso,femme,2015,369348
 Burkina Faso,femme,2019,376508
+Cabo Verde,tous,1990,8931
+Cabo Verde,tous,1995,9979
+Cabo Verde,tous,2000,11027
+Cabo Verde,tous,2005,12700
+Cabo Verde,tous,2010,14373
+Cabo Verde,tous,2015,14924
+Cabo Verde,tous,2019,15664
+Cabo Verde,homme,1990,4429
+Cabo Verde,homme,1995,5091
+Cabo Verde,homme,2000,5753
+Cabo Verde,homme,2005,6523
+Cabo Verde,homme,2010,7293
+Cabo Verde,homme,2015,7547
+Cabo Verde,homme,2019,7922
 Cabo Verde,femme,1990,4502
 Cabo Verde,femme,1995,4888
 Cabo Verde,femme,2000,5274
@@ -258,6 +764,20 @@ Cabo Verde,femme,2005,6177
 Cabo Verde,femme,2010,7080
 Cabo Verde,femme,2015,7377
 Cabo Verde,femme,2019,7742
+Côte d'Ivoire,tous,1990,1816426
+Côte d'Ivoire,tous,1995,2076394
+Côte d'Ivoire,tous,2000,2163644
+Côte d'Ivoire,tous,2005,2265090
+Côte d'Ivoire,tous,2010,2366537
+Côte d'Ivoire,tous,2015,2467984
+Côte d'Ivoire,tous,2019,2549141
+Côte d'Ivoire,homme,1990,1011749
+Côte d'Ivoire,homme,1995,1150710
+Côte d'Ivoire,homme,2000,1198496
+Côte d'Ivoire,homme,2005,1254690
+Côte d'Ivoire,homme,2010,1310459
+Côte d'Ivoire,homme,2015,1366634
+Côte d'Ivoire,homme,2019,1411575
 Côte d'Ivoire,femme,1990,804677
 Côte d'Ivoire,femme,1995,925684
 Côte d'Ivoire,femme,2000,965148
@@ -265,6 +785,20 @@ Côte d'Ivoire,femme,2005,1010400
 Côte d'Ivoire,femme,2010,1056078
 Côte d'Ivoire,femme,2015,1101350
 Côte d'Ivoire,femme,2019,1137566
+Gambia,tous,1990,118123
+Gambia,tous,1995,150890
+Gambia,tous,2000,182514
+Gambia,tous,2005,181905
+Gambia,tous,2010,185763
+Gambia,tous,2015,192540
+Gambia,tous,2019,215406
+Gambia,homme,1990,66306
+Gambia,homme,1995,82048
+Gambia,homme,2000,97138
+Gambia,homme,2005,96230
+Gambia,homme,2010,98086
+Gambia,homme,2015,101501
+Gambia,homme,2019,113552
 Gambia,femme,1990,51817
 Gambia,femme,1995,68842
 Gambia,femme,2000,85376
@@ -272,6 +806,20 @@ Gambia,femme,2005,85675
 Gambia,femme,2010,87677
 Gambia,femme,2015,91039
 Gambia,femme,2019,101854
+Ghana,tous,1990,164851
+Ghana,tous,1995,252879
+Ghana,tous,2000,191601
+Ghana,tous,2005,304436
+Ghana,tous,2010,337017
+Ghana,tous,2015,414744
+Ghana,tous,2019,466780
+Ghana,homme,1990,83030
+Ghana,homme,1995,127423
+Ghana,homme,2000,97279
+Ghana,homme,2005,156778
+Ghana,homme,2010,179647
+Ghana,homme,2015,221026
+Ghana,homme,2019,249224
 Ghana,femme,1990,81821
 Ghana,femme,1995,125456
 Ghana,femme,2000,94322
@@ -279,6 +827,20 @@ Ghana,femme,2005,147658
 Ghana,femme,2010,157370
 Ghana,femme,2015,193718
 Ghana,femme,2019,217556
+Guinea,tous,1990,403621
+Guinea,tous,1995,774505
+Guinea,tous,2000,560075
+Guinea,tous,2005,229611
+Guinea,tous,2010,177998
+Guinea,tous,2015,126386
+Guinea,tous,2019,120642
+Guinea,homme,1990,201260
+Guinea,homme,1995,386537
+Guinea,homme,2000,279108
+Guinea,homme,2005,111738
+Guinea,homme,2010,92899
+Guinea,homme,2015,74060
+Guinea,homme,2019,70695
 Guinea,femme,1990,202361
 Guinea,femme,1995,387968
 Guinea,femme,2000,280967
@@ -286,6 +848,20 @@ Guinea,femme,2005,117873
 Guinea,femme,2010,85099
 Guinea,femme,2015,52326
 Guinea,femme,2019,49947
+Guinea-Bissau,tous,1990,15368
+Guinea-Bissau,tous,1995,27961
+Guinea-Bissau,tous,2000,20450
+Guinea-Bissau,tous,2005,20736
+Guinea-Bissau,tous,2010,21061
+Guinea-Bissau,tous,2015,22333
+Guinea-Bissau,tous,2019,26916
+Guinea-Bissau,homme,1990,7689
+Guinea-Bissau,homme,1995,13833
+Guinea-Bissau,homme,2000,10155
+Guinea-Bissau,homme,2005,10298
+Guinea-Bissau,homme,2010,10307
+Guinea-Bissau,homme,2015,10826
+Guinea-Bissau,homme,2019,12990
 Guinea-Bissau,femme,1990,7679
 Guinea-Bissau,femme,1995,14128
 Guinea-Bissau,femme,2000,10295
@@ -293,6 +869,20 @@ Guinea-Bissau,femme,2005,10438
 Guinea-Bissau,femme,2010,10754
 Guinea-Bissau,femme,2015,11507
 Guinea-Bissau,femme,2019,13926
+Liberia,tous,1990,94964
+Liberia,tous,1995,208563
+Liberia,tous,2000,151868
+Liberia,tous,2005,87188
+Liberia,tous,2010,99129
+Liberia,tous,2015,113779
+Liberia,tous,2019,94448
+Liberia,homme,1990,53924
+Liberia,homme,1995,111647
+Liberia,homme,2000,82129
+Liberia,homme,2005,51183
+Liberia,homme,2010,56885
+Liberia,homme,2015,64879
+Liberia,homme,2019,53857
 Liberia,femme,1990,41040
 Liberia,femme,1995,96916
 Liberia,femme,2000,69739
@@ -300,6 +890,20 @@ Liberia,femme,2005,36005
 Liberia,femme,2010,42244
 Liberia,femme,2015,48900
 Liberia,femme,2019,40591
+Mali,tous,1990,160736
+Mali,tous,1995,176187
+Mali,tous,2000,189475
+Mali,tous,2005,256797
+Mali,tous,2010,339375
+Mali,tous,2015,420504
+Mali,tous,2019,468230
+Mali,homme,1990,82049
+Mali,homme,1995,90871
+Mali,homme,2000,97752
+Mali,homme,2005,132244
+Mali,homme,2010,172066
+Mali,homme,2015,213218
+Mali,homme,2019,237428
 Mali,femme,1990,78687
 Mali,femme,1995,85316
 Mali,femme,2000,91723
@@ -307,6 +911,20 @@ Mali,femme,2005,124553
 Mali,femme,2010,167309
 Mali,femme,2015,207286
 Mali,femme,2019,230802
+Mauritania,tous,1990,111650
+Mauritania,tous,1995,89562
+Mauritania,tous,2000,57366
+Mauritania,tous,2005,58119
+Mauritania,tous,2010,84679
+Mauritania,tous,2015,166552
+Mauritania,tous,2019,172987
+Mauritania,homme,1990,57569
+Mauritania,homme,1995,47015
+Mauritania,homme,2000,31163
+Mauritania,homme,2005,32588
+Mauritania,homme,2010,48605
+Mauritania,homme,2015,94070
+Mauritania,homme,2019,97766
 Mauritania,femme,1990,54081
 Mauritania,femme,1995,42547
 Mauritania,femme,2000,26203
@@ -314,6 +932,20 @@ Mauritania,femme,2005,25531
 Mauritania,femme,2010,36074
 Mauritania,femme,2015,72482
 Mauritania,femme,2019,75221
+Niger,tous,1990,115464
+Niger,tous,1995,145999
+Niger,tous,2000,122260
+Niger,tous,2005,124461
+Niger,tous,2010,126464
+Niger,tous,2015,252998
+Niger,tous,2019,294161
+Niger,homme,1990,55222
+Niger,homme,1995,69751
+Niger,homme,2000,58192
+Niger,homme,2005,59170
+Niger,homme,2010,60033
+Niger,homme,2015,119915
+Niger,homme,2019,139426
 Niger,femme,1990,60242
 Niger,femme,1995,76248
 Niger,femme,2000,64068
@@ -321,6 +953,20 @@ Niger,femme,2005,65291
 Niger,femme,2010,66431
 Niger,femme,2015,133083
 Niger,femme,2019,154735
+Nigeria,tous,1990,456621
+Nigeria,tous,1995,462999
+Nigeria,tous,2000,487882
+Nigeria,tous,2005,969294
+Nigeria,tous,2010,988679
+Nigeria,tous,2015,1199115
+Nigeria,tous,2019,1256408
+Nigeria,homme,1990,256166
+Nigeria,homme,1995,258091
+Nigeria,homme,2000,270211
+Nigeria,homme,2005,564384
+Nigeria,homme,2010,575671
+Nigeria,homme,2015,657887
+Nigeria,homme,2019,689321
 Nigeria,femme,1990,200455
 Nigeria,femme,1995,204908
 Nigeria,femme,2000,217671
@@ -328,6 +974,20 @@ Nigeria,femme,2005,404910
 Nigeria,femme,2010,413008
 Nigeria,femme,2015,541228
 Nigeria,femme,2019,567087
+Saint Helena,tous,1990,178
+Saint Helena,tous,1995,117
+Saint Helena,tous,2000,108
+Saint Helena,tous,2005,163
+Saint Helena,tous,2010,248
+Saint Helena,tous,2015,377
+Saint Helena,tous,2019,433
+Saint Helena,homme,1990,110
+Saint Helena,homme,1995,70
+Saint Helena,homme,2000,61
+Saint Helena,homme,2005,85
+Saint Helena,homme,2010,136
+Saint Helena,homme,2015,251
+Saint Helena,homme,2019,302
 Saint Helena,femme,1990,68
 Saint Helena,femme,1995,47
 Saint Helena,femme,2000,47
@@ -335,6 +995,20 @@ Saint Helena,femme,2005,78
 Saint Helena,femme,2010,112
 Saint Helena,femme,2015,126
 Saint Helena,femme,2019,131
+Senegal,tous,1990,270410
+Senegal,tous,1995,287654
+Senegal,tous,2000,231901
+Senegal,tous,2005,238298
+Senegal,tous,2010,256092
+Senegal,tous,2015,266496
+Senegal,tous,2019,275239
+Senegal,homme,1990,138840
+Senegal,homme,1995,147165
+Senegal,homme,2000,121492
+Senegal,homme,2005,124854
+Senegal,homme,2010,135879
+Senegal,homme,2015,141402
+Senegal,homme,2019,145996
 Senegal,femme,1990,131570
 Senegal,femme,1995,140489
 Senegal,femme,2000,110409
@@ -342,6 +1016,20 @@ Senegal,femme,2005,113444
 Senegal,femme,2010,120213
 Senegal,femme,2015,125094
 Senegal,femme,2019,129243
+Sierra Leone,tous,1990,222148
+Sierra Leone,tous,1995,98516
+Sierra Leone,tous,2000,97974
+Sierra Leone,tous,2005,146050
+Sierra Leone,tous,2010,79055
+Sierra Leone,tous,2015,58813
+Sierra Leone,tous,2019,54332
+Sierra Leone,homme,1990,122898
+Sierra Leone,homme,1995,55937
+Sierra Leone,homme,2000,54184
+Sierra Leone,homme,2005,76621
+Sierra Leone,homme,2010,43515
+Sierra Leone,homme,2015,33068
+Sierra Leone,homme,2019,30724
 Sierra Leone,femme,1990,99250
 Sierra Leone,femme,1995,42579
 Sierra Leone,femme,2000,43790
@@ -349,6 +1037,20 @@ Sierra Leone,femme,2005,69429
 Sierra Leone,femme,2010,35540
 Sierra Leone,femme,2015,25745
 Sierra Leone,femme,2019,23608
+Togo,tous,1990,84844
+Togo,tous,1995,101583
+Togo,tous,2000,137968
+Togo,tous,2005,203799
+Togo,tous,2010,255413
+Togo,tous,2015,277384
+Togo,tous,2019,279142
+Togo,homme,1990,42903
+Togo,homme,1995,50727
+Togo,homme,2000,69112
+Togo,homme,2005,103055
+Togo,homme,2010,129352
+Togo,homme,2015,139540
+Togo,homme,2019,141286
 Togo,femme,1990,41941
 Togo,femme,1995,50856
 Togo,femme,2000,68856
@@ -356,6 +1058,20 @@ Togo,femme,2005,100744
 Togo,femme,2010,126061
 Togo,femme,2015,137844
 Togo,femme,2019,137856
+Algeria,tous,1990,273954
+Algeria,tous,1995,262032
+Algeria,tous,2000,250110
+Algeria,tous,2005,197422
+Algeria,tous,2010,216964
+Algeria,tous,2015,239473
+Algeria,tous,2019,249075
+Algeria,homme,1990,150234
+Algeria,homme,1995,143696
+Algeria,homme,2000,137158
+Algeria,homme,2005,108266
+Algeria,homme,2010,114727
+Algeria,homme,2015,126522
+Algeria,homme,2019,131596
 Algeria,femme,1990,123720
 Algeria,femme,1995,118336
 Algeria,femme,2000,112952
@@ -363,6 +1079,20 @@ Algeria,femme,2005,89156
 Algeria,femme,2010,102237
 Algeria,femme,2015,112951
 Algeria,femme,2019,117479
+Egypt,tous,1990,173833
+Egypt,tous,1995,166955
+Egypt,tous,2000,184774
+Egypt,tous,2005,285006
+Egypt,tous,2010,310017
+Egypt,tous,2015,353641
+Egypt,tous,2019,504053
+Egypt,homme,1990,91995
+Egypt,homme,1995,88545
+Egypt,homme,2000,98224
+Egypt,homme,2005,165211
+Egypt,homme,2010,174104
+Egypt,homme,2015,207433
+Egypt,homme,2019,271048
 Egypt,femme,1990,81838
 Egypt,femme,1995,78410
 Egypt,femme,2000,86550
@@ -370,6 +1100,20 @@ Egypt,femme,2005,119795
 Egypt,femme,2010,135913
 Egypt,femme,2015,146208
 Egypt,femme,2019,233005
+Libya,tous,1990,457075
+Libya,tous,1995,508041
+Libya,tous,2000,567436
+Libya,tous,2005,625212
+Libya,tous,2010,683998
+Libya,tous,2015,771146
+Libya,tous,2019,818216
+Libya,homme,1990,242707
+Libya,homme,1995,300906
+Libya,homme,2000,368950
+Libya,homme,2005,445597
+Libya,homme,2010,489737
+Libya,homme,2015,549153
+Libya,homme,2019,582673
 Libya,femme,1990,214368
 Libya,femme,1995,207135
 Libya,femme,2000,198486
@@ -377,6 +1121,20 @@ Libya,femme,2005,179615
 Libya,femme,2010,194261
 Libya,femme,2015,221993
 Libya,femme,2019,235543
+Morocco,tous,1990,54895
+Morocco,tous,1995,50360
+Morocco,tous,2000,53034
+Morocco,tous,2005,54379
+Morocco,tous,2010,70909
+Morocco,tous,2015,92424
+Morocco,tous,2019,98574
+Morocco,homme,1990,29024
+Morocco,homme,1995,26264
+Morocco,homme,2000,27233
+Morocco,homme,2005,27543
+Morocco,homme,2010,35738
+Morocco,homme,2015,46387
+Morocco,homme,2019,49479
 Morocco,femme,1990,25871
 Morocco,femme,1995,24096
 Morocco,femme,2000,25801
@@ -384,6 +1142,20 @@ Morocco,femme,2005,26836
 Morocco,femme,2010,35171
 Morocco,femme,2015,46037
 Morocco,femme,2019,49095
+Sudan,tous,1990,1402896
+Sudan,tous,1995,1053396
+Sudan,tous,2000,805086
+Sudan,tous,2005,546419
+Sudan,tous,2010,618709
+Sudan,tous,2015,620523
+Sudan,tous,2019,1223092
+Sudan,homme,1990,696385
+Sudan,homme,1995,525701
+Sudan,homme,2000,404618
+Sudan,homme,2005,278084
+Sudan,homme,2010,314552
+Sudan,homme,2015,311885
+Sudan,homme,2019,607151
 Sudan,femme,1990,706511
 Sudan,femme,1995,527695
 Sudan,femme,2000,400468
@@ -391,6 +1163,20 @@ Sudan,femme,2005,268335
 Sudan,femme,2010,304157
 Sudan,femme,2015,308638
 Sudan,femme,2019,615941
+Tunisia,tous,1990,37984
+Tunisia,tous,1995,37867
+Tunisia,tous,2000,36719
+Tunisia,tous,2005,35040
+Tunisia,tous,2010,43172
+Tunisia,tous,2015,56532
+Tunisia,tous,2019,57455
+Tunisia,homme,1990,18900
+Tunisia,homme,1995,19045
+Tunisia,homme,2000,18679
+Tunisia,homme,2005,18000
+Tunisia,homme,2010,22236
+Tunisia,homme,2015,29253
+Tunisia,homme,2019,29744
 Tunisia,femme,1990,19084
 Tunisia,femme,1995,18822
 Tunisia,femme,2000,18040
@@ -398,6 +1184,20 @@ Tunisia,femme,2005,17040
 Tunisia,femme,2010,20936
 Tunisia,femme,2015,27279
 Tunisia,femme,2019,27711
+Western Sahara,tous,1990,2688
+Western Sahara,tous,1995,2989
+Western Sahara,tous,2000,3289
+Western Sahara,tous,2005,3891
+Western Sahara,tous,2010,4493
+Western Sahara,tous,2015,5179
+Western Sahara,tous,2019,5384
+Western Sahara,homme,1990,1465
+Western Sahara,homme,1995,1651
+Western Sahara,homme,2000,1837
+Western Sahara,homme,2005,2224
+Western Sahara,homme,2010,2612
+Western Sahara,homme,2015,3059
+Western Sahara,homme,2019,3181
 Western Sahara,femme,1990,1223
 Western Sahara,femme,1995,1338
 Western Sahara,femme,2000,1452
@@ -405,6 +1205,20 @@ Western Sahara,femme,2005,1667
 Western Sahara,femme,2010,1881
 Western Sahara,femme,2015,2120
 Western Sahara,femme,2019,2203
+Armenia,tous,1990,658789
+Armenia,tous,1995,693999
+Armenia,tous,2000,657900
+Armenia,tous,2005,469119
+Armenia,tous,2010,211147
+Armenia,tous,2015,191199
+Armenia,tous,2019,190159
+Armenia,homme,1990,270535
+Armenia,homme,1995,284995
+Armenia,homme,2000,270170
+Armenia,homme,2005,191401
+Armenia,homme,2010,85669
+Armenia,homme,2015,77436
+Armenia,homme,2019,78001
 Armenia,femme,1990,388254
 Armenia,femme,1995,409004
 Armenia,femme,2000,387730
@@ -412,6 +1226,20 @@ Armenia,femme,2005,277718
 Armenia,femme,2010,125478
 Armenia,femme,2015,113763
 Armenia,femme,2019,112158
+Azerbaijan,tous,1990,360600
+Azerbaijan,tous,1995,344070
+Azerbaijan,tous,2000,327540
+Azerbaijan,tous,2005,302220
+Azerbaijan,tous,2010,276901
+Azerbaijan,tous,2015,264241
+Azerbaijan,tous,2019,253887
+Azerbaijan,homme,1990,157856
+Azerbaijan,homme,1995,149509
+Azerbaijan,homme,2000,141161
+Azerbaijan,homme,2005,135336
+Azerbaijan,homme,2010,129512
+Azerbaijan,homme,2015,126600
+Azerbaijan,homme,2019,121640
 Azerbaijan,femme,1990,202744
 Azerbaijan,femme,1995,194561
 Azerbaijan,femme,2000,186379
@@ -419,6 +1247,20 @@ Azerbaijan,femme,2005,166884
 Azerbaijan,femme,2010,147389
 Azerbaijan,femme,2015,137641
 Azerbaijan,femme,2019,132247
+Bahrain,tous,1990,173212
+Bahrain,tous,1995,205979
+Bahrain,tous,2000,239361
+Bahrain,tous,2005,404018
+Bahrain,tous,2010,657856
+Bahrain,tous,2015,704137
+Bahrain,tous,2019,741161
+Bahrain,homme,1990,122730
+Bahrain,homme,1995,144227
+Bahrain,homme,2000,165344
+Bahrain,homme,2005,288614
+Bahrain,homme,2010,475905
+Bahrain,homme,2015,508966
+Bahrain,homme,2019,535728
 Bahrain,femme,1990,50482
 Bahrain,femme,1995,61752
 Bahrain,femme,2000,74017
@@ -426,6 +1268,20 @@ Bahrain,femme,2005,115404
 Bahrain,femme,2010,181951
 Bahrain,femme,2015,195171
 Bahrain,femme,2019,205433
+Cyprus,tous,1990,43805
+Cyprus,tous,1995,61941
+Cyprus,tous,2000,80076
+Cyprus,tous,2005,117165
+Cyprus,tous,2010,191866
+Cyprus,tous,2015,192020
+Cyprus,tous,2019,191922
+Cyprus,homme,1990,20463
+Cyprus,homme,1995,27604
+Cyprus,homme,2000,34745
+Cyprus,homme,2005,50421
+Cyprus,homme,2010,83931
+Cyprus,homme,2015,84153
+Cyprus,homme,2019,85208
 Cyprus,femme,1990,23342
 Cyprus,femme,1995,34337
 Cyprus,femme,2000,45331
@@ -433,6 +1289,20 @@ Cyprus,femme,2005,66744
 Cyprus,femme,2010,107935
 Cyprus,femme,2015,107867
 Cyprus,femme,2019,106714
+Georgia,tous,1990,304470
+Georgia,tous,1995,152235
+Georgia,tous,2000,76117
+Georgia,tous,2005,72311
+Georgia,tous,2010,73034
+Georgia,tous,2015,76685
+Georgia,tous,2019,79035
+Georgia,homme,1990,133285
+Georgia,homme,1995,66643
+Georgia,homme,2000,33321
+Georgia,homme,2005,31655
+Georgia,homme,2010,31972
+Georgia,homme,2015,33570
+Georgia,homme,2019,34583
 Georgia,femme,1990,171185
 Georgia,femme,1995,85592
 Georgia,femme,2000,42796
@@ -440,6 +1310,20 @@ Georgia,femme,2005,40656
 Georgia,femme,2010,41062
 Georgia,femme,2015,43115
 Georgia,femme,2019,44452
+Iraq,tous,1990,83638
+Iraq,tous,1995,199460
+Iraq,tous,2000,210525
+Iraq,tous,2005,132915
+Iraq,tous,2010,117389
+Iraq,tous,2015,359381
+Iraq,tous,2019,368062
+Iraq,homme,1990,55751
+Iraq,homme,1995,114821
+Iraq,homme,2000,120464
+Iraq,homme,2005,80883
+Iraq,homme,2010,72965
+Iraq,homme,2015,209233
+Iraq,homme,2019,214288
 Iraq,femme,1990,27887
 Iraq,femme,1995,84639
 Iraq,femme,2000,90061
@@ -447,6 +1331,20 @@ Iraq,femme,2005,52032
 Iraq,femme,2010,44424
 Iraq,femme,2015,150148
 Iraq,femme,2019,153774
+Israel,tous,1990,1632704
+Israel,tous,1995,1792185
+Israel,tous,2000,1851309
+Israel,tous,2005,1889503
+Israel,tous,2010,1950615
+Israel,tous,2015,2011727
+Israel,tous,2019,1956346
+Israel,homme,1990,770777
+Israel,homme,1995,830330
+Israel,homme,2000,853712
+Israel,homme,2005,867805
+Israel,homme,2010,890352
+Israel,homme,2015,912899
+Israel,homme,2019,887768
 Israel,femme,1990,861927
 Israel,femme,1995,961855
 Israel,femme,2000,997597
@@ -454,6 +1352,20 @@ Israel,femme,2005,1021698
 Israel,femme,2010,1060263
 Israel,femme,2015,1098828
 Israel,femme,2019,1068578
+Jordan,tous,1990,1146349
+Jordan,tous,1995,1537097
+Jordan,tous,2000,1927845
+Jordan,tous,2005,2325414
+Jordan,tous,2010,2722983
+Jordan,tous,2015,3112026
+Jordan,tous,2019,3346703
+Jordan,homme,1990,586473
+Jordan,homme,1995,784725
+Jordan,homme,2000,982977
+Jordan,homme,2005,1183645
+Jordan,homme,2010,1384313
+Jordan,homme,2015,1567177
+Jordan,homme,2019,1685358
 Jordan,femme,1990,559876
 Jordan,femme,1995,752372
 Jordan,femme,2000,944868
@@ -461,6 +1373,20 @@ Jordan,femme,2005,1141769
 Jordan,femme,2010,1338670
 Jordan,femme,2015,1544849
 Jordan,femme,2019,1661345
+Kuwait,tous,1990,1074391
+Kuwait,tous,1995,921954
+Kuwait,tous,2000,1127640
+Kuwait,tous,2005,1333327
+Kuwait,tous,2010,1871537
+Kuwait,tous,2015,2866136
+Kuwait,tous,2019,3034845
+Kuwait,homme,1990,654878
+Kuwait,homme,1995,591452
+Kuwait,homme,2000,761512
+Kuwait,homme,2005,918580
+Kuwait,homme,2010,1309814
+Kuwait,homme,2015,1901855
+Kuwait,homme,2019,2013803
 Kuwait,femme,1990,419513
 Kuwait,femme,1995,330502
 Kuwait,femme,2000,366128
@@ -468,6 +1394,20 @@ Kuwait,femme,2005,414747
 Kuwait,femme,2010,561723
 Kuwait,femme,2015,964281
 Kuwait,femme,2019,1021042
+Lebanon,tous,1990,523693
+Lebanon,tous,1995,608303
+Lebanon,tous,2000,692913
+Lebanon,tous,2005,756784
+Lebanon,tous,2010,820655
+Lebanon,tous,2015,1973204
+Lebanon,tous,2019,1863873
+Lebanon,homme,1990,267922
+Lebanon,homme,1995,310613
+Lebanon,homme,2000,353305
+Lebanon,homme,2005,390331
+Lebanon,homme,2010,427358
+Lebanon,homme,2015,948425
+Lebanon,homme,2019,895875
 Lebanon,femme,1990,255771
 Lebanon,femme,1995,297690
 Lebanon,femme,2000,339608
@@ -475,6 +1415,20 @@ Lebanon,femme,2005,366453
 Lebanon,femme,2010,393297
 Lebanon,femme,2015,1024779
 Lebanon,femme,2019,967998
+Oman,tous,1990,304000
+Oman,tous,1995,539643
+Oman,tous,2000,623608
+Oman,tous,2005,666160
+Oman,tous,2010,816221
+Oman,tous,2015,1856226
+Oman,tous,2019,2286226
+Oman,homme,1990,242477
+Oman,homme,1995,417444
+Oman,homme,2000,488389
+Oman,homme,2005,527842
+Oman,homme,2010,658746
+Oman,homme,2015,1552000
+Oman,homme,2019,1911526
 Oman,femme,1990,61523
 Oman,femme,1995,122199
 Oman,femme,2000,135219
@@ -482,6 +1436,20 @@ Oman,femme,2005,138318
 Oman,femme,2010,157475
 Oman,femme,2015,304226
 Oman,femme,2019,374700
+Qatar,tous,1990,309753
+Qatar,tous,1995,361673
+Qatar,tous,2000,359697
+Qatar,tous,2005,646026
+Qatar,tous,2010,1456413
+Qatar,tous,2015,1687640
+Qatar,tous,2019,2229688
+Qatar,homme,1990,225932
+Qatar,homme,1995,269972
+Qatar,homme,2000,274242
+Qatar,homme,2005,498428
+Qatar,homme,2010,1206571
+Qatar,homme,2015,1416361
+Qatar,homme,2019,1845678
 Qatar,femme,1990,83821
 Qatar,femme,1995,91701
 Qatar,femme,2000,85455
@@ -489,6 +1457,20 @@ Qatar,femme,2005,147598
 Qatar,femme,2010,249842
 Qatar,femme,2015,271279
 Qatar,femme,2019,384010
+Saudi Arabia,tous,1990,4998445
+Saudi Arabia,tous,1995,5122702
+Saudi Arabia,tous,2000,5263387
+Saudi Arabia,tous,2005,6501819
+Saudi Arabia,tous,2010,8429956
+Saudi Arabia,tous,2015,10771366
+Saudi Arabia,tous,2019,13122338
+Saudi Arabia,homme,1990,3324873
+Saudi Arabia,homme,1995,3416485
+Saudi Arabia,homme,2000,3517768
+Saudi Arabia,homme,2005,4469805
+Saudi Arabia,homme,2010,5933281
+Saudi Arabia,homme,2015,7461502
+Saudi Arabia,homme,2019,9001182
 Saudi Arabia,femme,1990,1673572
 Saudi Arabia,femme,1995,1706217
 Saudi Arabia,femme,2000,1745619
@@ -496,6 +1478,20 @@ Saudi Arabia,femme,2005,2032014
 Saudi Arabia,femme,2010,2496675
 Saudi Arabia,femme,2015,3309864
 Saudi Arabia,femme,2019,4121156
+State of Palestine,tous,1990,288332
+State of Palestine,tous,1995,281767
+State of Palestine,tous,2000,275202
+State of Palestine,tous,2005,266617
+State of Palestine,tous,2010,258032
+State of Palestine,tous,2015,255507
+State of Palestine,tous,2019,253735
+State of Palestine,homme,1990,132101
+State of Palestine,homme,1995,128328
+State of Palestine,homme,2000,124555
+State of Palestine,homme,2005,119621
+State of Palestine,homme,2010,114688
+State of Palestine,homme,2015,113237
+State of Palestine,homme,2019,112452
 State of Palestine,femme,1990,156231
 State of Palestine,femme,1995,153439
 State of Palestine,femme,2000,150647
@@ -503,6 +1499,20 @@ State of Palestine,femme,2005,146996
 State of Palestine,femme,2010,143344
 State of Palestine,femme,2015,142270
 State of Palestine,femme,2019,141283
+Syrian Arab Republic,tous,1990,714140
+Syrian Arab Republic,tous,1995,830610
+Syrian Arab Republic,tous,2000,834916
+Syrian Arab Republic,tous,2005,878308
+Syrian Arab Republic,tous,2010,1787561
+Syrian Arab Republic,tous,2015,871174
+Syrian Arab Republic,tous,2019,867848
+Syrian Arab Republic,homme,1990,364077
+Syrian Arab Republic,homme,1995,423115
+Syrian Arab Republic,homme,2000,427981
+Syrian Arab Republic,homme,2005,450438
+Syrian Arab Republic,homme,2010,913004
+Syrian Arab Republic,homme,2015,445050
+Syrian Arab Republic,homme,2019,444710
 Syrian Arab Republic,femme,1990,350063
 Syrian Arab Republic,femme,1995,407495
 Syrian Arab Republic,femme,2000,406935
@@ -510,6 +1520,20 @@ Syrian Arab Republic,femme,2005,427870
 Syrian Arab Republic,femme,2010,874557
 Syrian Arab Republic,femme,2015,426124
 Syrian Arab Republic,femme,2019,423138
+Turkey,tous,1990,1163686
+Turkey,tous,1995,1216173
+Turkey,tous,2000,1280963
+Turkey,tous,2005,1319236
+Turkey,tous,2010,1367034
+Turkey,tous,2015,4346197
+Turkey,tous,2019,5876829
+Turkey,homme,1990,577329
+Turkey,homme,1995,593938
+Turkey,homme,2000,616007
+Turkey,homme,2005,618938
+Turkey,homme,2010,625960
+Turkey,homme,2015,2390166
+Turkey,homme,2019,3258212
 Turkey,femme,1990,586357
 Turkey,femme,1995,622235
 Turkey,femme,2000,664956
@@ -517,6 +1541,20 @@ Turkey,femme,2005,700298
 Turkey,femme,2010,741074
 Turkey,femme,2015,1956031
 Turkey,femme,2019,2618617
+United Arab Emirates,tous,1990,1306574
+United Arab Emirates,tous,1995,1824118
+United Arab Emirates,tous,2000,2447010
+United Arab Emirates,tous,2005,3281115
+United Arab Emirates,tous,2010,7316697
+United Arab Emirates,tous,2015,7995126
+United Arab Emirates,tous,2019,8587256
+United Arab Emirates,homme,1990,931959
+United Arab Emirates,homme,1995,1309868
+United Arab Emirates,homme,2000,1757200
+United Arab Emirates,homme,2005,2388299
+United Arab Emirates,homme,2010,5463446
+United Arab Emirates,homme,2015,5890170
+United Arab Emirates,homme,2019,6326020
 United Arab Emirates,femme,1990,374615
 United Arab Emirates,femme,1995,514250
 United Arab Emirates,femme,2000,689810
@@ -524,6 +1562,20 @@ United Arab Emirates,femme,2005,892816
 United Arab Emirates,femme,2010,1853251
 United Arab Emirates,femme,2015,2104956
 United Arab Emirates,femme,2019,2261236
+Yemen,tous,1990,118863
+Yemen,tous,1995,136515
+Yemen,tous,2000,144940
+Yemen,tous,2005,171871
+Yemen,tous,2010,288394
+Yemen,tous,2015,379882
+Yemen,tous,2019,385628
+Yemen,homme,1990,67010
+Yemen,homme,1995,77832
+Yemen,homme,2000,80514
+Yemen,homme,2005,98879
+Yemen,homme,2010,156123
+Yemen,homme,2015,199390
+Yemen,homme,2019,202414
 Yemen,femme,1990,51853
 Yemen,femme,1995,58683
 Yemen,femme,2000,64426
@@ -531,6 +1583,20 @@ Yemen,femme,2005,72992
 Yemen,femme,2010,132271
 Yemen,femme,2015,180492
 Yemen,femme,2019,183214
+Kazakhstan,tous,1990,3619200
+Kazakhstan,tous,1995,3251968
+Kazakhstan,tous,2000,2874194
+Kazakhstan,tous,2005,3103027
+Kazakhstan,tous,2010,3334937
+Kazakhstan,tous,2015,3546060
+Kazakhstan,tous,2019,3705556
+Kazakhstan,homme,1990,1666164
+Kazakhstan,homme,1995,1497455
+Kazakhstan,homme,2000,1323580
+Kazakhstan,homme,2005,1472820
+Kazakhstan,homme,2010,1625155
+Kazakhstan,homme,2015,1757828
+Kazakhstan,homme,2019,1836893
 Kazakhstan,femme,1990,1953036
 Kazakhstan,femme,1995,1754513
 Kazakhstan,femme,2000,1550614
@@ -538,6 +1604,20 @@ Kazakhstan,femme,2005,1630207
 Kazakhstan,femme,2010,1709782
 Kazakhstan,femme,2015,1788232
 Kazakhstan,femme,2019,1868663
+Kyrgyzstan,tous,1990,623083
+Kyrgyzstan,tous,1995,518338
+Kyrgyzstan,tous,2000,389824
+Kyrgyzstan,tous,2005,309399
+Kyrgyzstan,tous,2010,232065
+Kyrgyzstan,tous,2015,204382
+Kyrgyzstan,tous,2019,200260
+Kyrgyzstan,homme,1990,260416
+Kyrgyzstan,homme,1995,216638
+Kyrgyzstan,homme,2000,162927
+Kyrgyzstan,homme,2005,128064
+Kyrgyzstan,homme,2010,94596
+Kyrgyzstan,homme,2015,82616
+Kyrgyzstan,homme,2019,80945
 Kyrgyzstan,femme,1990,362667
 Kyrgyzstan,femme,1995,301700
 Kyrgyzstan,femme,2000,226897
@@ -545,6 +1625,20 @@ Kyrgyzstan,femme,2005,181335
 Kyrgyzstan,femme,2010,137469
 Kyrgyzstan,femme,2015,121766
 Kyrgyzstan,femme,2019,119315
+Tajikistan,tous,1990,428900
+Tajikistan,tous,1995,348347
+Tajikistan,tous,2000,299499
+Tajikistan,tous,2005,280466
+Tajikistan,tous,2010,279808
+Tajikistan,tous,2015,275101
+Tajikistan,tous,2019,274071
+Tajikistan,homme,1990,187972
+Tajikistan,homme,1995,151894
+Tajikistan,homme,2000,131653
+Tajikistan,homme,2005,121403
+Tajikistan,homme,2010,121780
+Tajikistan,homme,2015,118639
+Tajikistan,homme,2019,118207
 Tajikistan,femme,1990,240928
 Tajikistan,femme,1995,196453
 Tajikistan,femme,2000,167846
@@ -552,6 +1646,20 @@ Tajikistan,femme,2005,159063
 Tajikistan,femme,2010,158028
 Tajikistan,femme,2015,156462
 Tajikistan,femme,2019,155864
+Turkmenistan,tous,1990,306500
+Turkmenistan,tous,1995,273565
+Turkmenistan,tous,2000,219067
+Turkmenistan,tous,2005,213053
+Turkmenistan,tous,2010,197979
+Turkmenistan,tous,2015,196376
+Turkmenistan,tous,2019,195127
+Turkmenistan,homme,1990,134174
+Turkmenistan,homme,1995,132122
+Turkmenistan,homme,2000,102810
+Turkmenistan,homme,2005,101214
+Turkmenistan,homme,2010,90634
+Turkmenistan,homme,2015,91531
+Turkmenistan,homme,2019,92240
 Turkmenistan,femme,1990,172326
 Turkmenistan,femme,1995,141443
 Turkmenistan,femme,2000,116257
@@ -559,6 +1667,20 @@ Turkmenistan,femme,2005,111839
 Turkmenistan,femme,2010,107345
 Turkmenistan,femme,2015,104845
 Turkmenistan,femme,2019,102887
+Uzbekistan,tous,1990,1653000
+Uzbekistan,tous,1995,1512577
+Uzbekistan,tous,2000,1406498
+Uzbekistan,tous,2005,1329932
+Uzbekistan,tous,2010,1220149
+Uzbekistan,tous,2015,1170873
+Uzbekistan,tous,2019,1168384
+Uzbekistan,homme,1990,723618
+Uzbekistan,homme,1995,657490
+Uzbekistan,homme,2000,606163
+Uzbekistan,homme,2005,589690
+Uzbekistan,homme,2010,558379
+Uzbekistan,homme,2015,545721
+Uzbekistan,homme,2019,545048
 Uzbekistan,femme,1990,929382
 Uzbekistan,femme,1995,855087
 Uzbekistan,femme,2000,800335
@@ -566,6 +1688,20 @@ Uzbekistan,femme,2005,740242
 Uzbekistan,femme,2010,661770
 Uzbekistan,femme,2015,625152
 Uzbekistan,femme,2019,623336
+Afghanistan,tous,1990,57686
+Afghanistan,tous,1995,71522
+Afghanistan,tous,2000,75917
+Afghanistan,tous,2005,87300
+Afghanistan,tous,2010,102246
+Afghanistan,tous,2015,489749
+Afghanistan,tous,2019,149762
+Afghanistan,homme,1990,32558
+Afghanistan,homme,1995,39105
+Afghanistan,homme,2000,42848
+Afghanistan,homme,2005,49274
+Afghanistan,homme,2010,57709
+Afghanistan,homme,2015,248212
+Afghanistan,homme,2019,74974
 Afghanistan,femme,1990,25128
 Afghanistan,femme,1995,32417
 Afghanistan,femme,2000,33069
@@ -573,6 +1709,20 @@ Afghanistan,femme,2005,38026
 Afghanistan,femme,2010,44537
 Afghanistan,femme,2015,241537
 Afghanistan,femme,2019,74788
+Bangladesh,tous,1990,881617
+Bangladesh,tous,1995,934735
+Bangladesh,tous,2000,987853
+Bangladesh,tous,2005,1166700
+Bangladesh,tous,2010,1345546
+Bangladesh,tous,2015,1422805
+Bangladesh,tous,2019,2185613
+Bangladesh,homme,1990,476097
+Bangladesh,homme,1995,503989
+Bangladesh,homme,2000,531907
+Bangladesh,homme,2005,621228
+Bangladesh,homme,2010,710548
+Bangladesh,homme,2015,752035
+Bangladesh,homme,2019,1124293
 Bangladesh,femme,1990,405520
 Bangladesh,femme,1995,430746
 Bangladesh,femme,2000,455946
@@ -580,6 +1730,20 @@ Bangladesh,femme,2005,545472
 Bangladesh,femme,2010,634998
 Bangladesh,femme,2015,670770
 Bangladesh,femme,2019,1061320
+Bhutan,tous,1990,23807
+Bhutan,tous,1995,27972
+Bhutan,tous,2000,32137
+Bhutan,tous,2005,40279
+Bhutan,tous,2010,48420
+Bhutan,tous,2015,51106
+Bhutan,tous,2019,53254
+Bhutan,homme,1990,19409
+Bhutan,homme,1995,22804
+Bhutan,homme,2000,26200
+Bhutan,homme,2005,32742
+Bhutan,homme,2010,39283
+Bhutan,homme,2015,43396
+Bhutan,homme,2019,45220
 Bhutan,femme,1990,4398
 Bhutan,femme,1995,5168
 Bhutan,femme,2000,5937
@@ -587,6 +1751,20 @@ Bhutan,femme,2005,7537
 Bhutan,femme,2010,9137
 Bhutan,femme,2015,7710
 Bhutan,femme,2019,8034
+India,tous,1990,7594801
+India,tous,1995,6952238
+India,tous,2000,6411331
+India,tous,2005,5923945
+India,tous,2010,5439758
+India,tous,2015,5240960
+India,tous,2019,5154737
+India,homme,1990,3967470
+India,homme,1995,3608978
+India,homme,2000,3303591
+India,homme,2005,3045849
+India,homme,2010,2789748
+India,homme,2015,2684680
+India,homme,2019,2640513
 India,femme,1990,3627331
 India,femme,1995,3343260
 India,femme,2000,3107740
@@ -594,6 +1772,20 @@ India,femme,2005,2878096
 India,femme,2010,2650010
 India,femme,2015,2556280
 India,femme,2019,2514224
+Iran (Islamic Republic of),tous,1990,4291601
+Iran (Islamic Republic of),tous,1995,2937668
+Iran (Islamic Republic of),tous,2000,2803805
+Iran (Islamic Republic of),tous,2005,2568930
+Iran (Islamic Republic of),tous,2010,2761561
+Iran (Islamic Republic of),tous,2015,2726420
+Iran (Islamic Republic of),tous,2019,2682214
+Iran (Islamic Republic of),homme,1990,2456700
+Iran (Islamic Republic of),homme,1995,1705972
+Iran (Islamic Republic of),homme,2000,1662264
+Iran (Islamic Republic of),homme,2005,1410319
+Iran (Islamic Republic of),homme,2010,1571723
+Iran (Islamic Republic of),homme,2015,1445236
+Iran (Islamic Republic of),homme,2019,1421804
 Iran (Islamic Republic of),femme,1990,1834901
 Iran (Islamic Republic of),femme,1995,1231696
 Iran (Islamic Republic of),femme,2000,1141541
@@ -601,6 +1793,20 @@ Iran (Islamic Republic of),femme,2005,1158611
 Iran (Islamic Republic of),femme,2010,1189838
 Iran (Islamic Republic of),femme,2015,1281184
 Iran (Islamic Republic of),femme,2019,1260410
+Maldives,tous,1990,8689
+Maldives,tous,1995,18510
+Maldives,tous,2000,27092
+Maldives,tous,2005,45045
+Maldives,tous,2010,54659
+Maldives,tous,2015,64273
+Maldives,tous,2019,69249
+Maldives,homme,1990,4777
+Maldives,homme,1995,9243
+Maldives,homme,2000,14907
+Maldives,homme,2005,27079
+Maldives,homme,2010,41712
+Maldives,homme,2015,56345
+Maldives,homme,2019,60709
 Maldives,femme,1990,3912
 Maldives,femme,1995,9267
 Maldives,femme,2000,12185
@@ -608,6 +1814,20 @@ Maldives,femme,2005,17966
 Maldives,femme,2010,12947
 Maldives,femme,2015,7928
 Maldives,femme,2019,8540
+Nepal,tous,1990,429974
+Nepal,tous,1995,690225
+Nepal,tous,2000,717900
+Nepal,tous,2005,679457
+Nepal,tous,2010,578657
+Nepal,tous,2015,509471
+Nepal,tous,2019,490802
+Nepal,homme,1990,125966
+Nepal,homme,1995,217088
+Nepal,homme,2000,241959
+Nepal,homme,2005,235203
+Nepal,homme,2010,189518
+Nepal,homme,2015,156361
+Nepal,homme,2019,148487
 Nepal,femme,1990,304008
 Nepal,femme,1995,473137
 Nepal,femme,2000,475941
@@ -615,6 +1835,20 @@ Nepal,femme,2005,444254
 Nepal,femme,2010,389139
 Nepal,femme,2015,353110
 Nepal,femme,2019,342315
+Pakistan,tous,1990,6208204
+Pakistan,tous,1995,3669308
+Pakistan,tous,2000,4181912
+Pakistan,tous,2005,3171132
+Pakistan,tous,2010,3941586
+Pakistan,tous,2015,3506520
+Pakistan,tous,2019,3257978
+Pakistan,homme,1990,3264380
+Pakistan,homme,1995,1951223
+Pakistan,homme,2000,2249960
+Pakistan,homme,2005,1708514
+Pakistan,homme,2010,2074443
+Pakistan,homme,2015,1845470
+Pakistan,homme,2019,1714663
 Pakistan,femme,1990,2943824
 Pakistan,femme,1995,1718085
 Pakistan,femme,2000,1931952
@@ -622,6 +1856,20 @@ Pakistan,femme,2005,1462618
 Pakistan,femme,2010,1867143
 Pakistan,femme,2015,1661050
 Pakistan,femme,2019,1543315
+Sri Lanka,tous,1990,41561
+Sri Lanka,tous,1995,40841
+Sri Lanka,tous,2000,40132
+Sri Lanka,tous,2005,39526
+Sri Lanka,tous,2010,38959
+Sri Lanka,tous,2015,39706
+Sri Lanka,tous,2019,40018
+Sri Lanka,homme,1990,23423
+Sri Lanka,homme,1995,22689
+Sri Lanka,homme,2000,21971
+Sri Lanka,homme,2005,21318
+Sri Lanka,homme,2010,20694
+Sri Lanka,homme,2015,20745
+Sri Lanka,homme,2019,20909
 Sri Lanka,femme,1990,18138
 Sri Lanka,femme,1995,18152
 Sri Lanka,femme,2000,18161
@@ -629,6 +1877,20 @@ Sri Lanka,femme,2005,18208
 Sri Lanka,femme,2010,18265
 Sri Lanka,femme,2015,18961
 Sri Lanka,femme,2019,19109
+China,tous,1990,376361
+China,tous,1995,442198
+China,tous,2000,508034
+China,tous,2005,678947
+China,tous,2010,849861
+China,tous,2015,978046
+China,tous,2019,1030871
+China,homme,1990,191954
+China,homme,1995,223018
+China,homme,2000,254082
+China,homme,2005,379920
+China,homme,2010,505758
+China,homme,2015,600136
+China,homme,2019,632550
 China,femme,1990,184407
 China,femme,1995,219180
 China,femme,2000,253952
@@ -636,20 +1898,62 @@ China,femme,2005,299027
 China,femme,2010,344103
 China,femme,2015,377910
 China,femme,2019,398321
-China, Hong Kong SAR,femme,1990,1093929
-China, Hong Kong SAR,femme,1995,1268711
-China, Hong Kong SAR,femme,2000,1443493
-China, Hong Kong SAR,femme,2005,1536114
-China, Hong Kong SAR,femme,2010,1632411
-China, Hong Kong SAR,femme,2015,1718708
-China, Hong Kong SAR,femme,2019,1798925
-China, Macao SAR,femme,1990,108668
-China, Macao SAR,femme,1995,121269
-China, Macao SAR,femme,2000,131400
-China, Macao SAR,femme,2005,148921
-China, Macao SAR,femme,2010,172099
-China, Macao SAR,femme,2015,201477
-China, Macao SAR,femme,2019,214070
+China Hong Kong SAR,tous,1990,2218473
+China Hong Kong SAR,tous,1995,2443798
+China Hong Kong SAR,tous,2000,2669122
+China Hong Kong SAR,tous,2005,2721235
+China Hong Kong SAR,tous,2010,2779950
+China Hong Kong SAR,tous,2015,2838665
+China Hong Kong SAR,tous,2019,2942254
+China Hong Kong SAR,homme,1990,1124544
+China Hong Kong SAR,homme,1995,1175087
+China Hong Kong SAR,homme,2000,1225629
+China Hong Kong SAR,homme,2005,1185121
+China Hong Kong SAR,homme,2010,1147539
+China Hong Kong SAR,homme,2015,1119957
+China Hong Kong SAR,homme,2019,1143329
+China Hong Kong SAR,femme,1990,1093929
+China Hong Kong SAR,femme,1995,1268711
+China Hong Kong SAR,femme,2000,1443493
+China Hong Kong SAR,femme,2005,1536114
+China Hong Kong SAR,femme,2010,1632411
+China Hong Kong SAR,femme,2015,1718708
+China Hong Kong SAR,femme,2019,1798925
+China Macao SAR,tous,1990,205047
+China Macao SAR,tous,1995,224929
+China Macao SAR,tous,2000,240791
+China Macao SAR,tous,2005,279308
+China Macao SAR,tous,2010,318506
+China Macao SAR,tous,2015,376066
+China Macao SAR,tous,2019,399572
+China Macao SAR,homme,1990,96379
+China Macao SAR,homme,1995,103660
+China Macao SAR,homme,2000,109391
+China Macao SAR,homme,2005,130387
+China Macao SAR,homme,2010,146407
+China Macao SAR,homme,2015,174589
+China Macao SAR,homme,2019,185502
+China Macao SAR,femme,1990,108668
+China Macao SAR,femme,1995,121269
+China Macao SAR,femme,2000,131400
+China Macao SAR,femme,2005,148921
+China Macao SAR,femme,2010,172099
+China Macao SAR,femme,2015,201477
+China Macao SAR,femme,2019,214070
+Dem. People's Republic of Korea,tous,1990,34103
+Dem. People's Republic of Korea,tous,1995,35143
+Dem. People's Republic of Korea,tous,2000,36183
+Dem. People's Republic of Korea,tous,2005,40097
+Dem. People's Republic of Korea,tous,2010,44010
+Dem. People's Republic of Korea,tous,2015,48458
+Dem. People's Republic of Korea,tous,2019,49393
+Dem. People's Republic of Korea,homme,1990,17393
+Dem. People's Republic of Korea,homme,1995,17562
+Dem. People's Republic of Korea,homme,2000,17731
+Dem. People's Republic of Korea,homme,2005,19749
+Dem. People's Republic of Korea,homme,2010,21766
+Dem. People's Republic of Korea,homme,2015,24110
+Dem. People's Republic of Korea,homme,2019,24576
 Dem. People's Republic of Korea,femme,1990,16710
 Dem. People's Republic of Korea,femme,1995,17581
 Dem. People's Republic of Korea,femme,2000,18452
@@ -657,6 +1961,20 @@ Dem. People's Republic of Korea,femme,2005,20348
 Dem. People's Republic of Korea,femme,2010,22244
 Dem. People's Republic of Korea,femme,2015,24348
 Dem. People's Republic of Korea,femme,2019,24817
+Japan,tous,1990,1075317
+Japan,tous,1995,1362371
+Japan,tous,2000,1686444
+Japan,tous,2005,2011555
+Japan,tous,2010,2134151
+Japan,tous,2015,2232189
+Japan,tous,2019,2498891
+Japan,homme,1990,538765
+Japan,homme,1995,680212
+Japan,homme,2000,796928
+Japan,homme,2005,931198
+Japan,homme,2010,972481
+Japan,homme,2015,1050070
+Japan,homme,2019,1208168
 Japan,femme,1990,536552
 Japan,femme,1995,682159
 Japan,femme,2000,889516
@@ -664,6 +1982,20 @@ Japan,femme,2005,1080357
 Japan,femme,2010,1161670
 Japan,femme,2015,1182119
 Japan,femme,2019,1290723
+Mongolia,tous,1990,6718
+Mongolia,tous,1995,7424
+Mongolia,tous,2000,8206
+Mongolia,tous,2005,11477
+Mongolia,tous,2010,16062
+Mongolia,tous,2015,19886
+Mongolia,tous,2019,21128
+Mongolia,homme,1990,3419
+Mongolia,homme,1995,3959
+Mongolia,homme,2000,4564
+Mongolia,homme,2005,7577
+Mongolia,homme,2010,11880
+Mongolia,homme,2015,13284
+Mongolia,homme,2019,14114
 Mongolia,femme,1990,3299
 Mongolia,femme,1995,3465
 Mongolia,femme,2000,3642
@@ -671,6 +2003,20 @@ Mongolia,femme,2005,3900
 Mongolia,femme,2010,4182
 Mongolia,femme,2015,6602
 Mongolia,femme,2019,7014
+Republic of Korea,tous,1990,43247
+Republic of Korea,tous,1995,123886
+Republic of Korea,tous,2000,244224
+Republic of Korea,tous,2005,486065
+Republic of Korea,tous,2010,919987
+Republic of Korea,tous,2015,1143087
+Republic of Korea,tous,2019,1163655
+Republic of Korea,homme,1990,24349
+Republic of Korea,homme,1995,70758
+Republic of Korea,homme,2000,143212
+Republic of Korea,homme,2005,284305
+Republic of Korea,homme,2010,525395
+Republic of Korea,homme,2015,641400
+Republic of Korea,homme,2019,652746
 Republic of Korea,femme,1990,18898
 Republic of Korea,femme,1995,53128
 Republic of Korea,femme,2000,101012
@@ -678,6 +2024,20 @@ Republic of Korea,femme,2005,201760
 Republic of Korea,femme,2010,394592
 Republic of Korea,femme,2015,501687
 Republic of Korea,femme,2019,510909
+Brunei Darussalam,tous,1990,73200
+Brunei Darussalam,tous,1995,84748
+Brunei Darussalam,tous,2000,96296
+Brunei Darussalam,tous,2005,98441
+Brunei Darussalam,tous,2010,100587
+Brunei Darussalam,tous,2015,102733
+Brunei Darussalam,tous,2019,110641
+Brunei Darussalam,homme,1990,41856
+Brunei Darussalam,homme,1995,47832
+Brunei Darussalam,homme,2000,53807
+Brunei Darussalam,homme,2005,55265
+Brunei Darussalam,homme,2010,56723
+Brunei Darussalam,homme,2015,58181
+Brunei Darussalam,homme,2019,62660
 Brunei Darussalam,femme,1990,31344
 Brunei Darussalam,femme,1995,36916
 Brunei Darussalam,femme,2000,42489
@@ -685,6 +2045,20 @@ Brunei Darussalam,femme,2005,43176
 Brunei Darussalam,femme,2010,43864
 Brunei Darussalam,femme,2015,44552
 Brunei Darussalam,femme,2019,47981
+Cambodia,tous,1990,38375
+Cambodia,tous,1995,92230
+Cambodia,tous,2000,146085
+Cambodia,tous,2005,114031
+Cambodia,tous,2010,81977
+Cambodia,tous,2015,73963
+Cambodia,tous,2019,78649
+Cambodia,homme,1990,19084
+Cambodia,homme,1995,45361
+Cambodia,homme,2000,71638
+Cambodia,homme,2005,57511
+Cambodia,homme,2010,43385
+Cambodia,homme,2015,39854
+Cambodia,homme,2019,42379
 Cambodia,femme,1990,19291
 Cambodia,femme,1995,46869
 Cambodia,femme,2000,74447
@@ -692,6 +2066,20 @@ Cambodia,femme,2005,56520
 Cambodia,femme,2010,38592
 Cambodia,femme,2015,34109
 Cambodia,femme,2019,36270
+Indonesia,tous,1990,465612
+Indonesia,tous,1995,378960
+Indonesia,tous,2000,292307
+Indonesia,tous,2005,289568
+Indonesia,tous,2010,305416
+Indonesia,tous,2015,338124
+Indonesia,tous,2019,353135
+Indonesia,homme,1990,229885
+Indonesia,homme,1995,191600
+Indonesia,homme,2000,153315
+Indonesia,homme,2005,165493
+Indonesia,homme,2010,174864
+Indonesia,homme,2015,196717
+Indonesia,homme,2019,205451
 Indonesia,femme,1990,235727
 Indonesia,femme,1995,187360
 Indonesia,femme,2000,138992
@@ -699,6 +2087,20 @@ Indonesia,femme,2005,124075
 Indonesia,femme,2010,130552
 Indonesia,femme,2015,141407
 Indonesia,femme,2019,147684
+Lao People's Democratic Republic,tous,1990,22866
+Lao People's Democratic Republic,tous,1995,23526
+Lao People's Democratic Republic,tous,2000,21948
+Lao People's Democratic Republic,tous,2005,20371
+Lao People's Democratic Republic,tous,2010,32955
+Lao People's Democratic Republic,tous,2015,45538
+Lao People's Democratic Republic,tous,2019,48275
+Lao People's Democratic Republic,homme,1990,11806
+Lao People's Democratic Republic,homme,1995,12199
+Lao People's Democratic Republic,homme,2000,11564
+Lao People's Democratic Republic,homme,2005,10930
+Lao People's Democratic Republic,homme,2010,20133
+Lao People's Democratic Republic,homme,2015,29335
+Lao People's Democratic Republic,homme,2019,31099
 Lao People's Democratic Republic,femme,1990,11060
 Lao People's Democratic Republic,femme,1995,11327
 Lao People's Democratic Republic,femme,2000,10384
@@ -706,6 +2108,20 @@ Lao People's Democratic Republic,femme,2005,9441
 Lao People's Democratic Republic,femme,2010,12822
 Lao People's Democratic Republic,femme,2015,16203
 Lao People's Democratic Republic,femme,2019,17176
+Malaysia,tous,1990,695920
+Malaysia,tous,1995,937368
+Malaysia,tous,2000,1463598
+Malaysia,tous,2005,1918504
+Malaysia,tous,2010,2417395
+Malaysia,tous,2015,3280681
+Malaysia,tous,2019,3430380
+Malaysia,homme,1990,405808
+Malaysia,homme,1995,534964
+Malaysia,homme,2000,822679
+Malaysia,homme,2005,1133541
+Malaysia,homme,2010,1469977
+Malaysia,homme,2015,1996220
+Malaysia,homme,2019,2097159
 Malaysia,femme,1990,290112
 Malaysia,femme,1995,402404
 Malaysia,femme,2000,640919
@@ -713,6 +2129,20 @@ Malaysia,femme,2005,784963
 Malaysia,femme,2010,947418
 Malaysia,femme,2015,1284461
 Malaysia,femme,2019,1333221
+Myanmar,tous,1990,133545
+Myanmar,tous,1995,113663
+Myanmar,tous,2000,98011
+Myanmar,tous,2005,83025
+Myanmar,tous,2010,76414
+Myanmar,tous,2015,73309
+Myanmar,tous,2019,75998
+Myanmar,homme,1990,72310
+Myanmar,homme,1995,61489
+Myanmar,homme,2000,52150
+Myanmar,homme,2005,44506
+Myanmar,homme,2010,41574
+Myanmar,homme,2015,40178
+Myanmar,homme,2019,41652
 Myanmar,femme,1990,61235
 Myanmar,femme,1995,52174
 Myanmar,femme,2000,45861
@@ -720,6 +2150,20 @@ Myanmar,femme,2005,38519
 Myanmar,femme,2010,34840
 Myanmar,femme,2015,33131
 Myanmar,femme,2019,34346
+Philippines,tous,1990,154071
+Philippines,tous,1995,207345
+Philippines,tous,2000,318095
+Philippines,tous,2005,257468
+Philippines,tous,2010,208599
+Philippines,tous,2015,211862
+Philippines,tous,2019,218530
+Philippines,homme,1990,81347
+Philippines,homme,1995,107524
+Philippines,homme,2000,161904
+Philippines,homme,2005,133023
+Philippines,homme,2010,107933
+Philippines,homme,2015,109783
+Philippines,homme,2019,113239
 Philippines,femme,1990,72724
 Philippines,femme,1995,99821
 Philippines,femme,2000,156191
@@ -727,6 +2171,20 @@ Philippines,femme,2005,124445
 Philippines,femme,2010,100666
 Philippines,femme,2015,102079
 Philippines,femme,2019,105291
+Singapore,tous,1990,727262
+Singapore,tous,1995,991492
+Singapore,tous,2000,1351691
+Singapore,tous,2005,1710594
+Singapore,tous,2010,2164794
+Singapore,tous,2015,2543638
+Singapore,tous,2019,2155653
+Singapore,homme,1990,345842
+Singapore,homme,1995,456411
+Singapore,homme,2000,601671
+Singapore,homme,2005,758762
+Singapore,homme,2010,956856
+Singapore,homme,2015,1122986
+Singapore,homme,2019,950192
 Singapore,femme,1990,381420
 Singapore,femme,1995,535081
 Singapore,femme,2000,750020
@@ -734,6 +2192,20 @@ Singapore,femme,2005,951832
 Singapore,femme,2010,1207938
 Singapore,femme,2015,1420652
 Singapore,femme,2019,1205461
+Thailand,tous,1990,528693
+Thailand,tous,1995,809720
+Thailand,tous,2000,1257821
+Thailand,tous,2005,2163447
+Thailand,tous,2010,3224131
+Thailand,tous,2015,3486526
+Thailand,tous,2019,3635085
+Thailand,homme,1990,283486
+Thailand,homme,1995,426290
+Thailand,homme,2000,647728
+Thailand,homme,2005,1086166
+Thailand,homme,2010,1624755
+Thailand,homme,2015,1751187
+Thailand,homme,2019,1825505
 Thailand,femme,1990,245207
 Thailand,femme,1995,383430
 Thailand,femme,2000,610093
@@ -741,6 +2213,20 @@ Thailand,femme,2005,1077281
 Thailand,femme,2010,1599376
 Thailand,femme,2015,1735339
 Thailand,femme,2019,1809580
+Timor-Leste,tous,1990,8954
+Timor-Leste,tous,1995,9743
+Timor-Leste,tous,2000,10602
+Timor-Leste,tous,2005,11286
+Timor-Leste,tous,2010,11540
+Timor-Leste,tous,2015,8520
+Timor-Leste,tous,2019,8417
+Timor-Leste,homme,1990,4450
+Timor-Leste,homme,1995,4763
+Timor-Leste,homme,2000,5095
+Timor-Leste,homme,2005,5578
+Timor-Leste,homme,2010,5837
+Timor-Leste,homme,2015,5148
+Timor-Leste,homme,2019,5086
 Timor-Leste,femme,1990,4504
 Timor-Leste,femme,1995,4980
 Timor-Leste,femme,2000,5507
@@ -748,6 +2234,20 @@ Timor-Leste,femme,2005,5708
 Timor-Leste,femme,2010,5703
 Timor-Leste,femme,2015,3372
 Timor-Leste,femme,2019,3331
+Viet Nam,tous,1990,28118
+Viet Nam,tous,1995,51262
+Viet Nam,tous,2000,56754
+Viet Nam,tous,2005,51768
+Viet Nam,tous,2010,61756
+Viet Nam,tous,2015,72793
+Viet Nam,tous,2019,76104
+Viet Nam,homme,1990,15230
+Viet Nam,homme,1995,28187
+Viet Nam,homme,2000,32825
+Viet Nam,homme,2005,31106
+Viet Nam,homme,2010,35971
+Viet Nam,homme,2015,42168
+Viet Nam,homme,2019,44087
 Viet Nam,femme,1990,12888
 Viet Nam,femme,1995,23075
 Viet Nam,femme,2000,23929
@@ -755,6 +2255,20 @@ Viet Nam,femme,2005,20662
 Viet Nam,femme,2010,25785
 Viet Nam,femme,2015,30625
 Viet Nam,femme,2019,32017
+Anguilla,tous,1990,2570
+Anguilla,tous,1995,3317
+Anguilla,tous,2000,4063
+Anguilla,tous,2005,4684
+Anguilla,tous,2010,5103
+Anguilla,tous,2015,5470
+Anguilla,tous,2019,5679
+Anguilla,homme,1990,1258
+Anguilla,homme,1995,1584
+Anguilla,homme,2000,1910
+Anguilla,homme,2005,2210
+Anguilla,homme,2010,2415
+Anguilla,homme,2015,2593
+Anguilla,homme,2019,2694
 Anguilla,femme,1990,1312
 Anguilla,femme,1995,1733
 Anguilla,femme,2000,2153
@@ -762,6 +2276,20 @@ Anguilla,femme,2005,2474
 Anguilla,femme,2010,2688
 Anguilla,femme,2015,2877
 Anguilla,femme,2019,2985
+Antigua and Barbuda,tous,1990,12029
+Antigua and Barbuda,tous,1995,17550
+Antigua and Barbuda,tous,2000,23071
+Antigua and Barbuda,tous,2005,24741
+Antigua and Barbuda,tous,2010,26412
+Antigua and Barbuda,tous,2015,28083
+Antigua and Barbuda,tous,2019,29207
+Antigua and Barbuda,homme,1990,5775
+Antigua and Barbuda,homme,1995,8046
+Antigua and Barbuda,homme,2000,10316
+Antigua and Barbuda,homme,2005,11052
+Antigua and Barbuda,homme,2010,11788
+Antigua and Barbuda,homme,2015,12524
+Antigua and Barbuda,homme,2019,13026
 Antigua and Barbuda,femme,1990,6254
 Antigua and Barbuda,femme,1995,9504
 Antigua and Barbuda,femme,2000,12755
@@ -769,6 +2297,20 @@ Antigua and Barbuda,femme,2005,13689
 Antigua and Barbuda,femme,2010,14624
 Antigua and Barbuda,femme,2015,15559
 Antigua and Barbuda,femme,2019,16181
+Aruba,tous,1990,14444
+Aruba,tous,1995,22274
+Aruba,tous,2000,30104
+Aruba,tous,2005,32540
+Aruba,tous,2010,34327
+Aruba,tous,2015,36114
+Aruba,tous,2019,36532
+Aruba,homme,1990,6429
+Aruba,homme,1995,9974
+Aruba,homme,2000,13519
+Aruba,homme,2005,14559
+Aruba,homme,2010,15311
+Aruba,homme,2015,16108
+Aruba,homme,2019,16295
 Aruba,femme,1990,8015
 Aruba,femme,1995,12300
 Aruba,femme,2000,16585
@@ -776,6 +2318,20 @@ Aruba,femme,2005,17981
 Aruba,femme,2010,19016
 Aruba,femme,2015,20006
 Aruba,femme,2019,20237
+Bahamas,tous,1990,26855
+Bahamas,tous,1995,31654
+Bahamas,tous,2000,36454
+Bahamas,tous,2005,45595
+Bahamas,tous,2010,54736
+Bahamas,tous,2015,59306
+Bahamas,tous,2019,62962
+Bahamas,homme,1990,13827
+Bahamas,homme,1995,16620
+Bahamas,homme,2000,19414
+Bahamas,homme,2005,23646
+Bahamas,homme,2010,27878
+Bahamas,homme,2015,29994
+Bahamas,homme,2019,31844
 Bahamas,femme,1990,13028
 Bahamas,femme,1995,15034
 Bahamas,femme,2000,17040
@@ -783,6 +2339,20 @@ Bahamas,femme,2005,21949
 Bahamas,femme,2010,26858
 Bahamas,femme,2015,29312
 Bahamas,femme,2019,31118
+Barbados,tous,1990,24024
+Barbados,tous,1995,26224
+Barbados,tous,2000,28424
+Barbados,tous,2005,30624
+Barbados,tous,2010,32825
+Barbados,tous,2015,34475
+Barbados,tous,2019,34807
+Barbados,homme,1990,10065
+Barbados,homme,1995,11235
+Barbados,homme,2000,12405
+Barbados,homme,2005,13575
+Barbados,homme,2010,14746
+Barbados,homme,2015,15488
+Barbados,homme,2019,15638
 Barbados,femme,1990,13959
 Barbados,femme,1995,14989
 Barbados,femme,2000,16019
@@ -790,6 +2360,20 @@ Barbados,femme,2005,17049
 Barbados,femme,2010,18079
 Barbados,femme,2015,18987
 Barbados,femme,2019,19169
+British Virgin Islands,tous,1990,8035
+British Virgin Islands,tous,1995,10046
+British Virgin Islands,tous,2000,12958
+British Virgin Islands,tous,2005,15016
+British Virgin Islands,tous,2010,17074
+British Virgin Islands,tous,2015,19132
+British Virgin Islands,tous,2019,20778
+British Virgin Islands,homme,1990,4126
+British Virgin Islands,homme,1995,5034
+British Virgin Islands,homme,2000,6386
+British Virgin Islands,homme,2005,7401
+British Virgin Islands,homme,2010,8415
+British Virgin Islands,homme,2015,9430
+British Virgin Islands,homme,2019,10242
 British Virgin Islands,femme,1990,3909
 British Virgin Islands,femme,1995,5012
 British Virgin Islands,femme,2000,6572
@@ -797,13 +2381,41 @@ British Virgin Islands,femme,2005,7615
 British Virgin Islands,femme,2010,8659
 British Virgin Islands,femme,2015,9702
 British Virgin Islands,femme,2019,10536
-Bonaire, Sint Eustatius and Saba,femme,1990,21153
-Bonaire, Sint Eustatius and Saba,femme,1995,23428
-Bonaire, Sint Eustatius and Saba,femme,2000,25703
-Bonaire, Sint Eustatius and Saba,femme,2005,34190
-Bonaire, Sint Eustatius and Saba,femme,2010,5915
-Bonaire, Sint Eustatius and Saba,femme,2015,6710
-Bonaire, Sint Eustatius and Saba,femme,2019,7990
+Bonaire Sint Eustatius and Saba,tous,1990,38410
+Bonaire Sint Eustatius and Saba,tous,1995,42258
+Bonaire Sint Eustatius and Saba,tous,2000,46105
+Bonaire Sint Eustatius and Saba,tous,2005,62205
+Bonaire Sint Eustatius and Saba,tous,2010,11445
+Bonaire Sint Eustatius and Saba,tous,2015,13002
+Bonaire Sint Eustatius and Saba,tous,2019,15484
+Bonaire Sint Eustatius and Saba,homme,1990,17257
+Bonaire Sint Eustatius and Saba,homme,1995,18830
+Bonaire Sint Eustatius and Saba,homme,2000,20402
+Bonaire Sint Eustatius and Saba,homme,2005,28015
+Bonaire Sint Eustatius and Saba,homme,2010,5530
+Bonaire Sint Eustatius and Saba,homme,2015,6292
+Bonaire Sint Eustatius and Saba,homme,2019,7494
+Bonaire Sint Eustatius and Saba,femme,1990,21153
+Bonaire Sint Eustatius and Saba,femme,1995,23428
+Bonaire Sint Eustatius and Saba,femme,2000,25703
+Bonaire Sint Eustatius and Saba,femme,2005,34190
+Bonaire Sint Eustatius and Saba,femme,2010,5915
+Bonaire Sint Eustatius and Saba,femme,2015,6710
+Bonaire Sint Eustatius and Saba,femme,2019,7990
+Cayman Islands,tous,1990,9315
+Cayman Islands,tous,1995,12666
+Cayman Islands,tous,2000,19176
+Cayman Islands,tous,2005,20679
+Cayman Islands,tous,2010,24057
+Cayman Islands,tous,2015,26177
+Cayman Islands,tous,2019,28985
+Cayman Islands,homme,1990,4587
+Cayman Islands,homme,1995,6339
+Cayman Islands,homme,2000,9671
+Cayman Islands,homme,2005,10515
+Cayman Islands,homme,2010,12310
+Cayman Islands,homme,2015,13398
+Cayman Islands,homme,2019,14838
 Cayman Islands,femme,1990,4728
 Cayman Islands,femme,1995,6327
 Cayman Islands,femme,2000,9505
@@ -811,6 +2423,20 @@ Cayman Islands,femme,2005,10164
 Cayman Islands,femme,2010,11747
 Cayman Islands,femme,2015,12779
 Cayman Islands,femme,2019,14147
+Cuba,tous,1990,34555
+Cuba,tous,1995,26187
+Cuba,tous,2000,17818
+Cuba,tous,2005,11935
+Cuba,tous,2010,6640
+Cuba,tous,2015,5312
+Cuba,tous,2019,4886
+Cuba,homme,1990,17278
+Cuba,homme,1995,12559
+Cuba,homme,2000,7840
+Cuba,homme,2005,5252
+Cuba,homme,2010,2904
+Cuba,homme,2015,2294
+Cuba,homme,2019,2097
 Cuba,femme,1990,17277
 Cuba,femme,1995,13628
 Cuba,femme,2000,9978
@@ -818,13 +2444,29 @@ Cuba,femme,2005,6683
 Cuba,femme,2010,3736
 Cuba,femme,2015,3018
 Cuba,femme,2019,2789
-Curaçao,femme,1990,..
-Curaçao,femme,1995,..
-Curaçao,femme,2000,..
-Curaçao,femme,2005,..
+Curaçao,tous,2010,34627
+Curaçao,tous,2015,37611
+Curaçao,tous,2019,40883
+Curaçao,homme,2010,14195
+Curaçao,homme,2015,15467
+Curaçao,homme,2019,16813
 Curaçao,femme,2010,20432
 Curaçao,femme,2015,22144
 Curaçao,femme,2019,24070
+Dominica,tous,1990,2519
+Dominica,tous,1995,3121
+Dominica,tous,2000,3723
+Dominica,tous,2005,4744
+Dominica,tous,2010,8110
+Dominica,tous,2015,8093
+Dominica,tous,2019,8264
+Dominica,homme,1990,1309
+Dominica,homme,1995,1623
+Dominica,homme,2000,1955
+Dominica,homme,2005,2491
+Dominica,homme,2010,4200
+Dominica,homme,2015,4215
+Dominica,homme,2019,4303
 Dominica,femme,1990,1210
 Dominica,femme,1995,1498
 Dominica,femme,2000,1768
@@ -832,6 +2474,20 @@ Dominica,femme,2005,2253
 Dominica,femme,2010,3910
 Dominica,femme,2015,3878
 Dominica,femme,2019,3961
+Dominican Republic,tous,1990,291151
+Dominican Republic,tous,1995,323381
+Dominican Republic,tous,2000,355611
+Dominican Republic,tous,2005,376001
+Dominican Republic,tous,2010,393720
+Dominican Republic,tous,2015,549289
+Dominican Republic,tous,2019,567648
+Dominican Republic,homme,1990,181677
+Dominican Republic,homme,1995,198842
+Dominican Republic,homme,2000,216008
+Dominican Republic,homme,2005,228180
+Dominican Republic,homme,2010,238742
+Dominican Republic,homme,2015,353448
+Dominican Republic,homme,2019,365261
 Dominican Republic,femme,1990,109474
 Dominican Republic,femme,1995,124539
 Dominican Republic,femme,2000,139603
@@ -839,6 +2495,20 @@ Dominican Republic,femme,2005,147821
 Dominican Republic,femme,2010,154978
 Dominican Republic,femme,2015,195841
 Dominican Republic,femme,2019,202387
+Grenada,tous,1990,4263
+Grenada,tous,1995,5544
+Grenada,tous,2000,6825
+Grenada,tous,2005,6902
+Grenada,tous,2010,6980
+Grenada,tous,2015,7057
+Grenada,tous,2019,7124
+Grenada,homme,1990,2106
+Grenada,homme,1995,2746
+Grenada,homme,2000,3386
+Grenada,homme,2005,3424
+Grenada,homme,2010,3463
+Grenada,homme,2015,3502
+Grenada,homme,2019,3536
 Grenada,femme,1990,2157
 Grenada,femme,1995,2798
 Grenada,femme,2000,3439
@@ -846,6 +2516,20 @@ Grenada,femme,2005,3478
 Grenada,femme,2010,3517
 Grenada,femme,2015,3555
 Grenada,femme,2019,3588
+Guadeloupe,tous,1990,65944
+Guadeloupe,tous,1995,74566
+Guadeloupe,tous,2000,83188
+Guadeloupe,tous,2005,89065
+Guadeloupe,tous,2010,94942
+Guadeloupe,tous,2015,98507
+Guadeloupe,tous,2019,100030
+Guadeloupe,homme,1990,32718
+Guadeloupe,homme,1995,36248
+Guadeloupe,homme,2000,39778
+Guadeloupe,homme,2005,41273
+Guadeloupe,homme,2010,42768
+Guadeloupe,homme,2015,43858
+Guadeloupe,homme,2019,44537
 Guadeloupe,femme,1990,33226
 Guadeloupe,femme,1995,38318
 Guadeloupe,femme,2000,43410
@@ -853,6 +2537,20 @@ Guadeloupe,femme,2005,47792
 Guadeloupe,femme,2010,52174
 Guadeloupe,femme,2015,54649
 Guadeloupe,femme,2019,55493
+Haiti,tous,1990,19084
+Haiti,tous,1995,18129
+Haiti,tous,2000,17222
+Haiti,tous,2005,16360
+Haiti,tous,2010,17178
+Haiti,tous,2015,18036
+Haiti,tous,2019,18756
+Haiti,homme,1990,10606
+Haiti,homme,1995,10076
+Haiti,homme,2000,9572
+Haiti,homme,2005,9093
+Haiti,homme,2010,9548
+Haiti,homme,2015,10025
+Haiti,homme,2019,10426
 Haiti,femme,1990,8478
 Haiti,femme,1995,8053
 Haiti,femme,2000,7650
@@ -860,6 +2558,20 @@ Haiti,femme,2005,7267
 Haiti,femme,2010,7630
 Haiti,femme,2015,8011
 Haiti,femme,2019,8330
+Jamaica,tous,1990,20475
+Jamaica,tous,1995,22713
+Jamaica,tous,2000,24952
+Jamaica,tous,2005,24314
+Jamaica,tous,2010,23677
+Jamaica,tous,2015,23167
+Jamaica,tous,2019,23468
+Jamaica,homme,1990,9981
+Jamaica,homme,1995,11242
+Jamaica,homme,2000,12503
+Jamaica,homme,2005,12263
+Jamaica,homme,2010,12024
+Jamaica,homme,2015,11766
+Jamaica,homme,2019,11920
 Jamaica,femme,1990,10494
 Jamaica,femme,1995,11471
 Jamaica,femme,2000,12449
@@ -867,6 +2579,20 @@ Jamaica,femme,2005,12051
 Jamaica,femme,2010,11653
 Jamaica,femme,2015,11401
 Jamaica,femme,2019,11548
+Martinique,tous,1990,38705
+Martinique,tous,1995,46599
+Martinique,tous,2000,54492
+Martinique,tous,2005,57034
+Martinique,tous,2010,59575
+Martinique,tous,2015,61731
+Martinique,tous,2019,61647
+Martinique,homme,1990,19091
+Martinique,homme,1995,22271
+Martinique,homme,2000,25451
+Martinique,homme,2005,25891
+Martinique,homme,2010,26330
+Martinique,homme,2015,26989
+Martinique,homme,2019,26953
 Martinique,femme,1990,19614
 Martinique,femme,1995,24328
 Martinique,femme,2000,29041
@@ -874,6 +2600,20 @@ Martinique,femme,2005,31143
 Martinique,femme,2010,33245
 Martinique,femme,2015,34742
 Martinique,femme,2019,34694
+Montserrat,tous,1990,2013
+Montserrat,tous,1995,1612
+Montserrat,tous,2000,1211
+Montserrat,tous,2005,1244
+Montserrat,tous,2010,1291
+Montserrat,tous,2015,1351
+Montserrat,tous,2019,1375
+Montserrat,homme,1990,1029
+Montserrat,homme,1995,825
+Montserrat,homme,2000,622
+Montserrat,homme,2005,639
+Montserrat,homme,2010,664
+Montserrat,homme,2015,696
+Montserrat,homme,2019,709
 Montserrat,femme,1990,984
 Montserrat,femme,1995,787
 Montserrat,femme,2000,589
@@ -881,6 +2621,20 @@ Montserrat,femme,2005,605
 Montserrat,femme,2010,627
 Montserrat,femme,2015,655
 Montserrat,femme,2019,666
+Puerto Rico,tous,1990,321909
+Puerto Rico,tous,1995,338067
+Puerto Rico,tous,2000,355038
+Puerto Rico,tous,2005,352144
+Puerto Rico,tous,2010,304969
+Puerto Rico,tous,2015,280494
+Puerto Rico,tous,2019,266828
+Puerto Rico,homme,1990,153354
+Puerto Rico,homme,1995,160739
+Puerto Rico,homme,2000,168480
+Puerto Rico,homme,2005,166780
+Puerto Rico,homme,2010,142939
+Puerto Rico,homme,2015,130916
+Puerto Rico,homme,2019,123980
 Puerto Rico,femme,1990,168555
 Puerto Rico,femme,1995,177328
 Puerto Rico,femme,2000,186558
@@ -888,6 +2642,20 @@ Puerto Rico,femme,2005,185364
 Puerto Rico,femme,2010,162030
 Puerto Rico,femme,2015,149578
 Puerto Rico,femme,2019,142848
+Saint Kitts and Nevis,tous,1990,3210
+Saint Kitts and Nevis,tous,1995,4248
+Saint Kitts and Nevis,tous,2000,5871
+Saint Kitts and Nevis,tous,2005,6682
+Saint Kitts and Nevis,tous,2010,7245
+Saint Kitts and Nevis,tous,2015,7443
+Saint Kitts and Nevis,tous,2019,7587
+Saint Kitts and Nevis,homme,1990,1642
+Saint Kitts and Nevis,homme,1995,2196
+Saint Kitts and Nevis,homme,2000,3068
+Saint Kitts and Nevis,homme,2005,3501
+Saint Kitts and Nevis,homme,2010,3806
+Saint Kitts and Nevis,homme,2015,3916
+Saint Kitts and Nevis,homme,2019,3992
 Saint Kitts and Nevis,femme,1990,1568
 Saint Kitts and Nevis,femme,1995,2052
 Saint Kitts and Nevis,femme,2000,2803
@@ -895,6 +2663,20 @@ Saint Kitts and Nevis,femme,2005,3181
 Saint Kitts and Nevis,femme,2010,3439
 Saint Kitts and Nevis,femme,2015,3527
 Saint Kitts and Nevis,femme,2019,3595
+Saint Lucia,tous,1990,5305
+Saint Lucia,tous,1995,7155
+Saint Lucia,tous,2000,9871
+Saint Lucia,tous,2005,9842
+Saint Lucia,tous,2010,9051
+Saint Lucia,tous,2015,8673
+Saint Lucia,tous,2019,8383
+Saint Lucia,homme,1990,2618
+Saint Lucia,homme,1995,3563
+Saint Lucia,homme,2000,4960
+Saint Lucia,homme,2005,4843
+Saint Lucia,homme,2010,4377
+Saint Lucia,homme,2015,4179
+Saint Lucia,homme,2019,4026
 Saint Lucia,femme,1990,2687
 Saint Lucia,femme,1995,3592
 Saint Lucia,femme,2000,4911
@@ -902,6 +2684,20 @@ Saint Lucia,femme,2005,4999
 Saint Lucia,femme,2010,4674
 Saint Lucia,femme,2015,4494
 Saint Lucia,femme,2019,4357
+Saint Vincent and the Grenadines,tous,1990,3970
+Saint Vincent and the Grenadines,tous,1995,4135
+Saint Vincent and the Grenadines,tous,2000,4307
+Saint Vincent and the Grenadines,tous,2005,4436
+Saint Vincent and the Grenadines,tous,2010,4569
+Saint Vincent and the Grenadines,tous,2015,4637
+Saint Vincent and the Grenadines,tous,2019,4692
+Saint Vincent and the Grenadines,homme,1990,1928
+Saint Vincent and the Grenadines,homme,1995,2011
+Saint Vincent and the Grenadines,homme,2000,2099
+Saint Vincent and the Grenadines,homme,2005,2198
+Saint Vincent and the Grenadines,homme,2010,2302
+Saint Vincent and the Grenadines,homme,2015,2355
+Saint Vincent and the Grenadines,homme,2019,2398
 Saint Vincent and the Grenadines,femme,1990,2042
 Saint Vincent and the Grenadines,femme,1995,2124
 Saint Vincent and the Grenadines,femme,2000,2208
@@ -909,13 +2705,29 @@ Saint Vincent and the Grenadines,femme,2005,2238
 Saint Vincent and the Grenadines,femme,2010,2267
 Saint Vincent and the Grenadines,femme,2015,2282
 Saint Vincent and the Grenadines,femme,2019,2294
-Sint Maarten (Dutch part),femme,1990,..
-Sint Maarten (Dutch part),femme,1995,..
-Sint Maarten (Dutch part),femme,2000,..
-Sint Maarten (Dutch part),femme,2005,..
+Sint Maarten (Dutch part),tous,2010,26200
+Sint Maarten (Dutch part),tous,2015,27295
+Sint Maarten (Dutch part),tous,2019,28260
+Sint Maarten (Dutch part),homme,2010,12570
+Sint Maarten (Dutch part),homme,2015,13077
+Sint Maarten (Dutch part),homme,2019,13540
 Sint Maarten (Dutch part),femme,2010,13630
 Sint Maarten (Dutch part),femme,2015,14218
 Sint Maarten (Dutch part),femme,2019,14720
+Trinidad and Tobago,tous,1990,50666
+Trinidad and Tobago,tous,1995,45994
+Trinidad and Tobago,tous,2000,41753
+Trinidad and Tobago,tous,2005,44812
+Trinidad and Tobago,tous,2010,48226
+Trinidad and Tobago,tous,2015,50021
+Trinidad and Tobago,tous,2019,59249
+Trinidad and Tobago,homme,1990,23528
+Trinidad and Tobago,homme,1995,21303
+Trinidad and Tobago,homme,2000,19288
+Trinidad and Tobago,homme,2005,20647
+Trinidad and Tobago,homme,2010,23152
+Trinidad and Tobago,homme,2015,24464
+Trinidad and Tobago,homme,2019,29114
 Trinidad and Tobago,femme,1990,27138
 Trinidad and Tobago,femme,1995,24691
 Trinidad and Tobago,femme,2000,22465
@@ -923,6 +2735,20 @@ Trinidad and Tobago,femme,2005,24165
 Trinidad and Tobago,femme,2010,25074
 Trinidad and Tobago,femme,2015,25557
 Trinidad and Tobago,femme,2019,30135
+Turks and Caicos Islands,tous,1990,5062
+Turks and Caicos Islands,tous,1995,7039
+Turks and Caicos Islands,tous,2000,9015
+Turks and Caicos Islands,tous,2005,13115
+Turks and Caicos Islands,tous,2010,17216
+Turks and Caicos Islands,tous,2015,22719
+Turks and Caicos Islands,tous,2019,24534
+Turks and Caicos Islands,homme,1990,2620
+Turks and Caicos Islands,homme,1995,3643
+Turks and Caicos Islands,homme,2000,4665
+Turks and Caicos Islands,homme,2005,6787
+Turks and Caicos Islands,homme,2010,8907
+Turks and Caicos Islands,homme,2015,11755
+Turks and Caicos Islands,homme,2019,12695
 Turks and Caicos Islands,femme,1990,2442
 Turks and Caicos Islands,femme,1995,3396
 Turks and Caicos Islands,femme,2000,4350
@@ -930,6 +2756,20 @@ Turks and Caicos Islands,femme,2005,6328
 Turks and Caicos Islands,femme,2010,8309
 Turks and Caicos Islands,femme,2015,10964
 Turks and Caicos Islands,femme,2019,11839
+United States Virgin Islands,tous,1990,51970
+United States Virgin Islands,tous,1995,54241
+United States Virgin Islands,tous,2000,56611
+United States Virgin Islands,tous,2005,56647
+United States Virgin Islands,tous,2010,56684
+United States Virgin Islands,tous,2015,56721
+United States Virgin Islands,tous,2019,56745
+United States Virgin Islands,homme,1990,24824
+United States Virgin Islands,homme,1995,25760
+United States Virgin Islands,homme,2000,26730
+United States Virgin Islands,homme,2005,26726
+United States Virgin Islands,homme,2010,26722
+United States Virgin Islands,homme,2015,26728
+United States Virgin Islands,homme,2019,26740
 United States Virgin Islands,femme,1990,27146
 United States Virgin Islands,femme,1995,28481
 United States Virgin Islands,femme,2000,29881
@@ -937,6 +2777,20 @@ United States Virgin Islands,femme,2005,29921
 United States Virgin Islands,femme,2010,29962
 United States Virgin Islands,femme,2015,29993
 United States Virgin Islands,femme,2019,30005
+Belize,tous,1990,30404
+Belize,tous,1995,33446
+Belize,tous,2000,36488
+Belize,tous,2005,41424
+Belize,tous,2010,46360
+Belize,tous,2015,54674
+Belize,tous,2019,59998
+Belize,homme,1990,16393
+Belize,homme,1995,17512
+Belize,homme,2000,18631
+Belize,homme,2005,21045
+Belize,homme,2010,23459
+Belize,homme,2015,27502
+Belize,homme,2019,30180
 Belize,femme,1990,14011
 Belize,femme,1995,15934
 Belize,femme,2000,17857
@@ -944,6 +2798,20 @@ Belize,femme,2005,20379
 Belize,femme,2010,22901
 Belize,femme,2015,27172
 Belize,femme,2019,29818
+Costa Rica,tous,1990,417628
+Costa Rica,tous,1995,364287
+Costa Rica,tous,2000,310946
+Costa Rica,tous,2005,358175
+Costa Rica,tous,2010,405404
+Costa Rica,tous,2015,411697
+Costa Rica,tous,2019,417768
+Costa Rica,homme,1990,212173
+Costa Rica,homme,1995,184485
+Costa Rica,homme,2000,156798
+Costa Rica,homme,2005,176335
+Costa Rica,homme,2010,195873
+Costa Rica,homme,2015,197613
+Costa Rica,homme,2019,201934
 Costa Rica,femme,1990,205455
 Costa Rica,femme,1995,179802
 Costa Rica,femme,2000,154148
@@ -951,6 +2819,20 @@ Costa Rica,femme,2005,181840
 Costa Rica,femme,2010,209531
 Costa Rica,femme,2015,214084
 Costa Rica,femme,2019,215834
+El Salvador,tous,1990,47360
+El Salvador,tous,1995,39537
+El Salvador,tous,2000,31713
+El Salvador,tous,2005,36019
+El Salvador,tous,2010,40324
+El Salvador,tous,2015,42045
+El Salvador,tous,2019,42617
+El Salvador,homme,1990,22218
+El Salvador,homme,1995,18564
+El Salvador,homme,2000,14909
+El Salvador,homme,2005,17029
+El Salvador,homme,2010,19148
+El Salvador,homme,2015,19996
+El Salvador,homme,2019,20269
 El Salvador,femme,1990,25142
 El Salvador,femme,1995,20973
 El Salvador,femme,2000,16804
@@ -958,6 +2840,20 @@ El Salvador,femme,2005,18990
 El Salvador,femme,2010,21176
 El Salvador,femme,2015,22049
 El Salvador,femme,2019,22348
+Guatemala,tous,1990,264257
+Guatemala,tous,1995,156188
+Guatemala,tous,2000,48119
+Guatemala,tous,2005,57252
+Guatemala,tous,2010,66384
+Guatemala,tous,2015,78352
+Guatemala,tous,2019,80421
+Guatemala,homme,1990,112615
+Guatemala,homme,1995,66913
+Guatemala,homme,2000,21211
+Guatemala,homme,2005,26064
+Guatemala,homme,2010,30917
+Guatemala,homme,2015,37136
+Guatemala,homme,2019,38117
 Guatemala,femme,1990,151642
 Guatemala,femme,1995,89275
 Guatemala,femme,2000,26908
@@ -965,6 +2861,20 @@ Guatemala,femme,2005,31188
 Guatemala,femme,2010,35467
 Guatemala,femme,2015,41216
 Guatemala,femme,2019,42304
+Honduras,tous,1990,270423
+Honduras,tous,1995,149442
+Honduras,tous,2000,28461
+Honduras,tous,2005,27875
+Honduras,tous,2010,27288
+Honduras,tous,2015,38317
+Honduras,tous,2019,38933
+Honduras,homme,1990,137573
+Honduras,homme,1995,76077
+Honduras,homme,2000,14581
+Honduras,homme,2005,14444
+Honduras,homme,2010,14306
+Honduras,homme,2015,20116
+Honduras,homme,2019,20440
 Honduras,femme,1990,132850
 Honduras,femme,1995,73365
 Honduras,femme,2000,13880
@@ -972,6 +2882,20 @@ Honduras,femme,2005,13431
 Honduras,femme,2010,12982
 Honduras,femme,2015,18201
 Honduras,femme,2019,18493
+Mexico,tous,1990,695674
+Mexico,tous,1995,458549
+Mexico,tous,2000,538051
+Mexico,tous,2005,712487
+Mexico,tous,2010,969538
+Mexico,tous,2015,1028803
+Mexico,tous,2019,1060707
+Mexico,homme,1990,348353
+Mexico,homme,1995,229589
+Mexico,homme,2000,270896
+Mexico,homme,2005,359642
+Mexico,homme,2010,490691
+Mexico,homme,2015,515917
+Mexico,homme,2019,531912
 Mexico,femme,1990,347321
 Mexico,femme,1995,228960
 Mexico,femme,2000,267155
@@ -979,6 +2903,20 @@ Mexico,femme,2005,352845
 Mexico,femme,2010,478847
 Mexico,femme,2015,512886
 Mexico,femme,2019,528795
+Nicaragua,tous,1990,41421
+Nicaragua,tous,1995,26619
+Nicaragua,tous,2000,30389
+Nicaragua,tous,2005,34918
+Nicaragua,tous,2010,37333
+Nicaragua,tous,2015,40262
+Nicaragua,tous,2019,42172
+Nicaragua,homme,1990,20860
+Nicaragua,homme,1995,13364
+Nicaragua,homme,2000,15423
+Nicaragua,homme,2005,17773
+Nicaragua,homme,2010,19128
+Nicaragua,homme,2015,20723
+Nicaragua,homme,2019,21704
 Nicaragua,femme,1990,20561
 Nicaragua,femme,1995,13255
 Nicaragua,femme,2000,14966
@@ -986,6 +2924,20 @@ Nicaragua,femme,2005,17145
 Nicaragua,femme,2010,18205
 Nicaragua,femme,2015,19539
 Nicaragua,femme,2019,20468
+Panama,tous,1990,62744
+Panama,tous,1995,70848
+Panama,tous,2000,83410
+Panama,tous,2005,117563
+Panama,tous,2010,157309
+Panama,tous,2015,184710
+Panama,tous,2019,185072
+Panama,homme,1990,33148
+Panama,homme,1995,36740
+Panama,homme,2000,42437
+Panama,homme,2005,59812
+Panama,homme,2010,80931
+Panama,homme,2015,94841
+Panama,homme,2019,94396
 Panama,femme,1990,29596
 Panama,femme,1995,34108
 Panama,femme,2000,40973
@@ -993,6 +2945,20 @@ Panama,femme,2005,57751
 Panama,femme,2010,76378
 Panama,femme,2015,89869
 Panama,femme,2019,90676
+Argentina,tous,1990,1649919
+Argentina,tous,1995,1595069
+Argentina,tous,2000,1540219
+Argentina,tous,2005,1673088
+Argentina,tous,2010,1805957
+Argentina,tous,2015,2086302
+Argentina,tous,2019,2212879
+Argentina,homme,1990,788130
+Argentina,homme,1995,753027
+Argentina,homme,2000,717924
+Argentina,homme,2005,774810
+Argentina,homme,2010,831696
+Argentina,homme,2015,960310
+Argentina,homme,2019,1018573
 Argentina,femme,1990,861789
 Argentina,femme,1995,842042
 Argentina,femme,2000,822295
@@ -1000,6 +2966,20 @@ Argentina,femme,2005,898278
 Argentina,femme,2010,974261
 Argentina,femme,2015,1125992
 Argentina,femme,2019,1194306
+Bolivia (Plurinational State of),tous,1990,73758
+Bolivia (Plurinational State of),tous,1995,83598
+Bolivia (Plurinational State of),tous,2000,92658
+Bolivia (Plurinational State of),tous,2005,107745
+Bolivia (Plurinational State of),tous,2010,122846
+Bolivia (Plurinational State of),tous,2015,142989
+Bolivia (Plurinational State of),tous,2019,156114
+Bolivia (Plurinational State of),homme,1990,37549
+Bolivia (Plurinational State of),homme,1995,42806
+Bolivia (Plurinational State of),homme,2000,47665
+Bolivia (Plurinational State of),homme,2005,56019
+Bolivia (Plurinational State of),homme,2010,64380
+Bolivia (Plurinational State of),homme,2015,74939
+Bolivia (Plurinational State of),homme,2019,81818
 Bolivia (Plurinational State of),femme,1990,36209
 Bolivia (Plurinational State of),femme,1995,40792
 Bolivia (Plurinational State of),femme,2000,44993
@@ -1007,6 +2987,20 @@ Bolivia (Plurinational State of),femme,2005,51726
 Bolivia (Plurinational State of),femme,2010,58466
 Bolivia (Plurinational State of),femme,2015,68050
 Bolivia (Plurinational State of),femme,2019,74296
+Brazil,tous,1990,798517
+Brazil,tous,1995,741557
+Brazil,tous,2000,684596
+Brazil,tous,2005,638582
+Brazil,tous,2010,592568
+Brazil,tous,2015,716568
+Brazil,tous,2019,807006
+Brazil,homme,1990,426147
+Brazil,homme,1995,396152
+Brazil,homme,2000,366156
+Brazil,homme,2005,343019
+Brazil,homme,2010,319882
+Brazil,homme,2015,386838
+Brazil,homme,2019,435661
 Brazil,femme,1990,372370
 Brazil,femme,1995,345405
 Brazil,femme,2000,318440
@@ -1014,6 +3008,20 @@ Brazil,femme,2005,295563
 Brazil,femme,2010,272686
 Brazil,femme,2015,329730
 Brazil,femme,2019,371345
+Chile,tous,1990,107501
+Chile,tous,1995,142417
+Chile,tous,2000,177332
+Chile,tous,2005,276360
+Chile,tous,2010,375388
+Chile,tous,2015,639724
+Chile,tous,2019,939992
+Chile,homme,1990,54547
+Chile,homme,1995,69632
+Chile,homme,2000,84717
+Chile,homme,2005,131414
+Chile,homme,2010,178111
+Chile,homme,2015,301441
+Chile,homme,2019,442929
 Chile,femme,1990,52954
 Chile,femme,1995,72785
 Chile,femme,2000,92615
@@ -1021,6 +3029,20 @@ Chile,femme,2005,144946
 Chile,femme,2010,197277
 Chile,femme,2015,338283
 Chile,femme,2019,497063
+Colombia,tous,1990,104277
+Colombia,tous,1995,106943
+Colombia,tous,2000,109609
+Colombia,tous,2005,107612
+Colombia,tous,2010,124271
+Colombia,tous,2015,139134
+Colombia,tous,2019,1142319
+Colombia,homme,1990,53109
+Colombia,homme,1995,54666
+Colombia,homme,2000,56223
+Colombia,homme,2005,55706
+Colombia,homme,2010,65622
+Colombia,homme,2015,74108
+Colombia,homme,2019,575805
 Colombia,femme,1990,51168
 Colombia,femme,1995,52277
 Colombia,femme,2000,53386
@@ -1028,6 +3050,20 @@ Colombia,femme,2005,51906
 Colombia,femme,2010,58649
 Colombia,femme,2015,65026
 Colombia,femme,2019,566514
+Ecuador,tous,1990,78663
+Ecuador,tous,1995,115093
+Ecuador,tous,2000,151523
+Ecuador,tous,2005,187404
+Ecuador,tous,2010,325366
+Ecuador,tous,2015,387513
+Ecuador,tous,2019,381507
+Ecuador,homme,1990,38531
+Ecuador,homme,1995,57879
+Ecuador,homme,2000,77227
+Ecuador,homme,2005,96188
+Ecuador,homme,2010,167773
+Ecuador,homme,2015,200352
+Ecuador,homme,2019,197162
 Ecuador,femme,1990,40132
 Ecuador,femme,1995,57214
 Ecuador,femme,2000,74296
@@ -1035,6 +3071,20 @@ Ecuador,femme,2005,91216
 Ecuador,femme,2010,157593
 Ecuador,femme,2015,187161
 Ecuador,femme,2019,184345
+Falkland Islands (Malvinas),tous,1990,855
+Falkland Islands (Malvinas),tous,1995,868
+Falkland Islands (Malvinas),tous,2000,1067
+Falkland Islands (Malvinas),tous,2005,1166
+Falkland Islands (Malvinas),tous,2010,1436
+Falkland Islands (Malvinas),tous,2015,1571
+Falkland Islands (Malvinas),tous,2019,1902
+Falkland Islands (Malvinas),homme,1990,488
+Falkland Islands (Malvinas),homme,1995,510
+Falkland Islands (Malvinas),homme,2000,636
+Falkland Islands (Malvinas),homme,2005,675
+Falkland Islands (Malvinas),homme,2010,807
+Falkland Islands (Malvinas),homme,2015,873
+Falkland Islands (Malvinas),homme,2019,1057
 Falkland Islands (Malvinas),femme,1990,367
 Falkland Islands (Malvinas),femme,1995,358
 Falkland Islands (Malvinas),femme,2000,431
@@ -1042,6 +3092,20 @@ Falkland Islands (Malvinas),femme,2005,491
 Falkland Islands (Malvinas),femme,2010,629
 Falkland Islands (Malvinas),femme,2015,698
 Falkland Islands (Malvinas),femme,2019,845
+French Guiana,tous,1990,63612
+French Guiana,tous,1995,70131
+French Guiana,tous,2000,76649
+French Guiana,tous,2005,86468
+French Guiana,tous,2010,96288
+French Guiana,tous,2015,106108
+French Guiana,tous,2019,117372
+French Guiana,homme,1990,34843
+French Guiana,homme,1995,36869
+French Guiana,homme,2000,38895
+French Guiana,homme,2005,42729
+French Guiana,homme,2010,46564
+French Guiana,homme,2015,50399
+French Guiana,homme,2019,55751
 French Guiana,femme,1990,28769
 French Guiana,femme,1995,33262
 French Guiana,femme,2000,37754
@@ -1049,6 +3113,20 @@ French Guiana,femme,2005,43739
 French Guiana,femme,2010,49724
 French Guiana,femme,2015,55709
 French Guiana,femme,2019,61621
+Guyana,tous,1990,4095
+Guyana,tous,1995,6352
+Guyana,tous,2000,8610
+Guyana,tous,2005,10868
+Guyana,tous,2010,13126
+Guyana,tous,2015,15384
+Guyana,tous,2019,15699
+Guyana,homme,1990,2200
+Guyana,homme,1995,3405
+Guyana,homme,2000,4611
+Guyana,homme,2005,5817
+Guyana,homme,2010,7023
+Guyana,homme,2015,8229
+Guyana,homme,2019,8398
 Guyana,femme,1990,1895
 Guyana,femme,1995,2947
 Guyana,femme,2000,3999
@@ -1056,6 +3134,20 @@ Guyana,femme,2005,5051
 Guyana,femme,2010,6103
 Guyana,femme,2015,7155
 Guyana,femme,2019,7301
+Paraguay,tous,1990,195884
+Paraguay,tous,1995,186570
+Paraguay,tous,2000,176608
+Paraguay,tous,2005,168243
+Paraguay,tous,2010,160299
+Paraguay,tous,2015,156462
+Paraguay,tous,2019,160519
+Paraguay,homme,1990,102816
+Paraguay,homme,1995,97869
+Paraguay,homme,2000,92052
+Paraguay,homme,2005,87698
+Paraguay,homme,2010,83394
+Paraguay,homme,2015,81303
+Paraguay,homme,2019,83412
 Paraguay,femme,1990,93068
 Paraguay,femme,1995,88701
 Paraguay,femme,2000,84556
@@ -1063,6 +3155,20 @@ Paraguay,femme,2005,80545
 Paraguay,femme,2010,76905
 Paraguay,femme,2015,75159
 Paraguay,femme,2019,77107
+Peru,tous,1990,56688
+Peru,tous,1995,56732
+Peru,tous,2000,66300
+Peru,tous,2005,77877
+Peru,tous,2010,104706
+Peru,tous,2015,154774
+Peru,tous,2019,782169
+Peru,homme,1990,28376
+Peru,homme,1995,28062
+Peru,homme,2000,32839
+Peru,homme,2005,38959
+Peru,homme,2010,56097
+Peru,homme,2015,91090
+Peru,homme,2019,424317
 Peru,femme,1990,28312
 Peru,femme,1995,28670
 Peru,femme,2000,33461
@@ -1070,6 +3176,20 @@ Peru,femme,2005,38918
 Peru,femme,2010,48609
 Peru,femme,2015,63684
 Peru,femme,2019,357852
+Suriname,tous,1990,18083
+Suriname,tous,1995,22320
+Suriname,tous,2000,27506
+Suriname,tous,2005,33664
+Suriname,tous,2010,39713
+Suriname,tous,2015,43127
+Suriname,tous,2019,46157
+Suriname,homme,1990,9767
+Suriname,homme,1995,12091
+Suriname,homme,2000,14938
+Suriname,homme,2005,18340
+Suriname,homme,2010,21658
+Suriname,homme,2015,23544
+Suriname,homme,2019,25227
 Suriname,femme,1990,8316
 Suriname,femme,1995,10229
 Suriname,femme,2000,12568
@@ -1077,6 +3197,20 @@ Suriname,femme,2005,15324
 Suriname,femme,2010,18055
 Suriname,femme,2015,19583
 Suriname,femme,2019,20930
+Uruguay,tous,1990,98116
+Uruguay,tous,1995,93428
+Uruguay,tous,2000,88874
+Uruguay,tous,2005,82317
+Uruguay,tous,2010,76303
+Uruguay,tous,2015,78799
+Uruguay,tous,2019,81482
+Uruguay,homme,1990,45830
+Uruguay,homme,1995,43427
+Uruguay,homme,2000,41095
+Uruguay,homme,2005,37658
+Uruguay,homme,2010,34535
+Uruguay,homme,2015,35642
+Uruguay,homme,2019,36988
 Uruguay,femme,1990,52286
 Uruguay,femme,1995,50001
 Uruguay,femme,2000,47779
@@ -1084,6 +3218,20 @@ Uruguay,femme,2005,44659
 Uruguay,femme,2010,41768
 Uruguay,femme,2015,43157
 Uruguay,femme,2019,44494
+Venezuela (Bolivarian Republic of),tous,1990,1025009
+Venezuela (Bolivarian Republic of),tous,1995,1019996
+Venezuela (Bolivarian Republic of),tous,2000,1013738
+Venezuela (Bolivarian Republic of),tous,2005,1076474
+Venezuela (Bolivarian Republic of),tous,2010,1347347
+Venezuela (Bolivarian Republic of),tous,2015,1404448
+Venezuela (Bolivarian Republic of),tous,2019,1375690
+Venezuela (Bolivarian Republic of),homme,1990,517579
+Venezuela (Bolivarian Republic of),homme,1995,513473
+Venezuela (Bolivarian Republic of),homme,2000,508682
+Venezuela (Bolivarian Republic of),homme,2005,538197
+Venezuela (Bolivarian Republic of),homme,2010,676261
+Venezuela (Bolivarian Republic of),homme,2015,703458
+Venezuela (Bolivarian Republic of),homme,2019,685975
 Venezuela (Bolivarian Republic of),femme,1990,507430
 Venezuela (Bolivarian Republic of),femme,1995,506523
 Venezuela (Bolivarian Republic of),femme,2000,505056
@@ -1091,6 +3239,20 @@ Venezuela (Bolivarian Republic of),femme,2005,538277
 Venezuela (Bolivarian Republic of),femme,2010,671086
 Venezuela (Bolivarian Republic of),femme,2015,700990
 Venezuela (Bolivarian Republic of),femme,2019,689715
+Australia,tous,1990,3955213
+Australia,tous,1995,4153330
+Australia,tous,2000,4386250
+Australia,tous,2005,4878030
+Australia,tous,2010,5882980
+Australia,tous,2015,6729730
+Australia,tous,2019,7549270
+Australia,homme,1990,2013196
+Australia,homme,1995,2093280
+Australia,homme,2000,2189900
+Australia,homme,2005,2419190
+Australia,homme,2010,2922030
+Australia,homme,2015,3343330
+Australia,homme,2019,3744438
 Australia,femme,1990,1942017
 Australia,femme,1995,2060050
 Australia,femme,2000,2196350
@@ -1098,6 +3260,20 @@ Australia,femme,2005,2458840
 Australia,femme,2010,2960950
 Australia,femme,2015,3386400
 Australia,femme,2019,3804832
+New Zealand,tous,1990,518047
+New Zealand,tous,1995,588617
+New Zealand,tous,2000,678813
+New Zealand,tous,2005,839952
+New Zealand,tous,2010,947443
+New Zealand,tous,2015,1039736
+New Zealand,tous,2019,1068739
+New Zealand,homme,1990,258223
+New Zealand,homme,1995,289230
+New Zealand,homme,2000,329927
+New Zealand,homme,2005,407690
+New Zealand,homme,2010,459047
+New Zealand,homme,2015,502787
+New Zealand,homme,2019,516814
 New Zealand,femme,1990,259824
 New Zealand,femme,1995,299387
 New Zealand,femme,2000,348886
@@ -1105,6 +3281,20 @@ New Zealand,femme,2005,432262
 New Zealand,femme,2010,488396
 New Zealand,femme,2015,536949
 New Zealand,femme,2019,551925
+Fiji,tous,1990,13283
+Fiji,tous,1995,13001
+Fiji,tous,2000,12719
+Fiji,tous,2005,12435
+Fiji,tous,2010,13351
+Fiji,tous,2015,13751
+Fiji,tous,2019,14038
+Fiji,homme,1990,6847
+Fiji,homme,1995,6726
+Fiji,homme,2000,6601
+Fiji,homme,2005,6564
+Fiji,homme,2010,7137
+Fiji,homme,2015,7421
+Fiji,homme,2019,7576
 Fiji,femme,1990,6436
 Fiji,femme,1995,6275
 Fiji,femme,2000,6118
@@ -1112,6 +3302,20 @@ Fiji,femme,2005,5871
 Fiji,femme,2010,6214
 Fiji,femme,2015,6330
 Fiji,femme,2019,6462
+New Caledonia,tous,1990,37673
+New Caledonia,tous,1995,43662
+New Caledonia,tous,2000,49651
+New Caledonia,tous,2005,55405
+New Caledonia,tous,2010,61158
+New Caledonia,tous,2015,68881
+New Caledonia,tous,2019,72537
+New Caledonia,homme,1990,20885
+New Caledonia,homme,1995,23908
+New Caledonia,homme,2000,26932
+New Caledonia,homme,2005,29909
+New Caledonia,homme,2010,32886
+New Caledonia,homme,2015,36181
+New Caledonia,homme,2019,37984
 New Caledonia,femme,1990,16788
 New Caledonia,femme,1995,19754
 New Caledonia,femme,2000,22719
@@ -1119,6 +3323,20 @@ New Caledonia,femme,2005,25496
 New Caledonia,femme,2010,28272
 New Caledonia,femme,2015,32700
 New Caledonia,femme,2019,34553
+Papua New Guinea,tous,1990,33710
+Papua New Guinea,tous,1995,33526
+Papua New Guinea,tous,2000,26304
+Papua New Guinea,tous,2005,30106
+Papua New Guinea,tous,2010,30425
+Papua New Guinea,tous,2015,30940
+Papua New Guinea,tous,2019,31212
+Papua New Guinea,homme,1990,19362
+Papua New Guinea,homme,1995,19832
+Papua New Guinea,homme,2000,15874
+Papua New Guinea,homme,2005,17920
+Papua New Guinea,homme,2010,18466
+Papua New Guinea,homme,2015,18734
+Papua New Guinea,homme,2019,18944
 Papua New Guinea,femme,1990,14348
 Papua New Guinea,femme,1995,13694
 Papua New Guinea,femme,2000,10430
@@ -1126,6 +3344,20 @@ Papua New Guinea,femme,2005,12186
 Papua New Guinea,femme,2010,11959
 Papua New Guinea,femme,2015,12206
 Papua New Guinea,femme,2019,12268
+Solomon Islands,tous,1990,4226
+Solomon Islands,tous,1995,4178
+Solomon Islands,tous,2000,3981
+Solomon Islands,tous,2005,3271
+Solomon Islands,tous,2010,2760
+Solomon Islands,tous,2015,2585
+Solomon Islands,tous,2019,2532
+Solomon Islands,homme,1990,2349
+Solomon Islands,homme,1995,2328
+Solomon Islands,homme,2000,2224
+Solomon Islands,homme,2005,1830
+Solomon Islands,homme,2010,1546
+Solomon Islands,homme,2015,1450
+Solomon Islands,homme,2019,1421
 Solomon Islands,femme,1990,1877
 Solomon Islands,femme,1995,1850
 Solomon Islands,femme,2000,1757
@@ -1133,6 +3365,20 @@ Solomon Islands,femme,2005,1441
 Solomon Islands,femme,2010,1214
 Solomon Islands,femme,2015,1135
 Solomon Islands,femme,2019,1111
+Vanuatu,tous,1990,2308
+Vanuatu,tous,1995,2461
+Vanuatu,tous,2000,2626
+Vanuatu,tous,2005,2800
+Vanuatu,tous,2010,2991
+Vanuatu,tous,2015,3187
+Vanuatu,tous,2019,3245
+Vanuatu,homme,1990,1269
+Vanuatu,homme,1995,1295
+Vanuatu,homme,2000,1320
+Vanuatu,homme,2005,1398
+Vanuatu,homme,2010,1487
+Vanuatu,homme,2015,1583
+Vanuatu,homme,2019,1612
 Vanuatu,femme,1990,1039
 Vanuatu,femme,1995,1166
 Vanuatu,femme,2000,1306
@@ -1140,6 +3386,20 @@ Vanuatu,femme,2005,1402
 Vanuatu,femme,2010,1504
 Vanuatu,femme,2015,1604
 Vanuatu,femme,2019,1633
+Guam,tous,1990,69755
+Guam,tous,1995,71912
+Guam,tous,2000,74070
+Guam,tous,2005,74743
+Guam,tous,2010,75416
+Guam,tous,2015,76089
+Guam,tous,2019,79846
+Guam,homme,1990,39364
+Guam,homme,1995,38822
+Guam,homme,2000,38280
+Guam,homme,2005,38602
+Guam,homme,2010,38924
+Guam,homme,2015,39246
+Guam,homme,2019,41185
 Guam,femme,1990,30391
 Guam,femme,1995,33090
 Guam,femme,2000,35790
@@ -1147,6 +3407,20 @@ Guam,femme,2005,36141
 Guam,femme,2010,36492
 Guam,femme,2015,36843
 Guam,femme,2019,38661
+Kiribati,tous,1990,2162
+Kiribati,tous,1995,2223
+Kiribati,tous,2000,2283
+Kiribati,tous,2005,2487
+Kiribati,tous,2010,2868
+Kiribati,tous,2015,2919
+Kiribati,tous,2019,3022
+Kiribati,homme,1990,1107
+Kiribati,homme,1995,1139
+Kiribati,homme,2000,1188
+Kiribati,homme,2005,1312
+Kiribati,homme,2010,1512
+Kiribati,homme,2015,1539
+Kiribati,homme,2019,1594
 Kiribati,femme,1990,1055
 Kiribati,femme,1995,1084
 Kiribati,femme,2000,1095
@@ -1154,6 +3428,20 @@ Kiribati,femme,2005,1175
 Kiribati,femme,2010,1356
 Kiribati,femme,2015,1380
 Kiribati,femme,2019,1428
+Marshall Islands,tous,1990,1158
+Marshall Islands,tous,1995,1480
+Marshall Islands,tous,2000,1891
+Marshall Islands,tous,2005,2417
+Marshall Islands,tous,2010,3089
+Marshall Islands,tous,2015,3284
+Marshall Islands,tous,2019,3296
+Marshall Islands,homme,1990,721
+Marshall Islands,homme,1995,916
+Marshall Islands,homme,2000,1164
+Marshall Islands,homme,2005,1485
+Marshall Islands,homme,2010,1895
+Marshall Islands,homme,2015,2011
+Marshall Islands,homme,2019,2019
 Marshall Islands,femme,1990,437
 Marshall Islands,femme,1995,564
 Marshall Islands,femme,2000,727
@@ -1161,6 +3449,20 @@ Marshall Islands,femme,2005,932
 Marshall Islands,femme,2010,1194
 Marshall Islands,femme,2015,1273
 Marshall Islands,femme,2019,1277
+Micronesia (Fed. States of),tous,1990,3685
+Micronesia (Fed. States of),tous,1995,3342
+Micronesia (Fed. States of),tous,2000,3116
+Micronesia (Fed. States of),tous,2005,2905
+Micronesia (Fed. States of),tous,2010,2806
+Micronesia (Fed. States of),tous,2015,2756
+Micronesia (Fed. States of),tous,2019,2819
+Micronesia (Fed. States of),homme,1990,2099
+Micronesia (Fed. States of),homme,1995,2119
+Micronesia (Fed. States of),homme,2000,1721
+Micronesia (Fed. States of),homme,2005,1565
+Micronesia (Fed. States of),homme,2010,1503
+Micronesia (Fed. States of),homme,2015,1473
+Micronesia (Fed. States of),homme,2019,1508
 Micronesia (Fed. States of),femme,1990,1586
 Micronesia (Fed. States of),femme,1995,1223
 Micronesia (Fed. States of),femme,2000,1395
@@ -1168,6 +3470,20 @@ Micronesia (Fed. States of),femme,2005,1340
 Micronesia (Fed. States of),femme,2010,1303
 Micronesia (Fed. States of),femme,2015,1283
 Micronesia (Fed. States of),femme,2019,1311
+Nauru,tous,1990,2815
+Nauru,tous,1995,2605
+Nauru,tous,2000,2394
+Nauru,tous,2005,2253
+Nauru,tous,2010,1183
+Nauru,tous,2015,1890
+Nauru,tous,2019,2114
+Nauru,homme,1990,1506
+Nauru,homme,1995,1395
+Nauru,homme,2000,1283
+Nauru,homme,2005,1208
+Nauru,homme,2010,653
+Nauru,homme,2015,1071
+Nauru,homme,2019,1206
 Nauru,femme,1990,1309
 Nauru,femme,1995,1210
 Nauru,femme,2000,1111
@@ -1175,6 +3491,20 @@ Nauru,femme,2005,1045
 Nauru,femme,2010,530
 Nauru,femme,2015,819
 Nauru,femme,2019,908
+Northern Mariana Islands,tous,1990,26593
+Northern Mariana Islands,tous,1995,32376
+Northern Mariana Islands,tous,2000,40122
+Northern Mariana Islands,tous,2005,37542
+Northern Mariana Islands,tous,2010,24168
+Northern Mariana Islands,tous,2015,21648
+Northern Mariana Islands,tous,2019,21815
+Northern Mariana Islands,homme,1990,14261
+Northern Mariana Islands,homme,1995,15847
+Northern Mariana Islands,homme,2000,17387
+Northern Mariana Islands,homme,2005,15977
+Northern Mariana Islands,homme,2010,10223
+Northern Mariana Islands,homme,2015,9100
+Northern Mariana Islands,homme,2019,9171
 Northern Mariana Islands,femme,1990,12332
 Northern Mariana Islands,femme,1995,16529
 Northern Mariana Islands,femme,2000,22735
@@ -1182,6 +3512,20 @@ Northern Mariana Islands,femme,2005,21565
 Northern Mariana Islands,femme,2010,13945
 Northern Mariana Islands,femme,2015,12548
 Northern Mariana Islands,femme,2019,12644
+Palau,tous,1990,2801
+Palau,tous,1995,4749
+Palau,tous,2000,6310
+Palau,tous,2005,6043
+Palau,tous,2010,5490
+Palau,tous,2015,4937
+Palau,tous,2019,5066
+Palau,homme,1990,1800
+Palau,homme,1995,2808
+Palau,homme,2000,3905
+Palau,homme,2005,3620
+Palau,homme,2010,3211
+Palau,homme,2015,2996
+Palau,homme,2019,2875
 Palau,femme,1990,1001
 Palau,femme,1995,1941
 Palau,femme,2000,2405
@@ -1189,6 +3533,20 @@ Palau,femme,2005,2423
 Palau,femme,2010,2279
 Palau,femme,2015,1941
 Palau,femme,2019,2191
+American Samoa,tous,1990,21283
+American Samoa,tous,1995,23098
+American Samoa,tous,2000,24912
+American Samoa,tous,2005,24233
+American Samoa,tous,2010,23555
+American Samoa,tous,2015,23513
+American Samoa,tous,2019,23539
+American Samoa,homme,1990,11175
+American Samoa,homme,1995,12037
+American Samoa,homme,2000,12898
+American Samoa,homme,2005,12498
+American Samoa,homme,2010,12098
+American Samoa,homme,2015,11998
+American Samoa,homme,2019,12012
 American Samoa,femme,1990,10108
 American Samoa,femme,1995,11061
 American Samoa,femme,2000,12014
@@ -1196,6 +3554,20 @@ American Samoa,femme,2005,11735
 American Samoa,femme,2010,11457
 American Samoa,femme,2015,11515
 American Samoa,femme,2019,11527
+Cook Islands,tous,1990,2587
+Cook Islands,tous,1995,2686
+Cook Islands,tous,2000,2785
+Cook Islands,tous,2005,3277
+Cook Islands,tous,2010,3769
+Cook Islands,tous,2015,3477
+Cook Islands,tous,2019,3491
+Cook Islands,homme,1990,1443
+Cook Islands,homme,1995,1497
+Cook Islands,homme,2000,1552
+Cook Islands,homme,2005,1724
+Cook Islands,homme,2010,1895
+Cook Islands,homme,2015,1741
+Cook Islands,homme,2019,1748
 Cook Islands,femme,1990,1144
 Cook Islands,femme,1995,1189
 Cook Islands,femme,2000,1233
@@ -1203,6 +3575,20 @@ Cook Islands,femme,2005,1553
 Cook Islands,femme,2010,1874
 Cook Islands,femme,2015,1736
 Cook Islands,femme,2019,1743
+French Polynesia,tous,1990,25830
+French Polynesia,tous,1995,28360
+French Polynesia,tous,2000,30329
+French Polynesia,tous,2005,32286
+French Polynesia,tous,2010,31640
+French Polynesia,tous,2015,30058
+French Polynesia,tous,2019,31205
+French Polynesia,homme,1990,15444
+French Polynesia,homme,1995,16689
+French Polynesia,homme,2000,17604
+French Polynesia,homme,2005,18405
+French Polynesia,homme,2010,18037
+French Polynesia,homme,2015,17136
+French Polynesia,homme,2019,17791
 French Polynesia,femme,1990,10386
 French Polynesia,femme,1995,11671
 French Polynesia,femme,2000,12725
@@ -1210,6 +3596,20 @@ French Polynesia,femme,2005,13881
 French Polynesia,femme,2010,13603
 French Polynesia,femme,2015,12922
 French Polynesia,femme,2019,13414
+Niue,tous,1990,461
+Niue,tous,1995,480
+Niue,tous,2000,498
+Niue,tous,2005,522
+Niue,tous,2010,589
+Niue,tous,2015,588
+Niue,tous,2019,588
+Niue,homme,1990,245
+Niue,homme,1995,257
+Niue,homme,2000,268
+Niue,homme,2005,282
+Niue,homme,2010,319
+Niue,homme,2015,319
+Niue,homme,2019,319
 Niue,femme,1990,216
 Niue,femme,1995,223
 Niue,femme,2000,230
@@ -1217,6 +3617,20 @@ Niue,femme,2005,240
 Niue,femme,2010,270
 Niue,femme,2015,269
 Niue,femme,2019,269
+Samoa,tous,1990,3357
+Samoa,tous,1995,4694
+Samoa,tous,2000,5998
+Samoa,tous,2005,5746
+Samoa,tous,2010,5122
+Samoa,tous,2015,4252
+Samoa,tous,2019,4035
+Samoa,homme,1990,1771
+Samoa,homme,1995,2451
+Samoa,homme,2000,3101
+Samoa,homme,2005,2940
+Samoa,homme,2010,2594
+Samoa,homme,2015,2148
+Samoa,homme,2019,2038
 Samoa,femme,1990,1586
 Samoa,femme,1995,2243
 Samoa,femme,2000,2897
@@ -1224,6 +3638,20 @@ Samoa,femme,2005,2806
 Samoa,femme,2010,2528
 Samoa,femme,2015,2104
 Samoa,femme,2019,1997
+Tokelau,tous,1990,270
+Tokelau,tous,1995,266
+Tokelau,tous,2000,262
+Tokelau,tous,2005,258
+Tokelau,tous,2010,429
+Tokelau,tous,2015,487
+Tokelau,tous,2019,504
+Tokelau,homme,1990,150
+Tokelau,homme,1995,147
+Tokelau,homme,2000,144
+Tokelau,homme,2005,133
+Tokelau,homme,2010,206
+Tokelau,homme,2015,233
+Tokelau,homme,2019,242
 Tokelau,femme,1990,120
 Tokelau,femme,1995,119
 Tokelau,femme,2000,118
@@ -1231,6 +3659,20 @@ Tokelau,femme,2005,125
 Tokelau,femme,2010,223
 Tokelau,femme,2015,254
 Tokelau,femme,2019,262
+Tonga,tous,1990,2911
+Tonga,tous,1995,3274
+Tonga,tous,2000,3684
+Tonga,tous,2005,4301
+Tonga,tous,2010,4604
+Tonga,tous,2015,3954
+Tonga,tous,2019,3752
+Tonga,homme,1990,1488
+Tonga,homme,1995,1718
+Tonga,homme,2000,1981
+Tonga,homme,2005,2324
+Tonga,homme,2010,2500
+Tonga,homme,2015,2158
+Tonga,homme,2019,2048
 Tonga,femme,1990,1423
 Tonga,femme,1995,1556
 Tonga,femme,2000,1703
@@ -1238,6 +3680,20 @@ Tonga,femme,2005,1977
 Tonga,femme,2010,2104
 Tonga,femme,2015,1796
 Tonga,femme,2019,1704
+Tuvalu,tous,1990,318
+Tuvalu,tous,1995,263
+Tuvalu,tous,2000,218
+Tuvalu,tous,2005,209
+Tuvalu,tous,2010,220
+Tuvalu,tous,2015,230
+Tuvalu,tous,2019,238
+Tuvalu,homme,1990,180
+Tuvalu,homme,1995,148
+Tuvalu,homme,2000,121
+Tuvalu,homme,2005,115
+Tuvalu,homme,2010,121
+Tuvalu,homme,2015,126
+Tuvalu,homme,2019,131
 Tuvalu,femme,1990,138
 Tuvalu,femme,1995,115
 Tuvalu,femme,2000,97
@@ -1245,6 +3701,20 @@ Tuvalu,femme,2005,94
 Tuvalu,femme,2010,99
 Tuvalu,femme,2015,104
 Tuvalu,femme,2019,107
+Wallis and Futuna Islands,tous,1990,1402
+Wallis and Futuna Islands,tous,1995,1704
+Wallis and Futuna Islands,tous,2000,2015
+Wallis and Futuna Islands,tous,2005,2191
+Wallis and Futuna Islands,tous,2010,1624
+Wallis and Futuna Islands,tous,2015,1052
+Wallis and Futuna Islands,tous,2019,1022
+Wallis and Futuna Islands,homme,1990,726
+Wallis and Futuna Islands,homme,1995,872
+Wallis and Futuna Islands,homme,2000,1018
+Wallis and Futuna Islands,homme,2005,1107
+Wallis and Futuna Islands,homme,2010,820
+Wallis and Futuna Islands,homme,2015,531
+Wallis and Futuna Islands,homme,2019,516
 Wallis and Futuna Islands,femme,1990,676
 Wallis and Futuna Islands,femme,1995,832
 Wallis and Futuna Islands,femme,2000,997
@@ -1252,6 +3722,20 @@ Wallis and Futuna Islands,femme,2005,1084
 Wallis and Futuna Islands,femme,2010,804
 Wallis and Futuna Islands,femme,2015,521
 Wallis and Futuna Islands,femme,2019,506
+Belarus,tous,1990,1248977
+Belarus,tous,1995,1186282
+Belarus,tous,2000,1123586
+Belarus,tous,2005,1106982
+Belarus,tous,2010,1090378
+Belarus,tous,2015,1082905
+Belarus,tous,2019,1069395
+Belarus,homme,1990,572021
+Belarus,homme,1995,543307
+Belarus,homme,2000,514593
+Belarus,homme,2005,506988
+Belarus,homme,2010,499384
+Belarus,homme,2015,495961
+Belarus,homme,2019,489770
 Belarus,femme,1990,676956
 Belarus,femme,1995,642975
 Belarus,femme,2000,608993
@@ -1259,6 +3743,20 @@ Belarus,femme,2005,599994
 Belarus,femme,2010,590994
 Belarus,femme,2015,586944
 Belarus,femme,2019,579625
+Bulgaria,tous,1990,21510
+Bulgaria,tous,1995,32435
+Bulgaria,tous,2000,43360
+Bulgaria,tous,2005,61074
+Bulgaria,tous,2010,76287
+Bulgaria,tous,2015,123803
+Bulgaria,tous,2019,168516
+Bulgaria,homme,1990,9047
+Bulgaria,homme,1995,13642
+Bulgaria,homme,2000,18238
+Bulgaria,homme,2005,26594
+Bulgaria,homme,2010,33841
+Bulgaria,homme,2015,60058
+Bulgaria,homme,2019,82718
 Bulgaria,femme,1990,12463
 Bulgaria,femme,1995,18793
 Bulgaria,femme,2000,25122
@@ -1266,6 +3764,20 @@ Bulgaria,femme,2005,34480
 Bulgaria,femme,2010,42446
 Bulgaria,femme,2015,63745
 Bulgaria,femme,2019,85798
+Czechia,tous,1990,110394
+Czechia,tous,1995,165592
+Czechia,tous,2000,220789
+Czechia,tous,2005,322540
+Czechia,tous,2010,398493
+Czechia,tous,2015,416454
+Czechia,tous,2019,512705
+Czechia,homme,1990,57405
+Czechia,homme,1995,88316
+Czechia,homme,2000,119227
+Czechia,homme,2005,181719
+Czechia,homme,2010,236160
+Czechia,homme,2015,239228
+Czechia,homme,2019,293245
 Czechia,femme,1990,52989
 Czechia,femme,1995,77276
 Czechia,femme,2000,101562
@@ -1273,6 +3785,20 @@ Czechia,femme,2005,140821
 Czechia,femme,2010,162333
 Czechia,femme,2015,177226
 Czechia,femme,2019,219460
+Hungary,tous,1990,347510
+Hungary,tous,1995,322234
+Hungary,tous,2000,296957
+Hungary,tous,2005,366787
+Hungary,tous,2010,436616
+Hungary,tous,2015,475508
+Hungary,tous,2019,512043
+Hungary,homme,1990,156185
+Hungary,homme,1995,147202
+Hungary,homme,2000,138219
+Hungary,homme,2005,174216
+Hungary,homme,2010,210212
+Hungary,homme,2015,235719
+Hungary,homme,2019,253884
 Hungary,femme,1990,191325
 Hungary,femme,1995,175032
 Hungary,femme,2000,158738
@@ -1280,6 +3806,20 @@ Hungary,femme,2005,192571
 Hungary,femme,2010,226404
 Hungary,femme,2015,239789
 Hungary,femme,2019,258159
+Poland,tous,1990,1127771
+Poland,tous,1995,964725
+Poland,tous,2000,825251
+Poland,tous,2005,722509
+Poland,tous,2010,642417
+Poland,tous,2015,619403
+Poland,tous,2019,655985
+Poland,homme,1990,482176
+Poland,homme,1995,404049
+Poland,homme,2000,338323
+Poland,homme,2005,297039
+Poland,homme,2010,262263
+Poland,homme,2015,259789
+Poland,homme,2019,289754
 Poland,femme,1990,645595
 Poland,femme,1995,560676
 Poland,femme,2000,486928
@@ -1287,6 +3827,20 @@ Poland,femme,2005,425470
 Poland,femme,2010,380154
 Poland,femme,2015,359614
 Poland,femme,2019,366231
+Republic of Moldova,tous,1990,544162
+Republic of Moldova,tous,1995,367231
+Republic of Moldova,tous,2000,247828
+Republic of Moldova,tous,2005,171122
+Republic of Moldova,tous,2010,129488
+Republic of Moldova,tous,2015,106374
+Republic of Moldova,tous,2019,104713
+Republic of Moldova,homme,1990,238053
+Republic of Moldova,homme,1995,155297
+Republic of Moldova,homme,2000,101097
+Republic of Moldova,homme,2005,67924
+Republic of Moldova,homme,2010,52198
+Republic of Moldova,homme,2015,43467
+Republic of Moldova,homme,2019,42839
 Republic of Moldova,femme,1990,306109
 Republic of Moldova,femme,1995,211934
 Republic of Moldova,femme,2000,146731
@@ -1294,6 +3848,20 @@ Republic of Moldova,femme,2005,103198
 Republic of Moldova,femme,2010,77290
 Republic of Moldova,femme,2015,62907
 Republic of Moldova,femme,2019,61874
+Romania,tous,1990,135825
+Romania,tous,1995,135037
+Romania,tous,2000,134254
+Romania,tous,2005,145162
+Romania,tous,2010,177211
+Romania,tous,2015,281048
+Romania,tous,2019,462552
+Romania,homme,1990,57601
+Romania,homme,1995,60443
+Romania,homme,2000,63121
+Romania,homme,2005,70153
+Romania,homme,2010,87667
+Romania,homme,2015,146758
+Romania,homme,2019,248851
 Romania,femme,1990,78224
 Romania,femme,1995,74594
 Romania,femme,2000,71133
@@ -1301,6 +3869,20 @@ Romania,femme,2005,75009
 Romania,femme,2010,89544
 Romania,femme,2015,134290
 Romania,femme,2019,213701
+Russian Federation,tous,1990,11524948
+Russian Federation,tous,1995,11928927
+Russian Federation,tous,2000,11900297
+Russian Federation,tous,2005,11667588
+Russian Federation,tous,2010,11194710
+Russian Federation,tous,2015,11643276
+Russian Federation,tous,2019,11640559
+Russian Federation,homme,1990,5655422
+Russian Federation,homme,1995,5925452
+Russian Federation,homme,2000,5982851
+Russian Federation,homme,2005,5806597
+Russian Federation,homme,2010,5514401
+Russian Federation,homme,2015,5715211
+Russian Federation,homme,2019,5713879
 Russian Federation,femme,1990,5869526
 Russian Federation,femme,1995,6003475
 Russian Federation,femme,2000,5917446
@@ -1308,6 +3890,20 @@ Russian Federation,femme,2005,5860991
 Russian Federation,femme,2010,5680309
 Russian Federation,femme,2015,5928065
 Russian Federation,femme,2019,5926680
+Slovakia,tous,1990,41295
+Slovakia,tous,1995,69323
+Slovakia,tous,2000,116376
+Slovakia,tous,2005,130491
+Slovakia,tous,2010,146319
+Slovakia,tous,2015,177624
+Slovakia,tous,2019,187984
+Slovakia,homme,1990,18187
+Slovakia,homme,1995,30531
+Slovakia,homme,2000,51253
+Slovakia,homme,2005,58716
+Slovakia,homme,2010,66938
+Slovakia,homme,2015,89011
+Slovakia,homme,2019,96010
 Slovakia,femme,1990,23108
 Slovakia,femme,1995,38792
 Slovakia,femme,2000,65123
@@ -1315,6 +3911,20 @@ Slovakia,femme,2005,71775
 Slovakia,femme,2010,79381
 Slovakia,femme,2015,88613
 Slovakia,femme,2019,91974
+Ukraine,tous,1990,6892920
+Ukraine,tous,1995,6172338
+Ukraine,tous,2000,5527087
+Ukraine,tous,2005,5050302
+Ukraine,tous,2010,4818767
+Ukraine,tous,2015,4915142
+Ukraine,tous,2019,4964293
+Ukraine,homme,1990,2953603
+Ukraine,homme,1995,2644845
+Ukraine,homme,2000,2368364
+Ukraine,homme,2005,2168060
+Ukraine,homme,2010,2072474
+Ukraine,homme,2015,2113924
+Ukraine,homme,2019,2135064
 Ukraine,femme,1990,3939317
 Ukraine,femme,1995,3527493
 Ukraine,femme,2000,3158723
@@ -1322,6 +3932,20 @@ Ukraine,femme,2005,2882242
 Ukraine,femme,2010,2746293
 Ukraine,femme,2015,2801218
 Ukraine,femme,2019,2829229
+Channel Islands,tous,1990,61660
+Channel Islands,tous,1995,60519
+Channel Islands,tous,2000,64301
+Channel Islands,tous,2005,70941
+Channel Islands,tous,2010,77581
+Channel Islands,tous,2015,82307
+Channel Islands,tous,2019,83833
+Channel Islands,homme,1990,29005
+Channel Islands,homme,1995,28468
+Channel Islands,homme,2000,30234
+Channel Islands,homme,2005,33611
+Channel Islands,homme,2010,36982
+Channel Islands,homme,2015,39338
+Channel Islands,homme,2019,40068
 Channel Islands,femme,1990,32655
 Channel Islands,femme,1995,32051
 Channel Islands,femme,2000,34067
@@ -1329,6 +3953,20 @@ Channel Islands,femme,2005,37330
 Channel Islands,femme,2010,40599
 Channel Islands,femme,2015,42969
 Channel Islands,femme,2019,43765
+Denmark,tous,1990,235189
+Denmark,tous,1995,303108
+Denmark,tous,2000,371026
+Denmark,tous,2005,440383
+Denmark,tous,2010,500772
+Denmark,tous,2015,595876
+Denmark,tous,2019,722878
+Denmark,homme,1990,114411
+Denmark,homme,1995,147194
+Denmark,homme,2000,179977
+Denmark,homme,2005,213097
+Denmark,homme,2010,242029
+Denmark,homme,2015,291431
+Denmark,homme,2019,357366
 Denmark,femme,1990,120778
 Denmark,femme,1995,155914
 Denmark,femme,2000,191049
@@ -1336,6 +3974,20 @@ Denmark,femme,2005,227286
 Denmark,femme,2010,258743
 Denmark,femme,2015,304445
 Denmark,femme,2019,365512
+Estonia,tous,1990,381997
+Estonia,tous,1995,315755
+Estonia,tous,2000,249512
+Estonia,tous,2005,233701
+Estonia,tous,2010,217890
+Estonia,tous,2015,194664
+Estonia,tous,2019,190242
+Estonia,homme,1990,171691
+Estonia,homme,1995,136268
+Estonia,homme,2000,100844
+Estonia,homme,2005,94244
+Estonia,homme,2010,87644
+Estonia,homme,2015,80024
+Estonia,homme,2019,80616
 Estonia,femme,1990,210306
 Estonia,femme,1995,179487
 Estonia,femme,2000,148668
@@ -1343,6 +3995,20 @@ Estonia,femme,2005,139457
 Estonia,femme,2010,130246
 Estonia,femme,2015,114640
 Estonia,femme,2019,109626
+Faroe Islands,tous,1990,4285
+Faroe Islands,tous,1995,2900
+Faroe Islands,tous,2000,3593
+Faroe Islands,tous,2005,4583
+Faroe Islands,tous,2010,5096
+Faroe Islands,tous,2015,5485
+Faroe Islands,tous,2019,6454
+Faroe Islands,homme,1990,2440
+Faroe Islands,homme,1995,1575
+Faroe Islands,homme,2000,1921
+Faroe Islands,homme,2005,2450
+Faroe Islands,homme,2010,2700
+Faroe Islands,homme,2015,2783
+Faroe Islands,homme,2019,3287
 Faroe Islands,femme,1990,1845
 Faroe Islands,femme,1995,1325
 Faroe Islands,femme,2000,1672
@@ -1350,6 +4016,20 @@ Faroe Islands,femme,2005,2133
 Faroe Islands,femme,2010,2396
 Faroe Islands,femme,2015,2702
 Faroe Islands,femme,2019,3167
+Finland,tous,1990,63255
+Finland,tous,1995,99729
+Finland,tous,2000,136203
+Finland,tous,2005,192169
+Finland,tous,2010,228481
+Finland,tous,2015,314856
+Finland,tous,2019,383116
+Finland,homme,1990,31682
+Finland,homme,1995,49575
+Finland,homme,2000,67469
+Finland,homme,2005,96429
+Finland,homme,2010,115105
+Finland,homme,2015,159315
+Finland,homme,2019,196188
 Finland,femme,1990,31573
 Finland,femme,1995,50154
 Finland,femme,2000,68734
@@ -1357,6 +4037,20 @@ Finland,femme,2005,95740
 Finland,femme,2010,113376
 Finland,femme,2015,155541
 Finland,femme,2019,186928
+Iceland,tous,1990,9584
+Iceland,tous,1995,12738
+Iceland,tous,2000,15892
+Iceland,tous,2005,25492
+Iceland,tous,2010,35091
+Iceland,tous,2015,39072
+Iceland,tous,2019,52404
+Iceland,homme,1990,4248
+Iceland,homme,1995,5727
+Iceland,homme,2000,7207
+Iceland,homme,2005,12413
+Iceland,homme,2010,17619
+Iceland,homme,2015,19070
+Iceland,homme,2019,27554
 Iceland,femme,1990,5336
 Iceland,femme,1995,7011
 Iceland,femme,2000,8685
@@ -1364,6 +4058,20 @@ Iceland,femme,2005,13079
 Iceland,femme,2010,17472
 Iceland,femme,2015,20002
 Iceland,femme,2019,24850
+Ireland,tous,1990,227961
+Ireland,tous,1995,226892
+Ireland,tous,2000,350552
+Ireland,tous,2005,589046
+Ireland,tous,2010,730542
+Ireland,tous,2015,759256
+Ireland,tous,2019,833564
+Ireland,homme,1990,112093
+Ireland,homme,1995,108084
+Ireland,homme,2000,172959
+Ireland,homme,2005,309910
+Ireland,homme,2010,360440
+Ireland,homme,2015,376338
+Ireland,homme,2019,414452
 Ireland,femme,1990,115868
 Ireland,femme,1995,118808
 Ireland,femme,2000,177593
@@ -1371,6 +4079,20 @@ Ireland,femme,2005,279136
 Ireland,femme,2010,370102
 Ireland,femme,2015,382918
 Ireland,femme,2019,419112
+Isle of Man,tous,1990,34769
+Isle of Man,tous,1995,36886
+Isle of Man,tous,2000,39002
+Isle of Man,tous,2005,41475
+Isle of Man,tous,2010,43447
+Isle of Man,tous,2015,42238
+Isle of Man,tous,2019,42864
+Isle of Man,homme,1990,16371
+Isle of Man,homme,1995,17548
+Isle of Man,homme,2000,18725
+Isle of Man,homme,2005,20214
+Isle of Man,homme,2010,21361
+Isle of Man,homme,2015,20596
+Isle of Man,homme,2019,20901
 Isle of Man,femme,1990,18398
 Isle of Man,femme,1995,19338
 Isle of Man,femme,2000,20277
@@ -1378,6 +4100,20 @@ Isle of Man,femme,2005,21261
 Isle of Man,femme,2010,22086
 Isle of Man,femme,2015,21642
 Isle of Man,femme,2019,21963
+Latvia,tous,1990,646007
+Latvia,tous,1995,538093
+Latvia,tous,2000,430178
+Latvia,tous,2005,376725
+Latvia,tous,2010,313786
+Latvia,tous,2015,265418
+Latvia,tous,2019,237266
+Latvia,homme,1990,290800
+Latvia,homme,1995,234216
+Latvia,homme,2000,177632
+Latvia,homme,2005,154745
+Latvia,homme,2010,124675
+Latvia,homme,2015,104011
+Latvia,homme,2019,93396
 Latvia,femme,1990,355207
 Latvia,femme,1995,303877
 Latvia,femme,2000,252546
@@ -1385,6 +4121,20 @@ Latvia,femme,2005,221980
 Latvia,femme,2010,189111
 Latvia,femme,2015,161407
 Latvia,femme,2019,143870
+Lithuania,tous,1990,349258
+Lithuania,tous,1995,273587
+Lithuania,tous,2000,214311
+Lithuania,tous,2005,201209
+Lithuania,tous,2010,160772
+Lithuania,tous,2015,136021
+Lithuania,tous,2019,117218
+Lithuania,homme,1990,164585
+Lithuania,homme,1995,128641
+Lithuania,homme,2000,100546
+Lithuania,homme,2005,94189
+Lithuania,homme,2010,69606
+Lithuania,homme,2015,57508
+Lithuania,homme,2019,49293
 Lithuania,femme,1990,184673
 Lithuania,femme,1995,144946
 Lithuania,femme,2000,113765
@@ -1392,6 +4142,20 @@ Lithuania,femme,2005,107020
 Lithuania,femme,2010,91166
 Lithuania,femme,2015,78513
 Lithuania,femme,2019,67925
+Norway,tous,1990,192587
+Norway,tous,1995,233302
+Norway,tous,2000,292440
+Norway,tous,2005,361144
+Norway,tous,2010,526799
+Norway,tous,2015,746375
+Norway,tous,2019,867765
+Norway,homme,1990,99562
+Norway,homme,1995,117222
+Norway,homme,2000,144826
+Norway,homme,2005,176444
+Norway,homme,2010,268505
+Norway,homme,2015,389370
+Norway,homme,2019,451599
 Norway,femme,1990,93025
 Norway,femme,1995,116080
 Norway,femme,2000,147614
@@ -1399,6 +4163,20 @@ Norway,femme,2005,184700
 Norway,femme,2010,258294
 Norway,femme,2015,357005
 Norway,femme,2019,416166
+Sweden,tous,1990,788767
+Sweden,tous,1995,936022
+Sweden,tous,2000,1003798
+Sweden,tous,2005,1125790
+Sweden,tous,2010,1384929
+Sweden,tous,2015,1676264
+Sweden,tous,2019,2005210
+Sweden,homme,1990,383085
+Sweden,homme,1995,450945
+Sweden,homme,2000,480211
+Sweden,homme,2005,538490
+Sweden,homme,2010,673083
+Sweden,homme,2015,828027
+Sweden,homme,2019,1008536
 Sweden,femme,1990,405682
 Sweden,femme,1995,485077
 Sweden,femme,2000,523587
@@ -1406,6 +4184,20 @@ Sweden,femme,2005,587300
 Sweden,femme,2010,711846
 Sweden,femme,2015,848237
 Sweden,femme,2019,996674
+United Kingdom,tous,1990,3650286
+United Kingdom,tous,1995,4155293
+United Kingdom,tous,2000,4730165
+United Kingdom,tous,2005,5926156
+United Kingdom,tous,2010,7119664
+United Kingdom,tous,2015,8411569
+United Kingdom,tous,2019,9552110
+United Kingdom,homme,1990,1756448
+United Kingdom,homme,1995,1978711
+United Kingdom,homme,2000,2228628
+United Kingdom,homme,2005,2818177
+United Kingdom,homme,2010,3454456
+United Kingdom,homme,2015,4023771
+United Kingdom,homme,2019,4581996
 United Kingdom,femme,1990,1893838
 United Kingdom,femme,1995,2176582
 United Kingdom,femme,2000,2501537
@@ -1413,6 +4205,20 @@ United Kingdom,femme,2005,3107979
 United Kingdom,femme,2010,3665208
 United Kingdom,femme,2015,4387798
 United Kingdom,femme,2019,4970114
+Albania,tous,1990,66013
+Albania,tous,1995,71354
+Albania,tous,2000,76695
+Albania,tous,2005,64739
+Albania,tous,2010,52784
+Albania,tous,2015,52031
+Albania,tous,2019,49160
+Albania,homme,1990,30579
+Albania,homme,1995,33284
+Albania,homme,2000,35990
+Albania,homme,2005,32993
+Albania,homme,2010,26901
+Albania,homme,2015,26517
+Albania,homme,2019,25054
 Albania,femme,1990,35434
 Albania,femme,1995,38070
 Albania,femme,2000,40705
@@ -1420,6 +4226,20 @@ Albania,femme,2005,31746
 Albania,femme,2010,25883
 Albania,femme,2015,25514
 Albania,femme,2019,24106
+Andorra,tous,1990,38891
+Andorra,tous,1995,44206
+Andorra,tous,2000,42147
+Andorra,tous,2005,50298
+Andorra,tous,2010,52053
+Andorra,tous,2015,42264
+Andorra,tous,2019,45102
+Andorra,homme,1990,20990
+Andorra,homme,1995,23588
+Andorra,homme,2000,22093
+Andorra,homme,2005,26466
+Andorra,homme,2010,27287
+Andorra,homme,2015,21485
+Andorra,homme,2019,23091
 Andorra,femme,1990,17901
 Andorra,femme,1995,20618
 Andorra,femme,2000,20054
@@ -1427,6 +4247,20 @@ Andorra,femme,2005,23832
 Andorra,femme,2010,24766
 Andorra,femme,2015,20779
 Andorra,femme,2019,22011
+Bosnia and Herzegovina,tous,1990,56000
+Bosnia and Herzegovina,tous,1995,69476
+Bosnia and Herzegovina,tous,2000,82952
+Bosnia and Herzegovina,tous,2005,47272
+Bosnia and Herzegovina,tous,2010,38792
+Bosnia and Herzegovina,tous,2015,38574
+Bosnia and Herzegovina,tous,2019,35735
+Bosnia and Herzegovina,homme,1990,26538
+Bosnia and Herzegovina,homme,1995,33115
+Bosnia and Herzegovina,homme,2000,39691
+Bosnia and Herzegovina,homme,2005,22473
+Bosnia and Herzegovina,homme,2010,18504
+Bosnia and Herzegovina,homme,2015,18400
+Bosnia and Herzegovina,homme,2019,17017
 Bosnia and Herzegovina,femme,1990,29462
 Bosnia and Herzegovina,femme,1995,36361
 Bosnia and Herzegovina,femme,2000,43261
@@ -1434,6 +4268,20 @@ Bosnia and Herzegovina,femme,2005,24799
 Bosnia and Herzegovina,femme,2010,20288
 Bosnia and Herzegovina,femme,2015,20174
 Bosnia and Herzegovina,femme,2019,18718
+Croatia,tous,1990,475438
+Croatia,tous,1995,674085
+Croatia,tous,2000,585298
+Croatia,tous,2005,579273
+Croatia,tous,2010,573248
+Croatia,tous,2015,561093
+Croatia,tous,2019,518083
+Croatia,homme,1990,222531
+Croatia,homme,1995,315733
+Croatia,homme,2000,274823
+Croatia,homme,2005,271645
+Croatia,homme,2010,268466
+Croatia,homme,2015,260473
+Croatia,homme,2019,239681
 Croatia,femme,1990,252907
 Croatia,femme,1995,358352
 Croatia,femme,2000,310475
@@ -1441,6 +4289,20 @@ Croatia,femme,2005,307628
 Croatia,femme,2010,304782
 Croatia,femme,2015,300620
 Croatia,femme,2019,278402
+Gibraltar,tous,1990,8709
+Gibraltar,tous,1995,8381
+Gibraltar,tous,2000,8054
+Gibraltar,tous,2005,9211
+Gibraltar,tous,2010,10369
+Gibraltar,tous,2015,11065
+Gibraltar,tous,2019,11172
+Gibraltar,homme,1990,4528
+Gibraltar,homme,1995,4196
+Gibraltar,homme,2000,3865
+Gibraltar,homme,2005,4518
+Gibraltar,homme,2010,5171
+Gibraltar,homme,2015,5591
+Gibraltar,homme,2019,5646
 Gibraltar,femme,1990,4181
 Gibraltar,femme,1995,4185
 Gibraltar,femme,2000,4189
@@ -1448,6 +4310,20 @@ Gibraltar,femme,2005,4693
 Gibraltar,femme,2010,5198
 Gibraltar,femme,2015,5474
 Gibraltar,femme,2019,5526
+Greece,tous,1990,618139
+Greece,tous,1995,857850
+Greece,tous,2000,1111665
+Greece,tous,2005,1190707
+Greece,tous,2010,1321149
+Greece,tous,2015,1242924
+Greece,tous,2019,1211382
+Greece,homme,1990,330038
+Greece,homme,1995,445004
+Greece,homme,2000,559794
+Greece,homme,2005,587677
+Greece,homme,2010,640731
+Greece,homme,2015,570528
+Greece,homme,2019,560208
 Greece,femme,1990,288101
 Greece,femme,1995,412846
 Greece,femme,2000,551871
@@ -1455,6 +4331,20 @@ Greece,femme,2005,603030
 Greece,femme,2010,680418
 Greece,femme,2015,672396
 Greece,femme,2019,651174
+Holy See,tous,1990,768
+Holy See,tous,1995,780
+Holy See,tous,2000,785
+Holy See,tous,2005,798
+Holy See,tous,2010,794
+Holy See,tous,2015,803
+Holy See,tous,2019,799
+Holy See,homme,1990,376
+Holy See,homme,1995,379
+Holy See,homme,2000,379
+Holy See,homme,2005,381
+Holy See,homme,2010,375
+Holy See,homme,2015,376
+Holy See,homme,2019,373
 Holy See,femme,1990,392
 Holy See,femme,1995,401
 Holy See,femme,2000,406
@@ -1462,6 +4352,20 @@ Holy See,femme,2005,417
 Holy See,femme,2010,419
 Holy See,femme,2015,427
 Holy See,femme,2019,426
+Italy,tous,1990,1428219
+Italy,tous,1995,1774954
+Italy,tous,2000,2121688
+Italy,tous,2005,3954790
+Italy,tous,2010,5787893
+Italy,tous,2015,5805328
+Italy,tous,2019,6273722
+Italy,homme,1990,642414
+Italy,homme,1995,809553
+Italy,homme,2000,976691
+Italy,homme,2005,1820290
+Italy,homme,2010,2663889
+Italy,homme,2015,2637798
+Italy,homme,2019,2908119
 Italy,femme,1990,785805
 Italy,femme,1995,965401
 Italy,femme,2000,1144997
@@ -1469,6 +4373,20 @@ Italy,femme,2005,2134500
 Italy,femme,2010,3124004
 Italy,femme,2015,3167530
 Italy,femme,2019,3365603
+Malta,tous,1990,15077
+Malta,tous,1995,17740
+Malta,tous,2000,21521
+Malta,tous,2005,24560
+Malta,tous,2010,33008
+Malta,tous,2015,52642
+Malta,tous,2019,84949
+Malta,homme,1990,7012
+Malta,homme,1995,8366
+Malta,homme,2000,10289
+Malta,homme,2005,11899
+Malta,homme,2010,17118
+Malta,homme,2015,28332
+Malta,homme,2019,45986
 Malta,femme,1990,8065
 Malta,femme,1995,9374
 Malta,femme,2000,11232
@@ -1476,13 +4394,29 @@ Malta,femme,2005,12661
 Malta,femme,2010,15890
 Malta,femme,2015,24310
 Malta,femme,2019,38963
-Montenegro,femme,1990,..
-Montenegro,femme,1995,..
-Montenegro,femme,2000,..
-Montenegro,femme,2005,..
+Montenegro,tous,2010,78512
+Montenegro,tous,2015,71719
+Montenegro,tous,2019,70967
+Montenegro,homme,2010,31639
+Montenegro,homme,2015,28178
+Montenegro,homme,2019,27982
 Montenegro,femme,2010,46873
 Montenegro,femme,2015,43541
 Montenegro,femme,2019,42985
+North Macedonia,tous,1990,95142
+North Macedonia,tous,1995,109343
+North Macedonia,tous,2000,125665
+North Macedonia,tous,2005,127667
+North Macedonia,tous,2010,129701
+North Macedonia,tous,2015,130730
+North Macedonia,tous,2019,131175
+North Macedonia,homme,1990,39661
+North Macedonia,homme,1995,45581
+North Macedonia,homme,2000,52385
+North Macedonia,homme,2005,53220
+North Macedonia,homme,2010,54067
+North Macedonia,homme,2015,54496
+North Macedonia,homme,2019,54682
 North Macedonia,femme,1990,55481
 North Macedonia,femme,1995,63762
 North Macedonia,femme,2000,73280
@@ -1490,6 +4424,20 @@ North Macedonia,femme,2005,74447
 North Macedonia,femme,2010,75634
 North Macedonia,femme,2015,76234
 North Macedonia,femme,2019,76493
+Portugal,tous,1990,435782
+Portugal,tous,1995,532822
+Portugal,tous,2000,651472
+Portugal,tous,2005,771184
+Portugal,tous,2010,762825
+Portugal,tous,2015,864814
+Portugal,tous,2019,888162
+Portugal,homme,1990,209922
+Portugal,homme,1995,259337
+Portugal,homme,2000,320319
+Portugal,homme,2005,376774
+Portugal,homme,2010,371536
+Portugal,homme,2015,398390
+Portugal,homme,2019,411750
 Portugal,femme,1990,225860
 Portugal,femme,1995,273485
 Portugal,femme,2000,331153
@@ -1497,6 +4445,20 @@ Portugal,femme,2005,394410
 Portugal,femme,2010,391289
 Portugal,femme,2015,466424
 Portugal,femme,2019,476412
+San Marino,tous,1990,3310
+San Marino,tous,1995,3659
+San Marino,tous,2000,4045
+San Marino,tous,2005,4218
+San Marino,tous,2010,4880
+San Marino,tous,2015,5195
+San Marino,tous,2019,5507
+San Marino,homme,1990,1728
+San Marino,homme,1995,1940
+San Marino,homme,2000,2175
+San Marino,homme,2005,2302
+San Marino,homme,2010,2761
+San Marino,homme,2015,2867
+San Marino,homme,2019,2936
 San Marino,femme,1990,1582
 San Marino,femme,1995,1719
 San Marino,femme,2000,1870
@@ -1504,6 +4466,20 @@ San Marino,femme,2005,1916
 San Marino,femme,2010,2119
 San Marino,femme,2015,2328
 San Marino,femme,2019,2571
+Serbia,tous,1990,99269
+Serbia,tous,1995,870980
+Serbia,tous,2000,977873
+Serbia,tous,2005,854848
+Serbia,tous,2010,826275
+Serbia,tous,2015,807441
+Serbia,tous,2019,820312
+Serbia,homme,1990,46712
+Serbia,homme,1995,390134
+Serbia,homme,2000,437602
+Serbia,homme,2005,383088
+Serbia,homme,2010,364757
+Serbia,homme,2015,355180
+Serbia,homme,2019,361216
 Serbia,femme,1990,52557
 Serbia,femme,1995,480846
 Serbia,femme,2000,540271
@@ -1511,6 +4487,20 @@ Serbia,femme,2005,471760
 Serbia,femme,2010,461518
 Serbia,femme,2015,452261
 Serbia,femme,2019,459096
+Slovenia,tous,1990,178077
+Slovenia,tous,1995,174419
+Slovenia,tous,2000,214508
+Slovenia,tous,2005,217218
+Slovenia,tous,2010,253786
+Slovenia,tous,2015,237616
+Slovenia,tous,2019,253122
+Slovenia,homme,1990,89514
+Slovenia,homme,1995,90255
+Slovenia,homme,2000,114772
+Slovenia,homme,2005,116741
+Slovenia,homme,2010,141285
+Slovenia,homme,2015,134460
+Slovenia,homme,2019,142626
 Slovenia,femme,1990,88563
 Slovenia,femme,1995,84164
 Slovenia,femme,2000,99736
@@ -1518,6 +4508,20 @@ Slovenia,femme,2005,100477
 Slovenia,femme,2010,112501
 Slovenia,femme,2015,103156
 Slovenia,femme,2019,110496
+Spain,tous,1990,821605
+Spain,tous,1995,1020067
+Spain,tous,2000,1657285
+Spain,tous,2005,4107226
+Spain,tous,2010,6280065
+Spain,tous,2015,5891208
+Spain,tous,2019,6104203
+Spain,homme,1990,390448
+Spain,homme,1995,499114
+Spain,homme,2000,838058
+Spain,homme,2005,2140680
+Spain,homme,2010,3238238
+Spain,homme,2015,2884000
+Spain,homme,2019,2913747
 Spain,femme,1990,431157
 Spain,femme,1995,520953
 Spain,femme,2000,819227
@@ -1525,6 +4529,20 @@ Spain,femme,2005,1966546
 Spain,femme,2010,3041827
 Spain,femme,2015,3007208
 Spain,femme,2019,3190456
+Austria,tous,1990,793239
+Austria,tous,1995,894893
+Austria,tous,2000,996547
+Austria,tous,2005,1136270
+Austria,tous,2010,1275992
+Austria,tous,2015,1492374
+Austria,tous,2019,1779857
+Austria,homme,1990,368287
+Austria,homme,1995,423302
+Austria,homme,2000,478318
+Austria,homme,2005,543618
+Austria,homme,2010,608918
+Austria,homme,2015,716470
+Austria,homme,2019,873536
 Austria,femme,1990,424952
 Austria,femme,1995,471591
 Austria,femme,2000,518229
@@ -1532,6 +4550,20 @@ Austria,femme,2005,592652
 Austria,femme,2010,667074
 Austria,femme,2015,775904
 Austria,femme,2019,906321
+Belgium,tous,1990,1280583
+Belgium,tous,1995,1288003
+Belgium,tous,2000,1268368
+Belgium,tous,2005,1248733
+Belgium,tous,2010,1503806
+Belgium,tous,2015,1783488
+Belgium,tous,2019,1981919
+Belgium,homme,1990,654543
+Belgium,homme,1995,651788
+Belgium,homme,2000,636275
+Belgium,homme,2005,620924
+Belgium,homme,2010,726881
+Belgium,homme,2015,869989
+Belgium,homme,2019,979191
 Belgium,femme,1990,626040
 Belgium,femme,1995,636215
 Belgium,femme,2000,632093
@@ -1539,6 +4571,20 @@ Belgium,femme,2005,627809
 Belgium,femme,2010,776925
 Belgium,femme,2015,913499
 Belgium,femme,2019,1002728
+France,tous,1990,5897267
+France,tous,1995,6087993
+France,tous,2000,6278718
+France,tous,2005,6737600
+France,tous,2010,7309986
+France,tous,2015,7874172
+France,tous,2019,8334875
+France,homme,1990,2999376
+France,homme,1995,3046083
+France,homme,2000,3092789
+France,homme,2005,3300859
+France,homme,2010,3554527
+France,homme,2015,3806413
+France,homme,2019,4019290
 France,femme,1990,2897891
 France,femme,1995,3041910
 France,femme,2000,3185929
@@ -1546,6 +4592,20 @@ France,femme,2005,3436741
 France,femme,2010,3755459
 France,femme,2015,4067759
 France,femme,2019,4315585
+Germany,tous,1990,5936181
+Germany,tous,1995,7464406
+Germany,tous,2000,8992631
+Germany,tous,2005,9402447
+Germany,tous,2010,9812263
+Germany,tous,2015,10220418
+Germany,tous,2019,13132146
+Germany,homme,1990,3293128
+Germany,homme,1995,3898397
+Germany,homme,2000,4503666
+Germany,homme,2005,4676178
+Germany,homme,2010,4848689
+Germany,homme,2015,5037961
+Germany,homme,2019,6881990
 Germany,femme,1990,2643053
 Germany,femme,1995,3566009
 Germany,femme,2000,4488965
@@ -1553,6 +4613,20 @@ Germany,femme,2005,4726269
 Germany,femme,2010,4963574
 Germany,femme,2015,5182457
 Germany,femme,2019,6250156
+Liechtenstein,tous,1990,10906
+Liechtenstein,tous,1995,13311
+Liechtenstein,tous,2000,15483
+Liechtenstein,tous,2005,18898
+Liechtenstein,tous,2010,22342
+Liechtenstein,tous,2015,23799
+Liechtenstein,tous,2019,25467
+Liechtenstein,homme,1990,5956
+Liechtenstein,homme,1995,7068
+Liechtenstein,homme,2000,7980
+Liechtenstein,homme,2005,9434
+Liechtenstein,homme,2010,10867
+Liechtenstein,homme,2015,11605
+Liechtenstein,homme,2019,12406
 Liechtenstein,femme,1990,4950
 Liechtenstein,femme,1995,6243
 Liechtenstein,femme,2000,7503
@@ -1560,6 +4634,20 @@ Liechtenstein,femme,2005,9464
 Liechtenstein,femme,2010,11475
 Liechtenstein,femme,2015,12194
 Liechtenstein,femme,2019,13061
+Luxembourg,tous,1990,113795
+Luxembourg,tous,1995,126106
+Luxembourg,tous,2000,139750
+Luxembourg,tous,2005,150618
+Luxembourg,tous,2010,163142
+Luxembourg,tous,2015,248888
+Luxembourg,tous,2019,291723
+Luxembourg,homme,1990,56062
+Luxembourg,homme,1995,62292
+Luxembourg,homme,2000,69286
+Luxembourg,homme,2005,74951
+Luxembourg,homme,2010,81420
+Luxembourg,homme,2015,126129
+Luxembourg,homme,2019,148670
 Luxembourg,femme,1990,57733
 Luxembourg,femme,1995,63814
 Luxembourg,femme,2000,70464
@@ -1567,6 +4655,20 @@ Luxembourg,femme,2005,75667
 Luxembourg,femme,2010,81722
 Luxembourg,femme,2015,122759
 Luxembourg,femme,2019,143053
+Monaco,tous,1990,20359
+Monaco,tous,1995,21060
+Monaco,tous,2000,21787
+Monaco,tous,2005,21312
+Monaco,tous,2010,21132
+Monaco,tous,2015,25983
+Monaco,tous,2019,26511
+Monaco,homme,1990,9471
+Monaco,homme,1995,9955
+Monaco,homme,2000,10458
+Monaco,homme,2005,10322
+Monaco,homme,2010,10325
+Monaco,homme,2015,12599
+Monaco,homme,2019,12851
 Monaco,femme,1990,10888
 Monaco,femme,1995,11105
 Monaco,femme,2000,11329
@@ -1574,6 +4676,20 @@ Monaco,femme,2005,10990
 Monaco,femme,2010,10807
 Monaco,femme,2015,13384
 Monaco,femme,2019,13660
+Netherlands,tous,1990,1182263
+Netherlands,tous,1995,1346164
+Netherlands,tous,2000,1556337
+Netherlands,tous,2005,1736127
+Netherlands,tous,2010,1832510
+Netherlands,tous,2015,1996318
+Netherlands,tous,2019,2282791
+Netherlands,homme,1990,592343
+Netherlands,homme,1995,668236
+Netherlands,homme,2000,765302
+Netherlands,homme,2005,843444
+Netherlands,homme,2010,881264
+Netherlands,homme,2015,952313
+Netherlands,homme,2019,1103004
 Netherlands,femme,1990,589920
 Netherlands,femme,1995,677928
 Netherlands,femme,2000,791035
@@ -1581,6 +4697,20 @@ Netherlands,femme,2005,892683
 Netherlands,femme,2010,951246
 Netherlands,femme,2015,1044005
 Netherlands,femme,2019,1179787
+Switzerland,tous,1990,1392282
+Switzerland,tous,1995,1478829
+Switzerland,tous,2000,1570756
+Switzerland,tous,2005,1805437
+Switzerland,tous,2010,2075182
+Switzerland,tous,2015,2416394
+Switzerland,tous,2019,2572029
+Switzerland,homme,1990,701110
+Switzerland,homme,1995,769043
+Switzerland,homme,2000,841855
+Switzerland,homme,2005,922387
+Switzerland,homme,2010,1005381
+Switzerland,homme,2015,1183243
+Switzerland,homme,2019,1265343
 Switzerland,femme,1990,691172
 Switzerland,femme,1995,709786
 Switzerland,femme,2000,728901
@@ -1588,6 +4718,20 @@ Switzerland,femme,2005,883050
 Switzerland,femme,2010,1069801
 Switzerland,femme,2015,1233151
 Switzerland,femme,2019,1306686
+Bermuda,tous,1990,15683
+Bermuda,tous,1995,16676
+Bermuda,tous,2000,17668
+Bermuda,tous,2005,18276
+Bermuda,tous,2010,18884
+Bermuda,tous,2015,19126
+Bermuda,tous,2019,19336
+Bermuda,homme,1990,7557
+Bermuda,homme,1995,8044
+Bermuda,homme,2000,8531
+Bermuda,homme,2005,8866
+Bermuda,homme,2010,9202
+Bermuda,homme,2015,9336
+Bermuda,homme,2019,9439
 Bermuda,femme,1990,8126
 Bermuda,femme,1995,8632
 Bermuda,femme,2000,9137
@@ -1595,6 +4739,20 @@ Bermuda,femme,2005,9410
 Bermuda,femme,2010,9682
 Bermuda,femme,2015,9790
 Bermuda,femme,2019,9897
+Canada,tous,1990,4333318
+Canada,tous,1995,4864778
+Canada,tous,2000,5511914
+Canada,tous,2005,6078985
+Canada,tous,2010,6761226
+Canada,tous,2015,7428657
+Canada,tous,2019,7960657
+Canada,homme,1990,2109652
+Canada,homme,1995,2356105
+Canada,homme,2000,2659135
+Canada,homme,2005,2915838
+Canada,homme,2010,3236539
+Canada,homme,2015,3533164
+Canada,homme,2019,3786190
 Canada,femme,1990,2223666
 Canada,femme,1995,2508673
 Canada,femme,2000,2852779
@@ -1602,6 +4760,20 @@ Canada,femme,2005,3163147
 Canada,femme,2010,3524687
 Canada,femme,2015,3895493
 Canada,femme,2019,4174467
+Greenland,tous,1990,9282
+Greenland,tous,1995,7121
+Greenland,tous,2000,6601
+Greenland,tous,2005,6556
+Greenland,tous,2010,6091
+Greenland,tous,2015,5797
+Greenland,tous,2019,5690
+Greenland,homme,1990,6472
+Greenland,homme,1995,4875
+Greenland,homme,2000,4616
+Greenland,homme,2005,4461
+Greenland,homme,2010,4119
+Greenland,homme,2015,3812
+Greenland,homme,2019,3742
 Greenland,femme,1990,2810
 Greenland,femme,1995,2246
 Greenland,femme,2000,1985
@@ -1609,6 +4781,20 @@ Greenland,femme,2005,2095
 Greenland,femme,2010,1972
 Greenland,femme,2015,1985
 Greenland,femme,2019,1948
+Saint Pierre and Miquelon,tous,1990,1099
+Saint Pierre and Miquelon,tous,1995,1320
+Saint Pierre and Miquelon,tous,2000,1458
+Saint Pierre and Miquelon,tous,2005,1147
+Saint Pierre and Miquelon,tous,2010,1017
+Saint Pierre and Miquelon,tous,2015,986
+Saint Pierre and Miquelon,tous,2019,990
+Saint Pierre and Miquelon,homme,1990,560
+Saint Pierre and Miquelon,homme,1995,682
+Saint Pierre and Miquelon,homme,2000,756
+Saint Pierre and Miquelon,homme,2005,597
+Saint Pierre and Miquelon,homme,2010,531
+Saint Pierre and Miquelon,homme,2015,516
+Saint Pierre and Miquelon,homme,2019,519
 Saint Pierre and Miquelon,femme,1990,539
 Saint Pierre and Miquelon,femme,1995,638
 Saint Pierre and Miquelon,femme,2000,702
@@ -1616,6 +4802,20 @@ Saint Pierre and Miquelon,femme,2005,550
 Saint Pierre and Miquelon,femme,2010,486
 Saint Pierre and Miquelon,femme,2015,470
 Saint Pierre and Miquelon,femme,2019,471
+United States of America,tous,1990,23251026
+United States of America,tous,1995,28451053
+United States of America,tous,2000,34814053
+United States of America,tous,2005,39258293
+United States of America,tous,2010,44183643
+United States of America,tous,2015,48178877
+United States of America,tous,2019,50661149
+United States of America,homme,1990,11372985
+United States of America,homme,1995,14032159
+United States of America,homme,2000,17310785
+United States of America,homme,2005,19614878
+United States of America,homme,2010,21694169
+United States of America,homme,2015,23446873
+United States of America,homme,2019,24488382
 United States of America,femme,1990,11878041
 United States of America,femme,1995,14418894
 United States of America,femme,2000,17503268
