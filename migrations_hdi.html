@@ -130,23 +130,7 @@
         <!--about end -->
 
         <!--footer-copyright start-->
-        <footer id="footer-copyright" class="footer-copyright">
-            <div class="container">
-                <div class="hm-footer-copyright text-center">
-                    <p>
-                    &copy; copyright yourname. design and developed by <a href="https://www.themesine.com/">themesine</a>
-                    </p><!--/p-->
-                </div><!--/.text-center-->
-            </div><!--/.container-->
 
-            <div id="scroll-Top">
-                <div class="return-to-top">
-                    <i class="fa fa-angle-up " id="scroll-top" ></i>
-                </div>
-
-            </div><!--/.scroll-Top-->
-
-        </footer><!--/.footer-copyright-->
         <!--footer-copyright end-->
 
         <!-- Include all js compiled plugins (below), or include individual files as needed -->
@@ -291,11 +275,11 @@
                        });
 
 
-                   var legend = svg.selectAll(".legend")
-                   .data(color.domain())
-                   .enter().append("g")
-                   .attr("class", "legend")
-                   .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+                   // var legend = svg.selectAll(".legend")
+                   // .data(color.domain())
+                   // .enter().append("g")
+                   // .attr("class", "legend")
+                   // .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
                    legend.append("rect")
                    .attr("x", width - 18)
@@ -313,6 +297,24 @@
 
                    });
             </script>
+
+            <footer id="footer-copyright" class="footer-copyright">
+                <div class="container">
+                    <div class="hm-footer-copyright text-center">
+                        <p>
+                        &copy; copyright yourname. design and developed by <a href="https://www.themesine.com/">themesine</a>
+                        </p><!--/p-->
+                    </div><!--/.text-center-->
+                </div><!--/.container-->
+
+                <div id="scroll-Top">
+                    <div class="return-to-top">
+                        <i class="fa fa-angle-up " id="scroll-top" ></i>
+                    </div>
+
+                </div><!--/.scroll-Top-->
+
+            </footer><!--/.footer-copyright-->
 
     </body>
 
