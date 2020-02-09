@@ -10,13 +10,13 @@
 
     <!--font-family-->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
-    
+
     <!-- title of site -->
     <title>MIGRATIONS</title>
 
     <!-- For favicon png -->
     <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
-     
+
     <!--font-awesome.min.css-->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
@@ -29,34 +29,50 @@
     <!--owl.carousel.css-->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    
+
     <!--bootstrap.min.css-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    
+
     <!-- bootsnav -->
-    <link rel="stylesheet" href="assets/css/bootsnav.css" > 
-    
+    <link rel="stylesheet" href="assets/css/bootsnav.css" >
+
     <!--style.css-->
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
     <!--responsive.css-->
     <link rel="stylesheet" href="assets/css/responsive.css">
-    
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
   </head>
-  
+
+  <style>
+
+      .tooltip {
+          position: absolute;
+          text-align: center;
+          width: 150px;
+          height: 40px;
+          padding: 8px;
+          margin-top: -20px;
+          font: 10px sans-serif;
+          background: #ddd;
+          pointer-events: none;
+      }
+
+      </style>
+
   <body>
     <!--[if lte IE 9]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
-    
+
     <!-- top-area Start -->
     <header class="top-area">
       <div class="header-area">
@@ -94,7 +110,7 @@
 
     </header><!-- /.top-area-->
     <!-- top-area End -->
-  
+
     <!--welcome-hero start -->
     <section id="empty" style="height:90px;">
       <div class="container">
@@ -130,41 +146,25 @@
     <!--about end -->
 
     <!--footer-copyright start-->
-    <footer id="footer-copyright" class="footer-copyright">
-      <div class="container">
-        <div class="hm-footer-copyright text-center">
-          <p>
-            &copy; copyright yourname. design and developed by <a href="https://www.themesine.com/">themesine</a>
-          </p><!--/p-->
-        </div><!--/.text-center-->
-      </div><!--/.container-->
 
-      <div id="scroll-Top">
-        <div class="return-to-top">
-          <i class="fa fa-angle-up " id="scroll-top" ></i>
-        </div>
-        
-      </div><!--/.scroll-Top-->
-      
-    </footer><!--/.footer-copyright-->
     <!--footer-copyright end-->
-    
+
     <!-- Include all js compiled plugins (below), or include individual files as needed -->
 
     <script src="assets/js/jquery.js"></script>
-    
+
     <!--modernizr.min.js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    
+
     <!--bootstrap.min.js-->
     <script src="assets/js/bootstrap.min.js"></script>
-    
+
     <!-- bootsnav js -->
     <script src="assets/js/bootsnav.js"></script>
-    
+
     <!-- jquery.sticky.js -->
     <script src="assets/js/jquery.sticky.js"></script>
-    
+
     <!-- for progress bar start-->
 
     <!-- progressbar js -->
@@ -180,8 +180,8 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    
-    
+
+
     <!--Custom JS-->
     <script src="assets/js/custom.js"></script>
 
@@ -190,105 +190,163 @@
 
     <!-- create scatterplot -->
     <script type="text/javascript">
-      var margin = {top: 0, right: 0, bottom: 0, left: 0},
-                  width = 750 - margin.left - margin.right,
-                  height = 500 - margin.top - margin.bottom;
+        var div = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
 
-      var svg = d3.select(".scatter_div").append("svg")
-        .attr("width", 750)
-        .attr("height", 500)
+        var formatTime = d3.timeFormat("%Y");
+        var margin = {top: 20, right: 20, bottom: 30, left: 40},
+        width = 960 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
 
-      d3.csv("data/iris.csv",
-        function(data)
-        {
-          var max_sepal_length = 0; //7.9
-          var min_sepal_length = Infinity; //4.3
-          var max_sepal_width = 0; //4.4
-          var min_sepal_width = Infinity; //2
-          var max_petal_length = 0;
-          var min_petal_length = Infinity;
+        var x = d3.scaleLinear()
+        .range([0, width]);
 
-          var max_radius = 15;
-          var min_radius = 5;
+        var y = d3.scaleTime()
+        .range([height, 0]);
 
-          var categories = [];
+        var r = d3.scaleSqrt()
+        .range([1,25]);
 
-          data.forEach(function(d)
-          {
-            d.sepal_length = +d.sepal_length;
-            d.sepal_width = +d.sepal_width;
-            d.petal_length = +d.petal_length;
-            d.petal_width = +d.petal_width;
+        var xAxis = d3.axisBottom()
+        .scale(x);
 
-            if (d.sepal_length > max_sepal_length)
-              max_sepal_length = d.sepal_length;
-            if (d.sepal_length < min_sepal_length)
-              min_sepal_length = d.sepal_length;
+        var yAxis = d3.axisLeft()
+        .scale(y);
 
-            if (d.sepal_width > max_sepal_width)
-              max_sepal_width = d.sepal_width;
-            if (d.sepal_width < min_sepal_width)
-              min_sepal_width = d.sepal_width;
+        var color = d3.scaleOrdinal(d3.schemeCategory20);
 
-            if (d.petal_length > max_petal_length)
-              max_petal_length = d.petal_length;
-            if (d.petal_length < min_petal_length)
-              min_petal_length = d.petal_length;
+        var svg = d3.select("body").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-            if (!categories.includes(d.species))
-              categories.push(d.species);
-          });
+        var tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+        var parseDate = d3.timeParse("%Y");
 
-          var x = d3.scaleLinear()
-            .domain([min_sepal_length - 1, max_sepal_length + 1])
-            .range([margin.left, width + margin.left - max_radius - 30])
-          
-          var y = d3.scaleLinear()
-            .domain([max_sepal_width + 1, min_sepal_width - 1])
-            .range([margin.top, height + margin.top - max_radius - 40])
 
-          var r = d3.scaleSqrt()
-            .domain([min_petal_length, max_petal_length])
-            .range([min_radius, max_radius])
 
-          var colour = d3.scaleOrdinal(d3.schemeCategory10)
-              .domain(categories)
+        d3.csv('data/iig.csv', function(error, data){
+               var max_pop = 0;
+               var min_pop = Infinity;
+               data.forEach(function(d){
 
-          var x_axis = d3.scaleLinear()
-            .domain([min_sepal_length - 1, max_sepal_length + 1])
-            .range([margin.left, width + margin.left - max_radius - 30])
-          
-          var y_axis = d3.scaleLinear()
-            .domain([max_sepal_width + 1, min_sepal_width - 1])
-            .range([margin.top, height + margin.top - max_radius - 40])
+                            d.id = d.id
+                            d.pays = d.pays;
+                            d.iig = +d.iig;
+                            d.date = parseDate(d.date);
+                            d.pop = +d.pop;
 
-          var xAxis = d3.axisBottom()
-              .scale(x_axis);
+                            if (d.pop > max_pop)
+                            max_pop = d.pop;
 
-          var yAxis = d3.axisLeft()
-              .scale(y_axis);
+                            if (d.pop < min_pop)
+                            min_pop = d.pop;
 
-          svg.append("g")
-              .attr("class", "x axis")
-              .attr("transform", "translate(30," + (height - 15) + ")")
-              .call(xAxis)
 
-          svg.append("g")
-              .attr("class", "y axis")
-              .attr("transform", "translate(40, 20)")
-              .call(yAxis)
+                            });
 
-          svg.selectAll("circle").data(data).enter()
-            .append("circle")
-            .attr("cy", function(d, i) {return y(d.sepal_width) + 20;})
-            .attr("cx", function(d, i) {return x(d.sepal_length) + 30;})
-            .attr("r", function(d, i) {return r(d.petal_length);})
-            .style("fill", function(d, i) {return colour(d.species)})
-            .style("stroke", "black")
-        }
-      );
-    </script>
-    
+               x.domain([-2000000, max_pop + 2000000]);
+
+               y.domain([new Date(1987,0,1), new Date(2022,0,1)])
+
+
+               r.domain(d3.extent(data, function(d){
+                                  return d.iig;
+                                  })).nice();
+
+               svg.append('g')
+               .attr('transform', 'translate(0,' + height + ')')
+               .attr('class', 'x axis')
+               .call(xAxis);
+
+               svg.append('g')
+               .attr('transform', 'translate(0,0)')
+               .attr('class', 'y axis')
+               .call(yAxis);
+
+               svg.append('text')
+               .attr('x', 10)
+               .attr('y', 10)
+               .attr('class', 'label')
+               .text('Annee');
+
+               svg.append('text')
+               .attr('x', width)
+               .attr('y', height - 10)
+               .attr('text-anchor', 'end')
+               .attr('class', 'label')
+               .text('Population dans le pays');
+
+               var Tooltip = d3.select("body")
+               .append("div")
+               .style("opacity", 0)
+               .attr("class", "tooltip")
+               .style("background-color", "white")
+               .style("border", "solid")
+               .style("border-width", "2px")
+               .style("border-radius", "5px")
+               .style("padding", "5px")
+
+               var mouseover = function(d) {
+               Tooltip
+               .style("opacity", 1)
+               d3.select(this)
+               .style("stroke", "black")
+               .style("opacity", 1)
+               }
+               var mousemove = function(d) {
+               Tooltip
+               .html( d.pays + "</br>Population:" + d.pop )
+               .style("left", (d3.mouse(this)[0]+70) + "px")
+               .style("top", (d3.mouse(this)[1])+250 + "px")
+               }
+               var mouseleave = function(d) {
+               Tooltip
+               .style("opacity", 0)
+               d3.select(this)
+               .style("stroke", "none")
+               .style("opacity", 0.8)
+               }
+
+               svg.selectAll(".dot")
+               .data(data)
+               .enter().append("circle")
+               .attr("class", "dot")
+               .attr("r", function(d) { return r(d.iig); })
+               .attr("cx", function(d) { return x(d.pop); })
+               .attr("cy", function(d) { return y(d.date); })
+               .style("fill", function(d) { return color(d.pays); })
+               .on("mouseover", mouseover)
+               .on("mousemove", mousemove)
+               .on("mouseleave", mouseleave)
+
+
+
+               });
+        </script>
+
+        <footer id="footer-copyright" class="footer-copyright">
+          <div class="container">
+            <div class="hm-footer-copyright text-center">
+              <p>
+                &copy; copyright yourname. design and developed by <a href="https://www.themesine.com/">themesine</a>
+              </p><!--/p-->
+            </div><!--/.text-center-->
+          </div><!--/.container-->
+
+          <div id="scroll-Top">
+            <div class="return-to-top">
+              <i class="fa fa-angle-up " id="scroll-top" ></i>
+            </div>
+
+          </div><!--/.scroll-Top-->
+
+        </footer><!--/.footer-copyright-->
+
   </body>
-  
+
 </html>
