@@ -206,7 +206,7 @@
             .range([height, 0]);
 
             var r = d3.scaleSqrt()
-            .range([2,15]);
+            .range([1,25]);
 
             var xAxis = d3.axisBottom()
             .scale(x);
@@ -249,7 +249,7 @@
 
                                 });
 
-                   x.domain([-1000000, max_pop + 10000]);
+                   x.domain([-2000000, max_pop + 2000000]);
 
                    y.domain([new Date(1987,0,1), new Date(2022,0,1)])
 
