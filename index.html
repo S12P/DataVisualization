@@ -351,6 +351,10 @@
 
       var path = d3.geoPath();
 
+      const zoom = d3.zoom()
+        .scaleExtent([1, 8])
+        .on('zoom', zoomed);
+
       //adding svg images to the site
 
       var svg_map_mbc = d3.select("#map_div_mbc")
@@ -358,7 +362,8 @@
                   .attr("width", width_main_map)
                   .attr("height", height_main_map)
                   .append('g')
-                  .attr('class', 'map');
+                  .attr('class', 'map')
+                  .call(zoom);
 
       var svg_map_mbcn = d3.select("#map_div_mbcn")
                   .append("svg")
@@ -393,6 +398,8 @@
                         .translate( [width_main_map / 2, height_main_map / 1.5]);
 
       var path = d3.geoPath().projection(projection);
+
+
 
       //list of files
       queue()
