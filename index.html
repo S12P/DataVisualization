@@ -506,10 +506,26 @@
                             .style("opacity", 1);
                         }
 
-        var mousemove = function(d, tooltip, circle)
+        var mousemoveidh = function(d, tooltip, circle)
                         {
                           tooltip
-                            .html( d.pays + "</br>Population:" + d.pop )
+                            .html( d.pays + "</br>Population:" + d.pop + "</br>IDH:" + d.idh)
+                            .style("left", (d3.mouse(circle)[0]+70) + "px")
+                            .style("top", (d3.mouse(circle)[1]) + "px")
+                        }
+
+        var mousemoveiig = function(d, tooltip, circle)
+                        {
+                          tooltip
+                            .html( d.pays + "</br>Population:" + d.pop + "</br>IIG:" + d.iig)
+                            .style("left", (d3.mouse(circle)[0]+70) + "px")
+                            .style("top", (d3.mouse(circle)[1]) + "px")
+                        }
+
+        var mousemovechomage = function(d, tooltip, circle)
+                        {
+                          tooltip
+                            .html( d.pays + "</br>Population:" + d.pop + "</br>Taux de chomage:" + d.chomage)
                             .style("left", (d3.mouse(circle)[0]+70) + "px")
                             .style("top", (d3.mouse(circle)[1]) + "px")
                         }
@@ -625,7 +641,7 @@
           .attr("cy", function(d) { return y_hdi(d.date); })
           .style("fill", function(d) { return color_scatter(d.pays); })
           .on("mouseover", function(d){return mouseover(d, Tooltip_hdi, this);})
-          .on("mousemove", function(d){return mousemove(d, Tooltip_hdi, this);})
+          .on("mousemove", function(d){return mousemoveidh(d, Tooltip_hdi, this);})
           .on("mouseleave", function(d){return mouseleave(d, Tooltip_hdi, this);});
 
         svg_scatter_gii.append('g')
@@ -660,7 +676,7 @@
           .attr("cy", function(d) { return y_gii(d.date); })
           .style("fill", function(d) { return color_scatter(d.pays); })
           .on("mouseover", function(d){return mouseover(d, Tooltip_gii, this);})
-          .on("mousemove", function(d){return mousemove(d, Tooltip_gii, this);})
+          .on("mousemove", function(d){return mousemoveiig(d, Tooltip_gii, this);})
           .on("mouseleave", function(d){return mouseleave(d, Tooltip_gii, this);});
 
         svg_scatter_unemp.append('g')
@@ -695,7 +711,7 @@
           .attr("cy", function(d) { return y_unemp(d.date); })
           .style("fill", function(d) { return color_scatter(d.pays); })
           .on("mouseover", function(d){return mouseover(d, Tooltip_unemp, this);})
-          .on("mousemove", function(d){return mousemove(d, Tooltip_unemp, this);})
+          .on("mousemove", function(d){return mousemovechomage(d, Tooltip_unemp, this);})
           .on("mouseleave", function(d){return mouseleave(d, Tooltip_unemp, this);});
 
       }
