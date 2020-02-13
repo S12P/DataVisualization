@@ -401,12 +401,14 @@
         .defer(d3.csv, 'data/idh.csv')
         .defer(d3.csv, 'data/migration_chomage.csv')
         .defer(d3.csv, 'data/iig.csv')
+        .defer(d3.csv, 'data/origindestine.csv')
         .await(ready);
 
       function ready(
                       error, map_data,
                       population_data, hdi_data,
-                      unemp_data, gii_data
+                      unemp_data, gii_data,
+                      data_migration
                     )
       {
 
@@ -465,6 +467,13 @@
               min_pop_unemp = d.pop;
           }
         );
+        
+
+
+
+
+
+
 
         var Tooltip_hdi = d3.select("#scatter_div_hdi")
           .append("div")
@@ -713,6 +722,16 @@
           .on("mouseover", function(d){return mouseover(d, Tooltip_unemp, this);})
           .on("mousemove", function(d){return mousemovechomage(d, Tooltip_unemp, this);})
           .on("mouseleave", function(d){return mouseleave(d, Tooltip_unemp, this);});
+
+        svg_map_mbc.append('g')
+          .selectAll("myPath")
+          .data(data_migration)
+          .enter()
+          .append("path")
+          .attr("d", function(d){var x = {type: "LineString", coordinates : [[d.long_o, d.lat_o], [d.long_d, d.lat_d]]}; return path(x);})
+          .style("fill", "none")
+          .style("stroke", "#ffb3b3")
+          .style("stroke-width", function(d){return (d.migrant_stock * 0.000004)})
 
       }
     </script>
