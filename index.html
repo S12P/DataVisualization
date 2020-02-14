@@ -315,7 +315,7 @@
       var y_hdi = d3.scaleTime()
         .range([height_main_scatter, 0]);
       var r_hdi = d3.scaleSqrt()
-        .range([2,15]);
+        .range([2,10]);
       var xAxis_hdi = d3.axisBottom()
         .scale(x_hdi);
       var yAxis_hdi = d3.axisLeft()
@@ -326,7 +326,7 @@
       var y_gii = d3.scaleTime()
       .range([height_main_scatter, 0]);
       var r_gii = d3.scaleSqrt()
-      .range([1,25]);
+      .range([1,10]);
       var xAxis_gii = d3.axisBottom()
       .scale(x_gii);
       var yAxis_gii = d3.axisLeft()
@@ -337,7 +337,7 @@
       var y_unemp = d3.scaleTime()
         .range([height_main_scatter, 0]);
       var r_unemp = d3.scaleSqrt()
-      .range([1,150]);
+      .range([1,10]);
       var xAxis_unemp = d3.axisBottom()
         .scale(x_unemp);
       var yAxis_unemp = d3.axisLeft()
@@ -553,7 +553,7 @@
         r_hdi.domain(d3.extent(hdi_data, function(d){return d.idh;}))
             .nice();
 
-        x_gii.domain([-0.01, 1]);
+        x_gii.domain([-0.01, 0.8]);
         y_gii.domain([new Date(1987,0,1), new Date(2022,0,1)])
         r_gii.domain(d3.extent(gii_data, function(d){return d.iig;}))
             .nice();
@@ -715,7 +715,7 @@
           .data(unemp_data)
           .enter().append("circle")
           .attr("class", "dot")
-          .attr("r", function(d) { return r_unemp(d.chomage * 0.01); })
+          .attr("r", function(d) { return r_unemp(d.chomage); })
           .attr("cx", function(d) { return x_unemp(d.pop); })
           .attr("cy", function(d) { return y_unemp(d.date); })
           .style("fill", function(d) { return color_scatter(d.pays); })
