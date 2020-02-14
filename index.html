@@ -400,7 +400,7 @@
         .defer(d3.tsv, 'data/world_population.tsv')
         .defer(d3.csv, 'data/idh.csv')
         .defer(d3.csv, 'data/migration_chomage_div.csv')
-        .defer(d3.csv, 'data/iig.csv')
+        .defer(d3.csv, 'data/migration_iig_div.csv')
         .defer(d3.csv, 'data/origindestine.csv')
         .await(ready);
 
@@ -674,7 +674,7 @@
           .attr('y', height_main_scatter - 10)
           .attr('text-anchor', 'end')
           .attr('class', 'label')
-          .text('Nombre d\'émigrantes');
+          .text('Nombre d\'émigrantes \/ Nombre d\'émigrants (Femme + Homme)');
 
         svg_scatter_gii.selectAll(".dot")
           .data(gii_data)
