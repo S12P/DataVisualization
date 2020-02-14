@@ -518,7 +518,7 @@
         var mousemoveidh = function(d, tooltip, circle)
                         {
                           tooltip
-                            .html( d.pays + "</br>Population:" + d.pop + "</br>IDH:" + d.idh)
+                            .html( d.pays + "</br>Pourcentage d'immigrants:" + (d.pop * 100 ) + "%</br>IDH:" + d.idh)
                             .style("left", (d3.mouse(circle)[0]+70) + "px")
                             .style("top", (d3.mouse(circle)[1]) + "px")
                         }
