@@ -399,7 +399,7 @@
         .defer(d3.json, 'data/world_countries.json')
         .defer(d3.tsv, 'data/world_population.tsv')
         .defer(d3.csv, 'data/idh.csv')
-        .defer(d3.csv, 'data/migration_chomage.csv')
+        .defer(d3.csv, 'data/migration_chomage_div.csv')
         .defer(d3.csv, 'data/iig.csv')
         .defer(d3.csv, 'data/origindestine.csv')
         .await(ready);
@@ -467,7 +467,7 @@
               min_pop_unemp = d.pop;
           }
         );
-        
+
 
 
 
@@ -709,7 +709,7 @@
           .attr('y', height_main_scatter - 10)
           .attr('text-anchor', 'end')
           .attr('class', 'label')
-          .text('Nombre d\'émigrants');
+          .text('Nombre d\'émigrants \/ Nombre d\'habitants');
 
         svg_scatter_unemp.selectAll(".dot")
           .data(unemp_data)
