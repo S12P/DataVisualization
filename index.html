@@ -558,7 +558,7 @@
         r_gii.domain(d3.extent(gii_data, function(d){return d.iig;}))
             .nice();
 
-         x_unemp.domain([-500000, max_pop_unemp + 500000]);
+         x_unemp.domain([-0.01, 1]);
          y_unemp.domain([new Date(1987,0,1), new Date(2022,0,1)])
          r_unemp.domain(d3.extent(unemp_data, function(d){return d.chomage;}))
             .nice();
@@ -715,7 +715,7 @@
           .data(unemp_data)
           .enter().append("circle")
           .attr("class", "dot")
-          .attr("r", function(d) { return r_unemp(d.chomage); })
+          .attr("r", function(d) { return r_unemp(d.chomage * 0.01); })
           .attr("cx", function(d) { return x_unemp(d.pop); })
           .attr("cy", function(d) { return y_unemp(d.date); })
           .style("fill", function(d) { return color_scatter(d.pays); })
