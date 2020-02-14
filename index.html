@@ -356,7 +356,7 @@
       var y_hdi = d3.scaleTime()
         .range([height_main_scatter, 0]);
       var r_hdi = d3.scaleSqrt()
-        .range([2,15]);
+        .range([2,10]);
       var xAxis_hdi = d3.axisBottom()
         .scale(x_hdi);
       var yAxis_hdi = d3.axisLeft()
@@ -367,7 +367,7 @@
       var y_gii = d3.scaleTime()
       .range([height_main_scatter, 0]);
       var r_gii = d3.scaleSqrt()
-      .range([1,25]);
+      .range([1,15]);
       var xAxis_gii = d3.axisBottom()
       .scale(x_gii);
       var yAxis_gii = d3.axisLeft()
@@ -378,7 +378,7 @@
       var y_unemp = d3.scaleTime()
         .range([height_main_scatter, 0]);
       var r_unemp = d3.scaleSqrt()
-      .range([1,150]);
+      .range([1,17]);
       var xAxis_unemp = d3.axisBottom()
         .scale(x_unemp);
       var yAxis_unemp = d3.axisLeft()
@@ -439,9 +439,9 @@
       queue()
         .defer(d3.json, 'data/world_countries.json')
         .defer(d3.tsv, 'data/world_population.tsv')
-        .defer(d3.csv, 'data/idh.csv')
-        .defer(d3.csv, 'data/migration_chomage.csv')
-        .defer(d3.csv, 'data/iig.csv')
+        .defer(d3.csv, 'data/migration_idh_div.csv')
+        .defer(d3.csv, 'data/migration_chomage_div.csv')
+        .defer(d3.csv, 'data/migration_iig_div.csv')
         .defer(d3.csv, 'data/origindestine.csv')
         .await(ready);
 
@@ -508,7 +508,7 @@
               min_pop_unemp = d.pop;
           }
         );
-        
+
 
 
 
@@ -559,7 +559,7 @@
         var mousemoveidh = function(d, tooltip, circle)
                         {
                           tooltip
-                            .html( d.pays + "</br>Population:" + d.pop + "</br>IDH:" + d.idh)
+                            .html( d.pays + "</br>Pourcentage d'immigrant: " + d3.format(".1f")(d.pop * 100 ) + "%</br>IDH: " + d.idh)
                             .style("left", (d3.mouse(circle)[0]+70) + "px")
                             .style("top", (d3.mouse(circle)[1]) + "px")
                         }
@@ -567,7 +567,7 @@
         var mousemoveiig = function(d, tooltip, circle)
                         {
                           tooltip
-                            .html( d.pays + "</br>Population:" + d.pop + "</br>IIG:" + d.iig)
+                            .html( d.pays + "</br>Pourcentage de femme qui émigre: " + d3.format(".1f")(d.pop * 100 ) + "%</br>IIG: " + d.iig)
                             .style("left", (d3.mouse(circle)[0]+70) + "px")
                             .style("top", (d3.mouse(circle)[1]) + "px")
                         }
@@ -575,7 +575,7 @@
         var mousemovechomage = function(d, tooltip, circle)
                         {
                           tooltip
-                            .html( d.pays + "</br>Population:" + d.pop + "</br>Chomage:" + d.chomage + "%")
+                            .html( d.pays + "</br>Pourcentage d'émigrant: " + d3.format(".1f")(d.pop * 100 ) + "%</br>Chomage: " + d3.format(".1f")(d.chomage) + "%")
                             .style("left", (d3.mouse(circle)[0]+70) + "px")
                             .style("top", (d3.mouse(circle)[1]) + "px")
                         }
@@ -589,17 +589,17 @@
                             .style("opacity", 0.8)
                         }
 
-        x_hdi.domain([-2000000, max_pop_idh + 2000000]);
+        x_hdi.domain([-0.01, 1]);
         y_hdi.domain([new Date(1987,0,1), new Date(2022,0,1)])
         r_hdi.domain(d3.extent(hdi_data, function(d){return d.idh;}))
             .nice();
 
-        x_gii.domain([-500000, max_pop_gii + 2000000]);
+        x_gii.domain([-0.01, 0.7]);
         y_gii.domain([new Date(1987,0,1), new Date(2022,0,1)])
         r_gii.domain(d3.extent(gii_data, function(d){return d.iig;}))
             .nice();
 
-         x_unemp.domain([-500000, max_pop_unemp + 500000]);
+         x_unemp.domain([-0.01, 1]);
          y_unemp.domain([new Date(1987,0,1), new Date(2022,0,1)])
          r_unemp.domain(d3.extent(unemp_data, function(d){return d.chomage;}))
             .nice();
@@ -680,7 +680,7 @@
           .attr('y', height_main_scatter - 10)
           .attr('text-anchor', 'end')
           .attr('class', 'label')
-          .text('Nombre d\'immigrants');
+          .text('Nombre d\'immigrants \/ Nombre d\'habitants');
 
         svg_scatter_hdi.selectAll(".dot")
           .data(hdi_data)
@@ -715,7 +715,7 @@
           .attr('y', height_main_scatter - 10)
           .attr('text-anchor', 'end')
           .attr('class', 'label')
-          .text('Nombre d\'émigrantes');
+          .text('Nombre d\'émigrantes \/ Nombre d\'émigrants (Femme + Homme)');
 
         svg_scatter_gii.selectAll(".dot")
           .data(gii_data)
@@ -750,7 +750,7 @@
           .attr('y', height_main_scatter - 10)
           .attr('text-anchor', 'end')
           .attr('class', 'label')
-          .text('Nombre d\'émigrants');
+          .text('Nombre d\'émigrants \/ Nombre d\'habitants');
 
         svg_scatter_unemp.selectAll(".dot")
           .data(unemp_data)
