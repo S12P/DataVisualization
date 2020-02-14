@@ -553,7 +553,7 @@
         r_hdi.domain(d3.extent(hdi_data, function(d){return d.idh;}))
             .nice();
 
-        x_gii.domain([-500000, max_pop_gii + 2000000]);
+        x_gii.domain([-0.01, 1]);
         y_gii.domain([new Date(1987,0,1), new Date(2022,0,1)])
         r_gii.domain(d3.extent(gii_data, function(d){return d.iig;}))
             .nice();
