@@ -42,6 +42,7 @@
     <!--responsive.css-->
     <link rel="stylesheet" href="assets/css/responsive.css">
 
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 
@@ -117,6 +118,12 @@
             <!-- column with the information -->
             <div class="col-sm-3">
               <div class="single-main_map-img">
+                  <div class="slidecontainer">
+                  <input type="range" min="1990" max="2020" value="2000" step="5" class="slider" id="myRange" onChange=year_opacity(this.value)>
+                  <p>Année : <span id="demo"></span></p>
+                </div>
+
+                </div>
               </div>
 
             </div>
@@ -143,6 +150,9 @@
             <!-- column with the information -->
             <div class="col-sm-3">
               <div class="single-main_map-img">
+
+
+
               </div>
 
             </div>
@@ -292,6 +302,8 @@
     <script type="text/javascript" src="https://d3js.org/queue.v1.min.js"></script>
     <script type="text/javascript" src="https://d3js.org/topojson.v1.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
     <!--
     <script type="text/javascript" src="no_internet/d3.v4.min.js"></script>
     <script type="text/javascript" src="no_internet/queue.v1.min.js"></script>
@@ -302,12 +314,41 @@
       var formatTime = d3.timeFormat("%Y");
       var parseDate = d3.timeParse("%Y");
 
+      function year_opacity(year)
+      {
+        d3.selectAll("*[class^=opacity_]")
+          .each(function(d)
+          {
+            d3.select(this)
+
+              .style("opacity", function()
+                                      {
+                                        if(d3.select(this).attr("class") == ("opacity_" + year))
+                                          return 1;
+                                        else 
+                                          return 0;
+
+                                      })
+
+          })
+          
+
+      }
+
       var margin = {top: 20, right: 20, bottom: 30, left: 40};
 
       var width_main_scatter = 800 - margin.left - margin.right,
           height_main_scatter = 500 - margin.top - margin.bottom;
       var width_main_map = 900 - margin.left - margin.right,
           height_main_map = 600 - margin.top - margin.bottom;
+
+      var slider = document.getElementById("myRange");
+      var output = document.getElementById("demo");
+      output.innerHTML = slider.value;
+
+      slider.oninput = function() {
+        output.innerHTML = this.value;
+      }
 
       //scatterplot scales and axes
       var x_hdi = d3.scaleLinear()
@@ -724,16 +765,16 @@
           .on("mouseleave", function(d){return mouseleave(d, Tooltip_unemp, this);});
 
         svg_map_mbc.append('g')
-          .selectAll("myPath")
+          .selectAll("path")
           .data(data_migration)
           .enter()
           .append("path")
           .attr("d", function(d){var x = {type: "LineString", coordinates : [[d.long_o, d.lat_o], [d.long_d, d.lat_d]]}; return path(x);})
+          .attr("class", function(d){return "opacity_" + d.year;})
           .style("fill", "none")
           .style("stroke", "#ffb3b3")
-          .style("stroke-width", function(d){return (d.migrant_stock * 0.000004)})
-
-      }
+          .style("stroke-width", function(d){return (d.migrant_stock * 0.0000004)})
+          .style("opacity", 0)}
     </script>
 
   </body>
