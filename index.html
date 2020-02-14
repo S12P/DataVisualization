@@ -548,7 +548,7 @@
                             .style("opacity", 0.8)
                         }
 
-        x_hdi.domain([-2000000, max_pop_idh + 2000000]);
+        x_hdi.domain([-0.01, 1]);
         y_hdi.domain([new Date(1987,0,1), new Date(2022,0,1)])
         r_hdi.domain(d3.extent(hdi_data, function(d){return d.idh;}))
             .nice();
@@ -639,7 +639,7 @@
           .attr('y', height_main_scatter - 10)
           .attr('text-anchor', 'end')
           .attr('class', 'label')
-          .text('Nombre d\'immigrants');
+          .text('Nombre d\'immigrants \/ Nombre d\'habitants');
 
         svg_scatter_hdi.selectAll(".dot")
           .data(hdi_data)
