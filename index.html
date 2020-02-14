@@ -518,7 +518,7 @@
         var mousemoveidh = function(d, tooltip, circle)
                         {
                           tooltip
-                            .html( d.pays + "</br>Pourcentage d'immigrants:" + (d.pop * 100 ) + "%</br>IDH:" + d.idh)
+                            .html( d.pays + "</br>Pourcentage d'immigrant:" + d3.format(".1f")(d.pop * 100 ) + "%</br>IDH:" + d.idh)
                             .style("left", (d3.mouse(circle)[0]+70) + "px")
                             .style("top", (d3.mouse(circle)[1]) + "px")
                         }
@@ -526,7 +526,7 @@
         var mousemoveiig = function(d, tooltip, circle)
                         {
                           tooltip
-                            .html( d.pays + "</br>Population:" + d.pop + "</br>IIG:" + d.iig)
+                            .html( d.pays + "</br>Pourcentage de femme qui émigre:" + d3.format(".1f")(d.pop * 100 ) + "</br>IIG:" + d.iig)
                             .style("left", (d3.mouse(circle)[0]+70) + "px")
                             .style("top", (d3.mouse(circle)[1]) + "px")
                         }
@@ -534,7 +534,7 @@
         var mousemovechomage = function(d, tooltip, circle)
                         {
                           tooltip
-                            .html( d.pays + "</br>Population:" + d.pop + "</br>Chomage:" + d.chomage + "%")
+                            .html( d.pays + "</br>Pourcentage d'émigrant:" + d3.format(".1f")(d.pop * 100 ) + "</br>Chomage:" + d.chomage + "%")
                             .style("left", (d3.mouse(circle)[0]+70) + "px")
                             .style("top", (d3.mouse(circle)[1]) + "px")
                         }
