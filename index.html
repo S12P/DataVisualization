@@ -117,8 +117,11 @@
             <!-- column with the information -->
             <div class="col-sm-3">
               <div class="single-main_map-img">
+                <div class="slidecontainer">
+                  <input type="range" min="1990" max="2020" value="2000" step="5" class="slider" id="myRange" onChange=year_opacity(this.value)>
+                  <p>Année : <span id="demo"></span></p>
+                </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -144,7 +147,6 @@
             <div class="col-sm-3">
               <div class="single-main_map-img">
               </div>
-
             </div>
           </div>
         </div>
@@ -311,6 +313,14 @@
       var width_little_map = 420 - margin.left - margin.right,
           height_little_map = 350 - margin.top - margin.bottom;
 
+      var slider = document.getElementById("myRange");
+      var output = document.getElementById("demo");
+      output.innerHTML = slider.value;
+
+      slider.oninput = function() {
+        output.innerHTML = this.value;
+      }
+
       //scatterplot scales and axes
       var x_hdi = d3.scaleLinear()
         .range([0, width_main_scatter]);
@@ -328,7 +338,7 @@
       var y_gii = d3.scaleTime()
       .range([height_main_scatter, 0]);
       var r_gii = d3.scaleSqrt()
-      .range([1,25]);
+      .range([1,15]);
       var xAxis_gii = d3.axisBottom()
       .scale(x_gii);
       var yAxis_gii = d3.axisLeft()
@@ -339,7 +349,7 @@
       var y_unemp = d3.scaleTime()
         .range([height_main_scatter, 0]);
       var r_unemp = d3.scaleSqrt()
-      .range([1,150]);
+      .range([1,17]);
       var xAxis_unemp = d3.axisBottom()
         .scale(x_unemp);
       var yAxis_unemp = d3.axisLeft()
@@ -425,9 +435,9 @@
       //list of files
       queue()
         .defer(d3.json, 'data/world_countries.json')
-        .defer(d3.csv, 'data/idh.csv')
-        .defer(d3.csv, 'data/migration_chomage.csv')
-        .defer(d3.csv, 'data/iig.csv')
+        .defer(d3.csv, 'data/migration_idh_div.csv')
+        .defer(d3.csv, 'data/migration_chomage_div.csv')
+        .defer(d3.csv, 'data/migration_iig_div.csv')
         .defer(d3.csv, 'data/origindestine.csv')
         .await(ready);
 
@@ -565,30 +575,31 @@
                               }
                             };
 
-        x_hdi.domain([-2000000, max_pop_idh + 2000000]);
+        x_hdi.domain([-0.01, 1]);
         y_hdi.domain([new Date(1987,0,1), new Date(2022,0,1)])
         r_hdi.domain(d3.extent(hdi_data, function(d){return d.idh;}))
             .nice();
 
-        x_gii.domain([-500000, max_pop_gii + 2000000]);
+        x_gii.domain([-0.01, 0.7]);
         y_gii.domain([new Date(1987,0,1), new Date(2022,0,1)])
         r_gii.domain(d3.extent(gii_data, function(d){return d.iig;}))
             .nice();
 
-        x_unemp.domain([-500000, max_pop_unemp + 500000]);
+        x_unemp.domain([-0.01, 1]);
         y_unemp.domain([new Date(1987,0,1), new Date(2022,0,1)])
         r_unemp.domain(d3.extent(unemp_data, function(d){return d.chomage;}))
             .nice();
 
         //filling svgs
-        svg_map_mbc.append('g')
-          .attr('class', 'countries')
+        svg_map_mbc
           .append('rect')
           .attr("width", width_main_map)
           .attr("height", height_main_map)
-          .attr('fill', 'black');
+          .attr('fill', 'white');
 
-        svg_map_mbc.selectAll('path')
+        svg_map_mbc.append('g')
+        .attr('class', 'countries')
+        .selectAll('path')
           .data(map_data.features)
           .enter().append('path')
             .attr('d', main_path)
@@ -601,8 +612,7 @@
             .attr('clicked', 'false')
             .on('mouseover', function(d){return over_country(d, this);})
             .on('mouseleave', function(d){return leave_country(d, this);})
-            .on('click', function(d){raise_country(d, this);}
-                );
+            .on('click', function(d){raise_country(d, this);});
 
 
         /*temporary circles with name
@@ -630,7 +640,8 @@
         //end temporary circles with name*/
 
         svg_map_mbc.append('g')
-          .selectAll("myPath")
+          .attr('class', 'countries')
+          .selectAll("path")
           .data(data_migration)
           .enter()
           .append("path")
@@ -643,9 +654,11 @@
                         return main_path(x);
                       }
                 )
+          .attr("class", function(d){return "opacity_" + d.year;})
           .style("fill", "none")
           .style("stroke", "#ffb3b3")
-          .style("stroke-width", function(d){return (d.migrant_stock * 0.000004)})
+          .style("stroke-width", function(d){return (d.migrant_stock * 0.0000004)})
+          .style("opacity", 0);
 
         svg_map_mbcn.append('g')
           .attr('class', 'countries')
@@ -682,7 +695,7 @@
           .attr('y', height_main_scatter - 10)
           .attr('text-anchor', 'end')
           .attr('class', 'label')
-          .text('Population dans le pays');
+          .text('Nombre d\'immigrants \/ Nombre d\'habitants');
 
         svg_scatter_hdi.selectAll("circle")
           .data(hdi_data)
@@ -699,8 +712,9 @@
                             {
                               return mousemove(
                                                 d, Tooltip_hdi, this, 
-                                                d.pays + "</br>Population:"
-                                                    + d.pop + "</br>IDH:" + d.idh
+                                                d.pays + "</br>Pourcentage d'immigrant: " +
+                                                d3.format(".1f")(d.pop * 100 ) +
+                                                "%</br>IDH: " + d.idh
                                               );
                             }
               );
@@ -740,7 +754,7 @@
           .attr('y', height_main_scatter - 10)
           .attr('text-anchor', 'end')
           .attr('class', 'label')
-          .text('Population dans le pays');
+          .text('Nombre d\'émigrantes \/ Nombre d\'émigrants (Femme + Homme)');
 
         svg_scatter_gii.selectAll("circle")
           .data(gii_data)
@@ -757,8 +771,10 @@
                             {
                               return mousemove(
                                                 d, Tooltip_gii, this, 
-                                                d.pays + "</br>Population:" +
-                                                d.pop + "</br>IIG:" + d.iig
+                                                d.pays +
+                                                "</br>Pourcentage de femme qui émigre: " +
+                                                d3.format(".1f")(d.pop * 100 ) +
+                                                "%</br>IIG: " + d.iig
                                               );
                             }
               );
@@ -798,7 +814,7 @@
           .attr('y', height_main_scatter - 10)
           .attr('text-anchor', 'end')
           .attr('class', 'label')
-          .text('Nombre d\'émigrants');
+          .text('Nombre d\'émigrants \/ Nombre d\'habitants');
 
         svg_scatter_unemp.selectAll("circle")
           .data(unemp_data)
@@ -815,9 +831,10 @@
                             {
                               return mousemove(
                                                 d, Tooltip_unemp, this,
-                                                d.pays + "</br>Population:" +
-                                                d.pop + "</br>Chomage:" +
-                                                d.chomage + "%"
+                                                d.pays + "</br>Pourcentage d'émigrant: " +
+                                                d3.format(".1f")(d.pop * 100 ) +
+                                                "%</br>Chomage: " +
+                                                d3.format(".1f")(d.chomage) + "%"
                                               );
                             }
               );
@@ -898,6 +915,26 @@
                       .attr('clicked', clicked_value);
                   }
                 );
+      }
+
+      function year_opacity(year)
+      {
+        d3.selectAll("*[class^=opacity_]")
+          .each(function(d)
+                {
+                  d3.select(this)
+                    .style("opacity",
+                            function()
+                            {
+                              if(d3.select(this).attr("class") == ("opacity_" + year))
+                                return 1;
+                              else 
+                                return 0;
+
+                            }
+                          );
+                }
+              );
       }
     </script>
     
