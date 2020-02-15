@@ -10,13 +10,13 @@
 
     <!--font-family-->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
-
+    
     <!-- title of site -->
     <title>MIGRATIONS</title>
 
     <!-- For favicon png -->
     <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
-
+     
     <!--font-awesome.min.css-->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
@@ -29,35 +29,34 @@
     <!--owl.carousel.css-->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-
+    
     <!--bootstrap.min.css-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
+    
     <!-- bootsnav -->
-    <link rel="stylesheet" href="assets/css/bootsnav.css" >
-
+    <link rel="stylesheet" href="assets/css/bootsnav.css" > 
+    
     <!--style.css-->
     <link rel="stylesheet" href="assets/css/style.css">
-
+    
     <!--responsive.css-->
     <link rel="stylesheet" href="assets/css/responsive.css">
-
-
+    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-
+    
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
   </head>
-
+  
   <body>
     <!--[if lte IE 9]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
-
+    
     <!-- top-area Start -->
     <header class="top-area">
       <div class="header-area">
@@ -95,7 +94,7 @@
 
     </header><!-- /.top-area-->
     <!-- top-area End -->
-
+  
     <!-- empty space under navbar starts -->
     <section id="empty" style="height:90px;">
     </section>
@@ -118,12 +117,6 @@
             <!-- column with the information -->
             <div class="col-sm-3">
               <div class="single-main_map-img">
-                  <div class="slidecontainer">
-                  <input type="range" min="1990" max="2020" value="2000" step="5" class="slider" id="myRange" onChange=year_opacity(this.value)>
-                  <p>Année : <span id="demo"></span></p>
-                </div>
-
-                </div>
               </div>
 
             </div>
@@ -150,9 +143,6 @@
             <!-- column with the information -->
             <div class="col-sm-3">
               <div class="single-main_map-img">
-
-
-
               </div>
 
             </div>
@@ -175,7 +165,7 @@
               <div id="scatter_div_hdi">
               </div>
             </div>
-
+            
             <!-- column with the map -->
             <div class="col-sm-4">
               <div id="map_div_hdi">
@@ -200,7 +190,7 @@
               <div id="scatter_div_gii">
               </div>
             </div>
-
+            
             <!-- column with the map -->
             <div class="col-sm-4">
               <div id="map_div_gii">
@@ -225,7 +215,7 @@
               <div id="scatter_div_unemp">
               </div>
             </div>
-
+            
             <!-- column with the map -->
             <div class="col-sm-4">
               <div id="map_div_unemp">
@@ -251,31 +241,31 @@
         <div class="return-to-top">
           <i class="fa fa-angle-up " id="scroll-top" ></i>
         </div>
-
+        
       </div><!--/.scroll-Top-->
-
+      
     </footer><!--/.footer-copyright-->
     <!--footer-copyright end-->
-
+    
     <!-- Include all js compiled plugins (below), or include individual files as needed -->
 
     <script src="assets/js/jquery.js"></script>
-
+    
     <!--modernizr.min.js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <!--
     <script src="no_internet/modernizr.min.js"></script>
     -->
-
+    
     <!--bootstrap.min.js-->
     <script src="assets/js/bootstrap.min.js"></script>
-
+    
     <!-- bootsnav js -->
     <script src="assets/js/bootsnav.js"></script>
-
+    
     <!-- jquery.sticky.js -->
     <script src="assets/js/jquery.sticky.js"></script>
-
+    
     <!-- for progress bar start-->
 
     <!-- progressbar js -->
@@ -293,7 +283,7 @@
     <!--
     <script src="no_internet/jquery.easing.min.js"></script>
     -->
-
+    
     <!--Custom JS-->
     <script type="text/javascript" src="assets/js/custom.js"></script>
 
@@ -301,39 +291,16 @@
     <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
     <script type="text/javascript" src="https://d3js.org/queue.v1.min.js"></script>
     <script type="text/javascript" src="https://d3js.org/topojson.v1.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
-
     <!--
     <script type="text/javascript" src="no_internet/d3.v4.min.js"></script>
     <script type="text/javascript" src="no_internet/queue.v1.min.js"></script>
     <script type="text/javascript" src="no_internet/topojson.v1.min.js"></script>
     -->
+
     <!-- create map -->
     <script type="text/javascript">
       var formatTime = d3.timeFormat("%Y");
       var parseDate = d3.timeParse("%Y");
-
-      function year_opacity(year)
-      {
-        d3.selectAll("*[class^=opacity_]")
-          .each(function(d)
-          {
-            d3.select(this)
-
-              .style("opacity", function()
-                                      {
-                                        if(d3.select(this).attr("class") == ("opacity_" + year))
-                                          return 1;
-                                        else 
-                                          return 0;
-
-                                      })
-
-          })
-          
-
-      }
 
       var margin = {top: 20, right: 20, bottom: 30, left: 40};
 
@@ -341,14 +308,8 @@
           height_main_scatter = 500 - margin.top - margin.bottom;
       var width_main_map = 900 - margin.left - margin.right,
           height_main_map = 600 - margin.top - margin.bottom;
-
-      var slider = document.getElementById("myRange");
-      var output = document.getElementById("demo");
-      output.innerHTML = slider.value;
-
-      slider.oninput = function() {
-        output.innerHTML = this.value;
-      }
+      var width_little_map = 420 - margin.left - margin.right,
+          height_little_map = 350 - margin.top - margin.bottom;
 
       //scatterplot scales and axes
       var x_hdi = d3.scaleLinear()
@@ -356,7 +317,7 @@
       var y_hdi = d3.scaleTime()
         .range([height_main_scatter, 0]);
       var r_hdi = d3.scaleSqrt()
-        .range([2,10]);
+        .range([2,15]);
       var xAxis_hdi = d3.axisBottom()
         .scale(x_hdi);
       var yAxis_hdi = d3.axisLeft()
@@ -367,7 +328,7 @@
       var y_gii = d3.scaleTime()
       .range([height_main_scatter, 0]);
       var r_gii = d3.scaleSqrt()
-      .range([1,15]);
+      .range([1,25]);
       var xAxis_gii = d3.axisBottom()
       .scale(x_gii);
       var yAxis_gii = d3.axisLeft()
@@ -378,7 +339,7 @@
       var y_unemp = d3.scaleTime()
         .range([height_main_scatter, 0]);
       var r_unemp = d3.scaleSqrt()
-      .range([1,17]);
+      .range([1,150]);
       var xAxis_unemp = d3.axisBottom()
         .scale(x_unemp);
       var yAxis_unemp = d3.axisLeft()
@@ -415,12 +376,26 @@
                   .append("g")
                   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+      var svg_map_hdi = d3.select("#map_div_hdi")
+                  .append("svg")
+                  .attr("width", width_little_map)
+                  .attr("height", height_little_map)
+                  .append('g')
+                  .attr('class', 'little_map');
+
       var svg_scatter_gii = d3.select("#scatter_div_gii")
                   .append("svg")
                   .attr("width", width_main_scatter + margin.left + margin.right)
                   .attr("height", height_main_scatter + margin.top + margin.bottom)
                   .append("g")
                   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      var svg_map_gii = d3.select("#map_div_gii")
+                  .append("svg")
+                  .attr("width", width_little_map)
+                  .attr("height", height_little_map)
+                  .append('g')
+                  .attr('class', 'little_map');
 
       var svg_scatter_unemp = d3.select("#scatter_div_unemp")
                   .append("svg")
@@ -429,35 +404,42 @@
                   .append("g")
                   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-      var projection = d3.geoMercator()
+      var svg_map_unemp = d3.select("#map_div_unemp")
+                  .append("svg")
+                  .attr("width", width_little_map)
+                  .attr("height", height_little_map)
+                  .append('g')
+                  .attr('class', 'little_map');
+
+      var main_projection = d3.geoMercator()
                          .scale(130)
                         .translate( [width_main_map / 2, height_main_map / 1.5]);
 
-      var path = d3.geoPath().projection(projection);
+      var little_projection = d3.geoMercator()
+                         .scale(50)
+                        .translate( [width_little_map / 2, height_little_map / 1.5]);
+
+      var main_path = d3.geoPath().projection(main_projection),
+          little_path = d3.geoPath().projection(little_projection);
 
       //list of files
       queue()
         .defer(d3.json, 'data/world_countries.json')
-        .defer(d3.tsv, 'data/world_population.tsv')
-        .defer(d3.csv, 'data/migration_idh_div.csv')
-        .defer(d3.csv, 'data/migration_chomage_div.csv')
-        .defer(d3.csv, 'data/migration_iig_div.csv')
+        .defer(d3.csv, 'data/idh.csv')
+        .defer(d3.csv, 'data/migration_chomage.csv')
+        .defer(d3.csv, 'data/iig.csv')
         .defer(d3.csv, 'data/origindestine.csv')
         .await(ready);
 
       function ready(
                       error, map_data,
-                      population_data, hdi_data,
+                      hdi_data,
                       unemp_data, gii_data,
                       data_migration
                     )
       {
 
         //data pre-processing
-        const populationById = {};
-
-        population_data.forEach(d => { populationById[d.id] = +d.population; });
-        map_data.features.forEach(d => { d.population = populationById[d.id] });
         var max_pop_idh = 0;
         var min_pop_idh = Infinity;
         hdi_data.forEach(
@@ -509,13 +491,6 @@
           }
         );
 
-
-
-
-
-
-
-
         var Tooltip_hdi = d3.select("#scatter_div_hdi")
           .append("div")
           .style("opacity", 0)
@@ -554,31 +529,15 @@
                           d3.select(circle)
                             .style("stroke", "black")
                             .style("opacity", 1);
-                        }
+                        };
 
-        var mousemoveidh = function(d, tooltip, circle)
+        var mousemove = function(d, tooltip, circle, tooltip_text)
                         {
                           tooltip
-                            .html( d.pays + "</br>Pourcentage d'immigrant: " + d3.format(".1f")(d.pop * 100 ) + "%</br>IDH: " + d.idh)
+                            .html(tooltip_text)
                             .style("left", (d3.mouse(circle)[0]+70) + "px")
                             .style("top", (d3.mouse(circle)[1]) + "px")
-                        }
-
-        var mousemoveiig = function(d, tooltip, circle)
-                        {
-                          tooltip
-                            .html( d.pays + "</br>Pourcentage de femme qui émigre: " + d3.format(".1f")(d.pop * 100 ) + "%</br>IIG: " + d.iig)
-                            .style("left", (d3.mouse(circle)[0]+70) + "px")
-                            .style("top", (d3.mouse(circle)[1]) + "px")
-                        }
-
-        var mousemovechomage = function(d, tooltip, circle)
-                        {
-                          tooltip
-                            .html( d.pays + "</br>Pourcentage d'émigrant: " + d3.format(".1f")(d.pop * 100 ) + "%</br>Chomage: " + d3.format(".1f")(d.chomage) + "%")
-                            .style("left", (d3.mouse(circle)[0]+70) + "px")
-                            .style("top", (d3.mouse(circle)[1]) + "px")
-                        }
+                        };
 
         var mouseleave = function(d, tooltip, circle)
                         {
@@ -587,47 +546,73 @@
                           d3.select(circle)
                             .style("stroke", "none")
                             .style("opacity", 0.8)
-                        }
+                        };
 
-        x_hdi.domain([-0.01, 1]);
+        var over_country = function(d, country)
+                            {
+                              d3.select(country)
+                                .style("opacity", 1)
+                                .style("fill", "#e00000");
+                            };
+
+        var leave_country = function(d, country)
+                            {
+                              if (d3.select(country).attr("clicked") !== 'true')
+                              {
+                                d3.select(country)
+                                  .style("opacity", 0.8)
+                                  .style("fill", "rgb(33, 113, 181)");
+                              }
+                            };
+
+        x_hdi.domain([-2000000, max_pop_idh + 2000000]);
         y_hdi.domain([new Date(1987,0,1), new Date(2022,0,1)])
         r_hdi.domain(d3.extent(hdi_data, function(d){return d.idh;}))
             .nice();
 
-        x_gii.domain([-0.01, 0.7]);
+        x_gii.domain([-500000, max_pop_gii + 2000000]);
         y_gii.domain([new Date(1987,0,1), new Date(2022,0,1)])
         r_gii.domain(d3.extent(gii_data, function(d){return d.iig;}))
             .nice();
 
-         x_unemp.domain([-0.01, 1]);
-         y_unemp.domain([new Date(1987,0,1), new Date(2022,0,1)])
-         r_unemp.domain(d3.extent(unemp_data, function(d){return d.chomage;}))
+        x_unemp.domain([-500000, max_pop_unemp + 500000]);
+        y_unemp.domain([new Date(1987,0,1), new Date(2022,0,1)])
+        r_unemp.domain(d3.extent(unemp_data, function(d){return d.chomage;}))
             .nice();
 
         //filling svgs
         svg_map_mbc.append('g')
           .attr('class', 'countries')
-          .selectAll('path')
+          .append('rect')
+          .attr("width", width_main_map)
+          .attr("height", height_main_map)
+          .attr('fill', 'black');
+
+        svg_map_mbc.selectAll('path')
           .data(map_data.features)
           .enter().append('path')
-            .attr('d', path)
-            .style('fill', d => color_map(populationById[d.id]))
-            .style('stroke', 'white')
+            .attr('d', main_path)
+            .style('fill', 'rgb(33, 113, 181)')
+            .style('stroke', 'black')
             .style('opacity', 0.8)
-            .style('stroke-width', 0.3);
+            .style('stroke-width', 0.3)
+            .attr('class', function(d){return 'country_map_' + d.properties.name})
+            .attr('type', 'main_map')
+            .attr('clicked', 'false')
+            .on('mouseover', function(d){return over_country(d, this);})
+            .on('mouseleave', function(d){return leave_country(d, this);})
+            .on('click', function(d){raise_country(d, this);}
+                );
 
-        svg_map_mbc.append('path')
-          .datum(topojson.mesh(map_data.features, (a, b) => a.id !== b.id))
-          .attr('class', 'names')
-          .attr('d', path);
 
-
-        //temporary circles with name
+        /*temporary circles with name
         svg_map_mbc.selectAll('circle')
           .data(map_data.features).enter()
           .append('circle')
-          .attr("cx", function(d){return projection([d.geometry.center.longitude, d.geometry.center.latitude])[0]})
-          .attr("cy", function(d){return projection([d.geometry.center.longitude, d.geometry.center.latitude])[1]})
+          .attr("cx", function(d){return main_projection([d.geometry.center.longitude,
+                                                            d.geometry.center.latitude])[0]})
+          .attr("cy", function(d){return main_projection([d.geometry.center.longitude,
+                                                            d.geometry.center.latitude])[1]})
           .attr("r", '2px')
           .attr("fill", "red")
           .attr("class", function(d){return d.properties.name;});
@@ -635,29 +620,46 @@
         svg_map_mbc.selectAll("text")
           .data(map_data.features).enter()
           .append('text')
-          .attr("x", function(d){return projection([d.geometry.center.longitude, d.geometry.center.latitude])[0];})
-          .attr("y", function(d){return projection([d.geometry.center.longitude, d.geometry.center.latitude])[1]})
+          .attr("x", function(d){return main_projection([d.geometry.center.longitude,
+                                                          d.geometry.center.latitude])[0];})
+          .attr("y", function(d){return main_projection([d.geometry.center.longitude,
+                                                          d.geometry.center.latitude])[1]})
           .attr('class', 'label')
           .style('font-size', "3px")
           .text(function(d){return d.properties.name;});
-        //end temporary circles with name
+        //end temporary circles with name*/
+
+        svg_map_mbc.append('g')
+          .selectAll("myPath")
+          .data(data_migration)
+          .enter()
+          .append("path")
+          .attr("d", function(d)
+                      {
+                        var x = {
+                                  type: "LineString",
+                                  coordinates : [[d.long_o, d.lat_o], [d.long_d, d.lat_d]]
+                                };
+                        return main_path(x);
+                      }
+                )
+          .style("fill", "none")
+          .style("stroke", "#ffb3b3")
+          .style("stroke-width", function(d){return (d.migrant_stock * 0.000004)})
 
         svg_map_mbcn.append('g')
           .attr('class', 'countries')
           .selectAll('path')
           .data(map_data.features)
           .enter().append('path')
-            .attr('d', path)
-            .style('fill', d => color_map(populationById[d.id]))
-            //.style('stroke', 'white')
-            .style("stroke", function(d){return d.properties.name;})
+            .attr('d', main_path)
+            .style('fill', 'rgb(33, 113, 181)')
+            .style('stroke', 'black')
             .style('opacity', 0.8)
             .style('stroke-width', 0.3)
-
-        svg_map_mbcn.append('path')
-          .datum(topojson.mesh(map_data.features, (a, b) => a.id !== b.id))
-          .attr('class', 'names')
-          .attr('d', path);
+            .attr('class', function(d){return 'country_map_' + d.properties.name})
+            .attr('type', 'main_map')
+            .attr('clicked', 'false');
 
         svg_scatter_hdi.append('g')
           .attr('transform', 'translate(0,' + height_main_scatter + ')')
@@ -680,19 +682,42 @@
           .attr('y', height_main_scatter - 10)
           .attr('text-anchor', 'end')
           .attr('class', 'label')
-          .text('Nombre d\'immigrants \/ Nombre d\'habitants');
+          .text('Population dans le pays');
 
-        svg_scatter_hdi.selectAll(".dot")
+        svg_scatter_hdi.selectAll("circle")
           .data(hdi_data)
           .enter().append("circle")
-          .attr("class", "dot")
+          .attr('class', function(d){return d.pays})
+          .attr('type', 'scatter_point')
           .attr("r", function(d) { return r_hdi(d.idh); })
           .attr("cx", function(d) { return x_hdi(d.pop); })
           .attr("cy", function(d) { return y_hdi(d.date); })
           .style("fill", function(d) { return color_scatter(d.pays); })
           .on("mouseover", function(d){return mouseover(d, Tooltip_hdi, this);})
-          .on("mousemove", function(d){return mousemoveidh(d, Tooltip_hdi, this);})
-          .on("mouseleave", function(d){return mouseleave(d, Tooltip_hdi, this);});
+          .on("mouseleave", function(d){return mouseleave(d, Tooltip_hdi, this);})
+          .on("mousemove", function(d)
+                            {
+                              return mousemove(
+                                                d, Tooltip_hdi, this, 
+                                                d.pays + "</br>Population:"
+                                                    + d.pop + "</br>IDH:" + d.idh
+                                              );
+                            }
+              );
+
+        svg_map_hdi.append('g')
+          .attr('class', 'countries')
+          .selectAll('path')
+          .data(map_data.features)
+          .enter().append('path')
+            .attr('d', little_path)
+            .style('fill', 'rgb(33, 113, 181)')
+            .style('stroke', 'white')
+            .style('opacity', 0.8)
+            .style('stroke-width', 0.3)
+            .attr('class', function(d){return 'country_map_' + d.properties.name})
+            .attr('type', 'little_map')
+            .attr('clicked', 'false');
 
         svg_scatter_gii.append('g')
           .attr('transform', 'translate(0,' + height_main_scatter + ')')
@@ -715,19 +740,42 @@
           .attr('y', height_main_scatter - 10)
           .attr('text-anchor', 'end')
           .attr('class', 'label')
-          .text('Nombre d\'émigrantes \/ Nombre d\'émigrants (Femme + Homme)');
+          .text('Population dans le pays');
 
-        svg_scatter_gii.selectAll(".dot")
+        svg_scatter_gii.selectAll("circle")
           .data(gii_data)
           .enter().append("circle")
-          .attr("class", "dot")
+          .attr('class', function(d){return d.pays})
+          .attr('type', 'scatter_point')
           .attr("r", function(d) { return r_gii(d.iig); })
           .attr("cx", function(d) { return x_gii(d.pop); })
           .attr("cy", function(d) { return y_gii(d.date); })
           .style("fill", function(d) { return color_scatter(d.pays); })
           .on("mouseover", function(d){return mouseover(d, Tooltip_gii, this);})
-          .on("mousemove", function(d){return mousemoveiig(d, Tooltip_gii, this);})
-          .on("mouseleave", function(d){return mouseleave(d, Tooltip_gii, this);});
+          .on("mouseleave", function(d){return mouseleave(d, Tooltip_gii, this);})
+          .on("mousemove", function(d)
+                            {
+                              return mousemove(
+                                                d, Tooltip_gii, this, 
+                                                d.pays + "</br>Population:" +
+                                                d.pop + "</br>IIG:" + d.iig
+                                              );
+                            }
+              );
+
+        svg_map_gii.append('g')
+          .attr('class', 'countries')
+          .selectAll('path')
+          .data(map_data.features)
+          .enter().append('path')
+            .attr('d', little_path)
+            .style('fill', 'rgb(33, 113, 181)')
+            .style('stroke', 'white')
+            .style('opacity', 0.8)
+            .style('stroke-width', 0.3)
+            .attr('class', function(d){return 'country_map_' + d.properties.name})
+            .attr('type', 'little_map')
+            .attr('clicked', 'false');
 
         svg_scatter_unemp.append('g')
           .attr('transform', 'translate(0,' + height_main_scatter + ')')
@@ -750,33 +798,109 @@
           .attr('y', height_main_scatter - 10)
           .attr('text-anchor', 'end')
           .attr('class', 'label')
-          .text('Nombre d\'émigrants \/ Nombre d\'habitants');
+          .text('Nombre d\'émigrants');
 
-        svg_scatter_unemp.selectAll(".dot")
+        svg_scatter_unemp.selectAll("circle")
           .data(unemp_data)
           .enter().append("circle")
-          .attr("class", "dot")
+          .attr('class', function(d){return d.pays})
+          .attr('type', 'scatter_point')
           .attr("r", function(d) { return r_unemp(d.chomage); })
           .attr("cx", function(d) { return x_unemp(d.pop); })
           .attr("cy", function(d) { return y_unemp(d.date); })
           .style("fill", function(d) { return color_scatter(d.pays); })
           .on("mouseover", function(d){return mouseover(d, Tooltip_unemp, this);})
-          .on("mousemove", function(d){return mousemovechomage(d, Tooltip_unemp, this);})
-          .on("mouseleave", function(d){return mouseleave(d, Tooltip_unemp, this);});
+          .on("mouseleave", function(d){return mouseleave(d, Tooltip_unemp, this);})
+          .on("mousemove", function(d)
+                            {
+                              return mousemove(
+                                                d, Tooltip_unemp, this,
+                                                d.pays + "</br>Population:" +
+                                                d.pop + "</br>Chomage:" +
+                                                d.chomage + "%"
+                                              );
+                            }
+              );
 
-        svg_map_mbc.append('g')
-          .selectAll("path")
-          .data(data_migration)
-          .enter()
-          .append("path")
-          .attr("d", function(d){var x = {type: "LineString", coordinates : [[d.long_o, d.lat_o], [d.long_d, d.lat_d]]}; return path(x);})
-          .attr("class", function(d){return "opacity_" + d.year;})
-          .style("fill", "none")
-          .style("stroke", "#ffb3b3")
-          .style("stroke-width", function(d){return (d.migrant_stock * 0.0000004)})
-          .style("opacity", 0)}
+        svg_map_unemp.append('g')
+          .attr('class', 'countries')
+          .selectAll('path')
+          .data(map_data.features)
+          .enter().append('path')
+            .attr('d', little_path)
+            .style('fill', 'rgb(33, 113, 181)')
+            .style('stroke', 'white')
+            .style('opacity', 0.8)
+            .style('stroke-width', 0.3)
+            .attr('class', function(d){return 'country_map_' + d.properties.name})
+            .attr('type', 'main_map')
+            .attr('clicked', 'false');
+      }
+
+      function raise_country(d, country)
+      {
+
+        //change projection little maps
+        let new_center = little_projection(
+                                           [d.geometry.center.longitude,
+                                            d.geometry.center.latitude]
+                                          );
+        little_projection
+          .rotate(
+                    [
+                      - little_projection.invert(new_center)[0],
+                      - little_projection.invert(new_center)[1]
+                    ]
+                  )
+          .fitSize([width_little_map - 50, height_little_map - 50], d)
+          .translate([width_little_map / 2, height_little_map / 2]);
+
+        svg_map_hdi.selectAll("path")
+          .transition()
+          .duration(0)
+          .attr("d", little_path);
+
+        svg_map_gii.selectAll("path")
+          .transition()
+          .duration(0)
+          .attr("d", little_path);
+
+        svg_map_unemp.selectAll("path")
+          .transition()
+          .duration(0)
+          .attr("d", little_path);
+
+        var current_element = d3.select(country);
+
+        d3.selectAll('*[class^=country_map_]')
+            .each(function(d)
+                  {
+                    let country_element = d3.select(this);
+                    let fill_colour,
+                        opacity_intensity,
+                        clicked_value;
+                    if (country_element.attr('class') == current_element.attr('class'))
+                    {
+                      fill_colour = "#e00000";
+                      opacity_intensity = 1;
+                      clicked_value = 'true';
+                    }
+                    else
+                    {
+                      fill_colour = 'rgb(33, 113, 181)';
+                      opacity_intensity = 0.8;
+                      clicked_value = 'false';
+                    }
+
+                    country_element
+                      .style('fill', fill_colour)
+                      .style("opacity", opacity_intensity)
+                      .attr('clicked', clicked_value);
+                  }
+                );
+      }
     </script>
-
+    
   </body>
-
+  
 </html>
