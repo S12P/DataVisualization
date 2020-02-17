@@ -118,7 +118,9 @@
             <div class="col-sm-3">
               <div class="single-main_map-img">
                 <div class="slidecontainer">
-                  <input type="range" min="1990" max="2020" value="2000" step="5" class="slider" id="myRange" onChange=year_opacity(this.value)>
+                  <input type="range" min="0" max="6" value="2"
+                          step="1" class="slider" id="myRange"
+                          onChange="year_opacity(this.value, 'opacity_')">
                   <p>Année : <span id="demo"></span></p>
                 </div>
               </div>
@@ -146,6 +148,12 @@
             <!-- column with the information -->
             <div class="col-sm-3">
               <div class="single-main_map-img">
+                <div class="slidecontainer">
+                  <input type="range" min="0" max="6"
+                          value="2" step="1" class="slider"
+                          id="myRange_norm" onChange="year_opacity(this.value, 'norm_opacity_')">
+                  <p>Année : <span id="demo_norm"></span></p>
+                </div>
               </div>
             </div>
           </div>
@@ -303,6 +311,7 @@
     <script type="text/javascript">
       var formatTime = d3.timeFormat("%Y");
       var parseDate = d3.timeParse("%Y");
+      var years = [];
 
       var margin = {top: 20, right: 20, bottom: 30, left: 40};
 
@@ -312,14 +321,6 @@
           height_main_map = 600 - margin.top - margin.bottom;
       var width_little_map = 420 - margin.left - margin.right,
           height_little_map = 350 - margin.top - margin.bottom;
-
-      var slider = document.getElementById("myRange");
-      var output = document.getElementById("demo");
-      output.innerHTML = slider.value;
-
-      slider.oninput = function() {
-        output.innerHTML = this.value;
-      }
 
       //scatterplot scales and axes
       var x_hdi = d3.scaleLinear()
@@ -355,9 +356,11 @@
       var yAxis_unemp = d3.axisLeft()
         .scale(y_unemp);
 
+      /*
       var color_map = d3.scaleThreshold()
           .domain([10000,100000,500000,1000000,5000000,10000000,50000000,100000000,500000000,1500000000])
           .range(["rgb(247,251,255)", "rgb(222,235,247)", "rgb(198,219,239)", "rgb(158,202,225)", "rgb(107,174,214)", "rgb(66,146,198)","rgb(33,113,181)","rgb(8,81,156)","rgb(8,48,107)","rgb(3,19,43)"]);
+      */
 
       var color_scatter = d3.scaleOrdinal(d3.schemeCategory20);
 
@@ -438,7 +441,7 @@
         .defer(d3.csv, 'data/migration_idh_div.csv')
         .defer(d3.csv, 'data/migration_chomage_div.csv')
         .defer(d3.csv, 'data/migration_iig_div.csv')
-        .defer(d3.csv, 'data/origindestine.csv')
+        .defer(d3.csv, 'data/origindestine_avec_id_et_poptotale.csv')
         .await(ready);
 
       function ready(
@@ -501,6 +504,40 @@
           }
         );
 
+        data_migration.forEach(
+          function(d)
+          {
+            if (!years.includes(d.year))
+              years.push(d.year);
+            d.migrant_stock = +d.migrant_stock;
+            d.pop = +d.pop;
+            d.long_o = +d.long_o;
+            d.lat_o = +d.lat_o;
+            d.long_d = +d.long_d;
+            d.lat_d = +d.lat_d;
+          }
+        );
+
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+
+        slider.oninput = function()
+                        {
+                          output.innerHTML = years[this.value];
+                        };
+        slider.oninput();
+
+        var slider_norm = document.getElementById("myRange_norm");
+        var output_norm = document.getElementById("demo_norm");
+        output_norm.innerHTML = slider_norm.value;
+
+        slider_norm.oninput = function()
+                              {
+                                output_norm.innerHTML = years[this.value];
+                              };
+        slider_norm.oninput();
+
         var Tooltip_hdi = d3.select("#scatter_div_hdi")
           .append("div")
           .style("opacity", 0)
@@ -536,9 +573,12 @@
                         {
                           tooltip
                             .style("opacity", 1);
-                          d3.select(circle)
-                            .style("stroke", "black")
-                            .style("opacity", 1);
+                          if (d3.select(circle).attr('clicked') == 'true')
+                          {
+                            d3.select(circle)
+                              .style("stroke", "black")
+                              .style("opacity", 1);
+                          }
                         };
 
         var mousemove = function(d, tooltip, circle, tooltip_text)
@@ -553,9 +593,12 @@
                         {
                           tooltip
                             .style("opacity", 0)
-                          d3.select(circle)
-                            .style("stroke", "none")
-                            .style("opacity", 0.8)
+                          if (d3.select(circle).attr('clicked') == 'true')
+                          {
+                            d3.select(circle)
+                              .style("stroke", "none")
+                              .style("opacity", 0.8)
+                          }
                         };
 
         var over_country = function(d, country)
@@ -607,7 +650,7 @@
             .style('stroke', 'black')
             .style('opacity', 0.8)
             .style('stroke-width', 0.3)
-            .attr('class', function(d){return 'country_map_' + d.properties.name})
+            .attr('class', function(d){return 'country_object_' + d.id})
             .attr('type', 'main_map')
             .attr('clicked', 'false')
             .on('mouseover', function(d){return over_country(d, this);})
@@ -640,7 +683,7 @@
         //end temporary circles with name*/
 
         svg_map_mbc.append('g')
-          .attr('class', 'countries')
+          .attr('class', 'countries_migrations')
           .selectAll("path")
           .data(data_migration)
           .enter()
@@ -660,9 +703,15 @@
           .style("stroke-width", function(d){return (d.migrant_stock * 0.0000004)})
           .style("opacity", 0);
 
+        svg_map_mbcn
+          .append('rect')
+          .attr("width", width_main_map)
+          .attr("height", height_main_map)
+          .attr('fill', 'white');
+
         svg_map_mbcn.append('g')
-          .attr('class', 'countries')
-          .selectAll('path')
+        .attr('class', 'countries')
+        .selectAll('path')
           .data(map_data.features)
           .enter().append('path')
             .attr('d', main_path)
@@ -670,9 +719,31 @@
             .style('stroke', 'black')
             .style('opacity', 0.8)
             .style('stroke-width', 0.3)
-            .attr('class', function(d){return 'country_map_' + d.properties.name})
+            .attr('class', function(d){return 'country_object_' + d.id})
             .attr('type', 'main_map')
             .attr('clicked', 'false');
+
+        svg_map_mbcn.append('g')
+          .attr('class', 'countries_migrations')
+          .selectAll("path")
+          .data(data_migration)
+          .enter()
+          .append("path")
+          .attr("d", function(d)
+                      {
+                        var x = {
+                                  type: "LineString",
+                                  coordinates : [[d.long_o, d.lat_o], [d.long_d, d.lat_d]]
+                                };
+                        return main_path(x);
+                      }
+                )
+          .attr("class", function(d){return "norm_opacity_" + d.year;})
+          .attr('name',  function(d){return d.origin + '_' + d.destination;})
+          .style("fill", "none")
+          .style("stroke", "#0e104b")
+          .style("stroke-width", function(d){return ((d.migrant_stock / d.pop_destination) * 10)})
+          .style("opacity", 0);
 
         svg_scatter_hdi.append('g')
           .attr('transform', 'translate(0,' + height_main_scatter + ')')
@@ -700,8 +771,9 @@
         svg_scatter_hdi.selectAll("circle")
           .data(hdi_data)
           .enter().append("circle")
-          .attr('class', function(d){return d.pays})
-          .attr('type', 'scatter_point')
+          .attr('class', function(d){return 'country_object_' + d.id})
+          .attr('clicked', 'false')
+          .attr('type', 'main_scatter')
           .attr("r", function(d) { return r_hdi(d.idh); })
           .attr("cx", function(d) { return x_hdi(d.pop); })
           .attr("cy", function(d) { return y_hdi(d.date); })
@@ -729,7 +801,7 @@
             .style('stroke', 'white')
             .style('opacity', 0.8)
             .style('stroke-width', 0.3)
-            .attr('class', function(d){return 'country_map_' + d.properties.name})
+            .attr('class', function(d){return 'country_object_' + d.id})
             .attr('type', 'little_map')
             .attr('clicked', 'false');
 
@@ -759,8 +831,9 @@
         svg_scatter_gii.selectAll("circle")
           .data(gii_data)
           .enter().append("circle")
-          .attr('class', function(d){return d.pays})
-          .attr('type', 'scatter_point')
+          .attr('class', function(d){return 'country_object_' + d.id})
+          .attr('clicked', 'false')
+          .attr('type', 'main_scatter')
           .attr("r", function(d) { return r_gii(d.iig); })
           .attr("cx", function(d) { return x_gii(d.pop); })
           .attr("cy", function(d) { return y_gii(d.date); })
@@ -789,7 +862,7 @@
             .style('stroke', 'white')
             .style('opacity', 0.8)
             .style('stroke-width', 0.3)
-            .attr('class', function(d){return 'country_map_' + d.properties.name})
+            .attr('class', function(d){return 'country_object_' + d.id})
             .attr('type', 'little_map')
             .attr('clicked', 'false');
 
@@ -819,8 +892,9 @@
         svg_scatter_unemp.selectAll("circle")
           .data(unemp_data)
           .enter().append("circle")
-          .attr('class', function(d){return d.pays})
-          .attr('type', 'scatter_point')
+          .attr('class', function(d){return 'country_object_' + d.id})
+          .attr('clicked', 'false')
+          .attr('type', 'main_scatter')
           .attr("r", function(d) { return r_unemp(d.chomage); })
           .attr("cx", function(d) { return x_unemp(d.pop); })
           .attr("cy", function(d) { return y_unemp(d.date); })
@@ -849,8 +923,8 @@
             .style('stroke', 'white')
             .style('opacity', 0.8)
             .style('stroke-width', 0.3)
-            .attr('class', function(d){return 'country_map_' + d.properties.name})
-            .attr('type', 'main_map')
+            .attr('class', function(d){return 'country_object_' + d.id})
+            .attr('type', 'little_map')
             .attr('clicked', 'false');
       }
 
@@ -889,7 +963,7 @@
 
         var current_element = d3.select(country);
 
-        d3.selectAll('*[class^=country_map_]')
+        d3.selectAll('*[class^=country_object_]')
             .each(function(d)
                   {
                     let country_element = d3.select(this);
@@ -901,11 +975,50 @@
                       fill_colour = "#e00000";
                       opacity_intensity = 1;
                       clicked_value = 'true';
+                      country_element.raise();
                     }
                     else
                     {
-                      fill_colour = 'rgb(33, 113, 181)';
-                      opacity_intensity = 0.8;
+                      clicked_value = 'false';
+
+                      if (country_element.attr('type') == 'little_map' ||
+                          country_element.attr('type') == 'main_map')
+                      {
+                        fill_colour = 'rgb(33, 113, 181)';
+                        opacity_intensity = 0.8;
+                      }
+                      else if (country_element.attr('type') == 'main_scatter')
+                      {
+                        fill_colour = color_scatter(d.pays);
+                        opacity_intensity = 0.3;
+                      }
+                    }
+
+                    country_element
+                      .style('fill', fill_colour)
+                      .style("opacity", opacity_intensity)
+                      .attr('clicked', clicked_value);
+                  }
+                );
+
+        /*d3.selectAll('*[class^=country_scatter_]')
+            .each(function(d)
+                  {
+                    let country_element = d3.select(this);
+                    console.log(country_element.attr('class'));
+                    let fill_colour,
+                        opacity_intensity,
+                        clicked_value;
+                    if (country_element.attr('class') == current_element.attr('class'))
+                    {
+                      fill_colour = "#e00000";
+                      opacity_intensity = 1;
+                      clicked_value = 'true';
+                    }
+                    else
+                    {
+                      fill_colour = color_scatter(d.pays);
+                      opacity_intensity = 0;
                       clicked_value = 'false';
                     }
 
@@ -915,18 +1028,19 @@
                       .attr('clicked', clicked_value);
                   }
                 );
+          */
       }
 
-      function year_opacity(year)
+      function year_opacity(year, class_name)
       {
-        d3.selectAll("*[class^=opacity_]")
+        d3.selectAll("*[class^=" + class_name + "]")
           .each(function(d)
                 {
                   d3.select(this)
                     .style("opacity",
                             function()
                             {
-                              if(d3.select(this).attr("class") == ("opacity_" + year))
+                              if(d3.select(this).attr("class") == (class_name + years[year]))
                                 return 1;
                               else 
                                 return 0;
@@ -936,6 +1050,12 @@
                 }
               );
       }
+
+      window.onload = function()
+                      {
+                        year_opacity(document.getElementById("myRange").value, 'opacity_');
+                        year_opacity(document.getElementById("myRange_norm").value, 'norm_opacity_');
+                      };
     </script>
     
   </body>

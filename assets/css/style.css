@@ -264,13 +264,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2c45f9;}
 .tooltip_scatter {
     position: absolute;
     text-align: center;
-    width: 220px;
+    width: 240px;
     height: 50px;
     padding: 8px;
     margin-top: -20px;
     font: 10px sans-serif;
-    background: #ddd;
+    background-color: #dddddd;
     pointer-events: none;
+    z-index: 10000;
 }
 
 .main_scatter {padding: 50px 0 100px;}
@@ -1046,7 +1047,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .slider::-moz-range-thumb {
   width: 25px; /* Set a specific slider handle width */
   height: 25px; /* Slider handle height */
-  background: #4CAF50; /* Green background */
+  background: rgb(33, 113, 181); /* Green background */
 }
 
 
