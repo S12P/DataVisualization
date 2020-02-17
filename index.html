@@ -116,12 +116,16 @@
 
             <!-- column with the information -->
             <div class="col-sm-3">
-              <div class="single-main_map-img">
+              <div class="row">
                 <div class="slidecontainer">
                   <input type="range" min="0" max="6" value="2"
                           step="1" class="slider" id="myRange"
                           onChange="year_opacity(this.value, 'opacity_')">
                   <p>Année : <span id="demo"></span></p>
+                </div>
+              </div>
+              <div class="row">
+                <div id="top10container">
                 </div>
               </div>
             </div>
@@ -147,12 +151,16 @@
 
             <!-- column with the information -->
             <div class="col-sm-3">
-              <div class="single-main_map-img">
+              <div class="row">
                 <div class="slidecontainer">
                   <input type="range" min="0" max="6"
                           value="2" step="1" class="slider"
                           id="myRange_norm" onChange="year_opacity(this.value, 'norm_opacity_')">
                   <p>Année : <span id="demo_norm"></span></p>
+                </div>
+              </div>
+              <div class="row">
+                <div id="norm_top10container">
                 </div>
               </div>
             </div>
@@ -321,6 +329,8 @@
           height_main_map = 600 - margin.top - margin.bottom;
       var width_little_map = 420 - margin.left - margin.right,
           height_little_map = 350 - margin.top - margin.bottom;
+      var width_top10 = 320 - margin.left - margin.right,
+          height_top10 = 500 - margin.top - margin.bottom;
 
       //scatterplot scales and axes
       var x_hdi = d3.scaleLinear()
@@ -375,12 +385,26 @@
                   .append('g')
                   .attr('class', 'map');
 
+      var svg_top10_mbc = d3.select("#top10container")
+                  .append("svg")
+                  .attr("width", width_top10)
+                  .attr("height", height_top10)
+                  .append('g')
+                  .attr('class', 'top10');
+
       var svg_map_mbcn = d3.select("#map_div_mbcn")
                   .append("svg")
                   .attr("width", width_main_map)
                   .attr("height", height_main_map)
                   .append('g')
                   .attr('class', 'map');
+
+      var svg_top10_mbcn = d3.select("#norm_top10container")
+                  .append("svg")
+                  .attr("width", width_top10)
+                  .attr("height", height_top10)
+                  .append('g')
+                  .attr('class', 'top10');
 
       var svg_scatter_hdi = d3.select("#scatter_div_hdi")
                   .append("svg")
@@ -931,104 +955,121 @@
       function raise_country(d, country)
       {
 
-        //change projection little maps
-        let new_center = little_projection(
-                                           [d.geometry.center.longitude,
-                                            d.geometry.center.latitude]
-                                          );
-        little_projection
-          .rotate(
-                    [
-                      - little_projection.invert(new_center)[0],
-                      - little_projection.invert(new_center)[1]
-                    ]
-                  )
-          .fitSize([width_little_map - 50, height_little_map - 50], d)
-          .translate([width_little_map / 2, height_little_map / 2]);
-
-        svg_map_hdi.selectAll("path")
-          .transition()
-          .duration(0)
-          .attr("d", little_path);
-
-        svg_map_gii.selectAll("path")
-          .transition()
-          .duration(0)
-          .attr("d", little_path);
-
-        svg_map_unemp.selectAll("path")
-          .transition()
-          .duration(0)
-          .attr("d", little_path);
-
         var current_element = d3.select(country);
+        if (current_element.attr('clicked') == 'true')
+        {
+          little_projection
+            .rotate([0, 0])
+            .scale(50)
+            .translate([width_little_map / 2, height_little_map / 1.5]);
 
-        d3.selectAll('*[class^=country_object_]')
-            .each(function(d)
-                  {
-                    let country_element = d3.select(this);
-                    let fill_colour,
-                        opacity_intensity,
-                        clicked_value;
-                    if (country_element.attr('class') == current_element.attr('class'))
+          svg_map_hdi.selectAll("path")
+            .transition()
+            .duration(0)
+            .attr("d", little_path);
+
+          svg_map_gii.selectAll("path")
+            .transition()
+            .duration(0)
+            .attr("d", little_path);
+
+          svg_map_unemp.selectAll("path")
+            .transition()
+            .duration(0)
+            .attr("d", little_path);
+
+          d3.selectAll('*[class^=country_object_]')
+              .each(function(d)
                     {
-                      fill_colour = "#e00000";
-                      opacity_intensity = 1;
-                      clicked_value = 'true';
-                      country_element.raise();
-                    }
-                    else
-                    {
-                      clicked_value = 'false';
+                      let country_element = d3.select(this);
+                      let fill_colour,
+                          opacity_intensity = 0.8,
+                          clicked_value = 'false';
 
                       if (country_element.attr('type') == 'little_map' ||
                           country_element.attr('type') == 'main_map')
-                      {
                         fill_colour = 'rgb(33, 113, 181)';
-                        opacity_intensity = 0.8;
-                      }
                       else if (country_element.attr('type') == 'main_scatter')
-                      {
                         fill_colour = color_scatter(d.pays);
-                        opacity_intensity = 0.3;
+
+                      country_element
+                        .style('fill', fill_colour)
+                        .style("opacity", opacity_intensity)
+                        .attr('clicked', clicked_value);
+                    }
+                  );
+        }
+        else
+        {
+          //change projection little maps
+          let new_center = little_projection(
+                                             [d.geometry.center.longitude,
+                                              d.geometry.center.latitude]
+                                            );
+          little_projection
+            .rotate(
+                      [
+                        - little_projection.invert(new_center)[0],
+                        - little_projection.invert(new_center)[1]
+                      ]
+                    )
+            .fitSize([width_little_map - 50, height_little_map - 50], d)
+            .translate([width_little_map / 2, height_little_map / 2]);
+
+          svg_map_hdi.selectAll("path")
+            .transition()
+            .duration(0)
+            .attr("d", little_path);
+
+          svg_map_gii.selectAll("path")
+            .transition()
+            .duration(0)
+            .attr("d", little_path);
+
+          svg_map_unemp.selectAll("path")
+            .transition()
+            .duration(0)
+            .attr("d", little_path);
+
+          d3.selectAll('*[class^=country_object_]')
+              .each(function(d)
+                    {
+                      let country_element = d3.select(this);
+                      let fill_colour,
+                          opacity_intensity,
+                          clicked_value;
+                      if (country_element.attr('class') == current_element.attr('class'))
+                      {
+                        fill_colour = "#e00000";
+                        opacity_intensity = 1;
+                        clicked_value = 'true';
+                        country_element.raise();
                       }
-                    }
+                      else
+                      {
+                        clicked_value = 'false';
 
-                    country_element
-                      .style('fill', fill_colour)
-                      .style("opacity", opacity_intensity)
-                      .attr('clicked', clicked_value);
-                  }
-                );
+                        if (country_element.attr('type') == 'little_map' ||
+                            country_element.attr('type') == 'main_map')
+                        {
+                          fill_colour = 'rgb(33, 113, 181)';
+                          opacity_intensity = 0.8;
+                        }
+                        else if (country_element.attr('type') == 'main_scatter')
+                        {
+                          fill_colour = color_scatter(d.pays);
+                          opacity_intensity = 0.3;
+                        }
+                      }
 
-        /*d3.selectAll('*[class^=country_scatter_]')
-            .each(function(d)
-                  {
-                    let country_element = d3.select(this);
-                    console.log(country_element.attr('class'));
-                    let fill_colour,
-                        opacity_intensity,
-                        clicked_value;
-                    if (country_element.attr('class') == current_element.attr('class'))
-                    {
-                      fill_colour = "#e00000";
-                      opacity_intensity = 1;
-                      clicked_value = 'true';
+                      country_element
+                        .style('fill', fill_colour)
+                        .style("opacity", opacity_intensity)
+                        .attr('clicked', clicked_value);
                     }
-                    else
-                    {
-                      fill_colour = color_scatter(d.pays);
-                      opacity_intensity = 0;
-                      clicked_value = 'false';
-                    }
+                  );
+        }
 
-                    country_element
-                      .style('fill', fill_colour)
-                      .style("opacity", opacity_intensity)
-                      .attr('clicked', clicked_value);
-                  }
-                );
-          */
       }
 
       function year_opacity(year, class_name)
