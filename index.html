@@ -585,7 +585,7 @@
                                       }
                                     ) 
                                       .slice(0, 10);
-                                    update_top10(data_country, clicked_country, {}, filtered_data);
+                                    update_top10(data_country, clicked_country, false, filtered_data);
                                 }
 
                                 };
@@ -991,7 +991,7 @@
             .attr('clicked', 'false');
       }
 
-      function update_top10(d, country, data={}, data_norm={})
+      function update_top10(d, country, data=false, data_norm=false)
       {
         if (country.attr('clicked') == 'false')
         {
@@ -1002,57 +1002,63 @@
         }
         else
         {
-          var data_length = Object.keys(data).length;
-          var data_norm_length = Object.keys(data_norm).length;
-          if (data_length > 0)
+          if (data !== false)
           {
-            var top10_html = '<h3>' + d.properties.name + ' : top ' +
-                              data_length + ' des pays qui arrivent' +
-                              ' plus massivement</h3><br/><ol>';
-
-            for (let i = 0; i < data_length; i++)
-              top10_html += '<li>' + data[i].origin + ' : ' + data[i].migrant_stock + '</li>';
-
-            top10_html += '</ol>';
-            d3.select('#top10container')
-              .html(top10_html);
-          }
-          else
-          {
-            d3.select('#top10container')
-              .html('<h3>' + d.properties.name +
-                    ' : nous ne disposons pas des informations' +
-                    ' sur les immigrants arrivants à ce pays pour' +
-                    ' l\'année choisie</h3>'
-                    )
-          }
-
-          if (data_norm_length > 0)
-          {
-            var norm_top10_html = '<h3>' + d.properties.name + ' : top ' +
-                              data_norm_length + ' des pays qui arrivent' +
-                              ' plus massivement (pourcentage par' +
-                              ' rapport à la population du pays' +
-                              ' d\'arrivée)</h3><br/><ol>';
-            for (let i = 0; i < data_norm_length; i++)
+            var data_length = Object.keys(data).length;
+            if (data_length > 0)
             {
-              let prop_i = Math.floor(1000000 * data_norm[i].migrant_stock /
-                                      data_norm[i].pop_destination) / 10000;
-              norm_top10_html += '<li>' + data_norm[i].origin + ' : ' + prop_i + '%</li>';
-            }
+              var top10_html = '<h3>' + d.properties.name + ' : top ' +
+                                data_length + ' des pays qui arrivent' +
+                                ' plus massivement</h3><br/><ol>';
 
-            norm_top10_html += '</ol>';
-            d3.select('#norm_top10container')
-              .html(norm_top10_html);
+              for (let i = 0; i < data_length; i++)
+                top10_html += '<li>' + data[i].origin + ' : ' + data[i].migrant_stock + '</li>';
+
+              top10_html += '</ol>';
+              d3.select('#top10container')
+                .html(top10_html);
+            }
+            else
+            {
+              d3.select('#top10container')
+                .html('<h3>' + d.properties.name +
+                      ' : nous ne disposons pas des informations' +
+                      ' sur les immigrants arrivants à ce pays pour' +
+                      ' l\'année choisie</h3>'
+                      );
+            }
           }
-          else
+
+          if (data_norm !== false)
           {
-            d3.select('#norm_top10container')
-              .html('<h3>' + d.properties.name +
-                    ' : nous ne disposons pas des informations' +
-                    ' sur les immigrants arrivants à ce pays pour' +
-                    ' l\'année choisie</h3>'
-                    )
+            var data_norm_length = Object.keys(data_norm).length;
+            if (data_norm_length > 0)
+            {
+              var norm_top10_html = '<h3>' + d.properties.name + ' : top ' +
+                                data_norm_length + ' des pays qui arrivent' +
+                                ' plus massivement (pourcentage par' +
+                                ' rapport à la population du pays' +
+                                ' d\'arrivée)</h3><br/><ol>';
+              for (let i = 0; i < data_norm_length; i++)
+              {
+                let prop_i = Math.floor(1000000 * data_norm[i].migrant_stock /
+                                        data_norm[i].pop_destination) / 10000;
+                norm_top10_html += '<li>' + data_norm[i].origin + ' : ' + prop_i + '%</li>';
+              }
+
+              norm_top10_html += '</ol>';
+              d3.select('#norm_top10container')
+                .html(norm_top10_html);
+            }
+            else
+            {
+              d3.select('#norm_top10container')
+                .html('<h3>' + d.properties.name +
+                      ' : nous ne disposons pas des informations' +
+                      ' sur les immigrants arrivants à ce pays pour' +
+                      ' l\'année choisie</h3>'
+                      )
+            }
           }
         }
       }
