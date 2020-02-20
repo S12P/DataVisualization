@@ -774,7 +774,17 @@
           .style("fill", "none")
           .style("stroke", "#ffb3b3")
           .style("stroke-width", function(d){return (d.migrant_stock * 0.0000004)})
-          .style("opacity", 0)}
+          .style("opacity", 0)
+          .on("mouseover", function(d)
+                              {
+                                console.log(d3.select(this).style("stroke"));
+                                d3.select(this).style("stroke", "black")
+                              })
+
+
+
+
+        }
     </script>
 
   </body>
