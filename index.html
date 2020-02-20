@@ -536,24 +536,31 @@
         slider.oninput();
         slider.onchange = function()
                           {
-                            year_opacity(this.value, 'opacity_');
+                            let current_year = this.value;
+                            let data_by_year = data_migration
+                              .filter(function(mig)
+                                      {
+                                        return (mig.year == years[current_year])
+                                      }
+                                    );
+
+                            year_opacity(this.value, data_by_year, svg_map_mbc, migration_lines);
                             if(typeof data_country != 'undefined' && data_country != '')
                             {
-                              let current_year = this.value;
-                              let filtered_data = data_migration
+                              let filtered_data = data_by_year
                                 .filter(function(mig)
-                                {
-                                  return (mig.id_destination == data_country.id &&
-                                          mig.year == years[current_year])
-                                }
-                                )
+                                        {
+                                          return (mig.id_destination == data_country.id)
+                                        }
+                                      )
                                 .sort(function(s, w)
                                 {
                                   return w.migrant_stock - s.migrant_stock
                                 }
                               ) 
                                 .slice(0, 10);
-                              update_top10(data_country, clicked_country, filtered_data);}
+                              update_top10(data_country, clicked_country, filtered_data);
+                            }
                           };
 
         var slider_norm = document.getElementById("myRange_norm");
@@ -567,26 +574,32 @@
         slider_norm.oninput();
         slider_norm.onchange = function()
                                 {
-                                  year_opacity(this.value, 'norm_opacity_');
+                                  let current_year = this.value;
+                                  let data_by_year = data_migration
+                                    .filter(function(mig)
+                                            {
+                                              return (mig.year == years[current_year])
+                                            }
+                                          );
+
+                                  year_opacity(this.value, data_by_year,
+                                                svg_map_mbcn, norm_migration_lines);
                                   if(typeof data_country != 'undefined' && data_country != '')
                                   {
-                                    let current_year = this.value;
-                                    let filtered_data = data_migration
-
+                                    let filtered_data = data_by_year
                                       .filter(function(mig)
-                                      {
-                                        return (mig.id_destination == data_country.id &&
-                                                mig.year == years[current_year])
-                                      }
-                                      )
+                                              {
+                                                return (mig.id_destination == data_country.id)
+                                              }
+                                            )
                                       .sort(function(s, w)
-                                      {
-                                        return w.migrant_stock - s.migrant_stock
-                                      }
-                                    ) 
+                                            {
+                                              return w.migrant_stock - s.migrant_stock
+                                            }
+                                          ) 
                                       .slice(0, 10);
                                     update_top10(data_country, clicked_country, false, filtered_data);
-                                }
+                                  }
 
                                 };
 
@@ -670,6 +683,9 @@
                               }
                             };
 
+        var migration_lines = function(d){return (d.migrant_stock * 0.0000004);}
+        var norm_migration_lines = function(d){return ((d.migrant_stock / d.pop_destination) * 10)}
+
         x_hdi.domain([-0.01, 1]);
         y_hdi.domain([new Date(1987,0,1), new Date(2022,0,1)])
         r_hdi.domain(d3.extent(hdi_data, function(d){return d.idh;}))
@@ -745,7 +761,7 @@
         svg_map_mbc.append('g')
           .attr('class', 'countries_migrations')
           .selectAll("path")
-          .data(data_migration)
+          .data(data_migration.filter(function(mig){return (mig.year == years[slider.value])}))
           .enter()
           .append("path")
           .attr("d", function(d)
@@ -757,11 +773,9 @@
                         return main_path(x);
                       }
                 )
-          .attr("class", function(d){return "opacity_" + d.year;})
           .style("fill", "none")
-          .style("stroke", "#ffb3b3")
-          .style("stroke-width", function(d){return (d.migrant_stock * 0.0000004)})
-          .style("opacity", 0);
+          .style("stroke", "#0e104b")
+          .style("stroke-width", migration_lines);
 
         d3.select('#top10container')
           .html('<h3>Cliquez sur un pays pour obtenir des informations</h3>')
@@ -789,7 +803,7 @@
         svg_map_mbcn.append('g')
           .attr('class', 'countries_migrations')
           .selectAll("path")
-          .data(data_migration)
+          .data(data_migration.filter(function(mig){return (mig.year == years[slider_norm.value])}))
           .enter()
           .append("path")
           .attr("d", function(d)
@@ -801,12 +815,10 @@
                         return main_path(x);
                       }
                 )
-          .attr("class", function(d){return "norm_opacity_" + d.year;})
           .attr('name',  function(d){return d.origin + '_' + d.destination;})
           .style("fill", "none")
           .style("stroke", "#0e104b")
-          .style("stroke-width", function(d){return ((d.migrant_stock / d.pop_destination) * 10)})
-          .style("opacity", 0);
+          .style("stroke-width", norm_migration_lines);
 
         svg_scatter_hdi.append('g')
           .attr('transform', 'translate(0,' + height_main_scatter + ')')
@@ -1184,32 +1196,31 @@
         clicked_country =  d3.select(country);
       }
 
-      function year_opacity(year, class_name)
+      function year_opacity(year, data, svg_image, stroke_function)
       {
-        d3.selectAll("*[class^=" + class_name + "]")
-          .each(function(d)
-                {
-                  d3.select(this)
-                    .style("opacity",
-                            function()
-                            {
-                              if(d3.select(this).attr("class") == (class_name + years[year]))
-                                return 1;
-                              else 
-                                return 0;
+        svg_image.selectAll(".countries_migrations").remove()
 
-                            }
-                          );
-                }
-          );
+        svg_image.append('g')
+          .attr('class', 'countries_migrations')
+          .selectAll("path")
+          .data(data)
+          .enter()
+          .append("path")
+          .attr("d", function(d)
+                      {
+                        var x = {
+                                  type: "LineString",
+                                  coordinates : [[d.long_o, d.lat_o], [d.long_d, d.lat_d]]
+                                };
+                        return main_path(x);
+                      }
+                )
+          .attr('name',  function(d){return d.origin + '_' + d.destination;})
+          .style("fill", "none")
+          .style("stroke", "#0e104b")
+          .style("stroke-width", stroke_function);
 
       }
-
-      window.onload = function()
-                      {
-                        year_opacity(document.getElementById("myRange").value, 'opacity_');
-                        year_opacity(document.getElementById("myRange_norm").value, 'norm_opacity_');
-                      };
     </script>
     
   </body>
