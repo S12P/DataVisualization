@@ -537,9 +537,8 @@
         slider.onchange = function()
                           {
                             year_opacity(this.value, 'opacity_');
-                            if(data_country != 'undefined' && data_country != '')
+                            if(typeof data_country != 'undefined' && data_country != '')
                             {
-                              console.log(data_country);
                               let current_year = this.value;
                               let filtered_data = data_migration
                                 .filter(function(mig)
@@ -554,7 +553,7 @@
                                 }
                               ) 
                                 .slice(0, 10);
-                              update_top10(data_country, filtered_data, clicked_country);}
+                              update_top10(data_country, clicked_country, filtered_data);}
                           };
 
         var slider_norm = document.getElementById("myRange_norm");
@@ -569,7 +568,7 @@
         slider_norm.onchange = function()
                                 {
                                   year_opacity(this.value, 'norm_opacity_');
-                                  if(data_country != 'undefined' && data_country != '')
+                                  if(typeof data_country != 'undefined' && data_country != '')
                                   {
                                     let current_year = this.value;
                                     let filtered_data = data_migration
@@ -586,7 +585,7 @@
                                       }
                                     ) 
                                       .slice(0, 10);
-                                    update_top10(data_country, filtered_data, clicked_country);
+                                    update_top10(data_country, clicked_country, {}, filtered_data);
                                 }
 
                                 };
@@ -711,8 +710,7 @@
             .on('click', function(d)
                           {
                             data_country = d;
-                            console.log(data_country);
-                            let filtered_data =
+                            let filtered_original =
                                 data_migration
                                   .filter(function(mig)
                                           {
@@ -726,7 +724,21 @@
                                         }
                                       )
                                   .slice(0, 10);
-                            raise_country(d, this, filtered_data);
+                            let filtered_norm =
+                                data_migration
+                                  .filter(function(mig)
+                                          {
+                                            return (mig.id_destination == d.id &&
+                                                    mig.year == years[slider_norm.value])
+                                          }
+                                        )
+                                  .sort(function(s, w)
+                                        {
+                                          return w.migrant_stock - s.migrant_stock
+                                        }
+                                      )
+                                  .slice(0, 10);
+                            raise_country(d, this, filtered_original, filtered_norm);
                           }
                 );
 
@@ -749,11 +761,7 @@
           .style("fill", "none")
           .style("stroke", "#ffb3b3")
           .style("stroke-width", function(d){return (d.migrant_stock * 0.0000004)})
-          .style("opacity", 0)
-          .on("mouseover", function(d)
-                              {
-                                d3.select(this).style("stroke", "black");
-                              });
+          .style("opacity", 0);
 
         d3.select('#top10container')
           .html('<h3>Cliquez sur un pays pour obtenir des informations</h3>')
@@ -983,7 +991,7 @@
             .attr('clicked', 'false');
       }
 
-      function update_top10(d, data, country)
+      function update_top10(d, country, data={}, data_norm={})
       {
         if (country.attr('clicked') == 'false')
         {
@@ -991,38 +999,23 @@
             .html('<h3>Cliquez sur un pays pour obtenir des informations</h3>');
           d3.select('#norm_top10container')
             .html('');
-          console.log('Camilo es tonto');
         }
         else
         {
           var data_length = Object.keys(data).length;
+          var data_norm_length = Object.keys(data_norm).length;
           if (data_length > 0)
           {
             var top10_html = '<h3>' + d.properties.name + ' : top ' +
                               data_length + ' des pays qui arrivent' +
                               ' plus massivement</h3><br/><ol>';
 
-            var norm_top10_html = '<h3>' + d.properties.name + ' : top ' +
-                              data_length + ' des pays qui arrivent' +
-                              ' plus massivement (pourcentage par' +
-                              ' rapport à la population du pays' +
-                              ' d\'arrivée)</h3><br/><ol>';
             for (let i = 0; i < data_length; i++)
-            {
               top10_html += '<li>' + data[i].origin + ' : ' + data[i].migrant_stock + '</li>';
-              let prop_i = Math.floor(1000000 * data[i].migrant_stock /
-                                      data[i].pop_destination) / 10000;
-              norm_top10_html += '<li>' + data[i].origin + ' : ' + prop_i + '%</li>';
-            }
 
             top10_html += '</ol>';
             d3.select('#top10container')
               .html(top10_html);
-
-            norm_top10_html += '</ol>';
-            d3.select('#norm_top10container')
-              .html(norm_top10_html);
-
           }
           else
           {
@@ -1032,7 +1025,28 @@
                     ' sur les immigrants arrivants à ce pays pour' +
                     ' l\'année choisie</h3>'
                     )
+          }
 
+          if (data_norm_length > 0)
+          {
+            var norm_top10_html = '<h3>' + d.properties.name + ' : top ' +
+                              data_norm_length + ' des pays qui arrivent' +
+                              ' plus massivement (pourcentage par' +
+                              ' rapport à la population du pays' +
+                              ' d\'arrivée)</h3><br/><ol>';
+            for (let i = 0; i < data_norm_length; i++)
+            {
+              let prop_i = Math.floor(1000000 * data_norm[i].migrant_stock /
+                                      data_norm[i].pop_destination) / 10000;
+              norm_top10_html += '<li>' + data_norm[i].origin + ' : ' + prop_i + '%</li>';
+            }
+
+            norm_top10_html += '</ol>';
+            d3.select('#norm_top10container')
+              .html(norm_top10_html);
+          }
+          else
+          {
             d3.select('#norm_top10container')
               .html('<h3>' + d.properties.name +
                     ' : nous ne disposons pas des informations' +
@@ -1043,12 +1057,10 @@
         }
       }
 
-      function raise_country(d, country, data)
+      function raise_country(d, country, data, data_norm)
       {
         //data has the top10 of inmigrants arriving to country
         var current_element = d3.select(country);
-        // update_top10(d, data, current_element);
-        // clicked_country = current_element;
         if (current_element.attr('clicked') == 'true')
         {
           little_projection
@@ -1162,13 +1174,12 @@
                     }
                   );
         }
-        update_top10(d, data,  d3.select(country));
+        update_top10(d, d3.select(country), data, data_norm);
         clicked_country =  d3.select(country);
       }
 
       function year_opacity(year, class_name)
       {
-        console.log(class_name);
         d3.selectAll("*[class^=" + class_name + "]")
           .each(function(d)
                 {
