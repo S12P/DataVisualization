@@ -331,6 +331,9 @@
       var width_top10 = 320 - margin.left - margin.right,
           height_top10 = 500 - margin.top - margin.bottom;
 
+      var clicked_country;
+      var data_country;
+
       //scatterplot scales and axes
       var x_hdi = d3.scaleLinear()
         .range([0, width_main_scatter]);
@@ -534,6 +537,24 @@
         slider.onchange = function()
                           {
                             year_opacity(this.value, 'opacity_');
+                            if(data_country != 'undefined' && data_country != '')
+                            {
+                              console.log(data_country);
+                              let current_year = this.value;
+                              let filtered_data = data_migration
+                                .filter(function(mig)
+                                {
+                                  return (mig.id_destination == data_country.id &&
+                                          mig.year == years[current_year])
+                                }
+                                )
+                                .sort(function(s, w)
+                                {
+                                  return w.migrant_stock - s.migrant_stock
+                                }
+                              ) 
+                                .slice(0, 10);
+                              update_top10(data_country, filtered_data, clicked_country);}
                           };
 
         var slider_norm = document.getElementById("myRange_norm");
@@ -548,6 +569,26 @@
         slider_norm.onchange = function()
                                 {
                                   year_opacity(this.value, 'norm_opacity_');
+                                  if(data_country != 'undefined' && data_country != '')
+                                  {
+                                    let current_year = this.value;
+                                    let filtered_data = data_migration
+
+                                      .filter(function(mig)
+                                      {
+                                        return (mig.id_destination == data_country.id &&
+                                                mig.year == years[current_year])
+                                      }
+                                      )
+                                      .sort(function(s, w)
+                                      {
+                                        return w.migrant_stock - s.migrant_stock
+                                      }
+                                    ) 
+                                      .slice(0, 10);
+                                    update_top10(data_country, filtered_data, clicked_country);
+                                }
+
                                 };
 
         var Tooltip_hdi = d3.select("#scatter_div_hdi")
@@ -669,6 +710,8 @@
             .on('mouseleave', function(d){return leave_country(d, this);})
             .on('click', function(d)
                           {
+                            data_country = d;
+                            console.log(data_country);
                             let filtered_data =
                                 data_migration
                                   .filter(function(mig)
@@ -942,12 +985,13 @@
 
       function update_top10(d, data, country)
       {
-        if (country.attr('clicked') == 'true')
+        if (country.attr('clicked') == 'false')
         {
           d3.select('#top10container')
             .html('<h3>Cliquez sur un pays pour obtenir des informations</h3>');
           d3.select('#norm_top10container')
             .html('');
+          console.log('Camilo es tonto');
         }
         else
         {
@@ -1003,7 +1047,8 @@
       {
         //data has the top10 of inmigrants arriving to country
         var current_element = d3.select(country);
-        update_top10(d, data, current_element);
+        // update_top10(d, data, current_element);
+        // clicked_country = current_element;
         if (current_element.attr('clicked') == 'true')
         {
           little_projection
@@ -1117,7 +1162,8 @@
                     }
                   );
         }
-
+        update_top10(d, data,  d3.select(country));
+        clicked_country =  d3.select(country);
       }
 
       function year_opacity(year, class_name)
@@ -1138,7 +1184,8 @@
                             }
                           );
                 }
-              );
+          );
+
       }
 
       window.onload = function()
