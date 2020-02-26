@@ -98,9 +98,19 @@ html,body{
 
 .fix{position: relative;clear: both;}
 
-.top10container ol
+.tdright
 {
-  list-style-position: inside;
+  text-align: right;
+}
+
+.tdleft
+{
+  text-align: left;
+}
+
+.top10container table
+{
+  width: 100%;
 }
 
 /*=============Style css=========*/

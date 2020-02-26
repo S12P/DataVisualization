@@ -318,6 +318,8 @@
     <script type="text/javascript">
       var formatTime = d3.timeFormat("%Y");
       var parseDate = d3.timeParse("%Y");
+      var integerFormat = d3.format(".0f");
+      var percentageFormat = d3.format(".4%");
       var years = [];
 
       var margin = {top: 20, right: 20, bottom: 30, left: 40};
@@ -367,8 +369,6 @@
         .scale(x_unemp);
       var yAxis_unemp = d3.axisLeft()
         .scale(y_unemp);
-
-      console.log('hola');
 
       var color_scatter = d3.scaleOrdinal(d3.schemeCategory20);
 
@@ -432,13 +432,13 @@
                   .append('g')
                   .attr('class', 'little_map');
 
-      var main_projection = d3.geoMercator()
-                         .scale(130)
-                        .translate( [width_main_map / 2, height_main_map / 1.5]);
+      var main_projection = d3.geoNaturalEarth1()
+                         .scale(180)
+                        .translate( [width_main_map / 2, height_main_map / 2]);
 
-      var little_projection = d3.geoMercator()
-                         .scale(50)
-                        .translate( [width_little_map / 2, height_little_map / 1.5]);
+      var little_projection = d3.geoNaturalEarth1()
+                         .scale(75)
+                        .translate( [width_little_map / 2, height_little_map / 2]);
 
       var main_path = d3.geoPath().projection(main_projection),
           little_path = d3.geoPath().projection(little_projection);
@@ -1022,12 +1022,12 @@
             {
               var top10_html = '<h3>' + d.properties.name + ' : top ' +
                                 data_length + ' des pays qui arrivent' +
-                                ' plus massivement</h3><br/><ol>';
+                                ' plus massivement</h3><br/><table>';
 
               for (let i = 0; i < data_length; i++)
-                top10_html += '<li>' + data[i].origin + ' : ' + data[i].migrant_stock + '</li>';
+                top10_html += '<tr><td class="tdleft">' + data[i].origin + '</td><td class="tdright">' + integerFormat(data[i].migrant_stock) + '</td></tr>';
 
-              top10_html += '</ol>';
+              top10_html += '</table>';
               d3.select('#top10container')
                 .html(top10_html);
             }
@@ -1051,15 +1051,13 @@
                                 data_norm_length + ' des pays qui arrivent' +
                                 ' plus massivement (pourcentage par' +
                                 ' rapport à la population du pays' +
-                                ' d\'arrivée)</h3><br/><ol>';
+                                ' d\'arrivée)</h3><br/><table>';
               for (let i = 0; i < data_norm_length; i++)
               {
-                let prop_i = Math.floor(1000000 * data_norm[i].migrant_stock /
-                                        data_norm[i].pop_destination) / 10000;
-                norm_top10_html += '<li>' + data_norm[i].origin + ' : ' + prop_i + '%</li>';
+                norm_top10_html += '<tr><td class="tdleft">' + data_norm[i].origin + '</td><td class="tdright">' + percentageFormat(data_norm[i].migrant_stock / data_norm[i].pop_destination) + '</td></tr>';
               }
 
-              norm_top10_html += '</ol>';
+              norm_top10_html += '</table>';
               d3.select('#norm_top10container')
                 .html(norm_top10_html);
             }
@@ -1084,8 +1082,8 @@
         {
           little_projection
             .rotate([0, 0])
-            .scale(50)
-            .translate([width_little_map / 2, height_little_map / 1.5]);
+            .scale(75)
+            .translate([width_little_map / 2, height_little_map / 2]);
 
           svg_map_hdi.selectAll("path")
             .transition()
