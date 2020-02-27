@@ -316,135 +316,287 @@
 
     <!-- create map -->
     <script type="text/javascript">
-      var formatTime = d3.timeFormat("%Y");
-      var parseDate = d3.timeParse("%Y");
-      var integerFormat = d3.format(".0f");
-      var percentageFormat = d3.format(".4%");
-      var years = [];
-
-      var margin = {top: 20, right: 20, bottom: 30, left: 40};
-
-      var width_main_scatter = 800 - margin.left - margin.right,
-          height_main_scatter = 500 - margin.top - margin.bottom;
-      var width_main_map = 900 - margin.left - margin.right,
-          height_main_map = 600 - margin.top - margin.bottom;
-      var width_little_map = 420 - margin.left - margin.right,
-          height_little_map = 350 - margin.top - margin.bottom;
-      var width_top10 = 320 - margin.left - margin.right,
-          height_top10 = 500 - margin.top - margin.bottom;
-
-      var clicked_country;
-      var data_country;
-
-      //scatterplot scales and axes
-      var x_hdi = d3.scaleLinear()
+        var formatTime = d3.timeFormat("%Y");
+        var parseDate = d3.timeParse("%Y");
+        var integerFormat = d3.format(".0f");
+        var percentageFormat = d3.format(".4%");
+        var years = [];
+        
+        var margin = {top: 20, right: 20, bottom: 30, left: 40};
+        
+        var width_main_scatter = 800 - margin.left - margin.right,
+        height_main_scatter = 500 - margin.top - margin.bottom;
+        var width_main_map = 900 - margin.left - margin.right,
+        height_main_map = 600 - margin.top - margin.bottom;
+        var width_little_map = 420 - margin.left - margin.right,
+        height_little_map = 350 - margin.top - margin.bottom;
+        var width_top10 = 320 - margin.left - margin.right,
+        height_top10 = 500 - margin.top - margin.bottom;
+        
+        var clicked_country;
+        var data_country;
+        
+        //scatterplot scales and axes
+        var x_hdi = d3.scaleLinear()
         .range([0, width_main_scatter]);
-      var y_hdi = d3.scaleTime()
+        var y_hdi = d3.scaleTime()
         .range([height_main_scatter, 0]);
-      var r_hdi = d3.scaleSqrt()
-        .range([2,15]);
-      var xAxis_hdi = d3.axisBottom()
+        var r_hdi = d3.scaleSqrt()
+        .range([2,17]);
+        var xAxis_hdi = d3.axisBottom()
         .scale(x_hdi);
-      var yAxis_hdi = d3.axisLeft()
+        var yAxis_hdi = d3.axisLeft()
         .scale(y_hdi);
-
-      var x_gii = d3.scaleLinear()
-      .range([0, width_main_scatter]);
-      var y_gii = d3.scaleTime()
-      .range([height_main_scatter, 0]);
-      var r_gii = d3.scaleSqrt()
-      .range([1,15]);
-      var xAxis_gii = d3.axisBottom()
-      .scale(x_gii);
-      var yAxis_gii = d3.axisLeft()
-      .scale(y_gii);
-
-      var x_unemp = d3.scaleLinear()
+        
+        var x_gii = d3.scaleLinear()
         .range([0, width_main_scatter]);
-      var y_unemp = d3.scaleTime()
+        var y_gii = d3.scaleTime()
         .range([height_main_scatter, 0]);
-      var r_unemp = d3.scaleSqrt()
-      .range([1,17]);
-      var xAxis_unemp = d3.axisBottom()
+        var r_gii = d3.scaleSqrt()
+        .range([2,17]);
+        var xAxis_gii = d3.axisBottom()
+        .scale(x_gii);
+        var yAxis_gii = d3.axisLeft()
+        .scale(y_gii);
+        
+        var x_unemp = d3.scaleLinear()
+        .range([0, width_main_scatter]);
+        var y_unemp = d3.scaleTime()
+        .range([height_main_scatter, 0]);
+        var r_unemp = d3.scaleSqrt()
+        .range([2,17]);
+        var xAxis_unemp = d3.axisBottom()
         .scale(x_unemp);
-      var yAxis_unemp = d3.axisLeft()
+        var yAxis_unemp = d3.axisLeft()
         .scale(y_unemp);
-
-      var color_scatter = d3.scaleOrdinal(d3.schemeCategory20);
-
-      var path = d3.geoPath();
-
-      //adding svg images to the site
-
-      var svg_map_mbc = d3.select("#map_div_mbc")
-                  .append("svg")
-                  .attr("width", width_main_map)
-                  .attr("height", height_main_map)
-                  .append('g')
-                  .attr('class', 'map');
-
-      var svg_map_mbcn = d3.select("#map_div_mbcn")
-                  .append("svg")
-                  .attr("width", width_main_map)
-                  .attr("height", height_main_map)
-                  .append('g')
-                  .attr('class', 'map');
-
-      var svg_scatter_hdi = d3.select("#scatter_div_hdi")
-                  .append("svg")
-                  .attr("width", width_main_scatter + margin.left + margin.right)
-                  .attr("height", height_main_scatter + margin.top + margin.bottom)
-                  .append("g")
-                  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-      var svg_map_hdi = d3.select("#map_div_hdi")
-                  .append("svg")
-                  .attr("width", width_little_map)
-                  .attr("height", height_little_map)
-                  .append('g')
-                  .attr('class', 'little_map');
-
-      var svg_scatter_gii = d3.select("#scatter_div_gii")
-                  .append("svg")
-                  .attr("width", width_main_scatter + margin.left + margin.right)
-                  .attr("height", height_main_scatter + margin.top + margin.bottom)
-                  .append("g")
-                  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-      var svg_map_gii = d3.select("#map_div_gii")
-                  .append("svg")
-                  .attr("width", width_little_map)
-                  .attr("height", height_little_map)
-                  .append('g')
-                  .attr('class', 'little_map');
-
-      var svg_scatter_unemp = d3.select("#scatter_div_unemp")
-                  .append("svg")
-                  .attr("width", width_main_scatter + margin.left + margin.right)
-                  .attr("height", height_main_scatter + margin.top + margin.bottom)
-                  .append("g")
-                  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-      var svg_map_unemp = d3.select("#map_div_unemp")
-                  .append("svg")
-                  .attr("width", width_little_map)
-                  .attr("height", height_little_map)
-                  .append('g')
-                  .attr('class', 'little_map');
-
-      var main_projection = d3.geoNaturalEarth1()
-                         .scale(180)
-                        .translate( [width_main_map / 2, height_main_map / 2]);
-
-      var little_projection = d3.geoNaturalEarth1()
-                         .scale(75)
-                        .translate( [width_little_map / 2, height_little_map / 2]);
-
-      var main_path = d3.geoPath().projection(main_projection),
-          little_path = d3.geoPath().projection(little_projection);
-
-      //list of files
-      queue()
+        
+        var color_scatter = d3.scaleOrdinal(d3.schemeCategory20);
+        
+        var path = d3.geoPath();
+        
+        //adding svg images to the site
+        
+        var svg_map_mbc = d3.select("#map_div_mbc")
+        .append("svg")
+        .attr("width", width_main_map)
+        .attr("height", height_main_map)
+        .append('g')
+        .attr('class', 'map');
+        
+        var svg_map_mbcn = d3.select("#map_div_mbcn")
+        .append("svg")
+        .attr("width", width_main_map)
+        .attr("height", height_main_map)
+        .append('g')
+        .attr('class', 'map');
+        
+        var size_hdi = d3.scaleSqrt()
+        .domain([0.209, 0.953])
+        .range([2, 17])
+        
+        var size_gii = d3.scaleSqrt()
+        .domain([0.037, 0.841])
+        .range([2, 17])
+        
+        var size_unemp = d3.scaleSqrt()
+        .domain([0.14, 37.25])
+        .range([2, 17])
+        
+        var valuesToShow_hdi = [0.209, 0.953]
+        var valuesToShow_gii = [0.037, 0.841]
+        var valuesToShow_unemp = [0.14, 37.25]
+        var xCircle = 600
+        var xLabel = 630
+        var yCircle = 25
+        
+        var svg_scatter_hdi = d3.select("#scatter_div_hdi")
+        .append("svg")
+        .attr("width", width_main_scatter + margin.left + margin.right)
+        .attr("height", height_main_scatter + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        
+        
+        
+        
+        svg_scatter_hdi
+        .selectAll("legend")
+        .data(valuesToShow_hdi)
+        .enter()
+        .append("circle")
+        .attr("cx", xCircle)
+        .attr("cy", function(d){ return yCircle - size_hdi(d) } )
+        .attr("r", function(d){ return size_hdi(d) })
+        .style("fill", "none")
+        .attr("stroke", "black")
+        
+        svg_scatter_hdi
+        .selectAll("legend")
+        .data(valuesToShow_hdi)
+        .enter()
+        .append("line")
+        .attr('x1', function(d){ return xCircle + size_hdi(d) } )
+        .attr('x2', xLabel)
+        .attr('y1', function(d){ return yCircle - size_hdi(d) } )
+        .attr('y2', function(d){ return yCircle - size_hdi(d) } )
+        .attr('stroke', 'black')
+        .style('stroke-dasharray', ('2,2'))
+        
+        svg_scatter_hdi
+        .selectAll("legend")
+        .data(valuesToShow_hdi)
+        .enter()
+        .append("text")
+        .attr('x', xLabel)
+        .attr('y', function(d){ return yCircle - size_hdi(d) } )
+        .text( function(d){ return "idh = " + d } )
+        .style("font-size", 10)
+        .attr('alignment-baseline', 'middle')
+        
+        svg_scatter_hdi
+        .append("text")
+        .text("Légende")
+        .attr("y", 23)
+        .attr("x", 450)
+        .attr("font-size", 28)
+        .attr("font-family", "monospace")
+        
+        var svg_map_hdi = d3.select("#map_div_hdi")
+        .append("svg")
+        .attr("width", width_little_map)
+        .attr("height", height_little_map)
+        .append('g')
+        .attr('class', 'little_map');
+        
+        
+        var svg_scatter_gii = d3.select("#scatter_div_gii")
+        .append("svg")
+        .attr("width", width_main_scatter + margin.left + margin.right)
+        .attr("height", height_main_scatter + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        
+        
+        svg_scatter_gii
+        .selectAll("legend")
+        .data(valuesToShow_gii)
+        .enter()
+        .append("circle")
+        .attr("cx", xCircle)
+        .attr("cy", function(d){ return yCircle - size_gii(d) } )
+        .attr("r", function(d){ return size_gii(d) })
+        .style("fill", "none")
+        .attr("stroke", "black")
+        
+        svg_scatter_gii
+        .selectAll("legend")
+        .data(valuesToShow_gii)
+        .enter()
+        .append("line")
+        .attr('x1', function(d){ return xCircle + size_gii(d) } )
+        .attr('x2', xLabel)
+        .attr('y1', function(d){ return yCircle - size_gii(d) } )
+        .attr('y2', function(d){ return yCircle - size_gii(d) } )
+        .attr('stroke', 'black')
+        .style('stroke-dasharray', ('2,2'))
+        
+        svg_scatter_gii
+        .selectAll("legend")
+        .data(valuesToShow_gii)
+        .enter()
+        .append("text")
+        .attr('x', xLabel)
+        .attr('y', function(d){ return yCircle - size_gii(d) } )
+        .text( function(d){ return "iig = " + d } )
+        .style("font-size", 10)
+        .attr('alignment-baseline', 'middle')
+        
+        svg_scatter_gii
+        .append("text")
+        .text("Légende")
+        .attr("y", 23)
+        .attr("x", 450)
+        .attr("font-size", 28)
+        .attr("font-family", "monospace")
+        
+        var svg_map_gii = d3.select("#map_div_gii")
+        .append("svg")
+        .attr("width", width_little_map)
+        .attr("height", height_little_map)
+        .append('g')
+        .attr('class', 'little_map');
+        
+        var svg_scatter_unemp = d3.select("#scatter_div_unemp")
+        .append("svg")
+        .attr("width", width_main_scatter + margin.left + margin.right)
+        .attr("height", height_main_scatter + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        
+        
+        svg_scatter_unemp
+        .selectAll("legend")
+        .data(valuesToShow_unemp)
+        .enter()
+        .append("circle")
+        .attr("cx", xCircle)
+        .attr("cy", function(d){ return yCircle - size_unemp(d) } )
+        .attr("r", function(d){ return size_unemp(d) })
+        .style("fill", "none")
+        .attr("stroke", "black")
+        
+        
+        svg_scatter_unemp
+        .selectAll("legend")
+        .data(valuesToShow_unemp)
+        .enter()
+        .append("line")
+        .attr('x1', function(d){ return xCircle + size_unemp(d) } )
+        .attr('x2', xLabel)
+        .attr('y1', function(d){ return yCircle - size_unemp(d) } )
+        .attr('y2', function(d){ return yCircle - size_unemp(d) } )
+        .attr('stroke', 'black')
+        .style('stroke-dasharray', ('2,2'))
+        
+        svg_scatter_unemp
+        .selectAll("legend")
+        .data(valuesToShow_unemp)
+        .enter()
+        .append("text")
+        .attr('x', xLabel)
+        .attr('y', function(d){ return yCircle - size_unemp(d) } )
+        .text( function(d){ return "chomage = " + d + "%" } )
+        .style("font-size", 10)
+        .attr('alignment-baseline', 'middle')
+        
+        svg_scatter_unemp
+        .append("text")
+        .text("Légende")
+        .attr("y", 23)
+        .attr("x", 450)
+        .attr("font-size", 28)
+        .attr("font-family", "monospace")
+        
+        var svg_map_unemp = d3.select("#map_div_unemp")
+        .append("svg")
+        .attr("width", width_little_map)
+        .attr("height", height_little_map)
+        .append('g')
+        .attr('class', 'little_map');
+        
+        var main_projection = d3.geoNaturalEarth1()
+        .scale(180)
+        .translate( [width_main_map / 2, height_main_map / 2]);
+        
+        var little_projection = d3.geoNaturalEarth1()
+        .scale(75)
+        .translate( [width_little_map / 2, height_little_map / 2]);
+        
+        var main_path = d3.geoPath().projection(main_projection),
+        little_path = d3.geoPath().projection(little_projection);
+        
+        //list of files
+        queue()
         .defer(d3.json, 'data/world_countries.json')
         .defer(d3.csv, 'data/migration_idh_div.csv')
         .defer(d3.csv, 'data/migration_chomage_div.csv')
@@ -687,18 +839,18 @@
         var migration_lines = function(d){return (d.migrant_stock * 0.0000004);}
         var norm_migration_lines = function(d){return ((d.migrant_stock / d.pop_destination) * 10)}
 
-        x_hdi.domain([-0.01, 1]);
-        y_hdi.domain([new Date(1987,0,1), new Date(2022,0,1)])
+        x_hdi.domain([-0.03, 1]);
+        y_hdi.domain([new Date(1987,0,1), new Date(2025,0,1)])
         r_hdi.domain(d3.extent(hdi_data, function(d){return d.idh;}))
             .nice();
 
         x_gii.domain([-0.01, 0.7]);
-        y_gii.domain([new Date(1987,0,1), new Date(2022,0,1)])
+        y_gii.domain([new Date(1987,0,1), new Date(2025,0,1)])
         r_gii.domain(d3.extent(gii_data, function(d){return d.iig;}))
             .nice();
 
         x_unemp.domain([-0.01, 1]);
-        y_unemp.domain([new Date(1987,0,1), new Date(2022,0,1)])
+        y_unemp.domain([new Date(1987,0,1), new Date(2025,0,1)])
         r_unemp.domain(d3.extent(unemp_data, function(d){return d.chomage;}))
             .nice();
 
