@@ -78,11 +78,11 @@
             <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
               <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
               <li class=" smooth-menu active"></li>
-                <li class=" smooth-menu"><a href="#mbc_section">Migrations par pays</a></li>
-                <li class="smooth-menu"><a href="#mbcn_section">Migrations par pays normalisées</a></li>
-                <li class="smooth-menu"><a href="#mahdi_section">Migrations et IDH</a></li>
-                <li class="smooth-menu"><a href="#magii_section">Migrations et IIG</a></li>
-                <li class="smooth-menu"><a href="#mau_section">Migrations et chômage</a></li>
+                <li class=" smooth-menu"><a href="#mbc_section">Migrations by country</a></li>
+                <li class="smooth-menu"><a href="#mbcn_section">Migrations by country normalised</a></li>
+                <li class="smooth-menu"><a href="#mahdi_section">Migrations and HDI</a></li>
+                <li class="smooth-menu"><a href="#magii_section">Migrations et GII</a></li>
+                <li class="smooth-menu"><a href="#mau_section">Migrations and unemployment</a></li>
               </ul><!--/.nav -->
             </div><!-- /.navbar-collapse -->
           </div><!--/.container-->
@@ -103,7 +103,7 @@
     <!-- migrations by country starts -->
     <section id="mbc_section" class="main_map">
       <div class="section-heading text-center">
-        <h2>Flux migratoires par pays</h2>
+        <h2>Migration flows by country</h2>
       </div>
       <div class="container">
         <div class="main_map-content">
@@ -120,7 +120,7 @@
                 <div class="slidecontainer">
                   <input type="range" min="0" max="6" value="2"
                           step="1" class="slider" id="myRange">
-                  <p>Année : <span id="demo"></span></p>
+                  <p>Year : <span id="demo"></span></p>
                 </div>
               </div>
               <div class="row">
@@ -137,7 +137,7 @@
     <!--migrations by country normalised starts -->
     <section id="mbcn_section" class="main_map">
       <div class="section-heading text-center">
-        <h2>Flux migratoires par pays (normalisé par le nombre d'habitants du pays de destination)</h2>
+        <h2>Migration flows by country (normalised by the number of inhabitants of the country of destination)</h2>
       </div>
       <div class="container">
         <div class="main_map-content">
@@ -155,7 +155,7 @@
                   <input type="range" min="0" max="6"
                           value="2" step="1" class="slider"
                           id="myRange_norm">
-                  <p>Année : <span id="demo_norm"></span></p>
+                  <p>Year : <span id="demo_norm"></span></p>
                 </div>
               </div>
               <div class="row">
@@ -172,7 +172,7 @@
     <!--migrations and hdi starts -->
     <section id="mahdi_section" class="main_scatter">
       <div class="section-heading text-center">
-        <h2>Flux migratoires et IDH</h2>
+        <h2>Migration flows and HDI</h2>
       </div>
       <div class="container">
         <div class="main_scatter-content">
@@ -197,7 +197,7 @@
     <!-- migrations and gii starts -->
     <section id="magii_section" class="main_scatter">
       <div class="section-heading text-center">
-        <h2>Flux migratoires et IIG</h2>
+        <h2>Migration flows and GII</h2>
       </div>
       <div class="container">
         <div class="main_scatter-content">
@@ -222,7 +222,7 @@
     <!--migrations and unemployment starts -->
     <section id="mau_section" class="main_scatter">
       <div class="section-heading text-center">
-        <h2>Flux migratoires et chômage</h2>
+        <h2>Migration flows and unemployment</h2>
       </div>
       <div class="container">
         <div class="main_scatter-content">
@@ -449,13 +449,13 @@
         .append("text")
         .attr('x', xLabel)
         .attr('y', function(d){ return yCircle - size_hdi(d) } )
-        .text( function(d){ return "idh = " + d } )
+        .text( function(d){ return "HDI = " + d } )
         .style("font-size", 10)
         .attr('alignment-baseline', 'middle')
         
         svg_scatter_hdi
         .append("text")
-        .text("Légende")
+        .text("Legend")
         .attr("y", 23)
         .attr("x", 450)
         .attr("font-size", 28)
@@ -507,13 +507,13 @@
         .append("text")
         .attr('x', xLabel)
         .attr('y', function(d){ return yCircle - size_gii(d) } )
-        .text( function(d){ return "iig = " + d } )
+        .text( function(d){ return "GII = " + d } )
         .style("font-size", 10)
         .attr('alignment-baseline', 'middle')
         
         svg_scatter_gii
         .append("text")
-        .text("Légende")
+        .text("Legend")
         .attr("y", 23)
         .attr("x", 450)
         .attr("font-size", 28)
@@ -565,13 +565,13 @@
         .append("text")
         .attr('x', xLabel)
         .attr('y', function(d){ return yCircle - size_unemp(d) } )
-        .text( function(d){ return "chomage = " + d + "%" } )
+        .text( function(d){ return "Unemployment = " + d + "%" } )
         .style("font-size", 10)
         .attr('alignment-baseline', 'middle')
         
         svg_scatter_unemp
         .append("text")
-        .text("Légende")
+        .text("Legend")
         .attr("y", 23)
         .attr("x", 450)
         .attr("font-size", 28)
@@ -931,7 +931,7 @@
           .style("stroke-width", migration_lines);
 
         d3.select('#top10container')
-          .html('<h3>Cliquez sur un pays pour obtenir des informations</h3>')
+          .html('<h3>Click on a country for more information</h3>')
 
         svg_map_mbcn
           .append('rect')
@@ -987,14 +987,14 @@
           .attr('x', 10)
           .attr('y', 10)
           .attr('class', 'label')
-          .text('Annee');
+          .text('Year');
 
         svg_scatter_hdi.append('text')
           .attr('x', width_main_scatter)
           .attr('y', height_main_scatter - 10)
           .attr('text-anchor', 'end')
           .attr('class', 'label')
-          .text('Nombre d\'immigrants \/ Nombre d\'habitants');
+          .text('Number of immigrants \/ Number of inhabitants');
 
         svg_scatter_hdi.selectAll("circle")
           .data(hdi_data)
@@ -1012,9 +1012,9 @@
                             {
                               return mousemove(
                                                 d, Tooltip_hdi, this,
-                                                d.pays + "</br>Pourcentage d'immigrant: " +
+                                                d.pays + "</br>Percentage of immigrants: " +
                                                 d3.format(".1f")(d.pop * 100 ) +
-                                                "%</br>IDH: " + d.idh
+                                                "%</br>HDI: " + d.idh
                                               );
                             }
               );
@@ -1047,14 +1047,14 @@
           .attr('x', 10)
           .attr('y', 10)
           .attr('class', 'label')
-          .text('Annee');
+          .text('Year');
 
         svg_scatter_gii.append('text')
           .attr('x', width_main_scatter)
           .attr('y', height_main_scatter - 10)
           .attr('text-anchor', 'end')
           .attr('class', 'label')
-          .text('Nombre d\'émigrantes \/ Nombre d\'émigrants (Femme + Homme)');
+          .text('Number of female emigrants \/ Number of emigrants (Female + Male)');
 
         svg_scatter_gii.selectAll("circle")
           .data(gii_data)
@@ -1073,9 +1073,9 @@
                               return mousemove(
                                                 d, Tooltip_gii, this,
                                                 d.pays +
-                                                "</br>Pourcentage de femme qui émigre: " +
+                                                "</br>Percentage of women who emigrate: " +
                                                 d3.format(".1f")(d.pop * 100 ) +
-                                                "%</br>IIG: " + d.iig
+                                                "%</br>GII: " + d.iig
                                               );
                             }
               );
@@ -1108,14 +1108,14 @@
           .attr('x', 10)
           .attr('y', 10)
           .attr('class', 'label')
-          .text('Annee');
+          .text('Year');
 
         svg_scatter_unemp.append('text')
           .attr('x', width_main_scatter)
           .attr('y', height_main_scatter - 10)
           .attr('text-anchor', 'end')
           .attr('class', 'label')
-          .text('Nombre d\'émigrants \/ Nombre d\'habitants');
+          .text('Number of emigrants / Number of inhabitants');
 
         svg_scatter_unemp.selectAll("circle")
           .data(unemp_data)
@@ -1133,9 +1133,9 @@
                             {
                               return mousemove(
                                                 d, Tooltip_unemp, this,
-                                                d.pays + "</br>Pourcentage d'émigrant: " +
+                                                d.pays + "</br>Percentage of emigrants: " +
                                                 d3.format(".1f")(d.pop * 100 ) +
-                                                "%</br>Chomage: " +
+                                                "%</br>Unemployment: " +
                                                 d3.format(".1f")(d.chomage) + "%"
                                               );
                             }
@@ -1161,7 +1161,7 @@
         if (country.attr('clicked') == 'false')
         {
           d3.select('#top10container')
-            .html('<h3>Cliquez sur un pays pour obtenir des informations</h3>');
+            .html('<h3>Click on a country for more information</h3>');
           d3.select('#norm_top10container')
             .html('');
         }
@@ -1173,8 +1173,8 @@
             if (data_length > 0)
             {
               var top10_html = '<h3>' + d.properties.name + ' : top ' +
-                                data_length + ' des pays qui arrivent' +
-                                ' plus massivement</h3><br/><table>';
+                                data_length + ' countries with the highest' +
+                                ' number of arrivals</h3><br/><table>';
 
               for (let i = 0; i < data_length; i++)
                 top10_html += '<tr><td class="tdleft">' + data[i].origin + '</td><td class="tdright">' + integerFormat(data[i].migrant_stock) + '</td></tr>';
@@ -1187,9 +1187,9 @@
             {
               d3.select('#top10container')
                 .html('<h3>' + d.properties.name +
-                      ' : nous ne disposons pas des informations' +
-                      ' sur les immigrants arrivants à ce pays pour' +
-                      ' l\'année choisie</h3>'
+                      ' : we do not have the information' +
+                      ' on immigrants coming to this country to' +
+                      ' the chosen year</h3>'
                       );
             }
           }
@@ -1200,10 +1200,10 @@
             if (data_norm_length > 0)
             {
               var norm_top10_html = '<h3>' + d.properties.name + ' : top ' +
-                                data_norm_length + ' des pays qui arrivent' +
-                                ' plus massivement (pourcentage par' +
-                                ' rapport à la population du pays' +
-                                ' d\'arrivée)</h3><br/><table>';
+                                data_norm_length + ' of the arriving countries' +
+                                ' more massively (percentage in relation to' +
+                                ' the population of the country' +
+                                ' of arrival)</h3><br/><table>';
               for (let i = 0; i < data_norm_length; i++)
               {
                 norm_top10_html += '<tr><td class="tdleft">' + data_norm[i].origin + '</td><td class="tdright">' + percentageFormat(data_norm[i].migrant_stock / data_norm[i].pop_destination) + '</td></tr>';
@@ -1217,9 +1217,9 @@
             {
               d3.select('#norm_top10container')
                 .html('<h3>' + d.properties.name +
-                      ' : nous ne disposons pas des informations' +
-                      ' sur les immigrants arrivants à ce pays pour' +
-                      ' l\'année choisie</h3>'
+                      ' : we do not have the information' +
+                      ' on immigrants coming to this country to' +
+                      ' the chosen year</h3>'
                       )
             }
           }
