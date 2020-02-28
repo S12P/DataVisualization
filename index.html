@@ -928,7 +928,8 @@
                 )
           .style("fill", "none")
           .style("stroke", "#0e104b")
-          .style("stroke-width", migration_lines);
+          .style("stroke-width", migration_lines)
+          .attr('name',  function(d){return d.id_origin + '_' + d.id_destination;});
 
         d3.select('#top10container')
           .html('<h3>Click on a country for more information</h3>')
@@ -1272,6 +1273,16 @@
                         .attr('clicked', clicked_value);
                     }
                   );
+
+          d3.selectAll('*[class^=countries_migrations]')
+              .each(function()
+                    {
+                      let group_element = d3.select(this)
+                        .selectAll('path')
+                        .style("opacity", 1);
+                    }
+                  );
+
         }
         else
         {
@@ -1342,6 +1353,23 @@
                         .attr('clicked', clicked_value);
                     }
                   );
+
+          d3.selectAll('*[class^=countries_migrations]')
+              .each(function()
+                    {
+                      let group_element = d3.select(this)
+                        .selectAll('path')
+                        .style("opacity", function(d)
+                                          {
+                                            if (current_element.attr('class') == 'country_object_' + d.id_origin ||
+                                              current_element.attr('class') == 'country_object_' + d.id_destination)
+                                              return 1;
+                                            else
+                                              return 0;
+                                          }
+                              );
+                    }
+                  );
         }
         update_top10(d, d3.select(country), data, data_norm);
         clicked_country =  d3.select(country);
@@ -1366,7 +1394,7 @@
                         return main_path(x);
                       }
                 )
-          .attr('name',  function(d){return d.origin + '_' + d.destination;})
+          .attr('name',  function(d){return d.id_origin + '_' + d.id_destination;})
           .style("fill", "none")
           .style("stroke", "#0e104b")
           .style("stroke-width", stroke_function);
